@@ -1,0 +1,39 @@
+{% if index %}
+  {% for post in site.categories.adventures limit:1  %}
+  <div class="container-fluid adventure {% if post.class %}adventure-{{ post.class }}{% endif %}">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <article role="article">
+          {% for page in site.pages %}
+            {% if page.adventure == post.class %}
+              {% if page.title %}
+              <header>
+              <h1 class="entry-title"><a href="{{ root_url }}{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h1>
+              </header>
+              {% endif %}
+              <p>{{ page.content }}</p>
+              <p>$ {{ page.price }}</p>
+            {% endif %}
+          {% endfor %}
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+{% endif %}
+
+<div class="container">
+  <div class="row">
+  {% for page in site.pages %}
+    {% if page.adventure %}
+    <div class="span4">
+      <h2><a href="{{ root_url }}{{ page.url}}">{{ page.title }}</a></h2>
+      <p>{{ page.price }}</p>
+      <p>{{ page.content }}</p>
+    </div>
+    {% endif %}
+  {% endfor %}
+  </div>
+</div>
