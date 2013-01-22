@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+{% for post in site.categories.experiments limit:1  %}
+<div class="container-fluid experiment {% if post.class %}experiment-{{ post.class }}{% endif %}">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <article role="article">
+          {% if post.title %}
+          <header>
+            <h1 class="entry-title">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</h1>
+            {% if post.date %}<p class="meta">{% include post/date.html %}{{ post.time }}</p>{% endif %}
+          </header>
+          {% endif %}
+          {% unless post.footer == false %}
+            <footer>
+              {% if post.date or post.author %}<p class="meta">
+                {% if post.author %}{% include post/author.html %}{% endif %}
+                {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
+                {% if post.categories %}{% include post/categories.html %}{% endif %}
+              </p>{% endif %}
+              {% unless post.sharing == false %}
+                {% include post/sharing.html %}
+              {% endunless %}
+            </footer>
+          {% endunless %}
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+<div class="container">
+  <div class="row">
+  {% for post in site.categories.experiments offset:1  %}
+  <div class="span4">
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.content }}</p>
+  </div>
+  {% endfor %}
+  </div>
+</div>

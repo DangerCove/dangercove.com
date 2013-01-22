@@ -2,15 +2,12 @@
 {% include head.html %}
 <body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar" {% endif %}>
   <div class="navbar navbar-inverse navbar-fixed-top">{% include navigation.html %}</div>
+
+  <!-- Row of columns -->
+  {{ content | expand_urls: root_url }}
+
   <div class="container">
-
-    <!-- Row of columns -->
-    {{ content | expand_urls: root_url }}
-
-    <hr>
-
     <footer role="contentinfo">{% include footer.html %}</footer>
-
   </div>
   {% include after_footer.html %}
 </body>
