@@ -1,28 +1,32 @@
-{% if index %}
-  {% for post in site.categories.adventures limit:1  %}
-  <div class="container-fluid adventure {% if post.class %}adventure-{{ post.class }}{% endif %}">
-    <div class="container">
-      <div class="row">
-        <div class="span12">
-          <article role="article">
-          {% for page in site.pages %}
-            {% if page.adventure == post.class %}
-              {% if page.title %}
-              <header>
-              <h1 class="entry-title"><a href="{{ root_url }}{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h1>
-              </header>
-              {% endif %}
-              <p>{{ page.content }}</p>
-              <p>$ {{ page.price }}</p>
-            {% endif %}
-          {% endfor %}
-          </article>
+
+<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel adventure {% if post.class %}adventure-{{ post.class }}{% endif %}">
+  <div class="carousel-inner">
+    {% if index %}
+      {% for post in site.categories.adventures limit:1  %}
+        <div class="item active">
+          <img src="/images/slide-01.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              {% for page in site.pages %}
+                {% if page.adventure == post.class %}
+                  {% if page.title %}
+                  <header>
+                  <h1><a href="{{ root_url }}{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h1>
+                  </header>
+                  {% endif %}
+                  <p class="lead">{{ page.content }}</p>
+                  <a class="btn btn-large btn-primary">$ {{ page.price }}</a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
+      {% endfor %}
+    {% endif %}
   </div>
-  {% endfor %}
-{% endif %}
+</div><!-- /.carousel -->
 
 <div class="container">
   <div class="row">
