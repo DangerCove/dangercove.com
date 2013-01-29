@@ -1,25 +1,27 @@
-<div class="navbar-inner">
-  <div class="container">
-    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </a>
-    <a class="brand" href="{{ root_url }}/">{{ site.title }}</a>
-    <div class="nav-collapse collapse">
-      <ul class="nav">
-        {% include custom/navigation.html %}
-        <li><a href="{{ site.subscribe_rss }}" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-        {% if site.subscribe_email %}
-          <li><a href="{{ site.subscribe_email }}" rel="subscribe-email" title="subscribe via email">Email</a></li>
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="{{ root_url }}/"><img src="/images/logo.png" alt="{{ site.title }}"></a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          {% include custom/navigation.html %}
+          <li><a href="{{ site.subscribe_rss }}" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+          {% if site.subscribe_email %}
+            <li><a href="{{ site.subscribe_email }}" rel="subscribe-email" title="subscribe via email">Email</a></li>
+          {% endif %}
+        </ul>
+        {% if site.simple_search %}
+        <form class="navbar-form pull-right" action="{{ site.simple_search }}" method="get">
+          <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
+          <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+        </form>
         {% endif %}
-      </ul>
-      {% if site.simple_search %}
-      <form class="navbar-form pull-right" action="{{ site.simple_search }}" method="get">
-        <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
-        <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-      </form>
-      {% endif %}
-    </div><!--/.nav-collapse -->
+      </div><!--/.nav-collapse -->
+    </div>
   </div>
 </div>

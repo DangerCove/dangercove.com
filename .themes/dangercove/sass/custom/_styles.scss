@@ -1,41 +1,14 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
-body {
-  padding-top: 40px;
-  padding-bottom: 40px;
+body, #header {
+  padding: 40px 0;
 }
 
-.carousel .container {
-  position: relative;
-  z-index: 9;
-}
+#header {
+  text-align: center;
 
-.carousel .item {
-  height: 500px;
-}
-.carousel img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
-}
-
-.carousel-caption {
-  background-color: transparent;
-  position: static;
-  max-width: 550px;
-  padding: 0 20px;
-  margin-top: 200px;
-}
-.carousel-caption h1,
-.carousel-caption .lead {
-  margin: 0;
-  line-height: 1.25;
-  color: #fff;
-  text-shadow: 0 1px 1px rgba(0,0,0,.4);
-}
-.carousel-caption .btn {
-  margin-top: 10px;
+  img {
+    padding: 20px 0;
+  }
 }
