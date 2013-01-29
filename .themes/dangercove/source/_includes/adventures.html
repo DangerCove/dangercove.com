@@ -1,43 +1,9 @@
-
-<!-- Carousel
-================================================== -->
-<div id="myCarousel" class="carousel adventure {% if post.class %}adventure-{{ post.class }}{% endif %}">
-  <div class="carousel-inner">
-    {% if index %}
-      {% for post in site.categories.adventures limit:1  %}
-        <div class="item active">
-          <img src="/images/slide-01.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              {% for page in site.pages %}
-                {% if page.adventure == post.class %}
-                  {% if page.title %}
-                  <header>
-                  <h1><a href="{{ root_url }}{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h1>
-                  </header>
-                  {% endif %}
-                  <p class="lead">{{ page.content }}</p>
-                  <a class="btn btn-large btn-primary">$ {{ page.price }}</a>
-                {% endif %}
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-      {% endfor %}
-    {% endif %}
-  </div>
-</div><!-- /.carousel -->
-
 <div class="container">
-  <div class="row">
-  {% for page in site.pages %}
-    {% if page.adventure %}
-    <div class="span4">
-      <h2><a href="{{ root_url }}{{ page.url}}">{{ page.title }}</a></h2>
-      <p>{{ page.price }}</p>
-      <p>{{ page.content }}</p>
-    </div>
-    {% endif %}
-  {% endfor %}
-  </div>
+  <ul class="row adventures">
+    {% for page in site.pages %}
+      {% if page.adventure and page.poc == true %}
+      {% include adventure_intro.html %}
+      {% endif %}
+    {% endfor %}
+  </ul>
 </div>

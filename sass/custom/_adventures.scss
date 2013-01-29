@@ -1,9 +1,9 @@
-.adventure-reign {
-  background: #666;
+ul.adventures {
+  list-style: none;
+  .adventure_intro {
+    .btn {
+      margin-bottom: 4px;
+    }
+  }
 }
-.adventure-porthole {
-  background: #eee;
-}
-.adventure-airvlc {
-  background: #666;
-}
+

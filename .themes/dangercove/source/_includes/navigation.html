@@ -10,7 +10,9 @@
       <div class="nav-collapse collapse">
         <ul class="nav">
           {% include custom/navigation.html %}
-          <li><a href="{{ site.subscribe_rss }}" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+          {% if false %}
+            <li><a href="{{ site.subscribe_rss }}" rel="subscribe-rss" title="subscribe via RSS"><img src="{{ root_url }}/images/rss.png" alt="subscribe via RSS"></a></li>
+          {% endif %}
           {% if site.subscribe_email %}
             <li><a href="{{ site.subscribe_email }}" rel="subscribe-email" title="subscribe via email">Email</a></li>
           {% endif %}

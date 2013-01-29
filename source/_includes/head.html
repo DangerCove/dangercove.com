@@ -17,16 +17,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Fav and touch icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/ico/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/apple-touch-icon-72-precomposed.png">
-                  <link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57-precomposed.png">
-                                 <link rel="shortcut icon" href="/assets/ico/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ root_url }}/assets/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ root_url }}/assets/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ root_url }}/assets/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="{{ root_url }}/assets/ico/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="{{ root_url }}/assets/ico/favicon.png">
 
   {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' }}{% endif %}{% endcapture %}
   <link rel="canonical" href="{{ canonical }}">
-
-  <link href="{{ root_url }}/assets/favicon.png" rel="icon">
 
   <script src="{{ root_url }}/javascripts/modernizr-2.0.js"></script>
   <script src="{{ root_url }}/javascripts/jquery.js"></script>
