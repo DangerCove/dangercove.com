@@ -1,15 +1,3 @@
-// This File is imported last, and will override other styles in the cascade
-// Add styles here to make changes without digging in too much
-
-body, #header {
-  padding: 40px 0;
+body {
+  background: image-url('bg.png') top left;
 }
-
-#header {
-  text-align: center;
-
-  img {
-    padding: 20px 0;
-  }
-}
-

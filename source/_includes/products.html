@@ -3,7 +3,7 @@
   <h2>Finished Products</h2>
   <ul class="row adventures">
     {% for page in site.pages %}
-      {% if page.adventure and page.poc == false %}
+      {% if page.adventure and page.status == "done" %}
        {% include adventure_intro.html %}
       {% endif %}
     {% endfor %}

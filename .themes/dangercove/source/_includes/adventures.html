@@ -1,9 +1,26 @@
 <div class="container">
+  {% if index %}
+  <div class="treasure-top">
+    <img src="/images/line-above-left.png">
+    <div class="line"></div>
+  </div>
+  {% endif %}
   <ul class="row adventures">
     {% for page in site.pages %}
-      {% if page.adventure and page.poc == true %}
-      {% include adventure_intro.html %}
+      {% if page.adventure and page.status == "poc" %}
+        {% include adventure_intro.html %}
+      {% endif %}
+    {% endfor %}
+    {% for page in site.pages %}
+      {% if page.adventure and page.status == "done" %}
+        {% include adventure_intro.html %}
       {% endif %}
     {% endfor %}
   </ul>
+  {% if index %}
+  <div class="treasure-below">
+    <img src="/images/line-below-right.png">
+    <div class="line"></div>
+  </div>
+  {% endif %}
 </div>

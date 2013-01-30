@@ -1,0 +1,23 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+body, #header {
+  padding: 40px 0;
+}
+
+#header, .adventure_header {
+  text-align: center;
+  padding-bottom: 0;
+
+  img {
+    padding: 20px 0;
+  }
+}
+#header .lead { padding-top: 20px; }
+
+hr.treasure {
+  border-top: #ddd 1px dashed;
+  border-bottom: #fff 1px dashed;
+  margin: 40px 0;
+}
+

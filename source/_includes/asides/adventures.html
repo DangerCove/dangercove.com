@@ -1,0 +1,15 @@
+<section>
+  <h3>Other Adventures</h3>
+  <ul id="other_adventures" class="adventures">
+    {% for loop_page in site.pages %}
+      {% if loop_page.adventure and page.adventure != loop_page.adventure and loop_page.status == "poc" %}
+        {% include adventure_intro.html %}
+      {% endif %}
+    {% endfor %}
+    {% for loop_page in site.pages %}
+      {% if loop_page.adventure and page.adventure != loop_page.adventure and loop_page.status == "done" %}
+        {% include adventure_intro.html %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>

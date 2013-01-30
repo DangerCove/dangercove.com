@@ -1,0 +1,75 @@
+ul.adventures {
+  list-style: none;
+}
+.sidebar ul.adventures {
+  padding: 0;
+  margin: 0;
+  li {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.treasure-top {
+  padding: 40px 0;
+  img { float: left; }
+  .line {
+    background: image-url('line-above-tile.png') repeat-x;
+    height: 10px;
+    margin-left: 149px;
+  }
+}
+.treasure-below {
+  padding: 0 0 40px 0;
+  img { float: right; }
+  .line {
+    background: image-url('line-below-tile.png') repeat-x 100% 0;
+    height: 46px;
+    margin-right: 185px;
+  }
+}
+
+.adventure_intro {
+  min-height: 98px;
+  padding: 30px 0;
+  background: #eee;
+  @include background(linear-gradient(top, #fff, #eee));
+  border: #bbb 1px solid;
+  margin-left: 18px;
+  margin-bottom: 18px;
+
+  a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #333;
+    &:hover { text-decoration: none; color: #333; }
+  }
+  .icon {
+    text-align: center;
+  }
+  .text {
+    margin-left: 0;
+    h3 {
+      margin-top: 0;
+      line-height: 1em;
+    }
+    p {
+      margin: 0;
+    }
+  }
+  .btn {
+    margin-bottom: 4px;
+  }
+  img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .ribbon {
+    position: absolute;
+    top: -31px;
+    left: 29px;
+  }
+}
+
