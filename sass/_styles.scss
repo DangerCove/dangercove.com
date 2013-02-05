@@ -1,17 +1,18 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
+}
+
 body, #header {
   padding: 40px 0;
 }
 
-#header, .adventure_header {
+#header, #footer {
   text-align: center;
   padding-bottom: 0;
-
-  img {
-    padding: 20px 0;
-  }
 }
 #header .lead { padding-top: 20px; }
 
@@ -21,3 +22,6 @@ hr.treasure {
   margin: 40px 0;
 }
 
+.sharing {
+  margin: 30px 0;
+}

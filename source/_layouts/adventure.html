@@ -2,49 +2,65 @@
 layout: default
 ---
 
-<div class="adventure_header">
-  <img src="/images/adventures/postcards/{{ page.adventure }}.png" alt="{{ page.title }}">
-</div>
+{% if page.github %}
+<a href="{{ page.github }}"><img style="position: absolute; top: 40px; right: 0; border: 0; z-index: 1040;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+{% endif %}
 
-<div class="container">
-  <div class="row">
-    <div class="span8">
-      <article role="article">
+<header id="header" class="adventure_header">
+  <img class="bg" src="/images/adventures/{{ page.adventure }}/header.jpg" alt="{{ page.title }}">
+  <div class="container">
+    <div class="row">
+      <div class="span6">
         {% if page.title %}
         <header>
-          <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+        <h1>{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+        {% if page.subtitle %}
+        <p class="lead">{{ page.subtitle }}</p>
+        {% endif %}
         </header>
-        <hr>
         {% endif %}
-        {{ content }}
-        {% unless page.footer == false %}
-          <footer>
-            {% unless page.sharing == false %}
-              {% include post/sharing.html %}
-            {% endunless %}
-          </footer>
-        {% endunless %}
-      </article>
-      {% if site.disqus_short_name and page.comments == true %}
-        <section>
-          <h1>Comments</h1>
-          <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
-        </section>
-      {% endif %}
-    </div>
-    <div class="span4">
-      {% unless page.sidebar == false %}
-      <aside class="sidebar">
-        {% if page.adventure %}
-          {% include asides/adventures.html %}
-        {% endif %}
-        {% if site.page_asides.size %}
-          {% include_array page_asides %}
-        {% else %}
-          {% include_array default_asides %}
-        {% endif %}
-      </aside>
-      {% endunless %}
+        <div class="row">
+          <div class="span3">
+            {% if page.download %}
+            <a class="btn btn-large btn-block btn-primary" href="{{ page.download }}">Download</a>
+            {% elsif page.website %}
+            <a class="btn btn-large btn-block btn-primary" href="{{ page.website }}">More Info...</a>
+            {% else %}
+            This is a beta product.
+            {% endif %}
+          </div>
+          <div class="span3">
+            {% if page.store %}
+            <a class="btn btn-large btn-block btn-success" href="{{ page.store }}">{% if page.price > 0 %}Buy Now, ${{ page.price }}{% else %}Download Now, Free!{% endif %}</a>
+            {% else %}
+            <a class="btn btn-large btn-block disabled" href="#">Coming Soon</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <div class="span6">
+        <img src="/images/adventures/{{ page.adventure }}/postcard.png" alt="{{ page.title }} Postcard">
+      </div>
     </div>
   </div>
+</header>
+
+<div class="container">
+  {% if page.blurp %}
+  <h2 class="adventure_blurp" >{{ page.blurp }}</h2>
+  {% endif %}
+</div>
+{{ content }}
+<div class="container">
+  {% unless page.footer == false %}
+    {% unless page.sharing == false %}
+      {% include post/sharing.html %}
+    {% endunless %}
+  {% endunless %}
+  {% if site.disqus_short_name and page.comments == true %}
+    <section>
+      <h1>Comments</h1>
+      <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+    </section>
+  {% endif %}
 </div>

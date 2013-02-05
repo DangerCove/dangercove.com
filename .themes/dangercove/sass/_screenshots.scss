@@ -1,0 +1,17 @@
+ul.screenshots {
+  list-style: none;
+  text-align: center;
+  position: relative;
+  margin: 0;
+  height: 500px;
+  li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+  }
+  img {
+    max-height: 500px;
+  }
+}

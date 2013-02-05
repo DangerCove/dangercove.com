@@ -15,6 +15,7 @@ group :development do
   gem 'liquid', '~> 2.3.0'
 
   gem 'sass', '~> 3.2'
+  gem 'coffee-script'
 end
 
 gem 'sinatra', '~> 1.3.3'
