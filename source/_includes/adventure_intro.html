@@ -1,22 +1,20 @@
 {% if loop_page %}
   {% assign page = loop_page %}
 {% endif %}
-<li class="adventure_intro span4 {{ page.status }}">
+<a href="{{ root_url }}{{ page.url}}" class="adventure_intro span4 {{ page.status }}">
 <div class="row">
-  <a href="{{ root_url }}{{ page.url}}">
-    {% if page.status == "poc" %}
-    <img class="ribbon" src="/images/ribbon-beta.png">
-    {% elsif page.price == 0.0 %}
-    <img class="ribbon" src="/images/ribbon-free.png">
-    {% endif %}
-    <div class="span2 icon">
-      <img src="/images/adventures/{{ page.adventure }}/icon.png">
-    </div>
-    <div class="span2 text">
-      <h3>{{ page.title }}</h2>
-      <p>{{ page.subtitle }}</p>
-    </div>
-  </a>
+  {% if page.status == "poc" %}
+  <img class="ribbon" src="/images/ribbon-beta.png">
+  {% elsif page.price == 0.0 %}
+  <img class="ribbon" src="/images/ribbon-free.png">
+  {% endif %}
+  <div class="span2 icon">
+    <img src="/images/adventures/{{ page.adventure }}/icon.png">
+  </div>
+  <div class="span2 text">
+    <h3>{{ page.title }}</h2>
+    <p>{{ page.subtitle }}</p>
+  </div>
 </div>
-</li>
+</a>
 

@@ -5,7 +5,7 @@
     <div class="line"></div>
   </div>
   {% endif %}
-  <ul class="row adventures">
+  <div class="row adventures">
     {% for page in site.pages %}
       {% if page.adventure and page.status == "poc" %}
         {% include adventure_intro.html %}
@@ -16,7 +16,7 @@
         {% include adventure_intro.html %}
       {% endif %}
     {% endfor %}
-  </ul>
+  </div>
   {% if index %}
   <div class="treasure-below">
     <img src="/images/line-below-right.png">
