@@ -1,7 +1,12 @@
 {% if loop_page %}
   {% assign page = loop_page %}
 {% endif %}
-<a href="{{ root_url }}{{ page.url}}" class="adventure_intro span4 {{ page.status }}">
+
+{% if page.website %}
+<a href="{{ page.website }}" class="adventure_intro span4 {{ page.status }}" target="_blank">
+{% else %}
+<a href="{{ root_url }}{{ page.url }}" class="adventure_intro span4 {{ page.status }}">
+{% endif %}
 <div class="row">
   {% if page.status == "poc" %}
   <img class="ribbon" src="/images/ribbon-beta.png">

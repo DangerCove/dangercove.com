@@ -1,23 +1,5 @@
-.adventure_header {
-  width: 100%;
+header.adventure_header {
   height: 460px;
-  overflow: hidden;
-  position: relative;
-  color: #fff;
-
-  .container {
-    margin-top: 80px;
-  }
-  img.bg {
-    position: absolute;
-    min-width: 100%;
-    max-width: 100%;
-    min-height: 460px;
-    top: 0;
-    left: 50%;
-    margin-left: -50%;
-    z-index: -1;
-  }
 }
 
 .adventure_blurp {

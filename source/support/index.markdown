@@ -7,7 +7,7 @@ sharing: false
 footer: false
 ---
 
-Need help setting up? Read through the frequently asked questions or send us an email: <a href="mailto:ahoy@dangercove.com">ahoy@dangercove.com</a>.
+Need help using one of our apps? Read through the frequently asked questions or send us an email: <a href="mailto:support@dangercove.com">support@dangercove.com</a>.
 
 <ul class="uservoice">
   <li class="loading">Please wait. Loading articles from our Help Center.</li>

@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Reign v1.0.3"
+date: 2013-01-08 18:38
+comments: true
+categories: [adventures, updates]
+---
+
+<div class="thumbnail">
+{% img /images/content/reign103.png "Reign v1.0.3" %}
+</div>
+
+We’ve released Reign version v1.0.3. You can now use the remote to search for songs (contributed by [@daentech](http://twitter.com/deantech))!
+
+Want to make Reign more awesome like Dean did? [Fork the repo on Github](https://github.com/DangerCove/reign-for-spotify).

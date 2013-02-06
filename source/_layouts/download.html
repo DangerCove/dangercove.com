@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<script>
+  {% if page.file %}
+  downloadTimeout = setTimeout(function() { location.href = '{{ page.file }}'; }, 3000);
+  {% endif %}
+</script>
+
 {% if page.banner %}
 <header id="header" class="banner page_header">
 <img class="bg" src="{{ page.banner }}" alt="{{ page.title }}">
@@ -16,6 +22,11 @@ layout: default
         <header>
           <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
         </header>
+        {% endif %}
+        {% if page.file %}
+        <p class="lead">Your download will start in 3 seconds. Or <a class="manual_download" href="{{ page.file }}">click here</a> if it doesn't.</p>
+        {% else %}
+        <p class="lead">I'm sorry, but your this app is aaallllmost done. Please wait a little longer for the download link.</p>
         {% endif %}
         {{ content }}
         {% unless page.footer == false %}

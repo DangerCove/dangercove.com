@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% if page.banner %}
+<header id="header" class="banner page_header">
+<img class="bg" src="{{ page.banner }}" alt="{{ page.title }}">
+</header>
+{% endif %}
+
 <div class="container">
   <div class="row">
     <div class="span8">

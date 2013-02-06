@@ -6,7 +6,7 @@ layout: default
 <a href="{{ page.github }}"><img style="position: absolute; top: 40px; right: 0; border: 0; z-index: 1040;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 {% endif %}
 
-<header id="header" class="adventure_header">
+<header id="header" class="banner adventure_header">
   <img class="bg" src="/images/adventures/{{ page.adventure }}/header.jpg" alt="{{ page.title }}">
   <div class="container">
     <div class="row">
@@ -22,7 +22,7 @@ layout: default
         <div class="row">
           <div class="span3">
             {% if page.download %}
-            <a class="btn btn-large btn-block btn-primary" href="{{ page.download }}">Download</a>
+            <a class="btn btn-large btn-block btn-primary" href="{{ page.adventure }}/download.html">Download Now</a>
             {% elsif page.website %}
             <a class="btn btn-large btn-block btn-primary" href="{{ page.website }}">More Info...</a>
             {% else %}
@@ -33,7 +33,7 @@ layout: default
             {% if page.store %}
             <a class="btn btn-large btn-block btn-success" href="{{ page.store }}">{% if page.price > 0 %}Buy Now, ${{ page.price }}{% else %}Download Now, Free!{% endif %}</a>
             {% else %}
-            <a class="btn btn-large btn-block disabled" href="#">Coming Soon</a>
+            <a class="btn btn-large btn-block disabled" href="#"><del>Buy Now</del> Soon!</a>
             {% endif %}
           </div>
         </div>
@@ -46,8 +46,8 @@ layout: default
 </header>
 
 <div class="container">
-  {% if page.blurp %}
-  <h2 class="adventure_blurp" >{{ page.blurp }}</h2>
+  {% if page.description %}
+  <h2 class="adventure_blurp" >{{ page.description }}</h2>
   {% endif %}
 </div>
 {{ content }}
@@ -64,3 +64,4 @@ layout: default
     </section>
   {% endif %}
 </div>
+<hr class="container">
