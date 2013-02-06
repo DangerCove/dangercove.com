@@ -1,0 +1,11 @@
+.uservoice {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li li {
+    cursor: pointer;
+  }
+  .answer {
+    display: none;
+  }
+}

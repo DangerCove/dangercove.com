@@ -1,9 +1,0 @@
-<li class="span4">
-  <h3><a href="{{ root_url }}{{ page.url}}">{{ page.title }}</a></h2>
-  <p>{{ page.content }}</p>
-  <a {% if page.website %}target="_blank"{% endif %} class="btn btn-large btn-primary" href="{% if page.website %}{{ page.website }}{% else %}{{ page.url }}{% endif %}">Read more..</a>
-  {% if page.store %}
-  <a class="btn btn-large btn-success" href="{{ page.store }}">Buy now, {% if page.price > 0 %}${{page.price}}{% else %}FREE!{% endif %}</a>
-  {% endif %}
-</li>
-

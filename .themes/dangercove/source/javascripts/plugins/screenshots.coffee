@@ -9,7 +9,7 @@ $.fn.extend
   screenshots: (options) ->
     # Default settings
     settings =
-      debug: true
+      debug: false
 
     # Merge default settings with options.
     settings = $.extend settings, options

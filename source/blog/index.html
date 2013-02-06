@@ -1,33 +1,20 @@
 ---
-layout: default
+layout: page
+title: Journal
+footer: false
 ---
 
-<div class="container">
-  <div class="row">
-    <div class="blog-index span8">
-      {% assign index = true %}
-      {% for post in paginator.posts %}
-      {% assign content = post.content %}
-        <article>
-          {% include article.html %}
-        </article>
-      {% endfor %}
-      <div class="pagination">
-        {% if paginator.next_page %}
-          <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-        {% endif %}
-        <a href="/blog/archives">Blog Archives</a>
-        {% if paginator.previous_page %}
-        <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-        {% endif %}
-      </div>
-    </div>
-    <aside class="sidebar span4">
-      {% if site.blog_index_asides.size %}
-        {% include_array blog_index_asides %}
-      {% else %}
-        {% include_array default_asides %}
-      {% endif %}
-    </aside>
-  </div>
+{% assign index = true %}
+{% assign posts = paginator.posts %}
+{% include _archives.html %}
+<div class="pagination pagination-centered">
+  <ul>
+  {% if paginator.previous_page %}
+  <li><a href="{{paginator.previous_page}}">«</a></li>
+  {% endif %}
+  <li><a href="/blog/archives">Archive</a></li>
+  {% if paginator.next_page %}
+  <li><a href="{{paginator.next_page}}">»</a></li>
+  {% endif %}
+  </ul>
 </div>
