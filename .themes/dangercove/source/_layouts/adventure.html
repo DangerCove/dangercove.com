@@ -3,11 +3,11 @@ layout: default
 ---
 
 {% if page.github %}
-<a href="{{ page.github }}"><img style="position: absolute; top: 40px; right: 0; border: 0; z-index: 1040;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+<a class="hidden-tablet" href="{{ page.github }}"><img style="position: absolute; top: 40px; right: 0; border: 0; z-index: 1040;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 {% endif %}
 
 <header id="header" class="banner adventure_header">
-  <img class="bg" src="/images/adventures/{{ page.adventure }}/header.jpg" alt="{{ page.title }}">
+  <img class="bg hidden-tablet hidden-phone" src="/images/adventures/{{ page.adventure }}/header.jpg" alt="{{ page.title }}">
   <div class="container">
     <div class="row">
       <div class="span6">
@@ -38,7 +38,7 @@ layout: default
           </div>
         </div>
       </div>
-      <div class="span6">
+      <div class="span6 hidden-phone">
         <img src="/images/adventures/{{ page.adventure }}/postcard.png" alt="{{ page.title }} Postcard">
       </div>
     </div>

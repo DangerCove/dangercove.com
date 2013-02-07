@@ -17,36 +17,58 @@
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
-  .adventure_intro {
-    min-height: 64px;
-    margin-left: 18px;
-    margin-bottom: 18px;
-    img {
-      max-width: 64px;
-      max-height: 64px;
-    }
-    .text p {
-      display: none;
-    }
-    .ribbon {
-      left: 19px;
-    }
+  .adventures .span4 {
+    width: 352px;
+  }
+  .adventures .span2 {
+    width: 170px;
   }
 }
 
 @media (max-width: 767px) {
-  .adventure_intro {
+  article h1 { margin-top: 30px; }
+  ul.screenshots {
+    height: 360px;
+    li {
+      height: 360px;
+    }
+    img {
+      max-height: 360px;
+    }
+  }
+  .adventure_header .btn {
+    margin-bottom: 10px;
+  }
+  .adventures {
     text-align: center;
-    .ribbon {
-      left: -1px;
+    .text {
+      margin-top: 10px;
     }
   }
 }
 
 @media (max-width: 480px) {
+  ul.screenshots {
+    height: 240px;
+    li {
+      height: 240px;
+    }
+    img {
+      max-height: 240px;
+    }
+  }
 }
 
 @media (max-width: 979px) {
+  .adventure_header {
+    color: #333;
+  }
+  header.adventure_header {
+    height: auto;
+  }
+  .banner .container {
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 980px) {
