@@ -1,4 +1,4 @@
-<li{% if page.url == "/index.html" or page.url.includes?("/adventures") %} class="active"{% endif %}><a href="{{ root_url }}/">Adventures</a></li>
-<li{% if page.url.includes?("/blog") %} class="active"{% endif %}><a href="{{ root_url }}/blog">Journal</a></li>
-<li{% if page.url == "/support/index.html" %} class="active"{% endif %}><a href="{{ root_url }}/support">Support</a></li>
-<li{% if page.url == "/about-us/index.html" %} class="active"{% endif %}><a href="{{ root_url }}/about-us">About Us</a></li>
+<li class="{% dcactivemenu /index.html /adventures %}"><a href="{{ root_url }}/">Adventures</a></li>
+<li class="{% dcactivemenu /blog %}"><a href="{{ root_url }}/blog">Journal</a></li>
+<li class="{% dcactivemenu /support %}"><a href="{{ root_url }}/support">Support</a></li>
+<li class="{% dcactivemenu /about-us %}"><a href="{{ root_url }}/about-us">About Us</a></li>
