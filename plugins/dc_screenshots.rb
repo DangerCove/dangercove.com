@@ -32,7 +32,17 @@ module Jekyll
       end
       output << %{
   </ul>
-  <div class="pagination pagination-large pagination-centered">
+  <div class="pagination pagination-large pagination-centered hidden-phone">
+    <ul>
+      }
+      screenshots.each do |screenshot|
+        params = screenshot.split(/\|/)
+        output << "<li><a href=\"##{params[1]}\">#{params[3]}</a></li>"
+      end
+      output << %{
+    </ul>
+  </div>
+  <div class="pagination pagination-small pagination-centered show-phone hidden-tablet hidden-desktop">
     <ul>
       }
       screenshots.each do |screenshot|
