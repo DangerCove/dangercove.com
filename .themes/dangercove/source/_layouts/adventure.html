@@ -11,6 +11,13 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="span6">
+        {% if page.postcard == true %}
+        <img src="/images/adventures/{{ page.adventure }}/postcard.png" alt="{{ page.title }} Postcard">
+        {% else %}
+        <img src="/images/adventures/{{ page.adventure }}/icon.png" alt ="{{ page.title }} Icon">
+        {% endif %}
+      </div>
+      <div class="span6">
         {% if page.title %}
         <header>
         <h1>{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
@@ -37,9 +44,6 @@ layout: default
             {% endif %}
           </div>
         </div>
-      </div>
-      <div class="span6 hidden-phone">
-        <img src="/images/adventures/{{ page.adventure }}/postcard.png" alt="{{ page.title }} Postcard">
       </div>
     </div>
   </div>

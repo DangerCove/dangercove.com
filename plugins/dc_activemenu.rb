@@ -4,7 +4,7 @@
 # Place this file in your plugin directory.
 #
 # Usage:
-# {% dcactivemenu page.url checkfor.html %}
+# class="{% dcactivemenu page.url checkfor.html [/another] %}"
 #
 # Returns 'active' when the checkfor.html occurs in the page.url
 #

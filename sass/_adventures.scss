@@ -1,5 +1,15 @@
 header.adventure_header {
   height: 460px;
+  .icon {
+    margin-bottom: 10px;
+  }
+  header {
+    margin-bottom: 50px;
+    h1 {
+      font-size: 64px;
+      line-height: 150%;
+    }
+  }
 }
 
 .adventure_blurp {
