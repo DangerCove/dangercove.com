@@ -10,8 +10,10 @@ header.adventure_header {
       line-height: 150%;
     }
   }
+  .btn, .requirements, .price_notice {
+    margin-bottom: 10px;
+  }
 }
-
 .adventure_blurp {
   font-weight: 100;
   margin: 50px 0;

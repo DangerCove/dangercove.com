@@ -26,7 +26,7 @@ layout: default
         {% endif %}
         </header>
         {% endif %}
-        <div class="row">
+        <div class="row buttons">
           <div class="span3">
             {% if page.download %}
             <a class="btn btn-large btn-block btn-primary" href="{{ page.adventure }}/download.html">Download Now</a>
@@ -35,12 +35,22 @@ layout: default
             {% else %}
             This is a beta product.
             {% endif %}
+            {% if page.requirements %}
+            <div class="requirements">
+              {{ page.requirements }}
+            </div>
+            {% endif %}
           </div>
           <div class="span3">
             {% if page.store %}
             <a class="btn btn-large btn-block btn-success" href="{{ page.store }}">{% if page.price > 0 %}Buy Now, ${{ page.price }}{% else %}Download Now, Free!{% endif %}</a>
             {% else %}
             <a class="btn btn-large btn-block disabled" href="#"><del>Buy Now</del> Soon!</a>
+            {% endif %}
+            {% if page.pricenotice %}
+            <div class="price_notice">
+              {{ page.pricenotice }}
+            </div>
             {% endif %}
           </div>
         </div>

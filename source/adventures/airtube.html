@@ -10,47 +10,71 @@ footer: true
 adventure: airtube
 status: poc
 download: true
+price: 4.99
+pricenotice: Special introductory price!
+store: https://sites.fastspring.com/dangercove/instant/airtube
+requirements: OSX 10.7+, 64bit
 ---
 
 <div class="container">
 {% dcscreenshots output %}
-airtube|scrub|png|Scrub
-airtube|appletv|png|AppleTV
-airtube|inapp|png|Purchase
+airtube|explain|jpg|AirTube for Mac
 {% enddcscreenshots %}
 {{ output }}
   <hr>
 
+  <div id="libquvi" class="row">
+    <div class="span6">
+      <h3>* Play Web Videos on your Apple TV</h3>
+      <p>How often do you watch Web Videos on sites like YouTube, Vimeo or TED? Wouldn't it be awesome to just play those videos on your Apple TV and continue using your Mac?</p>
+      <p>AirTube relies on the excellent <a href="http://quvi.sourceforge.com" target="_blank">quvi project</a> to parse some of your favorite video websites. And it's quite easy to add support for even more sites that provide MP4 videos.</p>
+      <p>We tested AirTube to work with:</p>
+      <ul>
+        <li>YouTube</li>
+        <li>Vimeo</li>
+        <li>TED</li>
+        <li>Funny or Die</li>
+        <li>Metacafe</li>
+        <li>The Onion</li>
+        <li>Daily Motion</li>
+        <li>CBS News</li>
+        <li>Fox News</li>
+        <li>Direct web links to MP4 videos</li>
+      </ul>
+      <p>And a few others, including some that might be a little "Less Suitable For Work", if you know what we mean. We obviously did not include those with the app, but you can <a href="airtube/nsfw.html">get them here</a>.</p>
+      <p><em>Notice: any changes to YouTube, Vimeo, etc. might (permanently) disrupt the support for the affected website. We'll try our best to fix it though ;).</em></p>
+    </div>
+    <div class="span6">
+      <img src="/images/adventures/airtube/screenshots/app.jpg" alt="AirTube streaming to SandroTV">
+    </div>
+  </div>
+  <hr>
   <div class="row">
     <div class="span6">
       <h3>Simply Drag & Drop</h3>
-      <p>AirTube lets you stream web videos from many of your favorite websites to your Apple TV.</p>
-      <p>Just drag the clip you want to play from your browser onto the AirTube icon and you're set!</p>
-      <p>We've tested AirTube to work with YouTube, Vimeo, TED, Funny or Die and quite a few others.</p>
+      <p>Usually when you come across a video on the internet, you click the link to start playing in your browser. With AirTube instead of clicking the link to the video, you just drag the link from your browser onto the AirTube dock icon and you're set!</p>
+      <h3>Keep Browsing For More!</h3>
+      <p>With the video playing on your Apple TV you have your iPhone/iPad/Mac free to do other things, like searching for even more videos to play.</p>
+      <p>Even better, if you have a few Macs in your office or dorm, everyone can join in on the fun.</p>
     </div>
     <div class="span6">
-      <img src="/images/adventures/airtube/screenshots/appletv.png" alt="Play Web Videos">
+      <img src="/images/adventures/airtube/screenshots/vimeo.jpg" alt="Drag videos on the dock icon">
     </div>
   </div>
   <hr>
   <div class="row">
     <div class="span6">
-      <img src="/images/adventures/airtube/screenshots/scrub.png" alt="Remote control your video">
+      <img src="/images/adventures/airtube/screenshots/browseon.png" alt="Browse for more!">
     </div>
     <div class="span6">
-      <h3>Remote Control the Video</h3>
-      <p>You can seek back and forth in the clip using AirTube on your Mac.</p>
-    </div>
-  </div>
-  <hr>
-  <div id="libquvi" class="row">
-    <div class="span6">
-      <h3>* Add Support for More Sites</h3>
-      <p>Because we rely on the excellent <a href="http://quvi.sourceforge.com" target="_blank">quvi project</a> it's pretty easy to add support for other websites. All you need is a path to the MP4 video.</p>
-      <p>We supply the default set of Quvi scripts with AirTube, but you can drag lua scripts on the AirTube dock icon to add it to the collection.</p>
-    </div>
-    <div class="span6">
-      <img src="/images/adventures/airtube/screenshots/inapp.png" alt="Extend">
+      <h3>Release Notes</h3>
+      <p>We're releasing AirTube as a beta. This means the app is fully functional, ready to use and will do what it says here on the page, but contains a few quirks that we're ironing out before we call it v1.0.0:</p>
+      <ul>
+        <li>You can't scrub/seek in Vimeo video's from your Mac. It will work fine with your Apple TV remote however;</li>
+        <li>Not every site in libquvi's library works with AirTube;</li>
+        <li>Sometimes the video will keep playing when you close the window. Use your Apple TV remote, drag another video onto AirTube or quit the app to stop the video on your Apple TV.</li>
+      </ul>
+      <p>On the plus-side, you can get the app for about <strong>half the price</strong> of version 1.0.0!</p>
     </div>
   </div>
 </div>
