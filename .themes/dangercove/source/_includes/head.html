@@ -13,7 +13,7 @@
 
   <meta content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}" property="og:title" />
   <meta content="website" property="og:type" />
-  <meta content="{{ site.url }}/{{ page.url | remove:'/index.html' | strip_slash }}" property="og:url" />
+  <meta content="{{ site.url }}{{ page.url | remove:'/index.html' | strip_slash }}" property="og:url" />
   {% if page.adventure %}
   <meta content="{{ site.url }}/images/adventures/{{ page.adventure }}/icon.png" property="og:image" />
   {% else %}
