@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "NSFW Package"
+description: "NSFW Package"
 date: 2013-02-06 20:32
 comments: false
 sharing: false
