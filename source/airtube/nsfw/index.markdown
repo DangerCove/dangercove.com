@@ -6,6 +6,7 @@ comments: false
 sharing: false
 footer: false
 banner: /images/adventures/airtube/header.jpg
+alias: /adventures/airtube/nsfw.html
 ---
 
 The <a target="_blank" href="http://quvi.sourceforge.net/">libquvi project</a> includes support for some NSFW websites. These scripts are not included with the app, but you can download them below.

@@ -29,7 +29,7 @@ layout: default
         <div class="row buttons">
           <div class="span3">
             {% if page.download %}
-            <a class="btn btn-large btn-block btn-primary" href="{{ page.adventure }}/download.html">Download Now</a>
+            <a class="btn btn-large btn-block btn-primary" href="{{ page.url | remove:'/index.html' | strip_slash }}/download">Download Now</a>
             {% elsif page.website %}
             <a class="btn btn-large btn-block btn-primary" href="{{ page.website }}">More Info...</a>
             {% else %}
