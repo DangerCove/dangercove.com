@@ -20,7 +20,7 @@
         {% if site.simple_search %}
         <form class="navbar-form pull-right" action="{{ site.simple_search }}" method="get">
           <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
-          <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+          <input class="search" type="text" name="q" placeholder="Search"/>
         </form>
         {% endif %}
       </div><!--/.nav-collapse -->

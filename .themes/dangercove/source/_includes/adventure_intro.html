@@ -9,15 +9,15 @@
 {% endif %}
 <div class="row">
   {% if page.status == "poc" %}
-  <img class="ribbon" src="/images/ribbon-beta.png">
+  <img class="ribbon" src="/images/ribbon-beta.png" alt="">
   {% elsif page.price == 0.0 %}
-  <img class="ribbon" src="/images/ribbon-free.png">
+  <img class="ribbon" src="/images/ribbon-free.png" alt="">
   {% endif %}
   <div class="span2 icon">
-    <img src="/images/adventures/{{ page.adventure }}/icon.png">
+    <img src="/images/adventures/{{ page.adventure }}/icon.png" alt="{{ page.title }} Icon">
   </div>
   <div class="span2 text">
-    <h3>{{ page.title }}</h2>
+    <h3>{{ page.title }}</h3>
     <p>{{ page.subtitle }}</p>
   </div>
 </div>
