@@ -18,7 +18,7 @@ We took a little time coding up scripts for some popular Dutch websites! Downloa
 
 To install the scripts:
 
-- Download and install <a href="/airtube/download">AirTube</a>;
+- Download and install <a href="/airtube">AirTube</a>;
 - <a href="http://download.dangercove.com/airtube/scripts/dutch.zip">Download the zip</a> and extract it;
 - Select all the .lua files;
 - Drag them onto AirTube's dock icon;

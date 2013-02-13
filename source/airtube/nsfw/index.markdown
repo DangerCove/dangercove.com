@@ -23,7 +23,7 @@ We tested AirTube to work with these sites:
 
 To install the scripts:
 
-- Download and install <a href="/airtube/download">AirTube</a>;
+- Download and install <a href="/airtube">AirTube</a>;
 - <a href="http://download.dangercove.com/airtube/scripts/nsfw.zip">Download the zip</a> and extract it;
 - Select all the .lua files;
 - Drag them onto AirTube's dock icon;
