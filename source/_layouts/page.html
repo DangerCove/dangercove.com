@@ -17,6 +17,28 @@ layout: default
           <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
         </header>
         {% endif %}
+
+  {% if page.video %}
+  <div class="video_container span12">
+    <div class="thumbnail">
+      <iframe src="http://www.youtube.com/embed/{{ page.video }}?rel=0&fs=1&modestbranding=1&showinfo=0&autohide=1&color=white&vq=hd720" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+    {% if page.video_title %}
+    <div class="pagination pagination-large pagination-centered hidden-phone span12">
+      <ul>
+        <li class="active"><a>{{ page.video_title }}</a></li>
+      </ul>
+    </div>
+    <div class="pagination pagination-small pagination-centered show-phone hidden-tablet hidden-desktop span12">
+      <ul>
+        <li class="active"><a>{{ page.video_title }}</a></li>
+      </ul>
+    </div>
+    {% endif %}
+  {% endif %}
+
+
         {{ content }}
         {% unless page.footer == false %}
           <footer>

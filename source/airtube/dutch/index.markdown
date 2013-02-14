@@ -7,6 +7,8 @@ comments: false
 sharing: false
 footer: false
 banner: /images/adventures/airtube/header.jpg
+video: cGEjpCpnXVw
+video_title: Uitzending Gemist
 ---
 
 We took a little time coding up scripts for some popular Dutch websites! Download the scripts below to add support for:
@@ -18,8 +20,8 @@ We took a little time coding up scripts for some popular Dutch websites! Downloa
 
 To install the scripts:
 
-- Download and install <a href="/airtube">AirTube</a>;
-- <a href="http://download.dangercove.com/airtube/scripts/dutch.zip">Download the zip</a> and extract it;
-- Select all the .lua files;
-- Drag them onto AirTube's dock icon;
-- Surf to one of the sites mentioned above and try streaming.
+1. Download and install <a href="/airtube">AirTube</a>;
+2. <a href="http://download.dangercove.com/airtube/scripts/dutch.zip">Download the zip</a> and extract it;
+3. Select all the .lua files;
+4. Drag them onto AirTube's dock icon;
+6. Surf to one of the sites mentioned above and try streaming.
