@@ -11,7 +11,7 @@ p {
   line-height: 150%;
 }
 
-body, #header {
+body {
   padding: 40px 0;
 }
 
@@ -39,19 +39,19 @@ article h1 {
 
 .banner {
   width: 100%;
-  height: 240px;
+  min-height: 240px;
   overflow: hidden;
   position: relative;
   color: #fff;
 
   .container {
-    margin-top: 80px;
+    margin: 40px auto;
   }
   img.bg {
     position: absolute;
     min-width: 100%;
     max-width: 100%;
-    min-height: 460px;
+    min-height: 500px;
     top: 0;
     left: 50%;
     margin-left: -50%;
@@ -72,5 +72,14 @@ article h1 {
   text-align: center;
   a {
     padding: 0 10px;
+  }
+}
+
+.video_container {
+  text-align: center;
+  .thumbnail { display: inline-block; }
+  iframe {
+    width: 856px;
+    height: 480px;
   }
 }

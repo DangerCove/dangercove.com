@@ -15,3 +15,15 @@ ul.screenshots {
     max-height: 500px;
   }
 }
+
+@media (max-width: 979px) {
+  ul.screenshots {
+    height: 400px;
+    li {
+      height: 400px;
+    }
+    img {
+      max-height: 400px;
+    }
+  }
+}

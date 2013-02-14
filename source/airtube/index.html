@@ -2,7 +2,7 @@
 layout: adventure
 title: "AirTube"
 subtitle: "Web Videos on your Apple TV, hassle free"
-description: "Stream YouTube, Vimeo, TED and <a href=\"#libquvi\">quite a few other Web Videos</a> to your Apple TV. Straight from your Mac's browser!"
+description: "Stream YouTube, Vimeo, TED and <a href=\"#libquvi\">quite a few other Web Videos</a> to your Apple TV. Straight from your Mac's browser; no iPad, iPhone or Jailbreak required."
 date: 2013-01-29 14:36
 comments: false
 sharing: true
@@ -18,10 +18,21 @@ alias: /adventures/airtube.html
 ---
 
 <div class="container">
-{% dcscreenshots output %}
-airtube|explain|jpg|AirTube for Mac
-{% enddcscreenshots %}
-{{ output }}
+  <div class="video_container">
+    <div class="thumbnail">
+      <iframe src="http://www.youtube.com/embed/TqmyxuGdKxI?rel=0&fs=1&modestbranding=1&showinfo=0&autohide=1&color=white&vq=hd720" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="pagination pagination-large pagination-centered hidden-phone">
+    <ul>
+      <li class="active"><a>Introduction Video</a></li>
+    </ul>
+  </div>
+  <div class="pagination pagination-small pagination-centered show-phone hidden-tablet hidden-desktop">
+    <ul>
+      <li class="active"><a>Introduction Video</a></li>
+    </ul>
+  </div>
   <hr>
 
   <div id="libquvi" class="row">
@@ -46,25 +57,26 @@ airtube|explain|jpg|AirTube for Mac
       <p><em>Notice: we depend on the sites mentioned above to keep providing MP4 videos that work with your Apple TV. Changes to supported websites might stop some videos from working. Check for updates in the app, or on our website when that happens.</em></p>
     </div>
     <div class="span6">
-      <img src="/images/adventures/airtube/screenshots/app.jpg" alt="AirTube streaming to SandroTV">
+      <div class="thumbnail">
+        <img src="/images/adventures/airtube/screenshots/app.jpg" alt="Seek/scrub inside the video">
+      </div>
     </div>
   </div>
   <hr>
   <div class="row">
+    <div class="span6">
+      <div class="thumbnail">
+        <img src="/images/adventures/airtube/screenshots/vimeo.jpg" alt="Drag videos on the dock icon">
+      </div>
+    </div>
     <div class="span6">
       <h3>Simply Drag & Drop</h3>
       <p>With AirTube instead of clicking the link to the video, you just drag the link from your browser onto the AirTube dock icon and you're set!</p>
       <p>We're working on a set of browser plugins that will make it even easier to start streaming.</p>
     </div>
-    <div class="span6">
-      <img src="/images/adventures/airtube/screenshots/vimeo.jpg" alt="Drag videos on the dock icon">
-    </div>
   </div>
   <hr>
   <div class="row">
-    <div class="span6">
-      <img src="/images/adventures/airtube/screenshots/browseon.png" alt="Browse for more!">
-    </div>
     <div class="span6">
       <h3>Release Notes</h3>
       <p>We're releasing AirTube as a beta. This means the app is fully functional, ready to use and will do what it says here on the page, but contains a few quirks that we're ironing out before we call it v1.0.0:</p>
@@ -74,6 +86,9 @@ airtube|explain|jpg|AirTube for Mac
         <li>Sometimes the video will keep playing when you close the window. Use your Apple TV remote, drag another video onto AirTube or quit the app to stop the video on your Apple TV.</li>
       </ul>
       <p>On the plus-side, you can get the app for about <strong>half the price</strong> of version 1.0.0!</p>
+    </div>
+    <div class="span6">
+      <img src="/images/adventures/airtube/screenshots/browseon.png" alt="Browse for more!">
     </div>
   </div>
 </div>
