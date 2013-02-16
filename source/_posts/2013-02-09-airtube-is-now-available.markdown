@@ -14,7 +14,7 @@ categories: [adventures]
 
 We wanted to make an app that would allow you to stream all those MP4 videos you can find on the web today to your Apple TV. Without needing to go into Apple TV apps or getting your iPhone/iPad, but just from your browser on your Mac. It's so nice to just be able to play that long talk on Vimeo or TED on your Apple TV, by dragging the link onto AirTube.
 
-The link parsing is done by a project called [quvi](http://quvi.sourceforge.net/) and while not every site in the quvi library is compatible, we managed to get quite a few of them working! Check [Airtube's page](/airtube) for a small list.
+The link parsing is done by a project called [quvi](http://quvi.sourceforge.net/). The Apple TV only works with MP4 streams, so not every site supported by quvi will work with AirTube. We've tested them and added a list of sites that work out of the box [here](/airtube).
 
 The app is now available for a reduced (beta) price!
 
