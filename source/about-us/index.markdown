@@ -8,7 +8,7 @@ footer: true
 banner: /images/content/adventuresofdangercove.jpg
 ---
 
-Like it says in our sub-title, we're two Dutch guys (<a href="http://twitter.com/bjornvanraaij" target="_blank">Bjørn</a> & <a href="http://twitter.com/boyvanamstel">Boy</a>) who work on apps that make our lives (and hopefully yours too) easier. Danger Cove has been around since oktober of 2011 and during that time we've released a <a href="{{ root_url }}">few apps</a>, drank many beers and are continuously on the look-out for new adventures.
+Like it says in our sub-title, we're two Dutch guys (<a href="http://twitter.com/bjornvanraaij" target="_blank">Bjørn</a> & <a href="http://twitter.com/boyvanamstel">Boy</a>) who work on apps that make our lives (and hopefully yours too) easier. Danger Cove has been around since oktober of 2011 and during that time we've released a <a href="/">few apps</a>, drank many beers and are continuously on the look-out for new adventures.
 
 Or "app ideas", but we think "adventures" sounds much, much more interesting. We considered "appventures", but decided it was too corny.
 
