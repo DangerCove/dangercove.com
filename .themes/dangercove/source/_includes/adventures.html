@@ -7,7 +7,7 @@
   {% endif %}
   <div class="row adventures">
     {% for page in site.pages %}
-      {% if page.adventure and page.status == "poc" %}
+      {% if page.adventure and page.status == "poc" or page.status == "soon" %}
         {% include adventure_intro.html %}
       {% endif %}
     {% endfor %}
