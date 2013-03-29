@@ -32,6 +32,7 @@ layout: default
             <a class="btn btn-large btn-block btn-primary" href="{{ page.url | remove:'/index.html' | strip_slash }}/download">Download Now</a>
             {% elsif page.website %}
             <a class="btn btn-large btn-block btn-primary" href="{{ page.website }}">More Info...</a>
+            {% elsif page.store %}
             {% else %}
             This is a beta product.
             {% endif %}

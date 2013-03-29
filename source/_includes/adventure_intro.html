@@ -4,6 +4,8 @@
 
 {% if page.website %}
 <a href="{{ page.website }}" class="adventure_intro span4 {{ page.status }}" target="_blank">
+{% elsif page.store %}
+<a href="{{ page.store }}" class="adventure_intro span4 {{ page.status }}" target="_blank">
 {% elsif page.status == "soon" %}
 <a href="#" class="adventure_intro span4 {{ page.status }}">
 {% else %}
