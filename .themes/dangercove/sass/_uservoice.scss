@@ -2,8 +2,9 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  li li h3 {
+  li li h4 {
     cursor: pointer;
+    font-weight: normal;
   }
   .answer, .topic_other {
     display: none;

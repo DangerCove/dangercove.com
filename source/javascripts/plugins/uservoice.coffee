@@ -39,7 +39,7 @@ $.fn.extend
               unless article.topic.id in topics
                 topic_item = document.createElement 'li'
                 $(topic_item).attr 'class', 'topic_' + article.topic.id
-                topic_title = document.createElement 'h2'
+                topic_title = document.createElement 'h3'
                 $(topic_title).text article.topic.name
                 $(topic_title).appendTo topic_item
                 topic_list = document.createElement 'ul'
@@ -54,7 +54,7 @@ $.fn.extend
 
             article_item = document.createElement 'li'
             $(article_item).attr 'class', 'article_' + article.id
-            article_title = document.createElement 'h3'
+            article_title = document.createElement 'h4'
             $(article_title).text article.question
             $(article_title).appendTo article_item
             $(article_title).click((e) ->
