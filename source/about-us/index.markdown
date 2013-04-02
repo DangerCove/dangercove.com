@@ -8,7 +8,7 @@ footer: true
 banner: /images/content/adventuresofdangercove.jpg
 ---
 
-Like it says in our sub-title, Danger Cove makes little apps that improve productivity and aim to make your live more fun. Danger Cove has been around since oktober of 2011 and during that time we've released a <a href="/">few apps</a>, drank many beers and are continuously on the look-out for new adventures.
+Like it says in our sub-title, Danger Cove makes little apps that improve productivity and aim to make your life even more fun. Danger Cove has been around since oktober of 2011 and during that time we've released a <a href="/">few apps</a>, drank many beers and are continuously on the look-out for new adventures.
 
 Or "app ideas", but we think "adventures" sounds much, much more interesting. We considered "appventures", but decided it was too corny.
 
