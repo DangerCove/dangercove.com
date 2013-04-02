@@ -8,7 +8,7 @@ categories: [adventures, coucou, tutorial]
 
 If you're a web developer you probably recognize that moment where you're running a local development evironment with MAMP/XAMPP, Rails or Node.js and need to see your site on another computer, or show someone else what you're working on. Maybe to do a cross-browser check, maybe just to show how awesome this latest design looks.
 
-With coucou this can be done in just a few simple clicks. Let me walk you through it.
+This usually involves copy-pasting of ip addresses, emailing and other such nonsense. With coucou this can be done in just a few simple clicks. Let me walk you through it.
 
 First we need to enable broadcasting in the preferences pane.
 
