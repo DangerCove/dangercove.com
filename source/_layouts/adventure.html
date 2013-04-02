@@ -44,7 +44,7 @@ layout: default
           </div>
           <div class="span3">
             {% if page.store %}
-            <a class="btn btn-large btn-block btn-success" href="{{ page.store }}">{% if page.price > 0 %}Buy Now, ${{ page.price }}{% else %}Download Now, Free!{% endif %}</a>
+            <a class="btn btn-large btn-block btn-success" href="{{ page.store }}">{% if page.price > 0 %}Buy Now{% else %}Download Now{% endif %}</a>
             {% else %}
             <a class="btn btn-large btn-block disabled" href="#"><del>Buy Now</del> Soon!</a>
             {% endif %}
