@@ -1,5 +1,5 @@
 {% capture category %}{{ post.categories | size }}{% endcapture %}
-<h2><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h2>
+<h2><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h2>
 {{ post.content | excerpt }}
 <p class="meta">
   {% include post/author.html %}

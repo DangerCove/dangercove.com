@@ -6,22 +6,14 @@ comments: true
 categories: [adventures, coucou, tutorial]
 ---
 
-If you're a web developer you probably recognize the situation where you're running a local development evironment with MAMP/XAMPP, Rails or Node.js and need/want someone else to see what you're working on. Maybe to do a cross-browser check, maybe just to show how awesome this latest design looks.
+If you're a web developer you probably recognize that moment where you're running a local development evironment with MAMP/XAMPP, Rails or Node.js and need to see your site on another computer, or show someone else what you're working on. Maybe to do a cross-browser check, maybe just to show how awesome this latest design looks.
 
-To make this happen you'd need to take a few steps:
+With coucou this can be done in just a few simple clicks. Let me walk you through it.
 
-* find out your IP address, or hostname;
-* send it to your friend or colleague;
-* your friend/collegue will need to enter it in his browser.
-
-If anything changes (new ip address) or if you want to show your work in progress to even more people, you'll need to repeat the steps above.
-
-With coucou you can be done in just a few simple clicks. Let me walk you through it.
-
-First we need to enable broadcasting in the preferences pane. This setting is saved, so you'll only need to do this once.
+First we need to enable broadcasting in the preferences pane.
 
 <div class="thumbnail">
-{% img /images/content/coucou/coucou-preferences2.jpg "Enable broadcasting" %}
+{% img /images/adventures/coucou/screenshots/coucou-preferences2.jpg "Enable broadcasting" %}
 <div class="caption">
 Enable broadcasting
 </div>
@@ -35,15 +27,19 @@ Now follow these steps:
 * click publish and you're set!
 
 <div class="thumbnail">
-{% img /images/content/coucou/coucou-newservice.jpg "Add a new service" %}
+{% img /images/adventures/coucou/screenshots/coucou-newservice.jpg "Add a new service" %}
 <div class="caption">
 Add a new service
 </div>
 </div>
 
 <div class="thumbnail">
-{% img /images/content/coucou/coucou-rails.jpg "Find a custom service" %}
+{% img /images/adventures/coucou/screenshots/coucou-rails.jpg "Find a custom service" %}
 <div class="caption">
-Your service is now visible for anyone using coucou
+Your service is now visible for anyone using coucou, or any other Bonjour compatible app
 </div>
 </div>
+
+You can unpublish the service by clicking the corresponding entry in the Broadcast menu.
+
+<a href="https://itunes.apple.com/app/coucou/id620436774">{% img /images/appstore/Available_on_the_Mac_App_Store_Badge_US-UK_165x40_0824.png "Available on the Mac App Store" %}</a>
