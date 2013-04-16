@@ -6,16 +6,11 @@
   </div>
   {% endif %}
   <div class="row adventures">
-    {% for page in site.pages %}
-      {% if page.adventure and page.status == "poc" or page.status == "soon" %}
+    {% sorted_for page in site.pages reversed sort_by:weight %}
+      {% if page.adventure %}
         {% include adventure_intro.html %}
       {% endif %}
-    {% endfor %}
-    {% for page in site.pages %}
-      {% if page.adventure and page.status == "done" %}
-        {% include adventure_intro.html %}
-      {% endif %}
-    {% endfor %}
+    {% endsorted_for %}
   </div>
   {% if index %}
   <div class="treasure-below">
