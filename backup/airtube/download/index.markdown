@@ -8,6 +8,7 @@ sharing: true
 footer: false
 banner: /images/adventures/airtube/header.jpg
 file: http://download.dangercove.com/airtube/AirTube-latest.zip
+alias: /adventures/airtube/download.html
 ---
 
 To get started:
