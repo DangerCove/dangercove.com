@@ -27,6 +27,8 @@ Like I said above, this will work with any type of local web server. Replace Rai
 
 ### Broadcast your local web server
 
+Launch <a href="http://appstore.com/mac/coucou" target="_blank">coucou</a>, enable the Broadcast option in the preferences and create a new service.
+
 <div class="thumbnail">
 {% img /images/adventures/coucou/screenshots/coucou-newservice.jpg "Add a new service" %}
 <div class="caption">
