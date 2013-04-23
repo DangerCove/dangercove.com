@@ -1,0 +1,72 @@
+---
+layout: post
+title: "Broadcast your web project to Safari"
+date: 2013-04-23 15:26
+comments: true
+categories: [adventures, coucou]
+---
+
+If you work on web projects in a team, you're probably familiar with the situation where you want to quickly show your design or progress to a colleague, or test it on another computer. Usually this involves calling the person over or writing down/copying/emailing your IP address of the day.
+
+Or you can use coucou + Safari and be done in a few seconds.
+
+Safari has a special feature called "Bonjour bookmarks" that allows you to list all local web services your bookmarks bar, given that they are broadcasted using Bonjour. Coucou can help you with that last part. The broadcast menu in coucou lets you fire up custom services, like your Rails/MAMP/whatever project.
+
+### Start your web project
+
+<div class="thumbnail">
+{% img /images/content/coucou-site-terminal.png "Start your web project" %}
+<div class="caption">
+Start your web project
+</div>
+</div>
+
+<!-- more -->
+
+Like I said above, this will work with any type of local web server. Replace Rails with MAMP, Django or whatever you like, just remember to alter the port accordingly in the following step.
+
+### Broadcast your local web server
+
+<div class="thumbnail">
+{% img /images/adventures/coucou/screenshots/coucou-newservice.jpg "Add a new service" %}
+<div class="caption">
+Choose the correct preset, or enter "_http._tcp." and the port manually
+</div>
+</div>
+
+### Enable Bonjour bookmarks
+
+Launch Safari and enable Bonjour bookmarks; they're disabled per default.
+
+<div class="thumbnail">
+{% img /images/content/coucou-safari-preferences.png "Enable Bonjour bookmarks" %}
+<div class="caption">
+You can enable Bonjour bookmarks on the Bookmarks tab
+</div>
+</div>
+
+<div class="thumbnail">
+{% img /images/content/coucou-safari-showbookmarks.jpg "Show bookmarks bar" %}
+<div class="caption">
+Don't forget to display the bookmarks bar
+</div>
+</div>
+
+### Select your service from the menu
+
+And that's it. Click the menu item and it'll load your website without copy-pasting, emailing or writing down your IP address!
+
+<div class="thumbnail">
+{% img /images/content/coucou-safari-bonjourbookmark.jpg "Select your service" %}
+<div class="caption">
+Your web service should show up in the list
+</div>
+</div>
+
+### Video
+
+<iframe width="620" height="349" src="http://www.youtube.com/embed/7M9xcwbICPs" frameborder="0" allowfullscreen></iframe>
+
+Curious about what else coucou can do? Check out [this post](/blog/2013/03/29/coucou-for-easy-network-access) about using coucou to discover network services.
+
+<a href="https://itunes.apple.com/app/coucou/id620436774">{% img /images/appstore/Available_on_the_Mac_App_Store_Badge_US-UK_165x40_0824.png "Available on the Mac App Store" %}</a>

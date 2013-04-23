@@ -21,6 +21,8 @@ Enable broadcasting
 
 Now follow these steps:
 
+<!-- more -->
+
 * click the menu bar icon;
 * select Broadcast and click New Service...;
 * select one of the presets in the window that pops-up or create a service manually;

@@ -17,6 +17,8 @@ Coucou is out of your way but easy to reach
 </div>
 </div>
 
+<!-- more -->
+
 <div class="thumbnail">
 {% img /images/adventures/coucou/screenshots/coucou-menubar.jpg "See who's online" %}
 <div class="caption">
