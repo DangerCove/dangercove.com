@@ -13,15 +13,6 @@ Or "app ideas", but we think "adventures" sounds much, much more interesting. We
 
 All the Danger Cove-ing is done by a single guy, called Boy. You can find him on Twitter [@boyvanamstel](http://twitter.com/boyvanamstel) and he [loves getting email](mailto:ahoy@dangercove.com).
 
-<div class="thumbnail">
-{% img /images/content/danjercove.jpg "Danjer Cove in Monkey Island" %}
-<div class="caption">
-Danjer Cove from The Curse of Monkey Island created by LucasArts
-</div>
-</div>
-
-Our office used to be in Rotterdam, right next to the Central Train Station, and was known to sometimes contain spiders and space invaders. We're currently looking for office space in The Hague, which will probably also contain spiders and space invaders.
-
 <div class="row">
   <div class="span4">
     <div class="thumbnail">
@@ -34,3 +25,6 @@ Our office used to be in Rotterdam, right next to the Central Train Station, and
     </div>
   </div>
 </div>
+
+Our office used to be in Rotterdam, right next to the Central Train Station, and was known to sometimes contain spiders and space invaders. We're currently looking for office space in The Hague, which will probably also contain spiders and space invaders.
+
