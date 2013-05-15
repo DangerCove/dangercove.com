@@ -2,17 +2,25 @@
 // Add styles here to make changes without digging in too much
 
 body {
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-   font-weight: 300;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  padding: 40px 0;
+}
+.entry-content p,
+.hentry p {
+  font-family: 'PT Serif', Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  line-height: 1.7em;
+  margin: 1.7em 0;
 }
 
 p {
   font-size: 16px;
   line-height: 150%;
 }
-
-body {
-  padding: 40px 0;
+strong {
+  background: #cbe9ff;
+  font-weight: normal;
 }
 
 #header, #footer {
