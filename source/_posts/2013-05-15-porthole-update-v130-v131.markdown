@@ -42,7 +42,7 @@ Porthole v1.3.1, the speaker icon changes when it's connected
 
 ### Setup Wizard
 
-The setup wizard was next to receive a little overhaul. Instead of going with the named progress indicator along the top of the wizard I wanted to do something that is a little easier to maintain and localize. I ended up using <a href="https://github.com/bfolder/BFPageControl" target="_blank">BFPageControl</a>, which is actually a page control, but doubles easily as a low key progress indicator.
+The setup wizard was next to receive a little overhaul. Instead of going with the named progress indicator along the top of the wizard I wanted to do something that is a little easier to maintain and localize. I ended up using [BFPageControl](https://github.com/bfolder/BFPageControl), which is actually a page control, but doubles easily as a low key progress indicator.
 
 It's also a little shorter and the image on the first step has a more obvious indicator of what Porthole looks like, in the menu bar.
 
@@ -67,9 +67,9 @@ It's also a little shorter and the image on the first step has a more obvious in
 
 ### Embedded Store
 
-Next thing on the list is the option to purchase a license for Porthole from within the app. It's entirely optional, but **it provides a nice flow that takes out the license-key-copy-pasting that's normally involved**. The store window opens a secure WebView connection to <a href="https://sites.fastspring.com/dangercove/instant/porthole" target="_blank">FastSpring</a>, with a theme that works well within an app.
+Next thing on the list is the option to purchase a license for Porthole from within the app. It's entirely optional, but **it provides a nice flow that takes out the license-key-copy-pasting that's normally involved**. The store window opens a secure WebView connection to [FastSpring](https://sites.fastspring.com/dangercove/instant/porthole), with a theme that works well within an app.
 
-It's actually a component that's provided and maintained by FastSpring themselves. You can get it <a href="https://github.com/FastSpring/FsprgEmbeddedStoreMac" target="_blank">here, on GitHub</a>.
+It's actually a component that's provided and maintained by FastSpring themselves. You can get it [here, on GitHub](https://github.com/FastSpring/FsprgEmbeddedStoreMac).
 
 <div class="row">
   <div class="span4">
@@ -105,7 +105,7 @@ My previous way of handling this issue was to instruct people to manually turn u
 
 ### Password Protected AirPlay Speakers
 
-This has been on my list for quite a while. It wasn't a feature that was often requested, but **it would enable everyone in more public spaces to password protect their speakers and still enjoy Porthole**. Using passwords in OS X is tightly connected to Keychain, which stores passwords for all apps and even allows you to share passwords between them. I want Porthole to be able to use AirPlay passwords stored by iTunes, for example. The API for implementing this changed quite a bit between OS X 10.6 and 10.7+, but by wrapping <a href="https://github.com/ObjColumnist/MCSMKeychainItem" target="_blank">MCSMKeychainItem</a> and <a href="https://github.com/soffes/sskeychain" target="_blank">sskeychain</a> this wasn't too much of a problem.
+This has been on my list for quite a while. It wasn't a feature that was often requested, but **it would enable everyone in more public spaces to password protect their speakers and still enjoy Porthole**. Using passwords in OS X is tightly connected to Keychain, which stores passwords for all apps and even allows you to share passwords between them. I want Porthole to be able to use AirPlay passwords stored by iTunes, for example. The API for implementing this changed quite a bit between OS X 10.6 and 10.7+, but by wrapping [MCSMKeychainItem](https://github.com/ObjColumnist/MCSMKeychainItem) and [sskeychain](https://github.com/soffes/sskeychain) this wasn't too much of a problem.
 
 <blockquote class="twitter-tweet"><p>MCSMKeychainItem (@<a href="https://twitter.com/objcolumnist">objcolumnist</a>) and sskeychain (@<a href="https://twitter.com/soffes">soffes</a>). By your powers combined, I AM CAPTAIN 10.6+ KEYCHAIN!</p>&mdash; Boy van Amstel (@boyvanamstel) <a href="https://twitter.com/boyvanamstel/status/332818734135775232">May 10, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -120,9 +120,9 @@ You can now easily connect to all password protected speakers, use passwords sto
 
 That's about it for the manjor changes, fixes and updates. Apart from those I also made sure windows that are open (Preferences, License Window, Embedded Store) are pulled to the front when the menu bar icon is clicked, making it easier to see where they are.
 
-The text on the buttons and menu items is more consistent, and the <a href="http://ux.stackexchange.com/questions/9544/what-is-the-significance-of-the-three-dots-on-menus-and-buttons-and-how-to" target="_blank">ellipsis</a> make more sense now.
+The text on the buttons and menu items is more consistent, and the [ellipsis](http://ux.stackexchange.com/questions/9544/what-is-the-significance-of-the-three-dots-on-menus-and-buttons-and-how-to) make more sense now.
 
-Stay tuned to see what's up for the next update, follow me on <a href="http://twitter.com/dangercove" target="_blank">Twitter</a> and <a href="http://facebook.com/dangercove" target="_blank">Facebook</a>.
+Stay tuned to see what's up for the next update, follow me on [Twitter](http://twitter.com/dangercove) and [Facebook](http://facebook.com/dangercove).
 
 You can read more about Porthole on [http://getporthole.com](http://getporthole.com).
-<div><a href="http://getporthole.com/download" class="btn btn-large btn-primary" target="_blank">Download the Free Trial</a> or <a href="https://sites.fastspring.com/dangercove/instant/porthole" class="btn btn-large btn-success" target="_blank">Purchase a License</a></div>
+<div><a href="http://getporthole.com/download" class="btn btn-large btn-primary">Download the Free Trial</a> or <a href="https://sites.fastspring.com/dangercove/instant/porthole" class="btn btn-large btn-success">Purchase a License</a></div>
