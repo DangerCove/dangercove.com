@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About Us"
+title: "About Danger Cove"
 date: 2013-01-21 15:10
 comments: true
 sharing: false
@@ -8,23 +8,21 @@ footer: true
 banner: /images/content/adventuresofdangercove.jpg
 ---
 
-Like it says in our sub-title, Danger Cove makes little apps that improve productivity and aim to make your life even more fun. We've been around since oktober of 2011, released a <a href="/">few apps</a>, drank many beers and are continuously on the look-out for new adventures.
-Or "app ideas", but we think "adventures" sounds much, much more interesting. We considered "appventures", but decided it was too corny.
+Danger Cove makes little apps that improve productivity and aim to make your life even more fun.
 
-All the Danger Cove-ing is done by a single guy, called Boy. You can find him on Twitter [@boyvanamstel](http://twitter.com/boyvanamstel) and he [loves getting email](mailto:ahoy@dangercove.com).
+We've been around since october of 2011 and currently reside in the wonderful city of The Hague in The Netherlands. In an office formerly occupied by a soap vendor. The studio has been known to contain Space Invaders and smell _very_ nice.
 
 <div class="row">
   <div class="span4">
     <div class="thumbnail">
-    {% img /images/content/spider.jpg "Spider on our wall" %}
+    {% img /images/content/boy.jpg Boy in Croatia %}
     </div>
   </div>
   <div class="span4">
     <div class="thumbnail">
-    {% img /images/content/spaceinvaders.jpg "Space Invaders on our wall" %}
+    {% img /images/content/spaceinvaders.jpg Space Invaders on the wall %}
     </div>
   </div>
 </div>
 
-Our office used to be in Rotterdam, right next to the Central Train Station, and was known to sometimes contain spiders and space invaders. We're currently looking for office space in The Hague, which will probably also contain spiders and space invaders.
-
+All the Danger Cove-ing is done by [Boy](http://boyvanamstel.nl). You can find him on [Twitter](http://twitter.com/boyvanamstel) and he [loves getting email](mailto:ahoy@dangercove.com).

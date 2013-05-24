@@ -3,7 +3,7 @@ layout: post
 title: "Distractless"
 date: 2012-11-11 18:19
 comments: true
-categories: [adventures]
+categories: [adventures, distractless]
 ---
 
 <div class="thumbnail">
