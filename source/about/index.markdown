@@ -8,7 +8,7 @@ footer: true
 banner: /images/content/adventuresofdangercove.jpg
 ---
 
-Danger Cove makes little apps that improve productivity and aim to make your life even more fun.
+Danger Cove makes apps that aim to improve productivity, make awesome technology accessible _and_ bring endless joy to everyone who uses them.
 
 We've been around since october of 2011 and currently reside in the wonderful city of The Hague in The Netherlands. In an office formerly occupied by a soap vendor. The studio has been known to contain Space Invaders and smell _very_ nice.
 
