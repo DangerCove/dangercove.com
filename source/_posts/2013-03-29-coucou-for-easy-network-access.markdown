@@ -35,4 +35,4 @@ Browse printers and open the web management page
 
 Are you a web developer? Check out [this post](/blog/2013/03/29/coucou-for-web-developers) about using coucou to streamline local web development.
 
-<a href="https://itunes.apple.com/app/coucou/id620436774">{% img /images/appstore/Available_on_the_Mac_App_Store_Badge_US-UK_165x40_0824.png "Available on the Mac App Store" %}</a>
+<a href="https://itunes.apple.com/app/coucou/id620436774">{% img /images/MacAppStore_download.png "Available on the Mac App Store" %}</a>

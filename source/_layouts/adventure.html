@@ -47,7 +47,7 @@ layout: default
         {% endif %}
       </div>
       {% endunless %}
-      <div class="{% unless page.macappstore %}span3{% endunless %}">
+      <div class="{% if page.macappstore %}span12{% else %}span3{% endif %}">
         {% if page.macappstore %}
         <a href="{{ page.macappstore }}"><img src="/images/MacAppStore_download.png" alt="Download on the Mac App Store"></a>
         {% elsif page.store %}
@@ -73,40 +73,40 @@ layout: default
   {% endif %}
 </div>
 {{ content }}
-<div class="row buttons">
-  {% unless page.macappstore %}
-  <div class="offset3 span3">
-    {% if page.download %}
-    <a class="btn btn-large btn-block btn-primary" href="{{ page.url | remove:'/index.html' | strip_slash }}/download">Download Now</a>
-    {% elsif page.website %}
-    <a class="btn btn-large btn-block btn-primary" href="{{ page.website }}">More Info...</a>
-    {% elsif page.store %}
-    {% else %}
-    This is a beta product.
-    {% endif %}
-    {% if page.requirements %}
-    <div class="requirements">
-      {{ page.requirements }}
-    </div>
-    {% endif %}
-  </div>
-  {% endunless %}
-  <div class="{% unless page.macappstore %}span3{% endunless %}">
-    {% if page.macappstore %}
-    <a href="{{ page.macappstore }}"><img src="/images/MacAppStore_download.png" alt="Download on the Mac App Store"></a>
-    {% elsif page.store %}
-    <a class="btn btn-large btn-block btn-success" href="{{ page.store }}">{% if page.price > 0 %}Buy Now{% else %}Download Now{% endif %}</a>
-    {% else %}
-    <a class="btn btn-large btn-block disabled" href="#"><del>Buy Now</del> Soon!</a>
-    {% endif %}
-    {% if page.pricenotice %}
-    <div class="price_notice">
-      {{ page.pricenotice }}
-    </div>
-    {% endif %}
-  </div>
-</div>
 <div class="container">
+  <div class="row buttons">
+    {% unless page.macappstore %}
+    <div class="offset3 span3">
+      {% if page.download %}
+      <a class="btn btn-large btn-block btn-primary" href="{{ page.url | remove:'/index.html' | strip_slash }}/download">Download Now</a>
+      {% elsif page.website %}
+      <a class="btn btn-large btn-block btn-primary" href="{{ page.website }}">More Info...</a>
+      {% elsif page.store %}
+      {% else %}
+      This is a beta product.
+      {% endif %}
+      {% if page.requirements %}
+      <div class="requirements">
+        {{ page.requirements }}
+      </div>
+      {% endif %}
+    </div>
+    {% endunless %}
+    <div class="{% if page.macappstore %}span12{% else %}span3{% endif %}">
+      {% if page.macappstore %}
+      <a href="{{ page.macappstore }}"><img src="/images/MacAppStore_download.png" alt="Download on the Mac App Store"></a>
+      {% elsif page.store %}
+      <a class="btn btn-large btn-block btn-success" href="{{ page.store }}">{% if page.price > 0 %}Buy Now{% else %}Download Now{% endif %}</a>
+      {% else %}
+      <a class="btn btn-large btn-block disabled" href="#"><del>Buy Now</del> Soon!</a>
+      {% endif %}
+      {% if page.pricenotice %}
+      <div class="price_notice">
+        {{ page.pricenotice }}
+      </div>
+      {% endif %}
+    </div>
+  </div>
   {% unless page.footer == false %}
     {% unless page.sharing == false %}
       {% include post/sharing.html %}

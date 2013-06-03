@@ -14,6 +14,9 @@ ul.screenshots {
   img {
     max-height: 500px;
   }
+  .thumbnail {
+    display: inline;
+  }
 }
 
 @media (max-width: 979px) {

@@ -44,4 +44,4 @@ Your service is now visible for anyone using coucou, or any other Bonjour compat
 
 You can unpublish the service by clicking the corresponding entry in the Broadcast menu.
 
-<a href="https://itunes.apple.com/app/coucou/id620436774">{% img /images/appstore/Available_on_the_Mac_App_Store_Badge_US-UK_165x40_0824.png "Available on the Mac App Store" %}</a>
+<a href="https://itunes.apple.com/app/coucou/id620436774">{% img /images/MacAppStore_download.png "Available on the Mac App Store" %}</a>

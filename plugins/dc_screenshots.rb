@@ -28,7 +28,7 @@ module Jekyll
       }
       screenshots.each do |screenshot|
         params = screenshot.split(/\|/)
-        output << "<li id=\"#{params[1]}_screenshot\"><img src=\"/images/adventures/#{params[0]}/screenshots/#{params[1]}.#{params[2]}\" alt=\"#{params[3]}\"></li>"
+        output << "<li id=\"#{params[1]}_screenshot\"><img src=\"/images/adventures/#{params[0]}/screenshots/#{params[1]}.#{params[2]}\" alt=\"#{params[3]}\" class=\"thumbnail\"></li>"
       end
       output << %{
   </ul>
