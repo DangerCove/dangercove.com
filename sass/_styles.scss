@@ -58,6 +58,14 @@ article h1 {
   margin: 50px 0 30px 0;
 }
 
+.buttons {
+  text-align: center;
+  padding: 20px 0;
+  .price_notice {
+    margin: 10px 0;
+  }
+}
+
 .banner {
   width: 100%;
   min-height: 240px;
@@ -66,7 +74,7 @@ article h1 {
   color: #fff;
 
   .container {
-    margin: 40px auto;
+    margin: 40px auto 0 auto;
   }
   img.bg {
     position: absolute;

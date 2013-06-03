@@ -1,22 +1,40 @@
-header.adventure_header {
+.adventure_header {
   height: auto;
-  .icon {
-    margin-bottom: 10px;
+  .container {
+    margin-bottom: 20px;
+    padding-top: 20px;
   }
-  .title {
-    margin-bottom: 50px;
-    h1 {
-      font-size: 64px;
-      line-height: 150%;
+  .icon {
+    img {
+      height: 128px;
     }
   }
-  .btn, .requirements, .price_notice {
-    margin-bottom: 10px;
+  .postcard {
+    @include border-radius(4px);
+    @include box-shadow(rgba(0,0,0,0.2) 0 2px 8px);
+    border: #fff 4px solid;
+    background: #fff;
+    width: 100%;
+    background-color: #fff;
+    background-position: 50% 0;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 120%;
+  }
+  .btn, .requirements {
+    margin: 10px 0;
+  }
+  &.headercolor-light {
+    color: #333;
   }
 }
 .adventure_blurp {
   font-weight: 100;
-  margin: 50px 0;
+  margin-top: 50px;
+  margin-bottom: 80px;
   text-align: center;
 }
 

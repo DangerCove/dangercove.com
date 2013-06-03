@@ -3,58 +3,63 @@ layout: default
 ---
 
 {% if page.github %}
-<a class="hidden-tablet" href="{{ page.github }}"><img style="position: absolute; top: 40px; right: 0; border: 0; z-index: 1040;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+<a class="hidden-tablet hidden-phone" href="{{ page.github }}"><img style="position: absolute; top: 41px; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 {% endif %}
 
-<header id="header" class="banner adventure_header">
-  <img class="bg hidden-tablet hidden-phone" src="/images/adventures/{{ page.adventure }}/header.jpg" alt="{{ page.title }}">
+<header id="header" class="banner adventure_header {% if page.headercolor %}headercolor-{{ page.headercolor }}{% endif %}">
+  <img class="bg hidden-phone" src="/images/adventures/{{ page.adventure }}/header.jpg" alt="{{ page.title }}">
   <div class="container">
-    <div class="row">
-      <div class="span6">
-        {% if page.postcard == true %}
-        <img src="/images/adventures/{{ page.adventure }}/postcard.png" alt="{{ page.title }} Postcard">
-        {% else %}
-        <img src="/images/adventures/{{ page.adventure }}/icon.png" alt ="{{ page.title }} Icon">
-        {% endif %}
-      </div>
-      <div class="span6">
-        {% if page.title %}
-        <div class="title">
-          <h1>{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
-          {% if page.subtitle %}
-          <p class="lead">{{ page.subtitle }}</p>
+    <div class="row title">
+      <div class="span1 pull-right"></div>
+      <div class="span4 pull-right">
+        <div class="icon">
+          <img src="/images/adventures/{{ page.adventure }}/icon.png" alt ="{{ page.title }} Icon">
+          {% if page.title %}
+          <div>
+            <h1>{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+            {% if page.subtitle %}
+            <p class="lead">{{ page.subtitle }}</p>
+            {% endif %}
+          </div>
           {% endif %}
         </div>
-        {% endif %}
-        <div class="row buttons">
-          <div class="span3">
-            {% if page.download %}
-            <a class="btn btn-large btn-block btn-primary" href="{{ page.url | remove:'/index.html' | strip_slash }}/download">Download Now</a>
-            {% elsif page.website %}
-            <a class="btn btn-large btn-block btn-primary" href="{{ page.website }}">More Info...</a>
-            {% elsif page.store %}
-            {% else %}
-            This is a beta product.
-            {% endif %}
-            {% if page.requirements %}
-            <div class="requirements">
-              {{ page.requirements }}
-            </div>
-            {% endif %}
-          </div>
-          <div class="span3">
-            {% if page.store %}
-            <a class="btn btn-large btn-block btn-success" href="{{ page.store }}">{% if page.price > 0 %}Buy Now{% else %}Download Now{% endif %}</a>
-            {% else %}
-            <a class="btn btn-large btn-block disabled" href="#"><del>Buy Now</del> Soon!</a>
-            {% endif %}
-            {% if page.pricenotice %}
-            <div class="price_notice">
-              {{ page.pricenotice }}
-            </div>
-            {% endif %}
-          </div>
+      </div>
+      <div class="span6 pull-right">
+        <div class="postcard" style="background-image: url('/images/adventures/{{ page.adventure }}/postcard.jpg');">
         </div>
+      </div>
+    </div>
+    <div class="row buttons">
+      {% unless page.macappstore %}
+      <div class="offset3 span3">
+        {% if page.download %}
+        <a class="btn btn-large btn-block btn-primary" href="{{ page.url | remove:'/index.html' | strip_slash }}/download">Download Now</a>
+        {% elsif page.website %}
+        <a class="btn btn-large btn-block btn-primary" href="{{ page.website }}">More Info...</a>
+        {% elsif page.store %}
+        {% else %}
+        This is a beta product.
+        {% endif %}
+        {% if page.requirements %}
+        <div class="requirements">
+          {{ page.requirements }}
+        </div>
+        {% endif %}
+      </div>
+      {% endunless %}
+      <div class="{% unless page.macappstore %}span3{% endunless %}">
+        {% if page.macappstore %}
+        <a href="{{ page.macappstore }}"><img src="/images/MacAppStore_download.png" alt="Download on the Mac App Store"></a>
+        {% elsif page.store %}
+        <a class="btn btn-large btn-block btn-success" href="{{ page.store }}">{% if page.price > 0 %}Buy Now{% else %}Download Now{% endif %}</a>
+        {% else %}
+        <a class="btn btn-large btn-block disabled" href="#"><del>Buy Now</del> Soon!</a>
+        {% endif %}
+        {% if page.pricenotice %}
+        <div class="price_notice">
+          {{ page.pricenotice }}
+        </div>
+        {% endif %}
       </div>
     </div>
   </div>
@@ -62,10 +67,45 @@ layout: default
 
 <div class="container">
   {% if page.description %}
-  <h2 class="adventure_blurp" >{{ page.description }}</h2>
+  <div class="row">
+    <h2 class="adventure_blurp span8 offset2">{{ page.description }}</h2>
+  </div>
   {% endif %}
 </div>
 {{ content }}
+<div class="row buttons">
+  {% unless page.macappstore %}
+  <div class="offset3 span3">
+    {% if page.download %}
+    <a class="btn btn-large btn-block btn-primary" href="{{ page.url | remove:'/index.html' | strip_slash }}/download">Download Now</a>
+    {% elsif page.website %}
+    <a class="btn btn-large btn-block btn-primary" href="{{ page.website }}">More Info...</a>
+    {% elsif page.store %}
+    {% else %}
+    This is a beta product.
+    {% endif %}
+    {% if page.requirements %}
+    <div class="requirements">
+      {{ page.requirements }}
+    </div>
+    {% endif %}
+  </div>
+  {% endunless %}
+  <div class="{% unless page.macappstore %}span3{% endunless %}">
+    {% if page.macappstore %}
+    <a href="{{ page.macappstore }}"><img src="/images/MacAppStore_download.png" alt="Download on the Mac App Store"></a>
+    {% elsif page.store %}
+    <a class="btn btn-large btn-block btn-success" href="{{ page.store }}">{% if page.price > 0 %}Buy Now{% else %}Download Now{% endif %}</a>
+    {% else %}
+    <a class="btn btn-large btn-block disabled" href="#"><del>Buy Now</del> Soon!</a>
+    {% endif %}
+    {% if page.pricenotice %}
+    <div class="price_notice">
+      {{ page.pricenotice }}
+    </div>
+    {% endif %}
+  </div>
+</div>
 <div class="container">
   {% unless page.footer == false %}
     {% unless page.sharing == false %}
