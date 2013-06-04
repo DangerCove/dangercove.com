@@ -9,17 +9,6 @@
       height: 128px;
     }
   }
-  .postcard {
-    @include border-radius(4px);
-    @include box-shadow(rgba(0,0,0,0.2) 0 2px 8px);
-    border: #fff 4px solid;
-    background: #fff;
-    width: 100%;
-    background-color: #fff;
-    background-position: 50% 0;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-  }
   h1 {
     font-size: 48px;
     line-height: 120%;

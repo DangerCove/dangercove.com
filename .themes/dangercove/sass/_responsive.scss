@@ -33,6 +33,11 @@
       margin-left: 0;
     }
   }
+  .adventure_header {
+    .icon {
+      margin-bottom: 40px;
+    }
+  }
   .video_container {
     iframe {
       width: 400px;
@@ -65,10 +70,6 @@
   }
   .adventure_header {
     height: auto;
-    .postcard {
-      margin: 0;
-      height: 160px;
-    }
   }
 }
 
@@ -78,25 +79,11 @@
   }
   .adventure_header {
     height: auto;
-    .postcard {
-      margin: 40px 0;
-      height: 200px;
-    }
-  }
-  .banner .container {
-    margin-top: 0;
   }
 }
 
 @media (min-width: 980px) {
   .adventure_header {
-    .postcard {
-      margin: 0;
-      height: 280px;
-    }
-    .icon {
-      padding: 40px 0;
-    }
   }
 }
 @media (min-width: 1200px) {
@@ -116,9 +103,9 @@
     }
   }
   .adventure_header {
-    .postcard {
-      margin: 0;
-      height: 300px;
+    .icon {
+      padding: 40px 0;
     }
+
   }
 }

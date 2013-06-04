@@ -18,15 +18,14 @@ layout: default
           <div>
             <h1>{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
             {% if page.subtitle %}
-            <p class="lead">{{ page.subtitle }}</p>
+            <p class="lead hidden-tablet hidden-phone">{{ page.subtitle }}</p>
             {% endif %}
           </div>
           {% endif %}
         </div>
       </div>
       <div class="span6 pull-right">
-        <div class="postcard" style="background-image: url('/images/adventures/{{ page.adventure }}/postcard.jpg');">
-        </div>
+        <img src="/images/adventures/{{ page.adventure }}/postcard.png" alt="{{ page.title }}">
       </div>
     </div>
     <div class="row buttons">
