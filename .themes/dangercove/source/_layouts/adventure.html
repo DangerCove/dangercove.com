@@ -31,7 +31,7 @@ layout: default
       {% unless page.macappstore %}
       <div class="offset3 span3">
         {% if page.download %}
-        <a class="btn btn-large btn-block btn-primary" href="{{ page.url | remove:'/index.html' | strip_slash }}/download">Download Now</a>
+        <a class="btn btn-large btn-block btn-primary" href="{{ page.url | remove:'/index.html' | strip_slash }}/download">Download Trial</a>
         {% elsif page.website %}
         <a class="btn btn-large btn-block btn-primary" href="{{ page.website }}">More Info...</a>
         {% elsif page.store %}
@@ -49,9 +49,9 @@ layout: default
         {% if page.macappstore %}
         <a href="{{ page.macappstore }}"><img src="/images/MacAppStore_download.png" alt="Download on the Mac App Store"></a>
         {% elsif page.store %}
-        <a class="btn btn-large btn-block btn-success" href="{{ page.store }}">{% if page.price > 0 %}Buy Now{% else %}Download Now{% endif %}</a>
+        <a class="btn btn-large btn-block btn-success" href="{{ page.store }}">Buy a License Key</a>
         {% else %}
-        <a class="btn btn-large btn-block disabled" href="#"><del>Buy Now</del> Soon!</a>
+        <a class="btn btn-large btn-block disabled" href="#"><del>Buy a License Key</del> Soon!</a>
         {% endif %}
         {% if page.pricenotice %}
         <div class="price_notice">
@@ -76,7 +76,7 @@ layout: default
     {% unless page.macappstore %}
     <div class="offset3 span3">
       {% if page.download %}
-      <a class="btn btn-large btn-block btn-primary" href="{{ page.url | remove:'/index.html' | strip_slash }}/download">Download Now</a>
+      <a class="btn btn-large btn-block btn-primary" href="{{ page.url | remove:'/index.html' | strip_slash }}/download">Download Trial</a>
       {% elsif page.website %}
       <a class="btn btn-large btn-block btn-primary" href="{{ page.website }}">More Info...</a>
       {% elsif page.store %}
@@ -94,9 +94,9 @@ layout: default
       {% if page.macappstore %}
       <a href="{{ page.macappstore }}"><img src="/images/MacAppStore_download.png" alt="Download on the Mac App Store"></a>
       {% elsif page.store %}
-      <a class="btn btn-large btn-block btn-success" href="{{ page.store }}">{% if page.price > 0 %}Buy Now{% else %}Download Now{% endif %}</a>
+      <a class="btn btn-large btn-block btn-success" href="{{ page.store }}">Buy a License Key</a>
       {% else %}
-      <a class="btn btn-large btn-block disabled" href="#"><del>Buy Now</del> Soon!</a>
+      <a class="btn btn-large btn-block disabled" href="#"><del>Buy a License Key</del> Soon!</a>
       {% endif %}
       {% if page.pricenotice %}
       <div class="price_notice">

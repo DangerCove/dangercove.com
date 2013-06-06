@@ -2,7 +2,7 @@
 <ul class="nav">
   {% sorted_for p in site.pages reversed sort_by:weight %}
     {% if p.adventure %}
-      <li class="{% if page.url == p.url %}active{% endif %}">
+      <li class="{% if page.url == p.url or page.belongs_to == p.adventure %}active{% endif %}">
         {% if p.website %}
           <a href="{{ p.website | remove:'index.html' }}" target="_blank">{{ p.title }}</a>
         {% else %}

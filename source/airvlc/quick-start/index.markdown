@@ -7,7 +7,6 @@ sharing: false
 footer: false
 banner: /images/adventures/reign/header.jpg
 back: /reign
-belongs_to: reign
 ---
 
 It's really easy to create your own theme for Reign, or even your own native client for iOS or Android. Just follow these simple guidelines and endpoints to get started.

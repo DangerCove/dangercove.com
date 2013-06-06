@@ -9,6 +9,10 @@ footer: false
 
 Need help using one of our apps? Read through the frequently asked questions or send us an email: <a href="mailto:support@dangercove.com">support@dangercove.com</a>. Make sure you specify which app it concerns.
 
+### Porthole
+- <a href="http://porthole.uservoice.com">porthole.uservoice.com</a>
+- <a href="mailto:support@getporthole.com">support@getporthole.com</a>
+
 <ul class="uservoice">
   <li class="loading">Please wait. Loading articles from our Help Center.</li>
   <li class="topic_other">
@@ -16,11 +20,3 @@ Need help using one of our apps? Read through the frequently asked questions or 
     <ul class="other"></ul>
   </li>
 </ul>
-
-### Porthole
-- <a href="http://porthole.uservoice.com">porthole.uservoice.com</a>
-- <a href="mailto:support@getporthole.com">support@getporthole.com</a>
-
-### AirVLC
-- <a href="http://airvlc.uservoice.com">airvlc.uservoice.com</a>
-- <a href="mailto:support@airvlc.com">support@airvlc.com</a>
