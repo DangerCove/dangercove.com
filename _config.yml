@@ -3,11 +3,10 @@
 # ----------------------- #
 
 url: http://dangercove.com
-title: The Adventures of Danger Cove
-subtitle: Apps and Proof of Concepts
+title: Danger Cove
 author: Danger Cove
 simple_search: http://google.com/search
-description: Remarkable little apps, made by a Dutch dude.
+description: Remarkable little apps, made by a Dutch dude
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in

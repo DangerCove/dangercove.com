@@ -4,14 +4,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <title>{% if page.title %}{{ page.title }}{% if page.adventure %}: {{ page.subtitle }}{% endif %} - {% endif %}{{ site.title }}</title>
   <meta name="author" content="{{ site.author }}">
 
   {% capture description %}{% if page.description %}{{ page.description | strip_html }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
   <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
   {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 
-  <meta content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}" property="og:title" />
+  <meta content="{% if page.title %}{{ page.title }}{% if page.adventure %}: {{ page.subtitle }}{% endif %} - {% endif %}{{ site.title }}" property="og:title" />
   <meta content="website" property="og:type" />
   <meta content="{{ site.url }}{{ page.url | remove:'index.html' }}" property="og:url" />
   {% if page.adventure %}
