@@ -6,7 +6,7 @@ comments: true
 categories: [adventures, porthole, update]
 ---
 
-The latest update for Porthole adds a brand new feature. A feature
+The latest update for [Porthole](http://getporthole.com) adds a brand new feature. A feature
 that's been requested quite a few times. Are you ready? This update, adds the option to use
 your Mac's speakers while streaming via AirPlay! This means that your tunes
 will come out of your AirPlay speakers _and_ your Mac. All in beautiful sync.
@@ -19,6 +19,10 @@ least two sets of speakers!
 </div>
 
 <!-- more -->
+
+<div class="text-center">
+<a href="http://getporthole.com" class="btn btn-large btn-success">Get all the Portholes!</a>
+</div>
 
 If you emailed me about this feature in the past, you'll know that I held off
 on implementing this. Not because it was technically hard, but because it would
