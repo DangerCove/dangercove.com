@@ -64,10 +64,9 @@ turn it off, even while streaming. The setting is saved and the next time you st
 streaming it'll only output to AirPlay. Click the menu item again to turn it
 back on.
 
-The volume slider allows you to adjust the volume of the computer speaker, as
-Porthole just controls the AirPlay volume when it's streaming. Remember that it
-directly influences the volume of the computer speaker. When you stop
-streaming, that's how loud it'll be.
+The volume slider allows you to adjust the volume of the computer speaker, separately 
+from the AirPlay volume. Remember  that it directly influences the volume of the 
+computer speaker. When you stop streaming, that's how loud it'll be.
 
 Excited to try this on your setup? You can get the update via the 'Check for Updates'-button, located in the
 Preferences window. Or just download the latest version from the website.
