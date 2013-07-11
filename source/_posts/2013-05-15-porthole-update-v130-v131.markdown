@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Porthole Update"
+title: "Porthole Update v1.3.2"
 date: 2013-05-15 09:32
 comments: true
 categories: [adventures, porthole, update]
