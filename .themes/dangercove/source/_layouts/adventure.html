@@ -24,7 +24,13 @@ layout: default
         </div>
       </div>
       <div class="span7 pull-right">
-        <img src="/images/adventures/{{ page.adventure }}/postcard.png" alt="{{ page.title }}">
+        {% unless page.video %}
+          <img src="/images/adventures/{{ page.adventure }}/postcard.png" alt="{{ page.title }}">
+        {% else %}
+          <div class="video_container">
+            <iframe src="{{ page.video }}?rel=0&fs=1&modestbranding=1&showinfo=0&autohide=1&color=white&vq=hd720" frameborder="0" allowfullscreen></iframe>
+          </div>
+        {% endunless %}
       </div>
     </div>
     <div class="row buttons">
@@ -66,7 +72,7 @@ layout: default
 <div class="container">
   {% if page.description %}
   <div class="row">
-    <h2 class="adventure_blurp span8 offset2">{{ page.description }}</h2>
+    <h2 class="adventure_blurp span10 offset1">{{ page.description }}</h2>
   </div>
   {% endif %}
 </div>

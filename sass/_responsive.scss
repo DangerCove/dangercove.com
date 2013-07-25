@@ -83,6 +83,10 @@
       padding: 20px 0;
     }
   }
+
+  #header .video_container iframe {
+        height: 240px;
+  }
 }
 
 @media (min-width: 980px) {
@@ -113,4 +117,8 @@
       padding: 60px 0;
     }
   }
+
+  #header .video_container iframe {
+        height: 360px;
+  }  
 }
