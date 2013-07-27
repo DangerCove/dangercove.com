@@ -57,7 +57,7 @@ layout: default
         {% elsif page.store %}
         <a class="btn btn-large btn-block btn-success" href="{{ page.store }}">Buy Now</a>
         {% else %}
-        <a class="btn btn-large btn-block disabled" href="#"><del>Buy a License Key</del> Soon!</a>
+        <a class="btn btn-large btn-block disabled" href="#"><del>Buy Now</del> Soon!</a>
         {% endif %}
         {% if page.pricenotice %}
         <div class="price_notice">
@@ -100,9 +100,9 @@ layout: default
       {% if page.macappstore %}
       <a href="{{ page.macappstore }}"><img src="/images/MacAppStore_download.png" alt="Download on the Mac App Store"></a>
       {% elsif page.store %}
-      <a class="btn btn-large btn-block btn-success" href="{{ page.store }}">Buy a License Key</a>
+      <a class="btn btn-large btn-block btn-success" href="{{ page.store }}">Buy Now</a>
       {% else %}
-      <a class="btn btn-large btn-block disabled" href="#"><del>Buy a License Key</del> Soon!</a>
+      <a class="btn btn-large btn-block disabled" href="#"><del>Buy Now</del> Soon!</a>
       {% endif %}
       {% if page.pricenotice %}
       <div class="price_notice">
