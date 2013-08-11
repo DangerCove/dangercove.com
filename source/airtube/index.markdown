@@ -21,7 +21,7 @@ Instead of just focussing on streaming to the Apple TV, we're now looking at way
 You can see the direction we're heading and solutions we're thinking about on our [AirTube Facebook album](https://www.facebook.com/media/set/?set=a.516156431755767.1073741825.258360977535315&type=3).
 
 <div class="thumbnail">
-{% img /images/adventures/airtube/screenshots/newairtube.png "Working on a better AirTube" %}
+{% img /images/adventures/airtube/screenshots/newairtube.png Working on a better AirTube %}
 <div class="caption">
 We're working on a better AirTube.
 </div>

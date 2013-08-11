@@ -7,7 +7,7 @@ categories: [zeewaardig]
 ---
 
 <div class="thumbnail">
-{% img /images/content/zeewaardig_art.jpg "Zeewaardig" %}
+{% img /images/content/zeewaardig_art.jpg Zeewaardig %}
 </div>
 
 <b>”Changing winds”</b>. Creating new artwork for our consultancy [Zeewaardig](http://zeewaardig.nl).

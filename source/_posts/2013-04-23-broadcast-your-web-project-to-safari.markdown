@@ -15,7 +15,7 @@ Safari has a special feature called "Bonjour bookmarks" that allows you to list 
 ### Start your web project
 
 <div class="thumbnail">
-{% img /images/content/coucou-site-terminal.png "Start your web project" %}
+{% img /images/content/coucou-site-terminal.png Start your web project %}
 <div class="caption">
 Start your web project
 </div>
@@ -30,7 +30,7 @@ Like I said above, this will work with any type of local web server. Replace Rai
 Launch <a href="http://appstore.com/mac/coucou" target="_blank">coucou</a>, enable the Broadcast option in the preferences and create a new service.
 
 <div class="thumbnail">
-{% img /images/adventures/coucou/screenshots/coucou-newservice.jpg "Add a new service" %}
+{% img /images/adventures/coucou/screenshots/coucou-newservice.jpg Add a new service %}
 <div class="caption">
 Choose the correct preset, or enter "_http._tcp." and the port manually
 </div>
@@ -41,14 +41,14 @@ Choose the correct preset, or enter "_http._tcp." and the port manually
 Launch Safari and enable Bonjour bookmarks; they're disabled per default.
 
 <div class="thumbnail">
-{% img /images/content/coucou-safari-preferences.png "Enable Bonjour bookmarks" %}
+{% img /images/content/coucou-safari-preferences.png Enable Bonjour bookmarks %}
 <div class="caption">
 You can enable Bonjour bookmarks on the Bookmarks tab
 </div>
 </div>
 
 <div class="thumbnail">
-{% img /images/content/coucou-safari-showbookmarks.jpg "Show bookmarks bar" %}
+{% img /images/content/coucou-safari-showbookmarks.jpg Show bookmarks bar %}
 <div class="caption">
 Don't forget to display the bookmarks bar
 </div>
@@ -59,7 +59,7 @@ Don't forget to display the bookmarks bar
 And that's it. Click the menu item and it'll load your website without copy-pasting, emailing or writing down your IP address!
 
 <div class="thumbnail">
-{% img /images/content/coucou-safari-bonjourbookmark.jpg "Select your service" %}
+{% img /images/content/coucou-safari-bonjourbookmark.jpg Select your service %}
 <div class="caption">
 Your web service should show up in the list
 </div>
@@ -71,4 +71,4 @@ Your web service should show up in the list
 
 Curious about what else coucou can do? Check out [this post](/blog/2013/03/29/coucou-for-easy-network-access) about using coucou to discover network services.
 
-<a href="https://itunes.apple.com/app/coucou/id620436774">{% img /images/MacAppStore_download.png "Available on the Mac App Store" %}</a>
+<a href="https://itunes.apple.com/app/coucou/id620436774">{% img /images/MacAppStore_download.png Available on the Mac App Store %}</a>

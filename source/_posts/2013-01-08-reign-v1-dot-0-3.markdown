@@ -7,7 +7,7 @@ categories: [adventures, updates]
 ---
 
 <div class="thumbnail">
-{% img /images/content/reign103.png "Reign v1.0.3" %}
+{% img /images/content/reign103.png Reign v1.0.3 %}
 </div>
 
 We’ve released Reign version v1.0.3. You can now use the remote to search for songs (contributed by [@daentech](http://twitter.com/deantech))!

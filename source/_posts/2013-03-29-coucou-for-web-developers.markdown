@@ -13,7 +13,7 @@ This usually involves copy-pasting of ip addresses, emailing and other such nons
 First we need to enable broadcasting in the preferences pane.
 
 <div class="thumbnail">
-{% img /images/adventures/coucou/screenshots/coucou-preferences2.jpg "Enable broadcasting" %}
+{% img /images/adventures/coucou/screenshots/coucou-preferences2.jpg Enable broadcasting %}
 <div class="caption">
 Enable broadcasting
 </div>
@@ -29,14 +29,14 @@ Now follow these steps:
 * click publish and you're set!
 
 <div class="thumbnail">
-{% img /images/adventures/coucou/screenshots/coucou-newservice.jpg "Add a new service" %}
+{% img /images/adventures/coucou/screenshots/coucou-newservice.jpg Add a new service %}
 <div class="caption">
 Add a new service
 </div>
 </div>
 
 <div class="thumbnail">
-{% img /images/adventures/coucou/screenshots/coucou-rails.jpg "Find a custom service" %}
+{% img /images/adventures/coucou/screenshots/coucou-rails.jpg Find a custom service %}
 <div class="caption">
 Your service is now visible for anyone using coucou, or any other Bonjour compatible app
 </div>
@@ -44,4 +44,4 @@ Your service is now visible for anyone using coucou, or any other Bonjour compat
 
 You can unpublish the service by clicking the corresponding entry in the Broadcast menu.
 
-<a href="https://itunes.apple.com/app/coucou/id620436774">{% img /images/MacAppStore_download.png "Available on the Mac App Store" %}</a>
+<a href="https://itunes.apple.com/app/coucou/id620436774">{% img /images/MacAppStore_download.png Available on the Mac App Store %}</a>

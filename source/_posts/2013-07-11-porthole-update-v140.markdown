@@ -15,14 +15,14 @@ Instead of switching between local playback and AirPlay, now everybody has at
 least two sets of speakers!
 
 <div class="thumbnail">
-{% img /images/content/porthole-useallspeakers.jpg "Use all the speakers!" %}
+{% img /images/content/porthole-useallspeakers.jpg Use all the speakers! %}
 </div>
-
-<!-- more -->
 
 <div class="text-center">
 <a href="http://getporthole.com" class="btn btn-large btn-success">Get all the Portholes!</a>
 </div>
+
+<!-- more -->
 
 If you emailed me about this feature in the past, you'll know that I held off
 on implementing this. Not because it was technically hard, but because it would
@@ -32,7 +32,7 @@ Hopefully you'll agree that with version 1.4.0 I've found a middle ground that
 works.
 
 <div class="thumbnail">
-{% img /images/content/porthole-v140.jpg "Porthole v1.4.0" %}
+{% img /images/content/porthole-v140.jpg Porthole v1.4.0 %}
 <div class="caption">
 Porthole v1.4.0 with added options for enabling local playback.
 </div>
@@ -46,7 +46,7 @@ switch between speakers, connect to all and stop streaming all together.
 <div class="row">
   <div class="span4">
     <div class="thumbnail">
-    {% img /images/content/porthole-selectairplay.jpg "Select AirPlay speakers" %}
+    {% img /images/content/porthole-selectairplay.jpg Select AirPlay speakers %}
     <div class="caption">
     Toggle AirPlay speakers.
     </div>
@@ -54,7 +54,7 @@ switch between speakers, connect to all and stop streaming all together.
   </div>
   <div class="span4">
     <div class="thumbnail">
-    {% img /images/content/porthole-enablemacspeakers.jpg "Enable Mac speakers" %}
+    {% img /images/content/porthole-enablemacspeakers.jpg Enable Mac speakers %}
     <div class="caption">
     Control your Mac's output.
     </div>

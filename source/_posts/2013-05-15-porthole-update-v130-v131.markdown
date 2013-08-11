@@ -17,7 +17,7 @@ For version 1.3.0 I focussed on cleaning up a lot of the interface. I never got 
 <div class="row">
   <div class="span4">
     <div class="thumbnail">
-    {% img /images/content/porthole-old.jpg "Porthole v1.2.2" %}
+    {% img /images/content/porthole-old.jpg Porthole v1.2.2 %}
     <div class="caption">
     Porthole v1.2.2
     </div>
@@ -25,7 +25,7 @@ For version 1.3.0 I focussed on cleaning up a lot of the interface. I never got 
   </div>
   <div class="span4">
     <div class="thumbnail">
-    {% img /images/content/porthole-v130.jpg "Porthole v1.3.0" %}
+    {% img /images/content/porthole-v130.jpg Porthole v1.3.0 %}
     <div class="caption">
     Porthole v1.3.0, notice the much sharper menu bar icon
     </div>
@@ -34,7 +34,7 @@ For version 1.3.0 I focussed on cleaning up a lot of the interface. I never got 
 </div>
 
 <div class="thumbnail">
-{% img /images/content/porthole-v131.jpg "Porthole v1.3.1" %}
+{% img /images/content/porthole-v131.jpg Porthole v1.3.1 %}
 <div class="caption">
 Porthole v1.3.1, the speaker icon changes when it's connected
 </div>
@@ -49,7 +49,7 @@ It's also a little shorter and the image on the first step has a more obvious in
 <div class="row">
   <div class="span4">
     <div class="thumbnail">
-    <a href="/images/content/porthole-setup-old.jpg" target="_blank">{% img /images/content/porthole-setup-old.jpg "Porthole v1.2.2" %}</a>
+    <a href="/images/content/porthole-setup-old.jpg" target="_blank">{% img /images/content/porthole-setup-old.jpg Porthole v1.2.2 %}</a>
     <div class="caption">
     Porthole v1.2.2
     </div>
@@ -57,7 +57,7 @@ It's also a little shorter and the image on the first step has a more obvious in
   </div>
   <div class="span4">
     <div class="thumbnail">
-    <a href="/images/content/porthole-setup-v131.jpg" target="_blank">{% img /images/content/porthole-setup-v131.jpg "Porthole v1.3.1" %}</a>
+    <a href="/images/content/porthole-setup-v131.jpg" target="_blank">{% img /images/content/porthole-setup-v131.jpg Porthole v1.3.1 %}</a>
     <div class="caption">
     Porthole v1.3.1
     </div>
@@ -74,12 +74,12 @@ It's actually a component that's provided and maintained by FastSpring themselve
 <div class="row">
   <div class="span4">
     <div class="thumbnail">
-    <a href="/images/content/porthole-buy-1.png" target="_blank">{% img /images/content/porthole-buy-1.png "Porthole Purchase Window" %}</a>
+    <a href="/images/content/porthole-buy-1.png" target="_blank">{% img /images/content/porthole-buy-1.png Porthole Purchase Window %}</a>
     </div>
   </div>
   <div class="span4">
     <div class="thumbnail">
-    <a href="/images/content/porthole-buy-2.png" target="_blank">{% img /images/content/porthole-buy-2.png "Porthole Purchase Window" %}</a>
+    <a href="/images/content/porthole-buy-2.png" target="_blank">{% img /images/content/porthole-buy-2.png Porthole Purchase Window %}</a>
     </div>
   </div>
 </div>
@@ -93,12 +93,12 @@ My previous way of handling this issue was to instruct people to manually turn u
 <div class="row">
   <div class="span4">
     <div class="thumbnail">
-    <a href="/images/content/porthole-midi.png" target="_blank">{% img /images/content/porthole-midi.png "Soundflower Volume Muted" %}</a>
+    <a href="/images/content/porthole-midi.png" target="_blank">{% img /images/content/porthole-midi.png Soundflower Volume Muted %}</a>
     </div>
   </div>
   <div class="span4">
     <div class="thumbnail">
-    <a href="/images/content/porthole-soundflowerfix.png" target="_blank">{% img /images/content/porthole-soundflowerfix.png "Soundflower Volume Fix" %}</a>
+    <a href="/images/content/porthole-soundflowerfix.png" target="_blank">{% img /images/content/porthole-soundflowerfix.png Soundflower Volume Fix %}</a>
     </div>
   </div>
 </div>
@@ -113,7 +113,7 @@ This has been on my list for quite a while. It wasn't a feature that was often r
 You can now easily connect to all password protected speakers, use passwords stored in Keychain, or add new passwords straight from Porthole. Awesome!
 
 <div class="thumbnail">
-<a href="/images/content/porthole-password.png" target="_blank">{% img /images/content/porthole-password.png "Password Protected AirPlay Speakers" %}</a>
+<a href="/images/content/porthole-password.png" target="_blank">{% img /images/content/porthole-password.png Password Protected AirPlay Speakers %}</a>
 </div>
 
 ### Other Minor Fixes

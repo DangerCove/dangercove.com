@@ -9,7 +9,7 @@ categories: [adventures, airtube]
 "How often do you watch Web Videos on sites like YouTube, Vimeo or TED? Wouldn’t it be awesome to just play those videos on your Apple TV and continue using your Mac?", asking ourselves this question is how we came up with [AirTube](/airtube).
 
 <div class="thumbnail">
-{% img /images/adventures/airtube/screenshots/explain.jpg "AirTube is now available" %}
+{% img /images/adventures/airtube/screenshots/explain.jpg AirTube is now available %}
 </div>
 
 We wanted to make an app that would allow you to stream all those MP4 videos you can find on the web today to your Apple TV. Without needing to go into Apple TV apps or getting your iPhone/iPad, but just from your browser on your Mac. It's so nice to just be able to play that long talk on Vimeo or TED on your Apple TV, by dragging the link onto AirTube.

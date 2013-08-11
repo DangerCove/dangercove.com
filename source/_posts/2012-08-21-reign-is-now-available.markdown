@@ -7,7 +7,7 @@ categories: [adventures]
 ---
 
 <div class="thumbnail">
-{% img /images/content/reign_500.jpg "Reign for Spotify" %}
+{% img /images/content/reign_500.jpg Reign for Spotify %}
 </div>
 
 Our app called Reign is “waiting for review” by Apple. Check [reignalot.com](http://reignalot.com) to see what’s special about this Spotify remote.

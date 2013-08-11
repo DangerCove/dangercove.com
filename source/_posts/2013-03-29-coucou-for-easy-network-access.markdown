@@ -11,7 +11,7 @@ Network devices can broadcast various services, so other devices can find them. 
 While its already pretty easy to find these services in Finder, wouldn't it be awesome if you could do this from your menu bar? Or connect to web servers, SSH, printers, see who's in and even create your own services? That's when you need coucou!
 
 <div class="thumbnail">
-{% img /images/adventures/coucou/screenshots/coucou-indicator.jpg "Coucou sits in your menu bar" %}
+{% img /images/adventures/coucou/screenshots/coucou-indicator.jpg Coucou sits in your menu bar %}
 <div class="caption">
 Coucou is out of your way but easy to reach
 </div>
@@ -20,14 +20,14 @@ Coucou is out of your way but easy to reach
 <!-- more -->
 
 <div class="thumbnail">
-{% img /images/adventures/coucou/screenshots/coucou-menubar.jpg "See who's online" %}
+{% img /images/adventures/coucou/screenshots/coucou-menubar.jpg See who's online %}
 <div class="caption">
 See who's online and easily start Screen Sharing of File Sharing
 </div>
 
 </div>
 <div class="thumbnail">
-{% img /images/adventures/coucou/screenshots/coucou-printer.jpg "Browse printers" %}
+{% img /images/adventures/coucou/screenshots/coucou-printer.jpg Browse printers %}
 <div class="caption">
 Browse printers and open the web management page
 </div>
@@ -35,4 +35,4 @@ Browse printers and open the web management page
 
 Are you a web developer? Check out [this post](/blog/2013/03/29/coucou-for-web-developers) about using coucou to streamline local web development.
 
-<a href="https://itunes.apple.com/app/coucou/id620436774">{% img /images/MacAppStore_download.png "Available on the Mac App Store" %}</a>
+<a href="https://itunes.apple.com/app/coucou/id620436774">{% img /images/MacAppStore_download.png Available on the Mac App Store %}</a>
