@@ -63,10 +63,10 @@ switch between speakers, connect to all and stop streaming all together.
 </div>
 
 The bottom section allows you to toggle the computer speaker. By default it's
-on and automatically activated when you start streaming. Click the menu item to
-turn it off, even while streaming. The setting is saved and the next time you start
-streaming it'll only output to AirPlay. Click the menu item again to turn it
-back on.
+off. Click the menu item to turn it on, even while Porthole's already active.
+The setting is saved and the next time you start streaming it'll output according 
+to your stored preferences. Click the menu item a second time to turn it off
+again.
 
 The volume slider allows you to adjust the volume of the computer speaker, separately 
 from the AirPlay volume. Remember  that it directly influences the volume of the 

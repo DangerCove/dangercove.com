@@ -6,6 +6,8 @@ comments: true
 categories: [porthole, warning, airplay]
 ---
 
+__This issue has been resolved. Update Porthole to restore compatibility. Read the [follow up](/blog/2013/09/26/update-porthole-to-restore-apple-tv-compatibility/) for more details.__
+
 The latest Apple TV firmware (version 6.0) adds a new layer of mandatory encryption for audio playback that wasn't required before. This currently prevents unofficial audio based AirPlay apps to work like they used to.
 
 <!-- more -->
