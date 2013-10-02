@@ -6,18 +6,18 @@ comments: true
 categories: [dangercove, birthday]
 ---
 
-<div class="thumbnail">
-<a href="/">
-  {% img /images/content/dangercove-two.jpg Danger Cove turns two today! Porthole and AirVLC are 40% off to celebrate! %}
-</a>
-</div>
-
 I'm writing this from my studio in The Hague. It's been quite an adventure from 
 when Danger Cove started October first 2011. An expedition that delivered [four
 released apps](http://www.dangercove.com), one in progress (more on that in a 
 future post) and a whole bunch of projects that looked cool at first, but now live in a folder called "shelved" ;).
 
 <!-- more -->
+
+<div class="thumbnail">
+<a href="/">
+  {% img /images/content/dangercove-two.jpg Danger Cove turns two today! Porthole and AirVLC are 40% off to celebrate! %}
+</a>
+</div>
 
 It feels awesome that Danger Cove apps are being used by more people than I could
 hope for. Thanks so much to the wonderful people that took the time to spread 
