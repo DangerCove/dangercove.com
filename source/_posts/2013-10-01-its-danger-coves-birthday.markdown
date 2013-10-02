@@ -26,4 +26,4 @@ the word about them. I appreciate it a lot.
 To celebrate, both [Porthole](http://www.getporthole.com) and 
 [AirVLC](http://www.dangercove.com/airvlc) are 40% off today! I assume you 
 already got that from the header image though. The offer will end October
-2nd at 10am CET.
+2nd at 12pm CET.
