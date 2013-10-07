@@ -15,7 +15,7 @@ We've been around since october of 2011 and currently reside in the wonderful ci
 <div class="row">
   <div class="span4">
     <div class="thumbnail">
-    {% img /images/content/boy.jpg Boy in Croatia %}
+    {% img /images/content/boy.jpg This is me %}
     </div>
   </div>
   <div class="span4">
