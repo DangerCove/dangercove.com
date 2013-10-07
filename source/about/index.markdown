@@ -20,7 +20,7 @@ We've been around since october of 2011 and currently reside in the wonderful ci
   </div>
   <div class="span4">
     <div class="thumbnail">
-    {% img /images/content/spaceinvaders.jpg Space Invaders on the wall %}
+    {% img /images/content/pov.jpg My point of view %}
     </div>
   </div>
 </div>
