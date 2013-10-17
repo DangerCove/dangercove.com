@@ -1,0 +1,77 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  font-size: 18px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Arial; }
+
+p {
+  margin: 0 0 1em; }
+
+a, a:hover, a:visited {
+  color: #d52c2a; }
+
+hr {
+  margin: 40px 0 20px; }
+
+small {
+  color: #bbb; }
+  small a, small a:hover, small a:visited {
+    color: #999; }
+
+.logo-container {
+  text-align: center; }
+  .logo-container img {
+    width: 100%;
+    max-width: 256px;
+    margin-bottom: 40px; }
+
+.jumbotron {
+  color: #fff;
+  margin: 0;
+  background: black url(../img/6939206771_311b25264f_o.jpg) no-repeat 50% 70%;
+  background-size: cover; }
+  .jumbotron h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 96px;
+    font-size: 64px;
+    font-family: "Francois One", HelveticaNeue, "Helvetica Neue", Arial;
+    font-weight: bold; }
+    .jumbotron h1 span {
+      display: block;
+      font-size: 22px;
+      font-weight: normal;
+      line-height: 26px;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Arial; }
+
+#info .whatitdoes, #info .extra, #info label {
+  font-family: "HelveticaNeue", "Helvetica Neue", Arial;
+  font-size: 22px;
+  margin: 40px 0;
+  line-height: 1.8em; }
+#info label {
+  margin: 0 0 .5em 0;
+  font-family: "HelveticaNeue", "Helvetica Neue", Arial;
+  font-weight: normal;
+  font-size: 18px; }
+#info form p {
+  line-height: 1.8em; }
+
+#mc_embed_signup {
+  padding: 30px 40px;
+  border-radius: 40px;
+  border: #eda04a 1px solid; }
+
+@media (min-width: 768px) {
+  .logo-container {
+    text-align: right; }
+    .logo-container img {
+      max-width: 164px; }
+
+  .jumbotron {
+    padding-top: 160px;
+    padding-bottom: 0px; }
+    .jumbotron h1 {
+      line-height: 118px;
+      font-size: 90px; } }
