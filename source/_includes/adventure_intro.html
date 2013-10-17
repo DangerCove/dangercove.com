@@ -4,15 +4,15 @@
 
 {% if page.website %}
 <a href="{{ page.website }}" class="adventure_intro span4 {{ page.status }}" target="_blank">
-{% elsif page.status == "soon" %}
+{% elsif page.status == "soon_nourl" %}
 <a href="#" class="adventure_intro span4 {{ page.status }}">
 {% else %}
-<a href="{{ root_url }}{{ page.url | remove:'/index.html' }}" class="adventure_intro span4 {{ page.status }}">
+<a href="{{ root_url }}{{ page.url | remove:'index.html' }}" class="adventure_intro span4 {{ page.status }}">
 {% endif %}
 <div class="row">
   {% if page.status == "poc" %}
   <img class="ribbon" src="/images/ribbon-beta.png" alt="">
-  {% elsif page.status == "soon" %}
+  {% elsif page.status == "soon" or page.status == "soon_nourl" %}
   <img class="ribbon" src="/images/ribbon-soon.png" alt="">
   {% elsif page.status == "new" %}
   <img class="ribbon" src="/images/ribbon-new.png" alt="">
