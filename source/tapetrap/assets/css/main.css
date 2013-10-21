@@ -48,7 +48,9 @@ h1, h2, .whatitdoes, label {
   line-height: 1.8em; }
 
 h1, h2 {
-  margin: 40px 0 1.0em;
+  margin: 40px 0 1.0em; }
+
+h1 {
   color: #e24033; }
 
 label {
