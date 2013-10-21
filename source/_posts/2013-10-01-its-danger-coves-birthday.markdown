@@ -2,8 +2,8 @@
 layout: post
 title: "It's Danger Cove's Birthday!"
 date: 2013-10-01 09:13
-comments: true
-categories: [dangercove, birthday]
+comments: false
+categories: [dangercove]
 ---
 
 I'm writing this from my studio in The Hague. It's been quite an adventure from 

@@ -2,7 +2,7 @@
 layout: post
 title: "Reign is now available"
 date: 2012-08-21 18:29
-comments: true
+comments: false
 categories: [adventures]
 ---
 

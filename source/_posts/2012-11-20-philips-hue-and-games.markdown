@@ -2,7 +2,7 @@
 layout: post
 title: "Philips Hue & Games"
 date: 2012-11-20 11:58
-comments: true
+comments: false
 categories: [inspiration, games]
 ---
 

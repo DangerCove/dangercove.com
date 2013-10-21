@@ -14,11 +14,10 @@ body {
   margin: 1.7em 0;
 }
 
-h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+h1, h2, h3, h4, h5, h6, p { font-weight: normal; line-height: 150%; }
 
 p {
   font-size: 16px;
-  line-height: 150%;
 }
 
 hr { margin: 40px 0; }

@@ -2,8 +2,8 @@
 layout: post
 title: "Coucou for easy network access"
 date: 2013-03-29 12:32
-comments: true
-categories: [adventures, coucou, tutorial]
+comments: false
+categories: [adventures, coucou, tutorials]
 ---
 
 Network devices can broadcast various services, so other devices can find them. You've probably used this feature before without knowing about it. When you start a Screen Sharing session or browse some files on a network your computer picked up on what other computers in your network were broadcasting.

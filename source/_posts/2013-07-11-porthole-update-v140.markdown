@@ -2,8 +2,8 @@
 layout: post
 title: "Porthole Update v1.4.0"
 date: 2013-07-11 09:35
-comments: true
-categories: [adventures, porthole, update]
+comments: false
+categories: [adventures, porthole, updates]
 ---
 
 The latest update for [Porthole](http://getporthole.com) adds a brand new feature. A feature

@@ -2,8 +2,8 @@
 layout: post
 title: "Launch at Login for sandboxed apps"
 date: 2012-08-07 18:22
-comments: true
-categories: [code]
+comments: false
+categories: [tutorials]
 ---
 
 "Launch at Login" was quite simple to implement. It even fits in a single gist: [gist.github.com/1409312](https://gist.github.com/1409312). Sandboxing changed this and made it "little" more troublesome.

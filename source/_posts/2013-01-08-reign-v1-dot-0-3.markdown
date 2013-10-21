@@ -2,7 +2,7 @@
 layout: post
 title: "Reign v1.0.3"
 date: 2013-01-08 18:38
-comments: true
+comments: false
 categories: [adventures, updates]
 ---
 

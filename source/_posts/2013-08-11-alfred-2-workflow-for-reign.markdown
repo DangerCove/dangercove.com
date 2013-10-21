@@ -2,8 +2,8 @@
 layout: post
 title: "Alfred 2 Workflow for Reign"
 date: 2013-08-11 14:55
-comments: true
-categories: [adventures, reign, addon]
+comments: false
+categories: [adventures, reign, addons]
 ---
 
 <div class="thumbnail">

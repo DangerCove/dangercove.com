@@ -2,7 +2,7 @@
 layout: post
 title: "Broadcast your web project to Safari"
 date: 2013-04-23 15:26
-comments: true
+comments: false
 categories: [adventures, coucou]
 ---
 

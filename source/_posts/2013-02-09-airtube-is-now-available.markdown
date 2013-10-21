@@ -2,7 +2,7 @@
 layout: post
 title: "AirTube is now available"
 date: 2013-02-09 11:42
-comments: true
+comments: false
 categories: [adventures, airtube]
 ---
 
