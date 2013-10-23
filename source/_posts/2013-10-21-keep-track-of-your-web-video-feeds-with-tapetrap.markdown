@@ -26,8 +26,8 @@ no matter where they're hosted, I've made a brand new app!
 Tapetrap will give you instant access to your favorite webisodes, lets you know when 
 a new item comes out and keeps track of which you've seen. 
 
-For me, this means I can watch VICE, Zero Punctuation, Angy Joe, the AVGN, Conan's 
-Clueless Gamer, Gamekings, Christopher Walkenthrough, TED talks and Uitzending 
+For me, this means I can watch VICE, Zero Punctuation, the AVGN, Conan's 
+Clueless Gamer, the Spoony Experiment, Gamekings, Christopher Walkenthrough, TED talks and Uitzending 
 Gemist all in one app.
 
 It's been in development for the past month and, not too tease you too much, is
