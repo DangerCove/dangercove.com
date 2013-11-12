@@ -6,7 +6,7 @@ comments: false
 categories: [glow, updates]
 ---
 
-Everybody knows software updates A window pops up to notify you an update is available, 
+Everybody knows software updates. A window pops up to notify you an update is available, 
 you accept and a few seconds later you have new features (and less bugs, hopefully).
 
 Automatic software updates are great and generally make everybody's lives
