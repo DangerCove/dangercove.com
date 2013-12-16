@@ -33,6 +33,9 @@ h1, h2, h3, h4, h5 h6 {
   }
 }
 
+// Bootstrap menu width override
+.navbar .nav>li>a { padding: 10px 10px 10px; }
+
 #header, #footer {
   text-align: center;
   padding-bottom: 0;
