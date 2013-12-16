@@ -1,6 +1,12 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* Override max width */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 950px; }
+
 body {
   font-size: 18px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Arial;
@@ -11,69 +17,148 @@ p {
   margin: 0 0 1em; }
 
 a, a:hover, a:visited {
-  color: #ef7f53; }
+  color: #de2e2c; }
 
 hr {
   margin: 40px 0 20px; }
 
 small {
-  color: #bbb; }
-  small a, small a:hover, small a:visited {
-    color: #999; }
+  font-size: 14px;
+  color: #aaa;
+  line-height: 3em; }
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #de2e2c; }
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #de2e2c; }
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #de2e2c; }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #de2e2c; }
+
+::selection {
+  background: #de2e2c;
+  /* Safari */
+  color: #fff; }
+
+::-moz-selection {
+  background: #de2e2c;
+  /* Firefox */
+  color: #fff; }
 
 .jumbotron {
   color: #fff;
-  margin: 0;
-  padding-top: 50px;
-  background: black url(../img/2244853760_cce4b348ac_o-small.jpg) no-repeat 50% 10%;
-  background-size: cover;
-  text-align: center; }
+  background: #de2e2c; }
   .jumbotron > * {
     display: block;
     clear: both; }
-  .jumbotron img {
-    max-width: 164px;
-    margin-bottom: 20px; }
-  .jumbotron .title {
-    display: block;
-    margin: 0;
-    padding: 0;
-    font-size: 64px;
-    font-family: "Francois One", HelveticaNeue, "Helvetica Neue", Arial;
-    font-weight: bold; }
-
-h1, h2, .whatitdoes, label {
-  font-family: "HelveticaNeue", "Helvetica Neue", Arial;
-  font-size: 22px;
-  line-height: 1.8em; }
+  .jumbotron .logo {
+    display: table;
+    padding: 40px 0; }
+    .jumbotron .logo img, .jumbotron .logo .title {
+      vertical-align: middle;
+      display: table-cell;
+      line-height: 1em; }
+    .jumbotron .logo .title {
+      padding-left: 10px;
+      font-size: 32px;
+      font-family: "Francois One", HelveticaNeue, "Helvetica Neue", Arial;
+      font-weight: bold; }
+  .jumbotron p.tagline {
+    font-size: 32px;
+    max-width: 700px;
+    padding: 40px 0 0; }
+  .jumbotron .form-container {
+    margin: 40px 0 10px;
+    text-align: center; }
 
 h1, h2 {
-  margin: 40px 0 1.0em; }
+  font-family: "Francois One", HelveticaNeue, "Helvetica Neue", Arial;
+  font-size: 32px;
+  line-height: 1.8em;
+  margin: 40px 0 .5em; }
 
-h1 {
-  color: #e24033; }
-
-label {
-  margin: 0 0 .5em 0;
-  font-family: "HelveticaNeue", "Helvetica Neue", Arial;
-  font-weight: normal; }
-
-form p {
-  line-height: 1.8em; }
 form input {
-  margin-bottom: 1em; }
+  padding: 14px;
+  border: 0;
+  line-height: normal;
+  display: inline; }
+  form input:focus {
+    outline: none; }
+form input.email {
+  width: 320px;
+  max-width: 100%;
+  margin-right: -6px; }
+form input.button {
+  background: #222;
+  color: #fff;
+  padding: 14px 30px;
+  -webkit-transition: background 0.2s;
+  -moz-transition: background 0.2s;
+  transition: background 0.2s; }
+  form input.button:hover {
+    background: #333; }
+
+.links {
+  margin: 0 0 20px;
+  font-size: 14px; }
+  .links a, .links a:hover, .links a:visited {
+    color: #fff; }
+  .links ul, .links ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .links li {
+    display: inline; }
+  .links .left {
+    float: left; }
+    .links .left li {
+      margin-right: 1em; }
+  .links .right {
+    float: right; }
+    .links .right li {
+      margin-left: 1em; }
+
+#main, #subscribe {
+  text-align: center; }
+  #main p, #subscribe p {
+    width: 640px;
+    max-width: 100%;
+    margin: 0 auto 1em auto; }
+  #main img, #subscribe img {
+    max-width: 100%; }
+  #main .screenshot, #subscribe .screenshot {
+    margin: 100px 0 0; }
+
+#subscribe {
+  background: #eee;
+  padding: 40px 0 80px; }
+  #subscribe form {
+    margin-top: 40px; }
+
+#footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0; }
+  #footer small {
+    color: #888; }
+    #footer small img {
+      margin-right: 8px; }
 
 @media (min-width: 768px) {
   h1, h2 {
     margin-top: 60px; }
 
-  .jumbotron {
-    padding-top: 80px;
-    padding-bottom: 40px;
-    background: black url(../img/2244853760_cce4b348ac_o.jpg) no-repeat 50% 10%;
-    background-size: cover; }
-    .jumbotron .title {
-      line-height: 118px;
-      font-size: 90px; }
-    .jumbotron img {
-      max-width: 192px; } }
+  .jumbotron .logo {
+    padding: 60px 0; }
+  .jumbotron .form-container {
+    margin: 60px 0 30px;
+    text-align: left; } }
