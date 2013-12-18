@@ -17,7 +17,7 @@ p {
   margin: 0 0 1em; }
 
 a, a:hover, a:visited {
-  color: #de2e2c; }
+  color: #de5738; }
 
 hr {
   margin: 40px 0 20px; }
@@ -29,33 +29,33 @@ small {
 
 ::-webkit-input-placeholder {
   /* WebKit browsers */
-  color: #de2e2c; }
+  color: #de5738; }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #de2e2c; }
+  color: #de5738; }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #de2e2c; }
+  color: #de5738; }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
-  color: #de2e2c; }
+  color: #de5738; }
 
 ::selection {
-  background: #de2e2c;
+  background: #de5738;
   /* Safari */
   color: #fff; }
 
 ::-moz-selection {
-  background: #de2e2c;
+  background: #de5738;
   /* Firefox */
   color: #fff; }
 
 .jumbotron {
   color: #fff;
-  background: #de2e2c; }
+  background: #de5738; }
   .jumbotron > * {
     display: block;
     clear: both; }
