@@ -10,7 +10,7 @@
 <a href="{{ root_url }}{{ page.url | remove:'index.html' }}" class="adventure_intro span4 {{ page.status }}">
 {% endif %}
 <div class="row">
-  {% if page.status == "poc" %}
+  {% if page.status == "beta" %}
   <img class="ribbon" src="/images/ribbon-beta.png" alt="">
   {% elsif page.status == "soon" or page.status == "soon_nourl" %}
   <img class="ribbon" src="/images/ribbon-soon.png" alt="">

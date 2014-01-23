@@ -4,7 +4,7 @@ title: Tapetrap
 subtitle: Keep track of your web video feeds
 adventure: tapetrap
 weight: 100
-status: soon
+status: beta
 ---
 
 <!DOCTYPE html>
@@ -13,24 +13,24 @@ status: soon
 <head>
 
   <meta charset="utf-8">
-  <meta name="description" content="Tapetrap gives you instant access to your favorite webisodes, lets you know when a new item comes out and keeps track of which you've seen.">
-  <meta name="keywords" content="video, web video, app, mac, osx, youtube, vimeo, feed, rss, webisodes, watched">
+  <meta name="description" content="Tapetrap gives you instant access to your favorite web video sites, lets you know when a new item comes out and keeps track of which you've seen.">
+  <meta name="keywords" content="video, web video, app, mac, osx, youtube, vimeo, feed, rss, webisodes, watched, danger cove">
   <meta name="viewport" content="width=device-width">
   
   <!-- Open Graph -->
-  <meta property="og:title" content="Keep track of your web video feeds with Tapetrap">
-  <meta property="og:description" content="Tapetrap gives you instant access to your favorite webisodes, lets you know when a new item comes out and keeps track of which you've seen.">
+  <meta property="og:title" content="Tapetrap for Mac: Keeps Track of Your Web Video Feeds">
+  <meta property="og:description" content="Tapetrap gives you instant access to your favorite web video sites, lets you know when a new item comes out and keeps track of which you've seen.">
   <meta property="og:url" content="http://www.dangercove.com/tapetrap/">   
-  <meta property="og:image" content="http://www.dangercove.com/tapetrap/facebook.png">
+  <meta property="og:image" content="http://www.dangercove.com/tapetrap/assets/img/facebook.png">
   <meta property="og:site_name" content="Tapetrap">
   <meta property="og:type" content="product">
   <meta property="fb:admins" content="1236195993">
-  
+
   <!-- Google Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
 
   <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
-<link rel='stylesheet' href='assets/css/bootstrap-theme.css'>
+<link rel='stylesheet' href='assets/css/bootstrap-theme.min.css'>
 <link rel='stylesheet' href='assets/css/main.css'>
   <script src='assets/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
 
@@ -38,12 +38,12 @@ status: soon
   <link href="apple-touch-icon.png" rel="apple-touch-icon">
 
   <link rel="canonical" href="http://www.dangercove.com/tapetrap/">
-  <title>Keep track of your web video feeds with Tapetrap</title>
+  <title>Tapetrap for Mac: Keeps Track of Your Web Video Feeds</title>
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-27275793-1']);
-    _gaq.push(['_setDomainName', 'dangercove.com']);
+    _gaq.push(['_setDomainName', 'www.dangercove.com']);
     _gaq.push(['_setAllowLinker', true]);
     _gaq.push(['_trackPageview']);
 
@@ -57,45 +57,179 @@ status: soon
 
 <body>
 
-  <div class="jumbotron">
-    <div class="container">
-      <header id="header">
-        <div class="logo">
-          <img src="assets/img/icon-website.png" alt="Tapetrap">
-          <span class="title">Tapetrap</span>
-        </div>
-        <p class="tagline">Watching online videos is about following creative people, getting notified about new content and keeping track of what you've seen.</p>
+<a href="#_" class="video-lightbox" id="video-gettingstarted">
+  <div id="video-gettingstarted-placeholder"></div>
+</a>
 
-        <div class="form-container">
-          <p>Be the first to try Tapetrap for Mac.</p>
-          <!-- Begin MailChimp Signup Form -->
-<form action="http://dangercove.us7.list-manage1.com/subscribe/post?u=40b2fe274e6d6a9d03dd7d5f1&amp;id=3c2d373cbb" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-  <div>
-    <input type="email" value="" name="EMAIL" class="email" placeholder="What's your email address?" required>
-    <input type="submit" value="Notify me!" name="subscribe" class="button">
+<header id="header">
+  <div class="overlay">
+    <div class="container">
+      <h1 class="tagline">The most comfortable way to watch web videos.</h1>
+      <ul class="features hidden-xs">
+        <li><span class="glyphicon glyphicon-th-list"></span> Follow Feeds</li>
+        <li><span class="glyphicon glyphicon-chevron-down"></span> See What's New</li>
+        <li><span class="glyphicon glyphicon-film"></span> Enjoy Web Videos</li>
+      </ul>
+      <div class="download-container">
+  <div class="visible-xs">
+    <div><a href="http://download.tapetrap.com/Tapetrap-v0.7b.zip" class="btn btn-flat btn-download btn-lg" rel="nofollow"><span class="glyphicon glyphicon-download-alt"></span> Download for Mac</a></div>
+    <small>Works on OS X 10.8 and higher.</small>
   </div>
-</form>
-<!--End mc_embed_signup-->        
-        </div>
-      </header>
+  <div class="hidden-xs">
+    <div><a href="http://download.tapetrap.com/Tapetrap-v0.7b.zip" class="btn btn-flat btn-download btn-lg" rel="nofollow"><span class="glyphicon glyphicon-download-alt"></span> Download Tapetrap for Mac (Beta)</a></div>
+    <small>The beta is free and works on Mac OS X 10.8 and higher.</small>
+  </div>
+</div>
     </div>
   </div>
+</header>
 
-<div id="main" class="container">
-  <h1>Keep track of your web video feeds</h1>
-  <p>If you're anything like me, you watch online videos on dozens of different websites. I want to keep up with new content and easily browse clips from any site with a feed. That's why I'm working on Tapetrap.</p>
-
-  <div class="follow">
-    <a href="https://twitter.com/tapetrap" class="twitter-follow-button" data-show-count="false">Follow @tapetrap</a>
+<section id="preview" class="container">
+  <div class="row">
+    <div class="col-sm-5 video">
+      
+      <a href="#video-gettingstarted" class="video-preview">
+        <img src="assets/img/ss-videopreview.jpg" alt="Video Preview">
+      </a>
+      <small>Get started by adding some feeds.</small>
+    </div>
+    <div class="col-sm-6 col-sm-offset-1">
+      <h2>Keep track of your web video feeds</h2>
+      <p>If you’re anything like me, you watch online videos on dozens of different websites. I want to keep up with new content and easily browse clips from any site with a feed.</p>
+      <p>Also, I want to support the guys and girls that make these videos by <strong>not</strong> blocking their ads.</p>
+    </div>
   </div>
+</section>
 
-  <img class="screenshot" src="assets/img/ss-apppreview.jpg" alt="Screenshot: app preview">
-</div>
-
-<div id="subscribe">
+<section id="features">
   <div class="container">
-    <h2>Want to be the first to try Tapetrap for Mac?</h2>
-    <p>Sign up for the mailing list to stay informed about updates and help testing.</p>
+    <div class="row">
+      <div class="feature col-sm-4">
+        <h3><span class="glyphicon glyphicon-th-list"></span> Follow your favorite sites</h3>
+        <p>Tapetrap doesn't require a Google/Vimeo/whatever account. Any site that offers an RSS ( <img class="glyphimage" src="assets/img/glyphicons_social_37_rss@2x.png" alt="Icon: RSS"> ) feed will work.</p>
+      </div>
+      <div class="feature col-sm-4">
+        <h3><span class="glyphicon glyphicon-chevron-down"></span> Easily browse new content</h3>
+        <p>By marking items as watched, you don't need to remember which videos you've already seen.</p>
+      </div>
+      <div class="feature col-sm-4">
+        <h3><span class="glyphicon glyphicon-film"></span> Fully enjoy web videos</h3>
+        <p>The interface has been designed and built with web videos in mind. It's really, really comfortable.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="feature col-sm-4">
+        <h3><span class="glyphicon glyphicon-plus"></span> Add sites while surfing</h3>
+        <p>With Tapetrap's convenient status bar menu ( <img class="glyphimage" src="assets/img/glyph-statusbar.png" alt="Icon: Status Bar Menu"> ), you can easily add new sites while surfing the web with your browser.</p>
+      </div>
+      <div class="feature col-sm-4">
+        <h3><span class="glyphicon glyphicon-heart"></span> Tapetrap doesn't block ads</h3>
+        <p>Playing ads pays video makers. Allowing them to make new videos. Just block ads in your web browser and add you favorite sites to Tapetrap to ensure you support them.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="screenshots">
+  <div class="screenshot hidden-xs">
+    <img src="assets/img/ss-addfeed.jpg" alt="Enlarged screenshot">
+    <div class="caption-container"><p>Tapetrap will automatically find feeds on websites, if they're available.</p></div>
+  </div>
+  <div class="container">
+    <div class="row screenshots">
+      <div class="col-sm-3 hidden-xs">
+        <div class="selectable active">
+          <img src="assets/img/ss-addfeed.jpg" alt="Screenshot: Add a new feed">
+          <p>Tapetrap will automatically find feeds on websites, if they're available.</p>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="selectable">
+          <img src="assets/img/ss-browse.jpg" alt="Screenshot: Browse videos">
+          <p>The overlay lets you browse videos while another is playing.</p>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="selectable">
+          <img src="assets/img/ss-playing.jpg" alt="Screenshot: Video playing">
+          <p>Loading the actual website ensures you don't miss special features.</p>
+        </div>
+      </div>
+      <div class="col-sm-3 hidden-xs">
+        <div class="selectable">
+          <img src="assets/img/ss-markaswatched.jpg" alt="Screenshot: Mark all videos as watched">
+          <p>Easily toggle items as watched one at a time, or just check off the entire feed.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="recommendations">
+  <div class="container">
+    <div class="highlight">
+      <h2>My Favorite Sites</h2>
+      <p>After downloading and running Tapetrap, try opening a few of these and press the icon in the menu bar ( <img class="glyphimage" src="assets/img/glyph-statusbar.png" alt="Icon: Status Bar Menu"> ) to add them to your collection. The <a href="#video-gettingstarted" class="video-preview">video introduction</a> will show you how.</p>
+    </div>
+    <div class="row recommendations">
+      <div class="recommendation col-sm-3">
+        <h4><a href="http://www.youtube.com/user/vice" target="_blank">VICE</a></h4>
+        <div class="thumb">
+          <a href="http://www.youtube.com/user/vice" target="_blank"><img src="assets/img/logo-vice.jpg" alt="Logo: VICE"></a>
+        </div>
+        <p>"VICE specializes in exploring uncomfortable truths and going to places we don't belong."</p>
+      </div>
+      <div class="recommendation col-sm-3">
+        <h4><a href="http://www.funnyordie.com" target="_blank">Funny or Die</a></h4>
+        <div class="thumb">
+          <a href="http://www.funnyordie.com" target="_blank"><img src="assets/img/logo-funnyordie.svg" alt="Logo: Funny or Die"></a>
+        </div>
+        <p>"Funny Videos, Funny Video Clips, Funny Pictures."</p>
+      </div>      
+      <div class="recommendation col-sm-3">
+        <h4><a href="http://www.ted.com/talks" target="_blank">TED Talks</a></h4>
+        <div class="thumb">
+          <a href="http://www.ted.com/talks" target="_blank"><img src="assets/img/logo-ted.gif" alt="Logo: TED"></a>
+        </div>
+        <p>"Riveting talks by remarkable people, free to the world."</p>
+      </div>      
+      <div class="recommendation col-sm-3">
+        <h4><a href="http://www.escapistmagazine.com/videos/view/zero-punctuation" target="_blank">Zero Punctuation</a></h4>
+        <div class="thumb">
+          <a href="http://www.escapistmagazine.com/videos/view/zero-punctuation" target="_blank"><img src="assets/img/logo-escapist.png" alt="Logo: The Escapist"></a>
+        </div>
+        <p>"The Escapist's groundbreaking video review series starring Ben 'Yahtzee' Croshaw."</p>
+      </div>      
+    </div>
+  </div>
+</section>
+
+<section id="beta" class="highlight">
+  <div class="container">
+    <h2>What does 'beta' mean, exactly?</h2>
+    <p>I've been working on Tapetrap for a couple of months now and I'm curious to hear what you think of it. The purpose of the beta is to gather feedback and explore new features (and find horrible bugs, of course).</p>
+    <p>The beta is free to use and fully functional. The final version of Tapetrap will will be a paid app, priced between $ 5 and $ 25.</p>
+    <p>For the latest news, subscribe to the mailing list below or follow <a href="http://www.twitter.com/tapetrap" target="_blank">@tapetrap on Twitter</a>.</p>
+    <div class="follow">
+      <a href="https://twitter.com/tapetrap" class="twitter-follow-button" data-show-count="false">Follow @tapetrap</a>
+    </div>
+    <div class="download-container">
+  <div class="visible-xs">
+    <div><a href="http://download.tapetrap.com/Tapetrap-v0.7b.zip" class="btn btn-flat btn-download btn-lg" rel="nofollow"><span class="glyphicon glyphicon-download-alt"></span> Download for Mac</a></div>
+    <small>Works on OS X 10.8 and higher.</small>
+  </div>
+  <div class="hidden-xs">
+    <div><a href="http://download.tapetrap.com/Tapetrap-v0.7b.zip" class="btn btn-flat btn-download btn-lg" rel="nofollow"><span class="glyphicon glyphicon-download-alt"></span> Download Tapetrap for Mac (Beta)</a></div>
+    <small>The beta is free and works on Mac OS X 10.8 and higher.</small>
+  </div>
+</div>
+  </div>
+</section>
+
+<section id="subscribe" class="highlight">
+  <div class="container">
+    <h2>Stay up to date on Tapetrap for Mac!</h2>
+    <p>Sign up for the mailing list and I'll  keep you informed about development and other news.</p>
     <!-- Begin MailChimp Signup Form -->
 <form action="http://dangercove.us7.list-manage1.com/subscribe/post?u=40b2fe274e6d6a9d03dd7d5f1&amp;id=3c2d373cbb" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
   <div>
@@ -106,7 +240,7 @@ status: soon
 <!--End mc_embed_signup-->
     <small>I don't spam and use MailChimp to handle submissions.</small>
   </div>
-</div>
+</section>
 
 <footer id="footer">
   <div class="container">
@@ -121,6 +255,7 @@ status: soon
       </ul>      
     </div>    
     <small><img src="assets/img/dclogo_32x32.png" alt="Logo: Danger Cove"> A new app for Macs, created with grog by <a href="http://www.dangercove.com" target="_blank">Danger Cove</a>.</small>
+    <small class="acknowledgements">The pretty 'app on laptop' photos were made using <a href="http://placeit.net" target="_blank">placeit</a>. Tapetrap is not affiliated with VICE, Funny or Die, TED or The Escapist.</small>
   </div> <!-- /container -->
 </footer>
 
