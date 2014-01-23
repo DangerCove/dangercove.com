@@ -47,6 +47,7 @@ function onYouTubeIframeAPIReady() {
     width: '',
     height: '',
     videoId: 'zzoGEhWTXRw', // Getting started
+    playerVars: {rel: 0},
     events: {
       'onReady': onPlayerReady,
       'onStateChange': onPlayerStateChange
