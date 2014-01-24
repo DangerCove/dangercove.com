@@ -1,14 +1,14 @@
 // Setup Youtube controls
 var ytPlayer,
     ytTag = document.createElement('script'),
-    ytFirstScriptTag;
+    ytFirstScriptTag,
+    ytVideoID = 'zzoGEhWTXRw'; // Getting started
 
     ytTag.src = "https://www.youtube.com/iframe_api";
     ytFirstScriptTag = document.getElementsByTagName('script')[0];
     ytFirstScriptTag.parentNode.insertBefore(ytTag, ytFirstScriptTag);
 
 $(document).ready(function(){
-  
   $('.screenshots .selectable').on('click', function(e) {
     var src = $('img', this).attr('src'),
         caption = $('p', this).text();
@@ -23,11 +23,15 @@ $(document).ready(function(){
   $('.video-preview').on('click', function(e) {
     e.preventDefault();
 
-    var href = $(this).attr('href');
-    $(href).fadeIn();
+    if(Modernizr.touch) { 
+      window.open('http://youtu.be/' + ytVideoID);
+    } else { 
+      var href = $(this).attr('href');
+      $(href).fadeIn();
 
-    if(ytPlayer) {
-      ytPlayer.playVideo();
+      if(ytPlayer) {
+        ytPlayer.playVideo();
+      }
     }
   });
   $('.video-lightbox').on('click', function(e) {
@@ -46,7 +50,7 @@ function onYouTubeIframeAPIReady() {
   ytPlayer = new YT.Player('video-gettingstarted-placeholder', {
     width: '',
     height: '',
-    videoId: 'zzoGEhWTXRw', // Getting started
+    videoId: ytVideoID,
     playerVars: {rel: 0},
     events: {
       'onReady': onPlayerReady,
