@@ -3,7 +3,7 @@ layout: post
 title: "Update Porthole to restore Apple TV compatibility"
 date: 2013-09-26 10:14
 comments: false
-categories: [porthole, airplay, updates]
+categories: [adventures, porthole, airplay, updates]
 ---
 
 I just released Porthole v1.4.4 which restores compatibility with the Apple TV.

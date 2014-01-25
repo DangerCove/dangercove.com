@@ -3,7 +3,7 @@ layout: post
 title: "Glow for updates"
 date: 2013-10-23 17:17
 comments: false
-categories: [glow, updates]
+categories: [adventures, glow, updates]
 ---
 
 Everybody knows software updates. A window pops up to notify you an update is available, 
