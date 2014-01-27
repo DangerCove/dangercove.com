@@ -77,6 +77,8 @@ small {
   background: url(../img/bg-header.jpg) no-repeat center center fixed;
   background-size: cover;
   text-align: center; }
+  #header a, #header a:hover {
+    color: rgba(255, 255, 255, 0.8); }
   #header .overlay {
     padding: 40px 20px 40px;
     color: #fff;
@@ -94,7 +96,7 @@ small {
     #header .download-container small {
       display: block;
       margin-top: 1em;
-      color: rgba(255, 255, 255, 0.8); }
+      color: rgba(255, 255, 255, 0.5); }
   #header button.btn-download, #header a.btn-download {
     color: #de5738;
     background: #fff;

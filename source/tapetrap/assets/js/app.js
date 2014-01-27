@@ -43,6 +43,14 @@ $(document).ready(function(){
     }
   });
 
+  $("a.popup").on('click', function(e) {
+    e.preventDefault()
+    var newwindow = window.open($(this).attr('href'), 'porthole-popup', 'width=480,height=320,top=100,left=100')
+    if(window.focus) {
+      newwindow.focus();
+    }
+  });
+
 });
 
 // Youtube controls
