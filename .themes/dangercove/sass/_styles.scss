@@ -33,6 +33,8 @@ h1, h2, h3, h4, h5 h6 {
   }
 }
 
+figure.code .line-numbers, pre code { white-space: pre; }
+
 // Bootstrap menu width override
 .navbar .nav>li>a { padding: 10px 10px 10px; }
 

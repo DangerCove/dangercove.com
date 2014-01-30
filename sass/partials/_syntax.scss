@@ -61,7 +61,7 @@ html .gist .gist-file {
    } @else {
      background: $base02 $noise-bg;
    }
-   @extend .sans !optional;
+   @extend .sans;
    line-height: 1.5em;
     a {
       color: mix($base1, $base01) !important;
@@ -83,7 +83,7 @@ html .gist .gist-file {
 pre {
   background: $pre-bg $noise-bg;
   @include border-radius(.4em);
-  @extend .mono !optional;
+  @extend .mono;
   border: 1px solid $pre-border;
   line-height: 1.45em;
   font-size: 13px;
@@ -99,7 +99,7 @@ h3.filename {
 
 p, li {
   code {
-    @extend .mono !optional;
+    @extend .mono;
     display: inline-block;
     white-space: no-wrap;
     background: #fff;
@@ -121,7 +121,7 @@ p, li {
   display: block;
   padding: .8em;
   overflow-x: auto;
-  line-height: 1.45em;
+  // line-height: 1.45em;
   background: $base03 $noise-bg !important;
   color: $base1 !important;
   span { color: $base1 !important; }
