@@ -21,7 +21,11 @@ Adding feeds from your web browser in Tapetrap
 
 I've [made](https://chrome.google.com/webstore/detail/treasure-chest-radio-3fm/geeoeokcenpaehoemkfdjfmnobopefck) and use a few browser extensions. They're neat little applications that take an insane amount of work to maintain. While some code can be shared you will need to tailer parts of the extension for each browser specifically.
 
-For Tapetrap I chose to make a system wide browser extension in the form of an icon in the menu bar that "just works" with the active web browser when clicked. This means users don't have to install anything extra and I don't have to create a plugin per browser. I can't say I'm the first one to do something like this, but it works particularly well for Tapetrap.
+For Tapetrap, I chose to make a system wide browser extension in the form of an icon in the menu bar that "just works" with the active web browser when clicked. This means users don't have to install anything extra and I don't have to create a plugin per browser. I can't say I'm the first one to do something like this, but it works particularly well for Tapetrap.
+
+<div class="thumbnail">
+{% img /images/content/tapetrap-ss-menubar.jpg Add Feeds While Surfing the Web %}
+</div>
 
 Of course there are downsides to using this approach too. It's impossible to manipulate the DOM inside the browser or execute other more context aware methods. It's fine for getting basic information, though.
 
