@@ -150,4 +150,4 @@ With the URL of the RSS feed in hand, the road is clear to analyze its content u
 
 ## Real world example
 
-You can [download Tapetrap](http://www.dangercove.com/tapetrap) to get a feel of how this works. The app is now in public beta and free to use. Also let me know what you think and help imrpove it!
+You can [download Tapetrap](http://www.dangercove.com/tapetrap) to get a feel of how this works. The app is now in public beta and free to use. Also let me know what you think and help improve it!
