@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<opml version="2.0">
+    <head>
+        <title>Tapetrap Export</title>
+    </head>
+    <body>
+        <outline text="Tapetrap" title="Tapetrap">
+            <outline type="rss" text="GameTrailers.com Review Hub" title="GameTrailers.com Review Hub" xmlUrl="http://www.gametrailers.com/reviews/feed" htmlUrl="http://www.gametrailers.com/reviews/feed"></outline>
+            <outline type="rss" text="GameTrailers.com Shows Hub" title="GameTrailers.com Shows Hub" xmlUrl="http://www.gametrailers.com/shows/feed" htmlUrl="http://www.gametrailers.com/shows/feed"></outline>
+            <outline type="rss" text="Documentairenet.nl » Reviews" title="Documentairenet.nl » Reviews" xmlUrl="http://feeds.feedburner.com/Documentairenet" htmlUrl="http://www.documentairenet.nl"></outline>
+            <outline type="rss" text="Gamekings » Videos" title="Gamekings » Videos" xmlUrl="http://www.gamekings.tv/feed/?cat=3" htmlUrl="http://www.gamekings.tv"></outline>
+            <outline type="rss" text="Cinemassacre Productions" title="Cinemassacre Productions" xmlUrl="http://cinemassacre.com/feed/atom/" htmlUrl="http://cinemassacre.com"></outline>
+            <outline type="rss" text="Uploads by Team Coco" title="Uploads by Team Coco" xmlUrl="http://gdata.youtube.com/feeds/base/users/teamcoco/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile" htmlUrl="http://www.youtube.com/channel/UCi7GJNg51C3jgmYTUwqoUXA/videos"></outline>
+            <outline type="rss" text="Uploads by Machinima" title="Uploads by Machinima" xmlUrl="http://gdata.youtube.com/feeds/base/users/machinima/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile" htmlUrl="http://www.youtube.com/channel/UCcMTZY1rFXO3Rj44D5VMyiw/videos"></outline>
+            <outline type="rss" text="Uploads by James Rolfe" title="Uploads by James Rolfe" xmlUrl="http://gdata.youtube.com/feeds/base/users/Cinemassacre/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile" htmlUrl="http://www.youtube.com/channel/UC25-_5i19rPlLosl_h7G9Ow/videos"></outline>
+            <outline type="rss" text="Uploads by VICE" title="Uploads by VICE" xmlUrl="http://gdata.youtube.com/feeds/base/users/vice/uploads?alt=rss&amp;v=2&amp;orderby=published" htmlUrl="http://www.youtube.com/channel/UCn8zNIfYAQNdrFRrr8oibKw/videos"></outline>
+            <outline type="rss" text="Uploads by IGN" title="Uploads by IGN" xmlUrl="http://gdata.youtube.com/feeds/base/users/IGNentertainment/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile" htmlUrl="http://www.youtube.com/channel/UCKy1dAqELo0zrOtPkf0eTMw/videos"></outline>
+            <outline type="rss" text="ScrewAttack's Latest Content" title="ScrewAttack's Latest Content" xmlUrl="http://www.screwattack.com/rss" htmlUrl="http://www.screwattack.com"></outline>
+            <outline type="rss" text="Uploads by CollegeHumor" title="Uploads by CollegeHumor" xmlUrl="http://gdata.youtube.com/feeds/base/users/collegehumor/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile" htmlUrl="http://www.youtube.com/channel/UCPDXXXJj9nax0fr0Wfc048g/videos"></outline>
+            <outline type="rss" text="Uploads by PewDiePie" title="Uploads by PewDiePie" xmlUrl="http://gdata.youtube.com/feeds/base/users/PewDiePie/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile" htmlUrl="http://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw/videos"></outline>
+            <outline type="rss" text="Uploads by MetalJesusRocks" title="Uploads by MetalJesusRocks" xmlUrl="http://gdata.youtube.com/feeds/base/users/MetalJesusRocks/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile" htmlUrl="http://www.youtube.com/channel/UCEFymXY4eFCo_AchSpxwyrg/videos"></outline>
+            <outline type="rss" text="TEDTalks (video)" title="TEDTalks (video)" xmlUrl="http://feeds.feedburner.com/tedtalks_video" htmlUrl="http://www.ted.com/talks/list"></outline>
+            <outline type="rss" text="Vimeo / Vimeo, the company" title="Vimeo / Vimeo, the company" xmlUrl="http://vimeo.com/channels/vimeohq/videos/rss" htmlUrl="http://vimeo.com/channels/vimeohq/videos"></outline>
+            <outline type="rss" text="Vimeo / Documentary Film" title="Vimeo / Documentary Film" xmlUrl="http://vimeo.com/channels/documentaryfilm/videos/rss" htmlUrl="http://vimeo.com/channels/documentaryfilm/videos"></outline>
+            <outline type="rss" text="Zero Punctuation" title="Zero Punctuation" xmlUrl="http://www.escapistmagazine.com/rss/videos/list/1.xml" htmlUrl="http://www.escapistmagazine.com/videos/view/zero-punctuation"></outline>
+            <outline type="rss" text="De Wereld Draait Door" title="De Wereld Draait Door" xmlUrl="http://www.uitzendinggemist.nl/programmas/989-de-wereld-draait-door.rss" htmlUrl="http://www.uitzendinggemist.nl/programmas/989-de-wereld-draait-door"></outline>
+        </outline>
+    </body>
+</opml>
