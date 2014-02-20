@@ -58,6 +58,10 @@ $.fn.extend
             $(article_title).text article.question
             $(article_title).appendTo article_item
             $(article_title).click((e) ->
+              if($(this).siblings('.answer').is(":visible"))
+                _gaq.push(['_trackEvent', 'Support', 'Close article_' + article.id, 'article_' + article.id])
+              else
+                _gaq.push(['_trackEvent', 'Support', 'Open article_' + article.id, 'article_' + article.id])
               $(this).siblings('.answer').toggle()
             )
             article_answer = document.createElement 'div'
