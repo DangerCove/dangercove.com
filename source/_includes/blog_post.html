@@ -3,7 +3,7 @@
 {% if index %}
   <div class="entry-content">{{ post.content | excerpt }}</div>
   {% capture excerpted %}{{ post.content | has_excerpt }}{% endcapture %}
-  {% if excerpted == 'true' %}<p><a class="full-article" rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a></p>{% endif %}
+  {% if excerpted == 'true' %}<p><a class="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a></p>{% endif %}
 {% else %}
   <div class="entry-content">{{ post.content }}</div>
 {% endif %}
