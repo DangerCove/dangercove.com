@@ -3,15 +3,9 @@
 {% if index %}
   <div class="entry-content">{{ post.content | excerpt }}</div>
   {% capture excerpted %}{{ post.content | has_excerpt }}{% endcapture %}
-  {% if excerpted == 'true' %}
-  <p><a class="full-article" rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a></p>
-  {% endif %}
+  {% if excerpted == 'true' %}<p><a class="full-article" rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a></p>{% endif %}
 {% else %}
   <div class="entry-content">{{ post.content }}</div>
 {% endif %}
-<p class="meta">
-  {% include post/author.html %}
-  {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
-  {% include post/categories.html %}
-</p>
+<p class="meta">{% include post/author.html %}{% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}{% include post/categories.html %}</p>
 <hr>

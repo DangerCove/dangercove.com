@@ -1,16 +1,6 @@
 <!-- <li class="{% dcactivemenu /index.html /airtube /reign /coucou %}"><a href="{{ root_url }}/">Adventures</a></li> -->
 <ul class="nav">
-  {% sorted_for p in site.pages reversed sort_by:weight %}
-    {% if p.adventure %}
-      <li class="{% if page.url == p.url or page.belongs_to == p.adventure %}active{% endif %}">
-        {% if p.website %}
-          <a href="{{ p.website | remove:'index.html' }}" target="_blank">{{ p.title }}</a>
-        {% else %}
-          <a href="{{ p.url | remove:'index.html' }}">{{ p.title }}</a>
-        {% endif %}
-      </li>
-    {% endif %}
-  {% endsorted_for %}
+  {% sorted_for p in site.pages reversed sort_by:weight %}{% if p.adventure %}<li class="{% if page.url == p.url or page.belongs_to == p.adventure %}active{% endif %}">{% if p.website %}<a href="{{ p.website | remove:'index.html' }}" target="_blank">{{ p.title }}</a>{% else %}<a href="{{ p.url | remove:'index.html' }}">{{ p.title }}</a>{% endif %}</li>{% endif %}{% endsorted_for %}
 </ul>
 <ul class="nav pull-right">
   <li class="{% dcactivemenu /blog %}"><a href="{{ root_url }}/blog">Journal</a></li>
@@ -24,12 +14,5 @@
   </form>
   </li>
   {% endif %}
-  {% if false %}
-    <li><a href="{{ site.subscribe_rss }}" rel="subscribe-rss" title="subscribe via RSS"><img src="{{ root_url }}/images/rss.png" alt="subscribe via RSS"></a></li>
-  {% endif %}
-  {% if site.subscribe_email %}
-    <li><a href="{{ site.subscribe_email }}" rel="subscribe-email" title="subscribe via email">Email</a></li>
-  {% endif %}
-
+  {% if false %}<li><a href="{{ site.subscribe_rss }}" rel="subscribe-rss" title="subscribe via RSS"><img src="{{ root_url }}/images/rss.png" alt="subscribe via RSS"></a></li>{% endif %}{% if site.subscribe_email %}<li><a href="{{ site.subscribe_email }}" rel="subscribe-email" title="subscribe via email">Email</a></li>{% endif %}
 </ul>
-
