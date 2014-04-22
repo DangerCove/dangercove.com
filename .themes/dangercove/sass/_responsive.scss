@@ -45,7 +45,7 @@
     }
   }
   .banner {
-    h1, h2, p, .requirements, .price_notice {
+    h1, h2, p, .download_notice, .price_notice {
       color: #333;
     }
   }
@@ -93,6 +93,20 @@
   .adventure_header {
     .icon {
       padding: 40px 0;
+    }
+  }
+  .adventures {
+    &.secondary {
+      .adventure_intro {
+        .text {
+          h3 {
+            font-size: 24px;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+      }
     }
   }
 }

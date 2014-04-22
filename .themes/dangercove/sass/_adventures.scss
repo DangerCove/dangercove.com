@@ -13,7 +13,7 @@
     font-size: 48px;
     line-height: 120%;
   }
-  .btn, .requirements {
+  .btn, .download_notice {
     margin: 10px 0;
   }
   &.headercolor-light {
@@ -38,6 +38,15 @@
     margin-left: 149px;
   }
 }
+.treasure-middle {
+  padding: 40px 0;
+  img { float: right; }
+  .line {
+    background: image-url('line-above-tile.png') repeat-x;
+    height: 10px;
+    margin-right: 149px;
+  }
+}
 .treasure-below {
   padding: 0 0 40px 0;
   img { float: right; }
@@ -48,48 +57,66 @@
   }
 }
 
-.adventures .adventure_intro {
-  min-height: 98px;
-  padding: 30px 0;
-  background: #eee;
-  @include background(linear-gradient(top, #fff, #eee));
-  @include border-radius(4px);
-  border: #bbb 1px solid;
-  margin-left: 18px;
-  margin-bottom: 18px;
-  position: relative;
-  color: #333;
-  @include transition(box-shadow 0.1s ease-in);
-
-  &:hover {
-    text-decoration: none; color: #333;
-    @include box-shadow(0 0 20px #999);
-  }
-
-  .icon {
-    text-align: center;
-  }
-  .text {
-    margin-left: 0;
-    h3 {
-      line-height: 1em;
-    }
-    p {
-      margin: 0;
-      font-size: 14px;
+.adventures {
+  &.primary {
+    .adventure_intro {
+      border: #bbb 1px solid;
+      @include background(linear-gradient(top, #fff, #efefef));
     }
   }
-  .btn {
-    margin-bottom: 4px;
+  &.secondary {
+    .adventure_intro {
+      border: #ddd 1px solid;
+      background: #fff;
+    }
   }
-  img {
-    max-width: 100px;
-    max-height: 100px;
-  }
-  .ribbon {
-    position: absolute;
-    top: -1px;
-    left: -1px;
+  .adventure_intro {
+    min-height: 118px;
+    padding: 30px 0;
+    background: #eee;
+    @include background(linear-gradient(top, #fff, #eee));
+    @include border-radius(4px);
+    margin-left: 18px;
+    margin-bottom: 18px;
+    position: relative;
+    color: #333;
+    @include transition(box-shadow 0.1s ease-in);
+
+    &:hover {
+      text-decoration: none; color: #333;
+      @include box-shadow(0 0 20px #999);
+    }
+
+    .icon {
+      text-align: center;
+    }
+    .text {
+      margin-left: 0;
+      h3 {
+        line-height: 1em;
+      }
+      p {
+        margin: 0;
+        font-size: 14px;
+      }
+      p.requirements {
+        margin-top: 1em;
+        font-size: 14px;
+        color: #bbb;
+      }
+    }
+    .btn {
+      margin-bottom: 4px;
+    }
+    img {
+      max-width: 100px;
+      max-height: 100px;
+    }
+    .ribbon {
+      position: absolute;
+      top: -1px;
+      left: -1px;
+    }
   }
 }
 
