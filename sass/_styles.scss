@@ -63,6 +63,10 @@ figure.code .line-numbers, pre code { white-space: pre; }
   display: block;
 }
 
+.page_header { 
+  border-bottom: #eee 1px solid;
+}
+
 hr.treasure {
   border-top: #ddd 1px dashed;
   border-bottom: #fff 1px dashed;
