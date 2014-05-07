@@ -36,7 +36,19 @@ h1, h2, h3, h4, h5 h6 {
 figure.code .line-numbers, pre code { white-space: pre; }
 
 // Bootstrap menu width override
-.navbar .nav>li>a { padding: 10px 8px 10px; }
+.navbar .nav>li { line-height: 21px; }
+.navbar .nav>li>a { padding: 10px 8px 10px; text-shadow: none !important; }
+.navbar .nav>li>a:hover { text-shadow: none !important; }
+.navbar-inner { background: #222 !important; border: none !important; }
+.navbar-inverse .nav .active>a, .navbar-inverse .nav .active>a:hover, .navbar-inverse .nav .active>a:focus {
+  background: #1a1a1a;
+}
+.nav-collapse .navbar-form { box-shadow: none !important; border: none !important; }
+
+.btn { background-image: none !important; text-shadow: none !important; box-shadow: none !important; border: none !important; }
+.btn-large { padding: 18px 19px; font-size: 20px; }
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active,
+.btn-primary.hover, .btn-primary.focus, .btn-primary.active { background-color: #1d5ec2 !important; }
 
 #header, #footer {
   text-align: center;
@@ -102,9 +114,14 @@ article h1 {
 .thumbnail {
   background: #fff;
   margin-bottom: 1em;
+  box-shadow: none;
   img {
     width: 100%;
   }
+}
+.promo { 
+  margin: -30px auto 50px auto;
+  text-align: center;
 }
 
 #footer .socials {
@@ -120,8 +137,8 @@ article h1 {
   .thumbnail { display: inline-block; }
 
   iframe {
-    width: 856px;
-    height: 480px;
+    width: 640px;
+    height: 360px;
     #header & { 
       width: 100%; 
       height: 300px;

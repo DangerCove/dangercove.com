@@ -1,5 +1,6 @@
 .adventure_header {
   height: auto;
+  border-bottom: #eee 1px solid;
   .container {
     margin-bottom: 20px;
     padding-top: 20px;
@@ -61,12 +62,13 @@
   &.primary {
     .adventure_intro {
       border: #bbb 1px solid;
-      @include background(linear-gradient(top, #fff, #efefef));
+      // @include background(linear-gradient(top, #fff, #efefef));
+      background: #fff;
     }
   }
   &.secondary {
     .adventure_intro {
-      border: #ddd 1px solid;
+      border: #dadada 1px solid;
       background: #fff;
     }
   }

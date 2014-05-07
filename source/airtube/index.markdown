@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Working on a better AirTube"
+title: "Working on a Better AirTube"
 subtitle: "Web Videos on your Apple TV, hassle free."
 description: "Stream YouTube, Vimeo, TED and <a href=\"#libquvi\">quite a few other Web Videos</a> to your Apple TV. Straight from your Mac's browser; no iPad, iPhone or Jailbreak required."
 date: 2013-01-29 14:36

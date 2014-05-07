@@ -28,7 +28,7 @@ layout: default
           <img src="/images/adventures/{{ page.adventure }}/postcard.png" alt="{{ page.title }}">
         {% else %}
           <div class="video_container">
-            <iframe src="{{ page.video }}?rel=0&fs=1&modestbranding=1&showinfo=0&autohide=1&color=white&vq=hd720" frameborder="0" allowfullscreen></iframe>
+              <iframe src="{{ page.video }}?rel=0&fs=1&modestbranding=1&showinfo=0&autohide=1&color=white&vq=hd720" frameborder="0" allowfullscreen></iframe>
           </div>
         {% endunless %}
       </div>
@@ -37,7 +37,7 @@ layout: default
       {% unless page.macappstore %}
       <div class="offset3 span3">
         {% if page.download %}
-        <a class="btn btn-large btn-block btn-primary" href="{{ page.url | remove:'index.html' | strip_slash }}/download">Download Trial</a>
+        <a class="btn btn-large btn-block btn-primary" href="{{ page.url | remove:'index.html' | strip_slash }}/download">Free Download</a>
         {% elsif page.website %}
         <a class="btn btn-large btn-block btn-primary" href="{{ page.website }}">More Info...</a>
         {% elsif page.store %}
@@ -90,7 +90,7 @@ layout: default
     {% unless page.macappstore %}
     <div class="offset3 span3">
       {% if page.download %}
-      <a class="btn btn-large btn-block btn-primary" href="{{ page.url | remove:'index.html' | strip_slash }}/download">Download Trial</a>
+      <a class="btn btn-large btn-block btn-primary" href="{{ page.url | remove:'index.html' | strip_slash }}/download">Free Download</a>
       {% elsif page.website %}
       <a class="btn btn-large btn-block btn-primary" href="{{ page.website }}">More Info...</a>
       {% elsif page.store %}
