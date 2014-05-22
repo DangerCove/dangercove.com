@@ -55,7 +55,7 @@ layout: default
         {% if page.macappstore %}
         <a href="{{ page.macappstore }}"><img src="/images/MacAppStore_download.png" alt="Download on the Mac App Store"></a>
         {% elsif page.store %}
-        <a class="btn btn-large btn-block btn-success{% if page.discount > 0 %} discount-button{% endif %}" href="{{ page.store }}">
+        <a class="btn btn-large btn-block btn-danger{% if page.discount > 0 %} discount-button{% endif %}" href="{{ page.store }}">
           {% if page.discount and page.discount > 0 %}
           <div class="ribbon">
             <img src="/images/ribbon-app-discount.png" alt="Ribbon">
@@ -108,7 +108,7 @@ layout: default
       {% if page.macappstore %}
       <a href="{{ page.macappstore }}"><img src="/images/MacAppStore_download.png" alt="Download on the Mac App Store"></a>
       {% elsif page.store %}
-        <a class="btn btn-large btn-block btn-success{% if page.discount > 0 %} discount-button{% endif %}" href="{{ page.store }}">
+        <a class="btn btn-large btn-block btn-danger{% if page.discount > 0 %} discount-button{% endif %}" href="{{ page.store }}">
           {% if page.discount and page.discount > 0 %}
           <div class="ribbon">
             <img src="/images/ribbon-app-discount.png" alt="Ribbon">
