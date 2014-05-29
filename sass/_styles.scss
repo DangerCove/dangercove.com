@@ -6,15 +6,29 @@ body {
   font-weight: 300;
   padding: 40px 0;
 }
+
 .entry-content p,
-.hentry p {
+.hentry p,
+.entry-content li,
+.hentry li {
   font-family: 'PT Serif', Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
   line-height: 1.7em;
+}
+.entry-content p,
+.hentry p {
   margin: 1.7em 0;
+}
+.etrny-content,
+.hentry {
+  h2 { font-size: 31.5px; }
+  h2, h3 { border-bottom: #eee 1px solid; }
+  h3 { font-size: 24.5px; }
+  h4 { font-size: 22.5px; }
 }
 
 h1, h2, h3, h4, h5, h6, p { font-weight: normal; line-height: 150%; }
+
 
 p {
   font-size: 16px;
@@ -76,12 +90,18 @@ hr.treasure {
 .sharing {
   margin: 30px 0;
 }
-article .sharing {
-  margin: 30px 0 0 0;
-}
 
-article h1 {
-  margin: 50px 0 30px 0;
+article {
+  .sharing {
+    margin: 30px 0 0 0;
+  }
+
+  h1 {
+    margin: 50px 0 30px 0;
+  }
+}
+article.hentry h1 {
+  font-size: 31.5px;
 }
 
 .buttons {

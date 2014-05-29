@@ -3,7 +3,7 @@ layout: post
 title: "Alfred 2 Workflow for Reign"
 date: 2013-08-11 14:55
 comments: false
-categories: [adventures, reign, addons]
+categories: [adventures, reign, open source]
 ---
 
 <div class="thumbnail">
