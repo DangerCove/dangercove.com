@@ -6,9 +6,9 @@ comments: true
 categories: [porthole, privacy]
 ---
 
-Shazam, the amazing music recognizing service, [released a Mac app today](http://www.shazam.com). It picks up sound around your Mac and tries to match it to music and tv series. Pretty awesome!
+Shazam, the amazing music recognizing service, [released a Mac app today](http://www.shazam.com). It listens for audio around your Mac and tries to match it to music and tv series. Pretty awesome!
 
-I don't particularly like the idea of having an app listening to every sound in my office/home though. So I did some testing and it seems it picks the default audio device for recording. Normally this is your microphone, which obviously picks up any sound in the room.
+I don't particularly like the idea of having an app listening to every sound in my office/home though. So I did some testing and it seems it selects the default audio device for recording. Normally this is your microphone, which obviously picks up any sound in the room.
 
 <div class="thumbnail">
 {% img /images/content/porthole-shazam.jpg Shazam for Mac %}
