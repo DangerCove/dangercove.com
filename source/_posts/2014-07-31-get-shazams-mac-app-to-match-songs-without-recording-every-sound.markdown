@@ -31,5 +31,5 @@ If you stop streaming, Shazam will still be listening to Soundflower's output, w
 Do note that Shazam might change this behavior in the future and force it to use the microphone, but for now this seems to be a more private way to use Shazam on your Mac. Also remember that if you restart Shazam (or run it at login) it will default to using the microphone.
 
 <div class="text-center">
-<a href="http://getporthole.com" class="btn btn-large btn-success">Get Porthole!</a>
+<a href="http://www.getporthole.com" class="btn btn-large btn-success">Get Porthole!</a>
 </div>

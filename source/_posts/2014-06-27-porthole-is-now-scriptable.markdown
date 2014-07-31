@@ -19,5 +19,5 @@ Update to the latest version from within the app, or [download](http://www.getpo
 <!-- more -->
 
 <div class="text-center">
-<a href="http://getporthole.com" class="btn btn-large btn-success">Get Porthole!</a>
+<a href="http://www.getporthole.com" class="btn btn-large btn-success">Get Porthole!</a>
 </div>
