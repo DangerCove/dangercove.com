@@ -14,7 +14,7 @@ I don't particularly like the idea of having an app listening to every sound in 
 {% img /images/content/porthole-shazam.jpg Shazam for Mac %}
 </div>
 
-If you're streaming with [Porthole](http://www.getporthole.com) however, the default recording device is [Soundflower](http://cycling74.com/products/soundflower/). Soundflower only records all the audio that would normally come out of your Mac's speakers. This sounds a lot more private and comfortable to me.
+If you're streaming to AirPlay speakers with [Porthole](http://www.getporthole.com) however, the default recording device is [Soundflower](http://cycling74.com/products/soundflower/). Soundflower only records all the audio that would normally come out of your Mac's speakers. This feels a lot more private and comfortable to me.
 
 Here's how to set it up:
 
