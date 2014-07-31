@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Get Shazam's Mac App to Match Songs Without Recording Every Sound in the Room, Using Porthole"
+title: "Use Shazam's Mac App Through Porthole to Match Songs Without Recording Every Sound in the Room"
 date: 2014-07-31 09:26
 comments: true
 categories: [porthole, privacy]
