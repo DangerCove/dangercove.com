@@ -92,7 +92,6 @@
       padding: 20px 0 0;
     }
   }
-
   #header .video_container iframe {
     height: 240px;
   }
@@ -102,6 +101,11 @@
   .adventure_header {
     .icon {
       padding: 40px 0 0;
+    }
+  }
+  .adventure_intro {
+    .subtitle {
+      min-height: 44px;
     }
   }
   .adventures {
