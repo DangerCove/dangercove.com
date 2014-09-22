@@ -14,6 +14,10 @@ Get your copy through the website or the Mac App Store and enjoy Top 40 playlist
 
 Enjoy and let me know what you think on Twitter: [@deniedapp](https://www.twitter.com/deniedapp).
 
+<div class="thumbnail">
+{% img /images/content/denied-rulesoverview@2x.jpg Denied rules overview %}
+</div>
+
 <!-- more -->
 
 <div class="text-center">
