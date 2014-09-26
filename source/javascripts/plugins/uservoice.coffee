@@ -59,9 +59,9 @@ $.fn.extend
             $(article_title).appendTo article_item
             $(article_title).click((e) ->
               if($(this).siblings('.answer').is(":visible"))
-                _gaq.push(['_trackEvent', 'Support', 'Close article_' + article.id, 'article_' + article.id])
+                _gaq.push(['_trackEvent', 'Support', 'Close article_' + article.id, 'Close: ' + article.question])
               else
-                _gaq.push(['_trackEvent', 'Support', 'Open article_' + article.id, 'article_' + article.id])
+                _gaq.push(['_trackEvent', 'Support', 'Open article_' + article.id, 'Open: ' + article.question])
               $(this).siblings('.answer').toggle()
             )
             article_answer = document.createElement 'div'
