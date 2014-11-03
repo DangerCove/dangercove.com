@@ -1,16 +1,6 @@
 <div class="container">
-  {% if index %}
-  <div class="treasure-top">
-    <img src="/images/line-above-left.png" alt="">
-    <div class="line"></div>
-  </div>
-  {% endif %}
   <div class="row adventures primary">
 {% sorted_for page in site.pages reversed sort_by:weight %}{% if page.adventure and page.weight >= 200 and page.hidden != true %}{% include adventure_intro.html %}{% endif %}{% endsorted_for %}
-  </div>
-  <div class="treasure-middle">
-    <img src="/images/line-above-right.png" alt="">
-    <div class="line"></div>
   </div>
   <div class="row adventures secondary">
 {% sorted_for page in site.pages reversed sort_by:weight %}{% if page.adventure and page.weight < 200 and page.hidden != true %}{% include adventure_intro.html %}{% endif %}{% endsorted_for %}

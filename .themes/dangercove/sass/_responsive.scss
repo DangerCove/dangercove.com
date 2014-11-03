@@ -98,6 +98,12 @@
 }
 
 @media (min-width: 980px) {
+  #header .logo {
+    margin-top: 100px;
+  }
+  #header .lead {
+    margin-bottom: 100px;
+  }
   .adventure_header {
     .icon {
       padding: 40px 0 0;
