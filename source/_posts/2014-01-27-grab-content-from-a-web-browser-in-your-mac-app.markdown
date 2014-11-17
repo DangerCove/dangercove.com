@@ -9,7 +9,7 @@ categories: [tapetrap, tutorials, open source]
 One of my favorite features of [Tapetrap](http://www.dangercove.com/tapetrap) is its ability to subscribe to a website while surfing the web with your browser. Instead of looking for the RSS feed manually and copy-pasting the link, you can click a button and Tapetrap will find and add the feed for you. In this article I want to go over why I think that's awesome and how it works. The source code for the URL grabbing is [available on GitHub](https://github.com/DangerCove/DCOURLGrabber).
 
 <div class="thumbnail">
-<iframe width="100%" height="360" src="//www.youtube.com/embed/zzoGEhWTXRw?rel=0&vq=hd720" frameborder="0" allowfullscreen></iframe>
+<iframe width="620" height="349" src="//www.youtube.com/embed/zzoGEhWTXRw?rel=0&amp;vq=hd720" allowfullscreen></iframe>
 <div class="caption">
 Adding feeds from your web browser in Tapetrap
 </div>
