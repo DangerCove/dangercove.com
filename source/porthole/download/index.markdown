@@ -1,28 +1,28 @@
 ---
 layout: download
-title: "Download AirVLC"
-description: "Download AirVLC"
+title: "Download Porthole"
+description: "Download Porthole"
 date: 2013-02-06 20:32
 comments: false
 sharing: true
 footer: false
-banner: /images/adventures/airvlc/header.jpg
-file: http://download.airvlc.com/AirVLC-latest.dmg
-back: /airvlc
-belongs_to: airvlc
+banner: /images/adventures/porthole/header.jpg
+file: http://download.getporthole.com/Porthole-latest.zip
+back: /porthole
+belongs_to: porthole 
 ---
 
 To get started:
 
-- Open AirVLC-latest.dmg;
-- Drag AirVLC to your Applications folder and double-click to start;
-- Drag clips onto AirVLC's drop zone!
+- Unzip Porthole-latest.zip;
+- Drag Porthole to your Applications folder and double-click to start;
+- Follow the setup wizard and start streaming!
 
 <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup">
-<form action="http://dangercove.us7.list-manage.com/subscribe/post?u=40b2fe274e6d6a9d03dd7d5f1&amp;id=7a41439553" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-  <p>AirVLC Mailing List</p>
-  <p>Want me to let you know about AirVLC updates and new releases by Danger Cove? Subscribe to the mailing list.</p>
+<form action="http://getporthole.us7.list-manage.com/subscribe/post?u=40b2fe274e6d6a9d03dd7d5f1&amp;id=64d070f319" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+  <p>Porthole Mailing List</p>
+  <p>Want me to let you know about Porthole updates and new releases by Danger Cove? Subscribe to the mailing list.</p>
 <div class="mc-field-group form-horizontal">
   <label for="mce-EMAIL">Email Address </label>
   <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="you@example.com">
@@ -39,5 +39,6 @@ To get started:
 
 Trial limitations:
 
-- You can start 5 clips without any hassle;
-- After that you have to wait 30 seconds before your video starts.
+- Computer voice chants "Danger Cove dot com" every few minutes;
+- A nag screen that pops up every 10 minutes;
+- Strategically placed 'Buy Porthole'-buttons ;).
