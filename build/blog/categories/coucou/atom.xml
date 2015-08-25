@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: coucou | Danger Cove]]></title>
+  <link href="http://www.dangercove.com/blog/categories/coucou/atom.xml" rel="self"/>
+  <link href="http://www.dangercove.com/"/>
+  <updated>2015-08-24T11:27:56+02:00</updated>
+  <id>http://www.dangercove.com/</id>
+  <author>
+    <name><![CDATA[Danger Cove]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Broadcast your web project to Safari]]></title>
+    <link href="http://www.dangercove.com/blog/2013/04/23/broadcast-your-web-project-to-safari/"/>
+    <updated>2013-04-23T15:26:00+02:00</updated>
+    <id>http://www.dangercove.com/blog/2013/04/23/broadcast-your-web-project-to-safari</id>
+    <content type="html"><![CDATA[<p>If you work on web projects in a team, you're probably familiar with the situation where you want to quickly show your design or progress to a colleague, or test it on another computer. Usually this involves calling the person over or writing down/copying/emailing your IP address of the day.</p>
+
+<p>Or you can use coucou + Safari and be done in a few seconds.</p>
+
+<p>Safari has a special feature called "Bonjour bookmarks" that allows you to list all local web services your bookmarks bar, given that they are broadcasted using Bonjour. Coucou can help you with that last part. The broadcast menu in coucou lets you fire up custom services, like your Rails/MAMP/whatever project.</p>
+
+<h3>Start your web project</h3>
+
+<div class="thumbnail">
+<img src="/images/content/coucou-site-terminal.png" title="Start your web project" alt="Start your web project">
+<div class="caption">
+Start your web project
+</div>
+</div>
+
+
+
+
+<!-- more -->
+
+
+<p>Like I said above, this will work with any type of local web server. Replace Rails with MAMP, Django or whatever you like, just remember to alter the port accordingly in the following step.</p>
+
+<h3>Broadcast your local web server</h3>
+
+<p>Launch <a href="http://appstore.com/mac/coucou" target="_blank">coucou</a>, enable the Broadcast option in the preferences and create a new service.</p>
+
+<div class="thumbnail">
+<img src="/images/adventures/coucou/screenshots/coucou-newservice.jpg" title="Add a new service" alt="Add a new service">
+<div class="caption">
+Choose the correct preset, or enter "_http._tcp." and the port manually
+</div>
+</div>
+
+
+<h3>Enable Bonjour bookmarks</h3>
+
+<p>Launch Safari and enable Bonjour bookmarks; they're disabled per default.</p>
+
+<div class="thumbnail">
+<img src="/images/content/coucou-safari-preferences.png" title="Enable Bonjour bookmarks" alt="Enable Bonjour bookmarks">
+<div class="caption">
+You can enable Bonjour bookmarks on the Bookmarks tab
+</div>
+</div>
+
+
+
+
+<div class="thumbnail">
+<img src="/images/content/coucou-safari-showbookmarks.jpg" title="Show bookmarks bar" alt="Show bookmarks bar">
+<div class="caption">
+Don't forget to display the bookmarks bar
+</div>
+</div>
+
+
+<h3>Select your service from the menu</h3>
+
+<p>And that's it. Click the menu item and it'll load your website without copy-pasting, emailing or writing down your IP address!</p>
+
+<div class="thumbnail">
+<img src="/images/content/coucou-safari-bonjourbookmark.jpg" title="Select your service" alt="Select your service">
+<div class="caption">
+Your web service should show up in the list
+</div>
+</div>
+
+
+<h3>Video</h3>
+
+<iframe width="620" height="349" src="http://www.youtube.com/embed/7M9xcwbICPs" allowfullscreen></iframe>
+
+
+<p>Curious about what else coucou can do? Check out <a href="/blog/2013/03/29/coucou-for-easy-network-access">this post</a> about using coucou to discover network services.</p>
+
+<p><a href="https://itunes.apple.com/app/coucou/id620436774"><img src="/images/MacAppStore_download.png" title="Available on the Mac App Store" alt="Available on the Mac App Store"></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Coucou is now available]]></title>
+    <link href="http://www.dangercove.com/blog/2013/04/01/coucou-is-now-available/"/>
+    <updated>2013-04-01T11:08:00+02:00</updated>
+    <id>http://www.dangercove.com/blog/2013/04/01/coucou-is-now-available</id>
+    <content type="html"><![CDATA[<div class="thumbnail">
+<img src="/images/content/coucou-facebook.jpg" title="Coucou" alt="Coucou">
+</div>
+
+
+<p>A little tool that helps us do our jobs more easily. No need to remember/copy-paste ip addresses, just use coucou to connect to your network services.</p>
+
+<p>Are you a web developer? Check out <a href="/blog/2013/03/29/coucou-for-web-developers">this post</a> about using coucou to streamline local web development.</p>
+
+<p><a href="https://itunes.apple.com/app/coucou/id620436774"><img src="/images/MacAppStore_download.png" title="Available on the Mac App Store" alt="Available on the Mac App Store"></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Coucou for Web Developers]]></title>
+    <link href="http://www.dangercove.com/blog/2013/03/29/coucou-for-web-developers/"/>
+    <updated>2013-03-29T13:08:00+01:00</updated>
+    <id>http://www.dangercove.com/blog/2013/03/29/coucou-for-web-developers</id>
+    <content type="html"><![CDATA[<p>If you're a web developer you probably recognize that moment where you're running a local development evironment with MAMP/XAMPP, Rails or Node.js and need to see your site on another computer, or show someone else what you're working on. Maybe to do a cross-browser check, maybe just to show how awesome this latest design looks.</p>
+
+<p>This usually involves copy-pasting of ip addresses, emailing and other such nonsense. With coucou this can be done in just a few simple clicks. Let me walk you through it.</p>
+
+<p>First we need to enable broadcasting in the preferences pane.</p>
+
+<div class="thumbnail">
+<img src="/images/adventures/coucou/screenshots/coucou-preferences2.jpg" title="Enable broadcasting" alt="Enable broadcasting">
+<div class="caption">
+Enable broadcasting
+</div>
+</div>
+
+
+<p>Now follow these steps:</p>
+
+<!-- more -->
+
+
+<ul>
+<li>click the menu bar icon;</li>
+<li>select Broadcast and click New Service...;</li>
+<li>select one of the presets in the window that pops-up or create a service manually;</li>
+<li>click publish and you're set!</li>
+</ul>
+
+
+<div class="thumbnail">
+<img src="/images/adventures/coucou/screenshots/coucou-newservice.jpg" title="Add a new service" alt="Add a new service">
+<div class="caption">
+Add a new service
+</div>
+</div>
+
+
+
+
+<div class="thumbnail">
+<img src="/images/adventures/coucou/screenshots/coucou-rails.jpg" title="Find a custom service" alt="Find a custom service">
+<div class="caption">
+Your service is now visible for anyone using coucou, or any other Bonjour compatible app
+</div>
+</div>
+
+
+<p>You can unpublish the service by clicking the corresponding entry in the Broadcast menu.</p>
+
+<p><a href="https://itunes.apple.com/app/coucou/id620436774"><img src="/images/MacAppStore_download.png" title="Available on the Mac App Store" alt="Available on the Mac App Store"></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Coucou for easy network access]]></title>
+    <link href="http://www.dangercove.com/blog/2013/03/29/coucou-for-easy-network-access/"/>
+    <updated>2013-03-29T12:32:00+01:00</updated>
+    <id>http://www.dangercove.com/blog/2013/03/29/coucou-for-easy-network-access</id>
+    <content type="html"><![CDATA[<p>Network devices can broadcast various services, so other devices can find them. You've probably used this feature before without knowing about it. When you start a Screen Sharing session or browse some files on a network your computer picked up on what other computers in your network were broadcasting.</p>
+
+<p>While its already pretty easy to find these services in Finder, wouldn't it be awesome if you could do this from your menu bar? Or connect to web servers, SSH, printers, see who's in and even create your own services? That's when you need coucou!</p>
+
+<div class="thumbnail">
+<img src="/images/adventures/coucou/screenshots/coucou-indicator.jpg" title="Coucou sits in your menu bar" alt="Coucou sits in your menu bar">
+<div class="caption">
+Coucou is out of your way but easy to reach
+</div>
+</div>
+
+
+
+
+<!-- more -->
+
+
+
+
+<div class="thumbnail">
+<img src="/images/adventures/coucou/screenshots/coucou-menubar.jpg" title="See who's online" alt="See who's online">
+<div class="caption">
+See who's online and easily start Screen Sharing of File Sharing
+</div>
+
+</div>
+
+
+<div class="thumbnail">
+<img src="/images/adventures/coucou/screenshots/coucou-printer.jpg" title="Browse printers" alt="Browse printers">
+<div class="caption">
+Browse printers and open the web management page
+</div>
+</div>
+
+
+<p>Are you a web developer? Check out <a href="/blog/2013/03/29/coucou-for-web-developers">this post</a> about using coucou to streamline local web development.</p>
+
+<p><a href="https://itunes.apple.com/app/coucou/id620436774"><img src="/images/MacAppStore_download.png" title="Available on the Mac App Store" alt="Available on the Mac App Store"></a></p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: airplay | Danger Cove]]></title>
+  <link href="http://www.dangercove.com/blog/categories/airplay/atom.xml" rel="self"/>
+  <link href="http://www.dangercove.com/"/>
+  <updated>2015-08-24T11:27:56+02:00</updated>
+  <id>http://www.dangercove.com/</id>
+  <author>
+    <name><![CDATA[Danger Cove]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Update Porthole to restore Apple TV compatibility]]></title>
+    <link href="http://www.dangercove.com/blog/2013/09/26/update-porthole-to-restore-apple-tv-compatibility/"/>
+    <updated>2013-09-26T10:14:00+02:00</updated>
+    <id>http://www.dangercove.com/blog/2013/09/26/update-porthole-to-restore-apple-tv-compatibility</id>
+    <content type="html"><![CDATA[<p>I just released Porthole v1.4.4 which restores compatibility with the Apple TV.
+Apple's latest update for the little black device changed some AirPlay protocol
+related things that stopped quite a few third-party AirPlay audio apps to work.
+The update makes sure Porthole plays by the new rules.</p>
+
+<!-- more -->
+
+
+<p>Putting out a fix came sooner than expected, very much thanks to Jason from
+<a href="http://industriousone.com/">Industrious One</a> who found the solution and Quentin
+over at <a href="http://www.rogueamoeba.com/">Rogue Amoeba</a> who mentioned Jason's
+fix to be "very very simple", which in turn pointed me in the right direction :).</p>
+
+<p>Have a look at their websites and products, both make excellent apps!
+Especially if you're into listening to music or work with audio.</p>
+
+<p>To update to the latest version of Porthole, Check for Updates in-app or
+<a href="http://www.getporthole.com/download">download the latest version</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Apple TV v6.0 Update Warning]]></title>
+    <link href="http://www.dangercove.com/blog/2013/09/22/apple-tv-v6-dot-0-update-warning/"/>
+    <updated>2013-09-22T14:04:00+02:00</updated>
+    <id>http://www.dangercove.com/blog/2013/09/22/apple-tv-v6-dot-0-update-warning</id>
+    <content type="html"><![CDATA[<p><strong>This issue has been resolved. Update Porthole to restore compatibility. Read the <a href="/blog/2013/09/26/update-porthole-to-restore-apple-tv-compatibility/">follow up</a> for more details.</strong></p>
+
+<p>The latest Apple TV firmware (version 6.0) adds a new layer of mandatory encryption for audio playback that wasn't required before. This currently prevents unofficial audio based AirPlay apps to work like they used to.</p>
+
+<!-- more -->
+
+
+<p>I'm looking into the issue and trying to figure out a solution, if there is one. This requires some research and it might take a while to find a way around the encryption.</p>
+
+<p><strong>The best thing to do at the moment, is to not update your Apple TV to the latest version if you want to stream to it using Porthole</strong>. To stay up to date, follow <a href="http://twitter.com/getporthole">@getporthole</a> on Twitter. Sorry for the inconvenience.</p>
+
+<p>Note that Apple TV's running 5.3 or below and other AirPlay speakers are unaffected.</p>
+]]></content>
+  </entry>
+  
+</feed>

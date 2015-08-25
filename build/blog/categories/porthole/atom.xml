@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: porthole | Danger Cove]]></title>
+  <link href="http://www.dangercove.com/blog/categories/porthole/atom.xml" rel="self"/>
+  <link href="http://www.dangercove.com/"/>
+  <updated>2015-08-24T11:27:56+02:00</updated>
+  <id>http://www.dangercove.com/</id>
+  <author>
+    <name><![CDATA[Danger Cove]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Control Your AirPlay Speakers Remotely With Porthole]]></title>
+    <link href="http://www.dangercove.com/blog/2015/04/28/remote-controlling-porthole/"/>
+    <updated>2015-04-28T12:00:00+02:00</updated>
+    <id>http://www.dangercove.com/blog/2015/04/28/remote-controlling-porthole</id>
+    <content type="html"><![CDATA[<p>Being able to remotely control my AirPlay setup from the comfort of my couch has been at the top of my feature request list forever, so I'm very excited to say that <a href="http://www.getporthole.com/remote">it's now a feature in Porthole</a>!</p>
+
+<p><img src="/images/content/porthole-remote.jpg" alt="Porthole Remote" /></p>
+
+<!-- more -->
+
+
+<p>I've added Porthole to the collection of apps that work with the remarkable Unified Remote. Unified Remote is an app made by Unified Intents that allows you to remotely control many features of your Mac <em>and</em> a whole bunch of third-party apps, now including Porthole.</p>
+
+<p>The remote lets you turn AirPlay speakers on and off, toggle the computer speaker and adjust the main volume from any iOS, Android and Windows phone or tablet that's on the same wireless network as your Mac.</p>
+
+<div class="text-center">
+<a href="http://www.getporthole.com" class="btn btn-large btn-success">Get Porthole!</a>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Use Shazam's Mac App Through Porthole to Match Songs Without Recording Every Sound in the Room]]></title>
+    <link href="http://www.dangercove.com/blog/2014/07/31/get-shazams-mac-app-to-match-songs-without-recording-every-sound/"/>
+    <updated>2014-07-31T09:26:00+02:00</updated>
+    <id>http://www.dangercove.com/blog/2014/07/31/get-shazams-mac-app-to-match-songs-without-recording-every-sound</id>
+    <content type="html"><![CDATA[<p>Shazam, the amazing music recognizing service, <a href="http://www.shazam.com">released a Mac app today</a>. It listens for audio around your Mac and tries to match it to music and tv series. Pretty awesome!</p>
+
+<p>I don't particularly like the idea of having an app listening to every sound in my office/home though. So I did some testing and it seems it selects the default audio device for recording. Normally this is your microphone, which obviously picks up any sound in the room.</p>
+
+<div class="thumbnail">
+<img src="/images/content/porthole-shazam.jpg" title="Shazam for Mac" alt="Shazam for Mac">
+</div>
+
+
+<p>If you're streaming to AirPlay speakers with <a href="http://www.getporthole.com">Porthole</a> however, the default recording device is <a href="http://cycling74.com/products/soundflower/">Soundflower</a>. Soundflower only records all the audio that would normally come out of your Mac's speakers. This feels a lot more private and comfortable to me.</p>
+
+<p>Here's how to set it up:</p>
+
+<!-- more -->
+
+
+<ol>
+<li><a href="https://itunes.apple.com/us/app/shazam/id897118787">Download Shazam</a>;</li>
+<li>Quit Shazam if it's already running (important, don't skip this!);</li>
+<li><a href="http://www.getporthole.com/download">Download Porthole</a>;</li>
+<li>Start streaming with Porthole;</li>
+<li>Launch Shazam.</li>
+</ol>
+
+
+<p>If you stop streaming, Shazam will still be listening to Soundflower's output, which outputs nothing. As an added bonus, because the sound comes in crystal clear, Shazam might be able to match it a little faster ;).</p>
+
+<p>Do note that Shazam might change this behavior in the future and force it to use the microphone, but for now this seems to be a more private way to use Shazam on your Mac. Also remember that if you restart Shazam (or run it at login) it will default to using the microphone.</p>
+
+<div class="text-center">
+<a href="http://www.getporthole.com" class="btn btn-large btn-success">Get Porthole!</a>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Porthole is now scriptable]]></title>
+    <link href="http://www.dangercove.com/blog/2014/06/27/porthole-is-now-scriptable/"/>
+    <updated>2014-06-27T20:15:00+02:00</updated>
+    <id>http://www.dangercove.com/blog/2014/06/27/porthole-is-now-scriptable</id>
+    <content type="html"><![CDATA[<p>Porthole version 1.7.0 came out two days ago. It introduces scripting, a feature that's been requested more than once.</p>
+
+<p>Being able to use AppleScript to control Porthole means that you can automate and toggle certain functions of Porthole without going through the interface. Which is pretty awesome!</p>
+
+<div class="thumbnail">
+<img src="/images/content/porthole-applescripteditor.jpg" title="Script Porthole using AppleScript" alt="Script Porthole using AppleScript">
+</div>
+
+
+<p>Update to the latest version from within the app, or <a href="http://www.getporthole.com/download">download</a> a fresh copy from the website. Then read <a href="http://www.getporthole.com/scripting">the tutorial on scripting</a> to get started.</p>
+
+<!-- more -->
+
+
+
+
+<div class="text-center">
+<a href="http://www.getporthole.com" class="btn btn-large btn-success">Get Porthole!</a>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[So much (volume) control]]></title>
+    <link href="http://www.dangercove.com/blog/2014/04/02/so-much-volume-control/"/>
+    <updated>2014-04-02T10:17:00+02:00</updated>
+    <id>http://www.dangercove.com/blog/2014/04/02/so-much-volume-control</id>
+    <content type="html"><![CDATA[<div class="thumbnail">
+<a href="http://www.getporthole.com"><img src="/images/content/porthole-volumecontrol.jpg" title="Porthole Volume Control" alt="Porthole Volume Control"></a>
+</div>
+
+
+<p>Porthole's main volume control has always been the buttons on the keyboard. Pressing F10 will mute everything, F11 lowers it and F12 turns it up. Just as you'd expect when looking at the little icons on the keys, really.</p>
+
+<!-- more -->
+
+
+<p>Sometimes this isn't enough. Looking at the amount of votes this got on the <a href="http://porthole.uservoice.com/forums/151703-general/suggestions/3661146-adjust-airplay-devices-audio-levels-individually">suggestion page</a>, for quite a few people this wasn't enough. If you have a great deal of speakers around your home (or one that's particularly obnoxious, volume wise) being able to set a specific volume becomes important.</p>
+
+<p>This posed a design challenge, more than a technical one. I frankly didn't feel comfortable adding an undetermined number of sliders to the interface. Porthole's main focus has always been elegance and ease of use. That doesn't mix well with a row of sliders, trust me. Also, I didn't want to give up the use of the volume keys.</p>
+
+<p>After some consideration and tests, I came up with something that works. There are sliders, but they aren't in the main interface and they control the volume, but not in a way that conflicts with the volume keys. Instead of setting the volume absolutely, the sliders determine an offset, that's why you can set a negative number.</p>
+
+<p>In practice, this works as follows: Say the main volume is at 5, one speaker has a -2 offset, the other +4. This means the absolute volume for speaker one is 3 and for the other 9. Pressing the volume keys to turn up the volume by 1, sets the speakers to 4 and 10 respectively.</p>
+
+<p>This might take a bit to get used to, but I've found it works very very well. Especially because all volume preferences are saved per speaker.</p>
+
+<p>Want to take this for a spin? Just <a href="http://www.getporthole.com/download">download version 1.6.0 or higher</a>!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Update Porthole to restore Apple TV compatibility]]></title>
+    <link href="http://www.dangercove.com/blog/2013/09/26/update-porthole-to-restore-apple-tv-compatibility/"/>
+    <updated>2013-09-26T10:14:00+02:00</updated>
+    <id>http://www.dangercove.com/blog/2013/09/26/update-porthole-to-restore-apple-tv-compatibility</id>
+    <content type="html"><![CDATA[<p>I just released Porthole v1.4.4 which restores compatibility with the Apple TV.
+Apple's latest update for the little black device changed some AirPlay protocol
+related things that stopped quite a few third-party AirPlay audio apps to work.
+The update makes sure Porthole plays by the new rules.</p>
+
+<!-- more -->
+
+
+<p>Putting out a fix came sooner than expected, very much thanks to Jason from
+<a href="http://industriousone.com/">Industrious One</a> who found the solution and Quentin
+over at <a href="http://www.rogueamoeba.com/">Rogue Amoeba</a> who mentioned Jason's
+fix to be "very very simple", which in turn pointed me in the right direction :).</p>
+
+<p>Have a look at their websites and products, both make excellent apps!
+Especially if you're into listening to music or work with audio.</p>
+
+<p>To update to the latest version of Porthole, Check for Updates in-app or
+<a href="http://www.getporthole.com/download">download the latest version</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

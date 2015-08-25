@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: mavericks | Danger Cove]]></title>
+  <link href="http://www.dangercove.com/blog/categories/mavericks/atom.xml" rel="self"/>
+  <link href="http://www.dangercove.com/"/>
+  <updated>2015-08-24T11:27:56+02:00</updated>
+  <id>http://www.dangercove.com/</id>
+  <author>
+    <name><![CDATA[Danger Cove]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Mavericks]]></title>
+    <link href="http://www.dangercove.com/blog/2013/10/23/mavericks/"/>
+    <updated>2013-10-23T10:12:00+02:00</updated>
+    <id>http://www.dangercove.com/blog/2013/10/23/mavericks</id>
+    <content type="html"><![CDATA[<p>Apple released <a href="https://itunes.apple.com/app/os-x-mavericks/id675248567">OS X version 10.9</a> yesterday. It's a free update and I think
+most of you will want to upgrade as soon as you get the chance.</p>
+
+<p>All Danger Cove apps have been tested and work with OS X Mavericks. So, don't let
+Porthole, AirVLC, coucou or Reign hold you back and have fun checking out all new
+features Apple's added!</p>
+]]></content>
+  </entry>
+  
+</feed>

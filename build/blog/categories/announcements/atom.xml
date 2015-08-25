@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: announcements | Danger Cove]]></title>
+  <link href="http://www.dangercove.com/blog/categories/announcements/atom.xml" rel="self"/>
+  <link href="http://www.dangercove.com/"/>
+  <updated>2015-08-24T11:27:56+02:00</updated>
+  <id>http://www.dangercove.com/</id>
+  <author>
+    <name><![CDATA[Danger Cove]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Keep track of your web video feeds with Tapetrap]]></title>
+    <link href="http://www.dangercove.com/blog/2013/10/21/keep-track-of-your-web-video-feeds-with-tapetrap/"/>
+    <updated>2013-10-21T14:52:00+02:00</updated>
+    <id>http://www.dangercove.com/blog/2013/10/21/keep-track-of-your-web-video-feeds-with-tapetrap</id>
+    <content type="html"><![CDATA[<p>If you're anything like me, you spend quite some time reading, listening to and
+watching various things online. It would be impossible to organize all this
+information without the use of a few excellent apps, like Reeder for news
+and Instacast for podcasts.</p>
+
+<p>Web videos are harder to manage. Despite popular believe, not everything is
+available on YouTube or Vimeo. In need of a dedicated tool to keep up with online videos,
+no matter where they're hosted, I've made a brand new app!</p>
+
+<!-- more -->
+
+
+
+
+<div class="thumbnail">
+<a href="http://www.dangercove.com/tapetrap/">
+  <img src="/images/content/tapetrap-banner.jpg" title="Keep track of your web video feeds with Tapetrap" alt="Keep track of your web video feeds with Tapetrap">
+</a>
+</div>
+
+
+<p>Tapetrap will give you instant access to your favorite webisodes, lets you know when
+a new item comes out and keeps track of which you've seen.</p>
+
+<p>For me, this means I can watch VICE, Zero Punctuation, the AVGN, Conan's
+Clueless Gamer, the Spoony Experiment, Gamekings, Christopher Walkenthrough, TED talks and Uitzending
+Gemist all in one app.</p>
+
+<p>It's been in development for the past month and, not too tease you too much, is
+working great! That said, it's not done yet. I still want to polish a
+few features before putting out a public version. Until then, <a href="/tapetrap/">subscribe to the mailing list</a>
+to stay up to date and help testing!</p>
+]]></content>
+  </entry>
+  
+</feed>
