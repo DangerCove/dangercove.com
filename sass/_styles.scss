@@ -147,6 +147,9 @@ article.hentry h1 {
   img {
     width: 100%;
   }
+  .reduced-size {
+    max-width: 320px;
+  }
 }
 .promo { 
   margin: -30px auto 50px auto;
