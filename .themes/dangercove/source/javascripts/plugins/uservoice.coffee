@@ -25,11 +25,14 @@ $.fn.extend
     ignore = (e) ->
       e.preventDefault()
 
+    unless settings.app and settings.client
+      return
+
     # _Insert magic here._
     return @each ()->
       topics = []
       $.ajax({
-        url: 'http://dangercove.uservoice.com/api/v1/articles.json?client=8KiWIaX9jEbsnUu7TDLQWg&per_page=100',
+        url: 'http://' + settings.app + '.uservoice.com/api/v1/articles.json?client=' + settings.client + '&per_page=100',
         dataType: 'jsonp',
         success: (data) ->
           $('.loading', element).hide()

@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+{% if page.banner %}
+<header id="header" class="banner page_header hidden-tablet hidden-phone">
+<img class="bg" src="{{ page.banner }}" alt="{{ page.title }}">
+</header>
+{% endif %}
+
+<div class="container">
+  <div class="row">
+    <div class="span8">
+      <article role="article">
+        {% if page.title %}
+        <header>
+          <h1 class="entry-title">{% if page.back %}<a href="{{ page.back }}">&laquo;</a> {% endif %}{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+        </header>
+        {% endif %}
+      </article>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span12">
+      {{ content }}
+    </div>
+  </div>
+  <div class="row">
+    <div class="span8">
+      {% unless page.footer == false %}
+      <footer>
+        {% if page.date or page.author %}<p class="meta">
+          {% if page.author %}{% include post/author.html %}{% endif %}
+          {% if page.categories %}{% include post/categories.html %}{% endif %}
+        </p>{% endif %}
+        {% unless page.sharing == false %}
+        {% include post/sharing.html %}
+        {% endunless %}
+      </footer>
+      {% endunless %}
+    </article>
+    {% if site.disqus_short_name and page.comments == true %}
+    <section>
+      <h1>Comments</h1>
+      <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+    </section>
+    {% endif %}
+  </div>
+</div>
+</div>
+<hr class="container">
