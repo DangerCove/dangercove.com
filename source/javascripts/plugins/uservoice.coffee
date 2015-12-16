@@ -32,7 +32,7 @@ $.fn.extend
     return @each ()->
       topics = []
       $.ajax({
-        url: 'http://' + settings.app + '.uservoice.com/api/v1/articles.json?client=' + settings.client + '&per_page=100',
+        url: '//' + settings.app + '.uservoice.com/api/v1/articles.json?client=' + settings.client + '&per_page=100',
         dataType: 'jsonp',
         success: (data) ->
           $('.loading', element).hide()

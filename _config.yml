@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://www.dangercove.com
+url: https://www.dangercove.com
 title: Danger Cove
 author: Danger Cove
-simple_search: http://google.com/search
+simple_search: //google.com/search
 description: Remarkable little apps, made by a Dutch dude.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
