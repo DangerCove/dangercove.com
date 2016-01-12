@@ -7,7 +7,7 @@ sharing: false
 footer: false
 ---
 
-All products in the Danger Cove webstore are developed and produced by the Dutch company "Danger Cove". Danger Cove is listed under business identifier 57609403 in the Dutch Chamber of Commerce (KVK) in The Hague. Danger Cove respects your privacy and will not use your information outside of the shopping process or use of our apps. Danger Cove reserves the right to alter or amend this policy without prior notification.
+All products in the Danger Cove webstore are developed and produced by the Dutch company "Danger Cove". Danger Cove is listed under business identifier 57609403 in the Dutch Chamber of Commerce (KVK) in Leiden. Danger Cove respects your privacy and will not use your information outside of the shopping process or use of our apps. Danger Cove reserves the right to alter or amend this policy without prior notification.
 
 <h2>Digital Products</h2>
 
