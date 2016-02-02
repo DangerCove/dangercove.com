@@ -2,6 +2,19 @@
   margin-bottom: 20px;
 }
 
+.discontinued {
+  margin-top: 40px;
+  background: #222 !important;
+  .container {
+    margin-top: 0 !important; 
+    padding-bottom: 20px !important;
+  }
+  h2 {
+    text-align: center;
+    color: white;
+  }
+}
+
 .adventure_header {
   height: auto;
   border-bottom: #eee 1px solid;

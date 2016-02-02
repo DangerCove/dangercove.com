@@ -33,6 +33,7 @@ layout: default
         {% endunless %}
       </div>
     </div>
+    {% unless page.discontinued %}
     <div class="row buttons">
       {% unless page.macappstore %}
       <div class="offset3 span3">
@@ -73,8 +74,18 @@ layout: default
         </div>
         {% endif %}
       </div>
+      {% endunless %}
     </div>
   </div>
+  {% if page.discontinued %}
+  <div class="row discontinued">
+    <div class="container">
+      <div class="span12">
+        <h2>Unfortunately {{ page.title }} has been discontinued</h2>
+      </div>
+    </div>
+  </div>
+  {% endif %}
 </header>
 
 <div class="container">
@@ -85,6 +96,7 @@ layout: default
   {% endif %}
 </div>
 {{ content }}
+{% unless page.discontinued %}
 <div class="container">
   <div class="row buttons">
     {% unless page.macappstore %}
@@ -142,4 +154,5 @@ layout: default
 {% if page.store %}
 <form id="buy-form" action="{{ page.store }}" method="POST"></form>
 {% endif %}
+{% endunless %}
 <hr class="container">
