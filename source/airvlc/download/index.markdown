@@ -7,7 +7,7 @@ comments: false
 sharing: true
 footer: false
 banner: /images/adventures/airvlc/header.jpg
-file: http://download.airvlc.com/AirVLC-latest.dmg
+file: http://download.airvlc.com/AirVLC-latest.zip
 back: /airvlc
 belongs_to: airvlc
 ---
