@@ -3,7 +3,7 @@ layout: post
 title: "Lots of Updates"
 date: 2016-03-24 10:00
 comments: true
-categories: [adventures, porthole, denied, airvlc]
+categories: [adventures, porthole, denied, airvlc, hedge]
 ---
 
 [Porthole v1.7.8](/porthole), [AirVLC v1.1.2](/airvlc) and [Denied v1.3.0](https://www.getdenied.com) are out now. I released quite a few updates the past month and forgot to write about it. So, here's a quick overview of what I've been working on.
