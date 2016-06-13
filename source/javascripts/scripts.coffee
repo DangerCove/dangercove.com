@@ -2,8 +2,6 @@
 ---
 $(document).ready(->
   $('.screenshots_container').screenshots()
-  $('.uservoice.porthole').uservoice(app: 'porthole', client: 'BrdNXCTAk8OT8JxYr4Ypdw')
-  $('.uservoice.other').uservoice(app: 'dangercove', client: '8KiWIaX9jEbsnUu7TDLQWg')
 
   $(".manual_download").click((e) ->
     clearTimeout downloadTimeout
