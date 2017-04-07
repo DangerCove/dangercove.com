@@ -81,9 +81,9 @@ layout: default
   <div class="row discontinued">
     <div class="container">
       <div class="span12">
-        <h2>Unfortunately {{ page.title }} has been discontinued</h2>
+        <h2>Unfortunately, {{ page.title }} has been discontinued.</h2>
         {% if page.download %}
-        <p>Existing customers can <a href="{{ page.url | remove:'index.html' | strip_slash }}/download">download {{ page.title }} here</a></p>
+        <p>Existing customers can <a href="{{ page.url | remove:'index.html' | strip_slash }}/download">download {{ page.title }} here.</a></p>
         {% endif %}
       </div>
     </div>
