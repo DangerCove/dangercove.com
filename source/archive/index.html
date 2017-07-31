@@ -1,0 +1,29 @@
+---
+layout: page
+title: Archive
+footer: false
+---
+
+<p>Danger Cove has been making apps sinds 2011. These apps were discontinued along the way.</p>
+
+<div id="legacy">
+{% sorted_for p in site.pages reversed sort_by:weight %}
+{% if p.adventure and p.discontinued %}
+
+<section class="legacy-entry container">
+  <div class="row">
+    <div class="span2 entry-logo">
+      {% if p.website %}<a href="{{ p.website | remove:'index.html' }}" target="_blank"><img src="/images/adventures/{{ p.adventure }}/icon.png" alt ="{{ p.title }} Icon"></a>{% else %}<a href="{{ p.url | remove:'index.html' }}"><img src="/images/adventures/{{ p.adventure }}/icon.png" alt ="{{ p.title }} Icon"></a>{% endif %}
+    </div>
+    <div class="span10 entry-content">
+      <h2 class="entry-title">{{ p.title }}</h2>
+      <h3 class="entry-subtitle">{{ p.subtitle }}</h3>
+      <p>{{ p.description }} {% if p.website %}<a href="{{ p.website | remove:'index.html' }}" target="_blank">More &rarr;</a>{% else %}<a href="{{ p.url | remove:'index.html' }}">More &rarr;</a>{% endif %}</p>
+    </div>
+  </div>
+
+</section>
+
+{% endif %}
+{% endsorted_for %}
+</div>

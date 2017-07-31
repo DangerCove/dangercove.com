@@ -177,3 +177,24 @@ article.hentry h1 {
     }
   }
 }
+
+.legacy-entry {
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-bottom: #eee 1px solid;
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .entry-title {
+    font-size: 24px;
+  }
+  .entry-subtitle {
+    font-size: 20px;
+    color: #999;
+  }
+
+  .entry-logo {
+    text-align: center;
+  }
+}
