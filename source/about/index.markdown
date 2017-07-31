@@ -10,7 +10,7 @@ banner: /images/content/adventuresofdangercove.jpg
 
 Danger Cove makes apps that aim to improve productivity, make awesome technology accessible _and_ bring endless joy to everyone who uses them.
 
-We've been around since October of 2011 and currently reside in the wonderful city of Leiden in The Netherlands. 
+We've been around since October of 2011 and currently reside in the wonderful city of Utrecht in The Netherlands. 
 
 <div class="row">
   <div class="span4">
