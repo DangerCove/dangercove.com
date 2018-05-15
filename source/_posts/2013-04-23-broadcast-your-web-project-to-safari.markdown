@@ -67,7 +67,7 @@ Your web service should show up in the list
 
 ### Video
 
-<iframe width="620" height="349" src="http://www.youtube.com/embed/7M9xcwbICPs" allowfullscreen></iframe>
+<iframe width="620" height="349" src="https://www.youtube.com/embed/7M9xcwbICPs" allowfullscreen></iframe>
 
 Curious about what else coucou can do? Check out [this post](/blog/2013/03/29/coucou-for-easy-network-access) about using coucou to discover network services.
 
