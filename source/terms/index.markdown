@@ -7,7 +7,7 @@ sharing: false
 footer: false
 ---
 
-All products in the Danger Cove webstore are developed and produced by the Dutch company "Danger Cove". Danger Cove is listed under business identifier 57609403 in the Dutch Chamber of Commerce (KvK) in Leiden. Any dispute will be handled under Dutch law in Leiden. Danger Cove reserves the right to alter or amend these terms and conditions without prior notification.
+All products in the Danger Cove webstore are developed and produced by the Dutch company "Danger Cove". Danger Cove is listed under business identifier 57609403 in the Dutch Chamber of Commerce (KvK) in Utrecht. Any dispute will be handled under Dutch law in Leiden. Danger Cove reserves the right to alter or amend these terms and conditions without prior notification.
 
 <h2>Software license and trademarks</h2>
 
@@ -24,3 +24,5 @@ Danger Cove's native apps are build and tested to work on a clean install of the
 <h2>Support</h2>
 
 Products that are purchased through the webstore include support via their own support platforms. Please check the website of the software for the appropriate contact methods. General support is available via <a href="mailto:support@dangercove.com">support@dangercove.com</a>.
+
+Last updated: May 24th 2018
