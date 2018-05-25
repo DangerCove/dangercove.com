@@ -20,7 +20,7 @@ Sales of our license key activated digital products are processed by <a href="ht
 - Personal contact information.
 - Shipping address.
 
-Please refer to the FastSpring's privacy statement for more information: <a href="https://www.fastspring.com/privacy.php">http://www.fastspring.com/privacy.php</a>.
+Please refer to the FastSpring privacy statement for more information: <a href="https://www.fastspring.com/privacy.php">http://www.fastspring.com/privacy.php</a>.
 
 <h2>Support</h2>
 
@@ -31,7 +31,18 @@ Support requests are processed by [FreshDesk](https://freshdesk.com), a US based
 - Personal contact information.
 - The contents of the support request.
 
-Please refer to the FreshWorks' privacy statement for more information: [https://www.freshworks.com/privacy/](https://www.freshworks.com/privacy/).
+Please refer to the FreshWorks privacy statement for more information: [https://www.freshworks.com/privacy/](https://www.freshworks.com/privacy/).
+
+<h2>Crash Reporting</h2>
+
+Crash reports are gathered by [HockeyApp](https://www.hockeyapp.net) on opt-in basis only. HockeyApp is a Microsoft owned, US based platform that stores crash reports that you can choose to submit through our apps. They provide the following services for Danger Cove products:
+
+- Storage of crash reports.
+- HockeyApp stores the following information to facilitate the crash reporting:
+- The contents of the crash report.
+- Personal contact information.
+
+Please refer to the HockeyApp privacy statement for more information: [https://www.hockeyapp.net/privacy](https://www.hockeyapp.net/privacy).
 
 <h2>What we collect</h2>
 
