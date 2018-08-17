@@ -1,5 +1,5 @@
 {% if loop_page %}{% assign page = loop_page %}{% endif %}
-{% assign span = "span4" %}{% assign span_icon = "span2" %}{% assign span_text = "span2" %}{% assign offset_requirements = "offset2" %}
+{% assign span = "span6" %}{% assign span_icon = "span2" %}{% assign span_text = "span4" %}{% assign offset_requirements = "offset2" %}
 {% if page.website %}<a href="{{ page.website }}" class="adventure_intro {{ span }} {{ page.status }}" target="_blank">{% elsif page.status == "soon_nourl" %}<a href="#" class="adventure_intro {{ span }} {{ page.status }}">{% else %}<a href="{{ root_url }}{{ page.url | remove:'index.html' }}" class="adventure_intro {{ span }} {{ page.status }}">{% endif %}
 <div class="row">
 {% if page.status == "beta" %}
