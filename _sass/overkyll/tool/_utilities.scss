@@ -1,0 +1,124 @@
+//
+// Utility classes
+// --------------------------------------------------
+
+// Floats
+// -------------------------
+
+.clearfix {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.center {
+  margin: 0 auto $line-height-base;
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+// List
+// -------------------------
+
+@mixin list-inline {
+  padding: 0;
+  margin: 0 0 $base-line;
+  li {
+    display: inline-block;
+  }
+}
+
+// Toggling content
+// -------------------------
+// Note: Deprecated .hide in favor of .invisible
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.invisible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+// For Affix plugin
+// -------------------------
+
+.affix {
+  position: fixed;
+}
+
+// Icons
+// -------------------------
+
+.icon {
+  > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    path {
+      fill: $color-grey;
+    }
+  }
+}
+
+// Aspect Ratio
+// -------------------------
+
+// https://www.bram.us/2017/06/16/aspect-ratios-in-css-are-a-hack/
+// https://github.com/twbs/bootstrap-sass/blob/master/assets/stylesheets/bootstrap/_responsive-embed.scss
+
+.aspectratio {
+  position: relative;
+  display: block;
+  height: 0;
+  margin-bottom: $base-line;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+
+  iframe,
+  embed,
+  object,
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+  }
+}
+
+// Modifier class for 16:9 aspect ratio
+.aspectratio[data-ratio="16/9"] {
+  padding-top: 56.25%;
+}
+// Modifier class for 4:3 aspect ratio
+.aspectratio[data-ratio="4/3"] {
+  padding-top: 75%;
+}

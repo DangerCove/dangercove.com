@@ -1,0 +1,20 @@
+<div class="skip-links">
+  <a href="#main">Contenu principal</a>
+</div>
+<header class="site-header" role="banner">
+  <div class="site-header-top site-header-top__align wrapper">
+      <p class="site-logo">
+        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      </p>
+
+      <nav class="nav-main nav-main__scroll" role="navigation">
+        <ul>
+          {% for page in site.html_pages %}
+            {% if page.navigation %}
+            <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+  </div>
+</header>

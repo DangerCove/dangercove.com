@@ -1,0 +1,150 @@
+////
+/// Header
+////
+
+// Site Header
+//------------------------
+
+// Site header :: general container
+.site-header {
+  position: relative;
+  margin-bottom: $base-line*2;
+  padding: 0 1em;
+  text-align: center;
+  color: #000;
+  z-index: 0;
+}
+
+// Site header top :: logo and menu
+.site-header-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: $base-line/2 $base-line;
+  width: 100%;
+  background: transparent;
+}
+
+// // Site header top :: making the logo and the menu on the same line
+.site-header-top__align {
+  @media #{$medium-up} {
+    flex-direction: row;
+    align-items: baseline;
+  }
+}
+
+
+// Site header hero :: class on general container for hero header
+.site-header-hero {
+  padding: 0;
+  color: #fff;
+  background-size: cover;
+  background-position: center center;
+  background-color: $color-grey;
+  background-image: linear-gradient(to top, $color-grey 0%, $color-grey-dark 100%);
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vmin;
+  }
+  a {
+    text-decoration: none;
+    color: currentColor;
+    &:visited {
+      color: currentColor;
+    }
+  }
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    z-index: -1;
+    opacity: 1;
+    transition: opacity 1500ms ease-in-out;
+    
+    @at-root {
+      .site-header.b-lazy::after {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+// Site header img TAG for responsives images
+.site-header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 1500ms ease-in-out;
+}
+
+// Site title :: container for a text
+.site-title {
+  display: block;
+  margin: 0;
+  font-size: $base-em * $ms3;
+  line-height: 1;
+  color: currentColor;
+  text-decoration: none;
+}
+
+// Site title hero :: class on site-title for hero title
+.site-title-hero {
+  display: inline-block;
+  padding: $base-line/2;
+  font-size: $title1;
+  font-weight: 300;
+}
+
+// Site title link :: class when site-title is a link (inside pages)
+.site-title-link {
+  color: currentColor;
+  text-decoration: none;
+  &,&:visited {
+    color: currentColor;
+  }
+}
+
+// Site information :: scope site-title + site-logo
+.site-information {
+  margin: 0;
+}
+
+// Site slogan
+.site-slogan {
+  text-align: center;
+  color: #fff;
+}
+
+// Exergue :: zone just after the header
+.exergue {
+  margin-top: -2*$base-line;
+  padding: $base-line;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background: $color-grey-dark;
+  small {
+    display: block;
+    clear: both;
+    width: 100%;
+  }
+  a {
+    color: #fff;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
