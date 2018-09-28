@@ -9,17 +9,8 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <style type="text/css">
-    {% capture include_to_scssify %}
-      {% include base.scss %}
-    {% endcapture %}
-    {{ include_to_scssify | scssify }}
-  </style>
-  <script>
-    {% include loadCSS.js %}
-    loadCSS("{{ '/assets/css/main.css' | prepend: site.baseurl }}");
-    {% include localfont.js %}
-  </script>
-  <noscript><link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}"></noscript>
+  <link rel="stylesheet" href="/assets/css/vendor/dracula.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
   {% include favicons.html %}
 </head>

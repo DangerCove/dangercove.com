@@ -1,0 +1,16 @@
+@charset 'utf-8';
+
+/* Base */
+@import 'bulma/utilities/_all';
+@import 'bulma/base/_all';
+@import 'bulma/grid/_all';
+@import 'bulma/layout/_all';
+
+/* Elements */
+@import 'bulma/elements/container';
+@import 'bulma/elements/title';
+@import 'bulma/elements/content';
+
+/* Components */
+@import 'bulma/components/navbar';
+@import 'bulma/components/menu';

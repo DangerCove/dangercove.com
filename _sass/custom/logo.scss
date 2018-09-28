@@ -1,0 +1,10 @@
+.navbar-item-logo svg {
+  height: $size-2;
+
+  & path {
+    fill: currentColor !important;
+  }
+  & ellipse, & circle {
+    stroke: currentColor !important;
+  }
+}

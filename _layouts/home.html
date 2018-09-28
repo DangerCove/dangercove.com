@@ -2,12 +2,27 @@
 layout: default
 ---
 
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Hero title
+      </h1>
+      <h2 class="subtitle">
+        Hero subtitle
+      </h2>
+    </div>
+  </div>
+</section>
+
 {% assign post = site.posts.first %}
 
-<section class="post wrapper">
-  <h1><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
+<section class="container">
+  <h1 class="title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
   <p class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</p>
-  {{ post.content | markdownify }}
+  <div class="content">
+    {{ post.content | markdownify }}
+  </div>
 </section>
 
 {% include pagination.html %}
