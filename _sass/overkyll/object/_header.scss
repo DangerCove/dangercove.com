@@ -99,6 +99,17 @@
   color: currentColor;
   text-decoration: none;
 }
+.site-logo {
+  & svg {
+    height: $base-em * $ms3;
+  }
+  & path, & stroke {
+    fill: currentColor !important;
+  }
+  & ellipse, & circle {
+    stroke: currentColor !important;
+  }
+}
 
 // Site title hero :: class on site-title for hero title
 .site-title-hero {
