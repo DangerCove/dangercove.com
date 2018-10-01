@@ -1,10 +1,22 @@
-.navbar-item-logo svg {
-  height: $size-2;
+.logo-inline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
-  & path {
-    fill: currentColor !important;
+  vertical-align: middle;
+
+  & svg {
+    height: $size-3;
+
+    & path {
+      fill: currentColor !important;
+    }
+    & ellipse, & circle {
+      stroke: currentColor !important;
+    }
   }
-  & ellipse, & circle {
-    stroke: currentColor !important;
-  }
+}
+
+.navbar-item-logo .logo {
+  height: $size-3;
 }

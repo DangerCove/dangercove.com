@@ -1,23 +1,21 @@
-<header class="container" role="banner">
-  <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item navbar-item-logo" href="{{ site.baseurl }}/">{% include Depths.svg %}</a>
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
+<header class="hero is-large" role="banner">
 
-      <div class="navbar-menu" id="navMenu">
-        <div class="navbar-start">
-          {% for page in site.html_pages %}
-          {% if page.navigation %}
-          <a class="navbar-item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-          {% endfor %}
-        </div>
-      </div>
-    </nav>
+  <div class="hero-head">
+    {% include navigation.html %}
   </div>
+
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        Danger Cove
+      </h1>
+      <h2 class="subtitle">
+        Grab some apps, yo
+      </h2>
+    </div>
+  </div>
+
+  <div class="hero-foot">
+  </div>
+
 </header>
