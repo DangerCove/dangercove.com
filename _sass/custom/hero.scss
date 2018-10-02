@@ -1,6 +1,17 @@
 .hero {
-  background-image: url('/assets/img/armando-castillejos-38485-unsplash.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 0%;
+  background: repeating-linear-gradient(
+  45deg,
+  $white,
+  $white 100px,
+  $white-complementary 100px,
+  $white-complementary 200px
+  );
+
+  border-bottom: $white-complementary $size-7 solid;
+}
+
+.hero .logo {
+  & svg {
+    height: $size-1 * 5;
+  }
 }

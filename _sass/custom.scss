@@ -1,10 +1,13 @@
 @charset 'utf-8';
 
-/* Layout */
+// Typography
+@import 'custom/typography';
+
+// Layout
 @import 'custom/hero';
 
-/* Imagery */
+// Imagery
 @import 'custom/logo';
 
-/* Utilities */
+// Utilities
 @import 'custom/highlight';

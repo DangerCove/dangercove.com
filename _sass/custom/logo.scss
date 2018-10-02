@@ -18,5 +18,7 @@
 }
 
 .navbar-item-logo .logo {
-  height: $size-3;
+  svg {
+    height: 30px;
+  }
 }

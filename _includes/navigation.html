@@ -1,7 +1,9 @@
-<nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
+<nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
+      {% if page.layout != 'home' %}
       <a class="navbar-item navbar-item-logo" href="{{ site.baseurl }}/">{% include logo-retro.html %}</a>
+      {% endif %}
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -14,7 +16,7 @@
       <div class="navbar-end">
         {% for page in site.html_pages %}
         {% if page.navigation %}
-        <a class="navbar-item has-background-light" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        <a class="navbar-item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         {% endif %}
         {% endfor %}
       </div>
