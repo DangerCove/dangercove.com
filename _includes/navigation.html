@@ -1,7 +1,7 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
-      {% if page.layout != 'home' %}
+      {% if page.path != 'index.html' %}
       <a class="navbar-item navbar-item-logo" href="{{ site.baseurl }}/">{% include logo-retro.html %}</a>
       {% endif %}
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
