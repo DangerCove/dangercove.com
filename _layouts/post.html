@@ -3,13 +3,20 @@ layout: default
 ---
 
 <main>
-  <section class="container section is-medium">
-    <article class="content">
-      <h1 class="title">{{ page.title }}</h1>
-      <p class="post-meta">{{ page.date | date: "%d/%m/%Y" }}</p>
-      {{ content | markdownify }}
-    </article>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-offset-2 is-8">
+          <article class="content is-medium">
+            <h1 class="title">{{ page.title }}</h1>
+            {{ content | markdownify }}
+          </article>
 
-    {% include pagination.html %}
+          <hr>
+
+          {% include pagination.html %}
+        </div>
+      </div>
+    </div>
   </section>
 </main>

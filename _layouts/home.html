@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<main>
+  <section class="section is-medium">
+    <div class="container">
+      <div class="columns">
+        {% for post in site.posts limit: 4 %}
+        <div class="column is-one-quarter">
+          {% include post/preview.html post=post %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  
+  <section class="app section has-background-light">
+    {% assign denied = site.pages | where: "permalink", "/denied/" | first %}
+    {% include app/introduction.html app=denied %}
+  </section>
+
+</main>

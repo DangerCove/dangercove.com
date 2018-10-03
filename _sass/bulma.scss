@@ -1,5 +1,8 @@
 @charset 'utf-8';
 
+// Bootstrap
+@import 'bulma/utilities/_all';
+
 // Base
 @import 'bulma/base/_all';
 @import 'bulma/grid/_all';
@@ -18,3 +21,5 @@
 @import 'bulma/components/navbar';
 @import 'bulma/components/menu';
 @import 'bulma/components/media';
+@import 'bulma/components/card';
+@import 'bulma/components/pagination';

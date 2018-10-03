@@ -1,5 +1,8 @@
-{% if page.path == 'index.html' %}
-{% include hero.html %}
+{% case page.layout %}
+{% when 'home' %}
+{% include home/hero.html %}
+{% when 'app' %}
+{% include app/hero.html %}
 {% else %}
 {% include navigation.html %}
-{% endif %}
+{% endcase %}

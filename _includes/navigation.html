@@ -1,9 +1,9 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
-      {% if page.path != 'index.html' %}
-      <a class="navbar-item navbar-item-logo" href="{{ site.baseurl }}/">{% include logo-retro.html %}</a>
-      {% endif %}
+      {% unless page.layout == 'home' %}
+      <a class="navbar-item navbar-item-logo" href="{{ site.baseurl }}/">{% include logo/retro.html %}</a>
+      {% endunless %}
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -14,10 +14,9 @@
     <div class="navbar-menu" id="navMenu">
       <div class="navbar-start"></div>
       <div class="navbar-end">
-        {% for page in site.html_pages %}
-        {% if page.navigation %}
-        <a class="navbar-item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %}
+        {% assign navigatables = site.pages | where: "navigation", true  %}
+        {% for item in navigatables %}
+        <a class="navbar-item" href="{{ item.url }}">{{ item.title }}</a>
         {% endfor %}
       </div>
     </div>

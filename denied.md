@@ -1,10 +1,13 @@
 ---
-layout: page 
+layout: app 
 title: Denied 
 subtitle: Skip terrible music
 description: >-
   Denied saves your ears from Nickelback or any other band song or album. Denied for Mac sees what you're playing in Spotify and iTunes (including Apple Music!) and automatically skips songs that you dislike.
 icon: denied-icon_128x128.png
+hero: 
+  icon: denied-icon_256x256@2x.png
+  background: denied-sand-blurred-sky.jpg
 features:
   - Block explicit songs.
   - Setup rules to skip artists, titles or albums.

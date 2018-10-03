@@ -8,17 +8,12 @@ $red: #cf0060;
 $orange: #ffa300;
 $purple: #ff00ff;
 $white-complementary: #F3FBFF;
-$primary: $orange;
+$primary: $purple;
 
 // Links
-$link: $primary;
+$link: $orange;
 $link-hover: $purple;
 
-// Fonts
-$family-sans-serif: 'Nunito', $family-sans-serif;
-$family-primary: $family-sans-serif;
-$family-title: 'Oswald', $family-primary;
-
 // Navbar
-$navbar-item-hover-background-color: $primary;
-$navbar-item-hover-color: $white;
+$navbar-item-hover-background-color: $link;
+$navbar-item-hover-color: white;

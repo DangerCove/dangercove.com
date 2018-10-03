@@ -1,0 +1,24 @@
+<header class="hero" role="banner"{% if page.hero.background %}style="background-image: url('/assets/img/app/{{ page.hero.background }}');"{% endif %}>
+
+  <div class="hero-head">
+    {% include navigation.html %}
+  </div>
+
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <figure class="logo">
+        <img src="/assets/img/app/{{ page.hero.icon }}" alt="{{ page.title }} app icon">
+      </figure>
+      <h1 class="title is-1 is-spaced">
+        {{ page.title }}
+      </h1>
+      <h2 class="subtitle">
+        {{ page.subtitle }}
+      </h2>
+    </div>
+  </div>
+
+  <div class="hero-foot">
+  </div>
+
+</header>

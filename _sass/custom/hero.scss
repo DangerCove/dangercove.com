@@ -16,7 +16,7 @@
 }
 
 .hero .logo {
-  & svg {
-    height: $size-1 * 5;
+  & svg, & img {
+    height: 256px;
   }
 }
