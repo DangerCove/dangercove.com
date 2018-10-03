@@ -15,7 +15,8 @@ Safari has a special feature called "Bonjour bookmarks" that allows you to list 
 ### Start your web project
 
 ![Start your web project](/assets/img/old/content/coucou-site-terminal.png)
-Start your web project
+
+*Start your web project*
 
 <!-- more -->
 
@@ -26,24 +27,28 @@ Like I said above, this will work with any type of local web server. Replace Rai
 Launch [coucou](http://appstore.com/mac/coucou), enable the Broadcast option in the preferences and create a new service.
 
 ![Add a new service](/assets/img/old/adventures/coucou/screenshots/coucou-newservice.jpg)
-Choose the correct preset, or enter "_http._tcp." and the port manually
+
+*Choose the correct preset, or enter "_http._tcp." and the port manually*
 
 ### Enable Bonjour bookmarks
 
 Launch Safari and enable Bonjour bookmarks; they're disabled per default.
 
 ![Enable Bonjour bookmarks](/assets/img/old/content/coucou-safari-preferences.png)
-You can enable Bonjour bookmarks on the Bookmarks tab
+
+*You can enable Bonjour bookmarks on the Bookmarks tab*
 
 ![Show bookmarks bar](/assets/img/old/content/coucou-safari-showbookmarks.jpg)
-Don't forget to display the bookmarks bar
+
+*Don't forget to display the bookmarks bar*
 
 ### Select your service from the menu
 
 And that's it. Click the menu item and it'll load your website without copy-pasting, emailing or writing down your IP address!
 
 ![Select your service](/assets/img/old/content/coucou-safari-bonjourbookmark.jpg)
-Your web service should show up in the list
+
+*Your web service should show up in the list*
 
 ### Video
 
@@ -51,4 +56,4 @@ Your web service should show up in the list
 
 Curious about what else coucou can do? Check out [this post](/blog/2013/03/29/coucou-for-easy-network-access) about using coucou to discover network services.
 
-[![Available on the Mac App Store](/images/MacAppStore_download.png)](https://itunes.apple.com/app/coucou/id620436774)
+[![Available on the Mac App Store](/assets/img/old/MacAppStore_download.png)](https://itunes.apple.com/app/coucou/id620436774)

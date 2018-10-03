@@ -42,19 +42,19 @@ Denied's update introduces a more finegrained manner to specify the amount of ti
 
 Apple resets reviews in the Mac App Store after an update comes out, so I was pretty stoked to see a few new ones appear almost straight away. The creative ways in which people describe how Denied helps them out is awesome, so I'd like to share a few here:
 
->&#11088;&#11088;&#11088;&#11088;&#11088; **A must-have for public Spotify playlists!**
-
->This app is so good it should be integrated into Spotify itself. If you listen to public playlists or some charts, and are tired of that one song that just keeps playing all the time — get Denied.
-
->by dubstrike from the US on Feb 24, 2016
+> &#11088;&#11088;&#11088;&#11088;&#11088; **A must-have for public Spotify playlists!**
+>
+> This app is so good it should be integrated into Spotify itself. If you listen to public playlists or some charts, and are tired of that one song that just keeps playing all the time — get Denied.
+>
+> by dubstrike from the US on Feb 24, 2016
 
 ---
 
->&#11088;&#11088;&#11088;&#11088;&#11088; **Essential.**
-
+> &#11088;&#11088;&#11088;&#11088;&#11088; **Essential.**
+>
 > I can’t imagine a Mac with this uninstalled. Especially with Apple Music and Stations, the risk of hearing an Adele song grew too great. Now rather than hearing her dreadful wailing, I get a notification reminding me that my ears have been saved from the misery once more. Works perfectly, every time.
-
->by David Harrison from the UK on Mar 22, 2016
+>
+> by David Harrison from the UK on Mar 22, 2016
 
 They're all great, but especially the last one cracked me up.
 

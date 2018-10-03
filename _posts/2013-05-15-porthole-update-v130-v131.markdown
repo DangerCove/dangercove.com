@@ -15,13 +15,16 @@ I'm happy to have released two updates for Porthole this month, **version 1.3.0 
 For version 1.3.0 I focussed on cleaning up a lot of the interface. I never got around to adding **Retina-compatible graphics** to Porthole and this update takes care of about 90% of that. New in-app icons, setup wizard imagery etc. The AirPlay speaker icons were actually updated again in version 1.3.1 after I was told that graying out the music note when the speaker isn't connected seemed to suggest the option was unavailable, instead of just inactive.
 
 ![Porthole v1.2.2](/assets/img/old/content/porthole-old.jpg)
-Porthole v1.2.2
+
+*Porthole v1.2.2*
 
 ![Porthole v1.3.0](/assets/img/old/content/porthole-v130.jpg)
-Porthole v1.3.0, notice the much sharper menu bar icon
+
+*Porthole v1.3.0, notice the much sharper menu bar icon*
 
 ![Porthole v1.3.1](/assets/img/old/content/porthole-v131.jpg)
-Porthole v1.3.1, the speaker icon changes when it's connected
+
+*Porthole v1.3.1, the speaker icon changes when it's connected*
 
 ### Setup Wizard
 
@@ -30,10 +33,12 @@ The setup wizard was next to receive a little overhaul. Instead of going with th
 It's also a little shorter and the image on the first step has a more obvious indicator of what Porthole looks like, in the menu bar.
 
 ![Porthole v1.2.2](/assets/img/old/content/porthole-setup-old.jpg)
-Porthole v1.2.2
+
+*Porthole v1.2.2*
 
 ![Porthole v1.3.1](/assets/img/old/content/porthole-setup-v131.jpg)
-Porthole v1.3.1
+
+*Porthole v1.3.1*
 
 ### Embedded Store
 

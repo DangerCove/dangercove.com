@@ -26,7 +26,8 @@ Hopefully you'll agree that with version 1.4.0 I've found a middle ground that
 works.
 
 ![Porthole v1.4.0](/assets/img/old/content/porthole-v140.jpg)
-Porthole v1.4.0 with added options for enabling local playback.
+
+*Porthole v1.4.0 with added options for enabling local playback.*
 
 As you can see the AirPlay Receivers and computer speaker are both located in
 separate sections. Porthole still primarily controls your AirPlay output and
@@ -34,10 +35,12 @@ you'll mainly use the top section of the menu. Everything is there to:
 switch between speakers, connect to all and stop streaming all together.
 
 ![Select AirPlay speakers](/assets/img/old/content/porthole-selectairplay.jpg)
-Toggle AirPlay speakers.
+
+*Toggle AirPlay speakers.*
 
 ![Enable Mac speakers](/assets/img/old/content/porthole-enablemacspeakers.jpg)
-Control your Mac's output.
+
+*Control your Mac's output.*
 
 The bottom section allows you to toggle the computer speaker. By default it's
 off. Click the menu item to turn it on, even while Porthole's already active.

@@ -1,17 +1,9 @@
-{% if page.previous || page.next %}
-<nav class="pagination" role="navigation">
+{% if page.previous or page.next %}
+<nav class="pagination is-centered" role="navigation" aria-label="pagination">
 
-  {% if page.previous %}
-  <a class="pagination-previous" href="{{ page.previous.url }}">
-    {{ page.previous.title }}
-  </a>
-  {% endif %}
+  <a class="pagination-previous" href="{{ page.previous.url }}"{% unless page.previous %} disabled{% endunless %}>{{ page.previous.title | truncate: 40 }}</a>
 
-  {% if page.next %}
-  <a class="pagination-next" href="{{ page.next.url }}">
-    {{ page.next.title }}
-  </a>
-  {% endif %}
+  <a class="pagination-next" href="{{ page.next.url }}"{% unless page.next %} disabled{% endunless %}>{{ page.next.title | truncate: 40 }}</a>
 
 </nav>
 {% endif %}

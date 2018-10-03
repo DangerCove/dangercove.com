@@ -14,8 +14,6 @@ future post) and a whole bunch of projects that looked cool at first, but now li
 <!-- more -->
 
 ![Danger Cove turns two today! Porthole and AirVLC are 40% off to celebrate!](/assets/img/old/content/dangercove-two.jpg)
-</a>
-</div>
 
 It feels awesome that Danger Cove apps are being used by more people than I could
 hope for. Thanks so much to the wonderful people that took the time to spread 

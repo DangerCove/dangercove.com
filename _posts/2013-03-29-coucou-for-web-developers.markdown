@@ -13,7 +13,8 @@ This usually involves copy-pasting of ip addresses, emailing and other such nons
 First we need to enable broadcasting in the preferences pane.
 
 ![Enable broadcasting](/assets/img/old/adventures/coucou/screenshots/coucou-preferences2.jpg)
-Enable broadcasting
+
+*Enable broadcasting*
 
 Now follow these steps:
 
@@ -25,11 +26,13 @@ Now follow these steps:
 * click publish and you're set!
 
 ![Add a new service](/assets/img/old/adventures/coucou/screenshots/coucou-newservice.jpg)
-Add a new service
+
+*Add a new service*
 
 ![Find a custom service](/assets/img/old/adventures/coucou/screenshots/coucou-rails.jpg)
-Your service is now visible for anyone using coucou, or any other Bonjour compatible app
+
+*Your service is now visible for anyone using coucou, or any other Bonjour compatible app*
 
 You can unpublish the service by clicking the corresponding entry in the Broadcast menu.
 
-[![Available on the Mac App Store](/images/MacAppStore_download.png)](https://itunes.apple.com/app/coucou/id620436774)
+[![Available on the Mac App Store](/assets/img/old/MacAppStore_download.png)](https://itunes.apple.com/app/coucou/id620436774)

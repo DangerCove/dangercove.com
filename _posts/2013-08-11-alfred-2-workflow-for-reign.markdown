@@ -28,9 +28,6 @@ can star or share it.
 It reduces the need to visit the web interface and makes remote controlling
 Spotify even faster and easier!
 
-Of course, like Reign, the workflow is open-source and free to share. [Visit
-the GitHub project](https://github.com/DangerCove/reign-alfred2-workflow) to contribute and read more about how it works. Or
-just [download the workflow file](https://raw.github.com/DangerCove/reign-alfred2-workflow/master/Reign%20for%20Spotify.alfredworkflow)
-to get started.
+Of course, like Reign, the workflow is open-source and free to share. [Visit the GitHub project](https://github.com/DangerCove/reign-alfred2-workflow) to contribute and read more about how it works. Or just [download the workflow file](https://raw.github.com/DangerCove/reign-alfred2-workflow/master/Reign%20for%20Spotify.alfredworkflow) to get started.
 
 Reign is available on the Mac App Store, for free.

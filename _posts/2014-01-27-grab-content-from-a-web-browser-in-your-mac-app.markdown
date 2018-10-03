@@ -9,7 +9,8 @@ categories: [tapetrap, tutorials, open source]
 One of my favorite features of [Tapetrap](http://www.dangercove.com/tapetrap) is its ability to subscribe to a website while surfing the web with your browser. Instead of looking for the RSS feed manually and copy-pasting the link, you can click a button and Tapetrap will find and add the feed for you. In this article I want to go over why I think that's awesome and how it works. The source code for the URL grabbing is [available on GitHub](https://github.com/DangerCove/DCOURLGrabber).
 
 <iframe width="620" height="349" src="//www.youtube.com/embed/zzoGEhWTXRw?rel=0&amp;vq=hd720" allowfullscreen></iframe>
-Adding feeds from your web browser in Tapetrap
+
+*Adding feeds from your web browser in Tapetrap*
 
 <!-- more -->
 
@@ -33,7 +34,7 @@ I'll skip the menu bar icon part. There are plenty of [good tutorial](http://kmi
 
 Yep, AppleScript. Often used to automate tedious tasks, it's also a great way to interface with other applications. For DCOURLGrabber I focussed on getting the URL from the selected tab of the key window of the web browser that was last active. This is the AppleScript for getting the URL in Google Chrome:
 
-``` applescript Grab URL From Chrome https://github.com/DangerCove/DCOURLGrabber/raw/master/AppleScripts/com.google.Chrome.scpt
+``` applescript 
 tell application "Google Chrome"
   get URL of active tab of first window
 end tell
@@ -41,7 +42,7 @@ end tell
 
 Simple enough right? For [Safari and Opera](https://github.com/DangerCove/DCOURLGrabber/tree/master/AppleScripts) the command are very similar. The one for Firefox is a little longer.
 
-``` applescript Grab URL From Firefox https://github.com/DangerCove/DCOURLGrabber/raw/master/AppleScripts/org.mozilla.firefox.scpt
+``` applescript 
 tell application "Firefox" to activate
 tell application "System Events"
   keystroke "l" using command down
@@ -57,7 +58,7 @@ Hopefully they'll switch to a straightforward approach in a future update. In an
 
 To run this in Objective-C, create a new Mac project in XCode, paste in the next piece of code in the `applicationDidFinishLaunching:` method and that's it.
 
-``` objective-c Get URL From Chrome in Objective-C
+``` objc
 // The script to run. You could also load this from a file as in DCOURLGrabber
 NSString *chromeScript =
 @"tell application \"Google Chrome\"\n"
@@ -84,7 +85,7 @@ if(scriptExecuteError) {
 
 Using DCOURLGrabber it becomes even easier. Check the [GitHub page](https://github.com/DangerCove/DCOURLGrabber) for more documentation.
 
-``` objective-c Get URL From Chrome in Objective-C Using DCOURLGrabber
+``` objc
 DCOURLGrabber *grabber = [[DCOURLGrabber alloc] init];
 NSURL *url = [grabber grabURLFromBundleID:@"com.google.Chrome" withError:&grabError];
 if(grabError) {
@@ -112,7 +113,7 @@ All links point to RSS feeds. There are some similarities between the lines. Usi
 
 The following lines of code parse a simple HTML page, check the 'type' parameter of the 'link' meta tag for either application/rss+xml, application/atom+xml, rss+xml or atom+xml and log the link when it matches.
 
-``` objective-c Log the Link to a RSS Feed Found in the Head
+``` objc
 // Create an array that contains the strings that can appear in the 'type' property
 NSArray *linkTypeFeedIndicators = [NSArray arrayWithObjects:@"application/rss+xml", @"application/atom+xml", @"rss+xml", @"atom+xml", nil];
 

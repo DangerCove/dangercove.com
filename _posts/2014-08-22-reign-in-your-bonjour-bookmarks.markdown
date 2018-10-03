@@ -15,12 +15,15 @@ There's a magic menu in Safari, disabled per default, that will automatically sh
 <!-- more -->
 
 ![Open Safari's preferences](/assets/img/old/adventures/reign/screenshots/safari-preferences.jpg)
-First open Safari's preferences.
+
+*First open Safari's preferences.*
 
 ![Click Advanced and then enable Bonjour Favorites](/assets/img/old/adventures/reign/screenshots/enable-bonjour.jpg)
-Click Advanced and then enable Bonjour Favorites.
+
+*Click Advanced and then enable Bonjour Favorites.*
 
 ![Enable the Favorites bar](/assets/img/old/adventures/reign/screenshots/show-favorites.jpg) 
-Enable the Favorites bar.
+
+*Enable the Favorites bar.*
 
 ![Reign servers on the network automatically show up!](/assets/img/old/adventures/reign/screenshots/bonjour-bookmarks.jpg)
