@@ -1,0 +1,51 @@
+{% assign app = include.app %}
+
+<section class="app container section is-medium">
+  <div class="columns">
+    <div class="column is-half">
+      <div class="media">
+        <figure class="media-left is-hidden-mobile">
+          <p class="image is-64x64">
+            <img src="/assets/img/apps/{{ app.icon }}" alt="{{ app.title }} app icon">
+          </p>
+        </figure>
+        <div class="media-content">
+          <article class="content">
+            <h2 class="title is-1">{{ app.title }}</h2>
+            <h3 class="subtitle">{{ app.subtitle }}</h3>
+            <div class="tags">
+              {% for tag in app.tags %}
+              <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+            <p>{{ app.description }}</p>
+            <h4 class="subtitle is-4">Features</h4>
+            <ul>
+              {% for feature in app.features %}
+              <li>{{ feature }}</li>
+              {% endfor %}
+            </ul>
+          </article>
+          <div class="app-actions columns">
+            <div class="column is-one-third">
+              <a rel="nofollow" href="{{ app.download_link }}" class="button is-link is-fullwidth">Download</a>
+            </div>
+            <div class="column">
+              <a href="{{ app.url }}" class="button is-light">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        {% for screenshot in app.screenshots %}
+        <figure>
+          <a href="/assets/img/apps/{{ screenshot.href }}"><img src="/assets/img/apps/{{ screenshot.href }}" alt="{{ screenshot.alt }}"></a>
+          <figcaption>{{ screenshot.caption }}</figcaption>
+        </figure>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
