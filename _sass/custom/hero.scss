@@ -1,13 +1,18 @@
 .hero {
-  background: repeating-linear-gradient(
-  45deg,
-  $white,
-  $white 100px,
-  $white-complementary 100px,
-  $white-complementary 200px
-  );
+  background-image: url('/assets/img/serkan-turk-392303-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: 50% 50%;
 
-  border-bottom: $white-complementary $size-7 solid;
+  //background: repeating-linear-gradient(
+  //45deg,
+  //$white,
+  //$white 100px,
+  //$white-complementary 100px,
+  //$white-complementary 200px
+  //);
+
+  //border-bottom: $white-complementary $size-7 solid;
 }
 
 .hero .logo {

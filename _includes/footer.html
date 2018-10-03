@@ -3,5 +3,10 @@
     <p>
       <strong class="logo">Danger Cove</strong> {% include logo-inline.html %} Est. 2011
     </p>
+    {% if page.path == 'index.html' %}
+    <p>
+      <small>Photo by Serkan Turk on Unsplash.</small>
+    </p>
+    {% endif %}
   </div>
 </footer>
