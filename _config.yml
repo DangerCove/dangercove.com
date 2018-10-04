@@ -20,12 +20,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-# Compress
-compress_html:
-  clippings: all
-  comments: [""]
-  endings: [all]
-  profile: false
-  blanklines: false
-  ignore:
-    envs: []
+# Assets
+sass:
+  style: compressed
