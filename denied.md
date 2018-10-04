@@ -7,7 +7,8 @@ description: >-
 icon: denied-icon_128x128.png
 hero: 
   icon: denied-icon_256x256@2x.png
-  background: denied-sand-blurred-sky.jpg
+  background: denied-michael-aleo-567445-unsplash.jpg
+  credits: Photo by Michael Aleo on Unsplash.
 features:
   - Block explicit songs.
   - Setup rules to skip artists, titles or albums.
