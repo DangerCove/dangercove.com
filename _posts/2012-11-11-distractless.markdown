@@ -8,4 +8,4 @@ categories: [adventures, distractless, open source]
 
 ![Distractless](/assets/img/old/content/distractless.jpg)
 
-HTML5 local storage and fullscreen API experiment. Distraction free writing in your browser: ![distrctless.herokuapp.com](http://distractless.herokuapp.com).
+HTML5 local storage and fullscreen API experiment. Distraction free writing in your browser: [distrctless.herokuapp.com](http://distractless.herokuapp.com).
