@@ -14,10 +14,8 @@
     <div class="navbar-menu" id="navMenu">
       <div class="navbar-start"></div>
       <div class="navbar-end">
-        {% assign navigatables = site.pages | where: "navigation", true  %}
-        {% for item in navigatables %}
-        <a class="navbar-item" href="{{ item.url }}">{{ item.title }}</a>
-        {% endfor %}
+        <a class="navbar-item" href="/news">News</a>
+        <a class="navbar-item" href="/about">About</a>
       </div>
     </div>
   </div>
