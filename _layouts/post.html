@@ -2,15 +2,18 @@
 layout: default
 ---
 
-<main>
+<main class="post">
   <section class="section">
     <div class="container">
+      {% unless page.hero.background %}
+      <header class="post-header">
+        <h1 class="title">{{ page.title }}</h1>
+        <p class="subtitle is-4 has-text-grey-light">{{ page.date | date: "%B %Y"}}</p>
+      </header>
+      {% endunless %}
       <div class="columns">
         <div class="column is-offset-2 is-8">
-          <article class="content is-medium">
-            {% unless page.hero.background %}
-            <h1 class="title">{{ page.title }}</h1>
-            {% endunless %}
+          <article class="post-content content is-medium">
             {{ content | markdownify }}
           </article>
 

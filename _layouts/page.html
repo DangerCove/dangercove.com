@@ -2,15 +2,17 @@
 layout: default
 ---
 
-<main>
+<main class="page">
   <section class="section">
     <div class="container">
+      {% unless page.hero.background %}
+      <header class="page-header">
+        <h1 class="title">{{ page.title }}</h1>
+      </header>
+      {% endunless %}
       <div class="columns">
         <div class="column is-offset-2 is-8">
-          <article class="content is-medium">
-            {% unless page.hero.background %}
-            <h1 class="title">{{ page.title }}</h1>
-            {% endunless %}
+          <article class="page-content content is-medium">
             {{ content | markdownify }}
           </article>
         </div>

@@ -8,7 +8,7 @@
     <div class="container has-text-centered">
       {% if page.hero.icon %}
       <figure class="logo">
-        <img src="/assets/img/app/{{ page.hero.icon }}" alt="{{ page.title }} app icon">
+        <img src="/assets/img/{{ page.hero.icon }}" alt="{{ page.title }} app icon">
       </figure>
       {% endif %}
       <h1 class="title is-1 is-spaced">
@@ -19,6 +19,7 @@
         {{ page.subtitle }}
       </h2>
       {% endif %}
+      <p class="subtitle is-4 has-text-grey-light">{{ page.date | date: "%B %Y"}}</p>
     </div>
   </div>
 
