@@ -1,8 +1,15 @@
 {% case page.layout %}
+
 {% when 'home' %}
 {% include home/hero.html %}
+
 {% when 'app' %}
 {% include app/hero.html %}
+
+{% when 'post' %}
+{% include post/header.html %}
+
 {% else %}
 {% include navigation.html %}
+
 {% endcase %}

@@ -8,7 +8,9 @@ layout: default
       <div class="columns">
         <div class="column is-offset-2 is-8">
           <article class="content is-medium">
+            {% unless page.hero.background %}
             <h1 class="title">{{ page.title }}</h1>
+            {% endunless %}
             {{ content | markdownify }}
           </article>
 
