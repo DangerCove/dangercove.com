@@ -3,7 +3,7 @@ layout: post
 title: "Apple TV v6.0 Update Warning"
 date: 2013-09-22 14:04
 comments: false
-categories: [adventures, porthole, warnings, airplay]
+categories: [apps, porthole, warnings, airplay]
 ---
 
 __This issue has been resolved. Update Porthole to restore compatibility. Read the [follow up](/blog/2013/09/26/update-porthole-to-restore-apple-tv-compatibility/) for more details.__

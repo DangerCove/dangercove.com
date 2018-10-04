@@ -8,7 +8,7 @@ layout: default
       <div class="columns">
         {% for post in site.posts limit: 4 %}
         <div class="column is-one-quarter">
-          {% include post/preview.html post=post %}
+          {% include post/card.html post=post %}
         </div>
         {% endfor %}
       </div>

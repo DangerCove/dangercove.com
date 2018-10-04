@@ -13,7 +13,4 @@ $primary: $purple;
 // Links
 $link: $orange;
 $link-hover: $purple;
-
-// Navbar
-$navbar-item-hover-background-color: $link;
-$navbar-item-hover-color: white;
+$link-focus-border: $link-hover;

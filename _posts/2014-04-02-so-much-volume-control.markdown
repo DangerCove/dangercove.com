@@ -3,7 +3,7 @@ layout: post
 title: "So much (volume) control"
 date: 2014-04-02 10:17
 comments: true
-categories: [adventures, porthole, updates]
+categories: [apps, porthole, updates]
 ---
 
 ![Porthole volume control](/assets/img/old/content/porthole-volumecontrol.jpg)

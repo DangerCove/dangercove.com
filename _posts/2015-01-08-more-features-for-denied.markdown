@@ -3,7 +3,7 @@ layout: post
 title: "More Features For Denied"
 date: 2015-01-08 10:00
 comments: true
-categories: [adventures, denied, updates]
+categories: [apps, denied, updates]
 ---
 
 ![Add songs from the Now Playing info](/assets/img/old/content/denied-macbook-now-playing-with-caption.jpg)

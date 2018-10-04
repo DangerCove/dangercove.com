@@ -3,7 +3,7 @@ layout: post
 title: "Broadcast your web project to Safari"
 date: 2013-04-23 15:26
 comments: false
-categories: [adventures, coucou]
+categories: [apps, coucou]
 ---
 
 If you work on web projects in a team, you're probably familiar with the situation where you want to quickly show your design or progress to a colleague, or test it on another computer. Usually this involves calling the person over or writing down/copying/emailing your IP address of the day.
@@ -26,7 +26,7 @@ Like I said above, this will work with any type of local web server. Replace Rai
 
 Launch [coucou](http://appstore.com/mac/coucou), enable the Broadcast option in the preferences and create a new service.
 
-![Add a new service](/assets/img/old/adventures/coucou/screenshots/coucou-newservice.jpg)
+![Add a new service](/assets/img/old/apps/coucou/screenshots/coucou-newservice.jpg)
 
 *Choose the correct preset, or enter "_http._tcp." and the port manually*
 

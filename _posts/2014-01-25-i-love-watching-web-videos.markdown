@@ -3,7 +3,7 @@ layout: post
 title: "I Love Watching Web Videos"
 date: 2014-01-25 11:40
 comments: true
-categories: [adventures, tapetrap]
+categories: [apps, tapetrap]
 ---
 
 ![Tapetrap header](/assets/img/old/content/tapetrap-header.jpg)

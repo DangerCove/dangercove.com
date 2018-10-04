@@ -1,25 +1,9 @@
 {% assign post = content.post %}
 
-<div class="card">
-  {% if post.hero.background %}
-  <div class="card-image">
-    <figure class="image is-16by9">
-      <img src="/assets/img/{{ post.hero.background }}" alt="Preview image of post titled {{ post.title }}">
-    </figure>
-  </div>
-  {% endif %}
-
-  <div class="card-content">
-    <p class="title is-4">{{ post.title }}</p>
-
-    <div class="content">
-      {{ post.excerpt }}
-    </div>
-  </div>
-
-  {% if post.content != post.excerpt %}
-  <div class="card-footer">
-    <a class="card-footer-item" href="{{ post.url }}">Read More</a>
-  </div>
-  {% endif %}
+<p class="is-size-4">{{ post.title }}</p>
+<p class="is-size-6 has-text-grey-light">{{ post.date | date: "%B %Y"}}</p>
+<div class="news-posts-post-tags tags">
+  {% for tag in post.categories %}
+  <span class="tag">{{ tag }}</span>
+  {% endfor %}
 </div>

@@ -3,7 +3,7 @@ layout: post
 title: "Lots of Updates"
 date: 2016-03-24 10:00
 comments: true
-categories: [adventures, porthole, denied, airvlc, hedge]
+categories: [apps, porthole, denied, airvlc, hedge, updates]
 ---
 
 [Porthole v1.7.8](/porthole), [AirVLC v1.1.2](/airvlc) and [Denied v1.3.0](https://www.getdenied.com) are out now. I released quite a few updates the past month and forgot to write about it. So, here's a quick overview of what I've been working on.
@@ -38,7 +38,7 @@ The updates for AirVLC and Porthole are pretty similar and mostly focus on bring
 
 Denied's update introduces a more finegrained manner to specify the amount of time Denied should prevent repeat plays. Instead of just adjusting the slider you can actually enter the number of days.
 
-![New repeating song judge in Denied v1.3.0](/assets/img/old/adventures/denied/screenshots/v1.3.0-repeating-judge.jpg)
+![New repeating song judge in Denied v1.3.0](/assets/img/old/apps/denied/screenshots/v1.3.0-repeating-judge.jpg)
 
 Apple resets reviews in the Mac App Store after an update comes out, so I was pretty stoked to see a few new ones appear almost straight away. The creative ways in which people describe how Denied helps them out is awesome, so I'd like to share a few here:
 
@@ -62,7 +62,7 @@ They're all great, but especially the last one cracked me up.
 
 I'm working on a startup with three other guys called Hedge for Mac. It's an app for OS X, aimed at video professionals, that helps you import data from your camera and make multiple copies &mdash; or backups &mdash;, securely and quickly.
 
-![Hedge for Mac](/assets/img/old/adventures/hedge/screenshots/almost-done.jpg)
+![Hedge for Mac](/assets/img/old/apps/hedge/screenshots/almost-done.jpg)
 
 We launched version 1.0 on March the 22nd. For more information [check out the website](https://www.hedgeformac.com) and download the trial version.
 

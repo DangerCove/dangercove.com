@@ -6,6 +6,7 @@
   vertical-align: middle;
 
   & svg {
+    width: $size-3;
     height: $size-3;
 
     & path {
@@ -19,6 +20,7 @@
 
 .navbar-item-logo .logo {
   svg {
+    width: 30px;
     height: 30px;
   }
 }

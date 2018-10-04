@@ -3,7 +3,7 @@ layout: post
 title: "Denied Is On Sale And Now Supports Rdio &amp; iTunes"
 date: 2014-10-07 14:48
 comments: true
-categories: [adventures, denied, updates]
+categories: [apps, denied, updates]
 ---
 
 Denied's version 1.1.0 is available for download. In addition to Spotify, it now automatically skip tracks in Rdio and iTunes as well! It also features an improved add-rule-flow that lets you create new rules much faster.

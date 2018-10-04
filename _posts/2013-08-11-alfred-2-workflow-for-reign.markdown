@@ -3,10 +3,10 @@ layout: post
 title: "Alfred 2 Workflow for Reign"
 date: 2013-08-11 14:55
 comments: false
-categories: [adventures, reign, open source]
+categories: [apps, reign, open source]
 ---
 
-![Alfred 2 Workflow for Reigh](/assets/img/old/adventures/reign/screenshots/alfred.jpg)
+![Alfred 2 Workflow for Reigh](/assets/img/old/apps/reign/screenshots/alfred.jpg)
 
 For those of you that are familiar with [Alfred](http://www.alfredapp.com/),
 you probably need no explanation as to why a workflow for [Reign](/reign) will come in 

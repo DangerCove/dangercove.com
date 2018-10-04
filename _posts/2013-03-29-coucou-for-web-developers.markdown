@@ -3,7 +3,7 @@ layout: post
 title: "Coucou for Web Developers"
 date: 2013-03-29 13:08
 comments: false
-categories: [adventures, coucou, tutorials]
+categories: [apps, coucou, tutorials]
 ---
 
 If you're a web developer you probably recognize that moment where you're running a local development evironment with MAMP/XAMPP, Rails or Node.js and need to see your site on another computer, or show someone else what you're working on. Maybe to do a cross-browser check, maybe just to show how awesome this latest design looks.
@@ -12,7 +12,7 @@ This usually involves copy-pasting of ip addresses, emailing and other such nons
 
 First we need to enable broadcasting in the preferences pane.
 
-![Enable broadcasting](/assets/img/old/adventures/coucou/screenshots/coucou-preferences2.jpg)
+![Enable broadcasting](/assets/img/old/apps/coucou/screenshots/coucou-preferences2.jpg)
 
 *Enable broadcasting*
 
@@ -25,11 +25,11 @@ Now follow these steps:
 * select one of the presets in the window that pops-up or create a service manually;
 * click publish and you're set!
 
-![Add a new service](/assets/img/old/adventures/coucou/screenshots/coucou-newservice.jpg)
+![Add a new service](/assets/img/old/apps/coucou/screenshots/coucou-newservice.jpg)
 
 *Add a new service*
 
-![Find a custom service](/assets/img/old/adventures/coucou/screenshots/coucou-rails.jpg)
+![Find a custom service](/assets/img/old/apps/coucou/screenshots/coucou-rails.jpg)
 
 *Your service is now visible for anyone using coucou, or any other Bonjour compatible app*
 
