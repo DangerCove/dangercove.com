@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.dangercove.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dangercove 
 github_username:  dangercove
+ga_tracking_id: UA-27275793-1
 permalink: /news/:year/:title/
 
 # Build settings

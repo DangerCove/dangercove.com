@@ -15,4 +15,8 @@
   <link rel="stylesheet" href="/assets/css/main.css">
 
   {% include base/favicons.html %}
+
+  {% if jekyll.environment == 'production' and site.ga_tracking_id %}
+  {% include base/ga.html %}
+  {% endif %}
 </head>
