@@ -9,3 +9,21 @@
 .page-header {
   margin-bottom: $size-1;
 }
+
+.screenshot-macbook {
+  text-align: center;
+
+  @include from($tablet) {
+    background-image: url('/assets/img/macook-half-wireframe-now-playing@2x.jpg');
+    background-size: 466px 513px;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+
+    text-align: right;
+    min-height: 513px;
+
+    &-image {
+      margin: 41px 40px 0 0;
+    }
+  }
+}
