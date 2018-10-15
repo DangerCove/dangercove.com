@@ -3,7 +3,7 @@ layout: post
 title: Coucou for web developers
 date: 2013-03-29 13:08
 comments: false
-tags: [apps, coucou, tutorials]
+tags: [coucou, tutorials]
 ---
 
 If you're a web developer you probably recognize that moment where you're running a local development evironment with MAMP/XAMPP, Rails or Node.js and need to see your site on another computer, or show someone else what you're working on. Maybe to do a cross-browser check, maybe just to show how awesome this latest design looks.

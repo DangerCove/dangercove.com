@@ -3,7 +3,7 @@ layout: post
 title: Porthole update v1.3.2
 date: 2013-05-15 09:32
 comments: false
-tags: [apps, porthole, updates]
+tags: [porthole, updates]
 ---
 
 I'm happy to have released two updates for Porthole this month, **version 1.3.0 and 1.3.1**. Why don't I walk you through some of the things that were updated and improved.

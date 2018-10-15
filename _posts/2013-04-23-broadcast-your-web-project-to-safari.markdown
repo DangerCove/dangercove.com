@@ -3,7 +3,7 @@ layout: post
 title: Broadcast your web project to Safari
 date: 2013-04-23 15:26
 comments: false
-tags: [apps, coucou]
+tags: [coucou]
 ---
 
 If you work on web projects in a team, you're probably familiar with the situation where you want to quickly show your design or progress to a colleague, or test it on another computer. Usually this involves calling the person over or writing down/copying/emailing your IP address of the day.

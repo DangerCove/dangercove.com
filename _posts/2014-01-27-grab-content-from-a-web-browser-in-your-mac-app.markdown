@@ -3,7 +3,7 @@ layout: post
 title: Grab content from a web browser in your Mac app
 date: 2014-01-27 15:43
 comments: true
-tags: [tapetrap, tutorials, open source]
+tags: [tapetrap, tutorials, open-source]
 ---
 
 One of my favorite features of [Tapetrap](http://www.dangercove.com/tapetrap) is its ability to subscribe to a website while surfing the web with your browser. Instead of looking for the RSS feed manually and copy-pasting the link, you can click a button and Tapetrap will find and add the feed for you. In this article I want to go over why I think that's awesome and how it works. The source code for the URL grabbing is [available on GitHub](https://github.com/DangerCove/DCOURLGrabber).

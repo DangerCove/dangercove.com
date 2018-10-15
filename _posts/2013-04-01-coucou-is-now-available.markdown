@@ -3,7 +3,7 @@ layout: post
 title: Coucou is now available
 date: 2013-04-01 11:08
 comments: false
-tags: [apps, coucou]
+tags: [coucou, releases]
 ---
 
 ![Coucou](/assets/img/old/content/coucou-facebook.jpg)

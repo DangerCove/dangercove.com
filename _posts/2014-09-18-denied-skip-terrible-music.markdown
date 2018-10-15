@@ -3,7 +3,7 @@ layout: post
 title: Denied, skip terrible music
 date: 2014-09-17 12:45
 comments: true
-tags: [apps, denied, releases]
+tags: [denied, releases]
 ---
 
 The wait is over! No longer do you need to listen to artists you can't stand on Spotify. And even better: you can automatically skip those annoying skits and bonus tracks on otherwise great albums.
