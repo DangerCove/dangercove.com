@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Coucou is now available"
+title: Coucou is now available
 date: 2013-04-01 11:08
 comments: false
 tags: [apps, coucou]

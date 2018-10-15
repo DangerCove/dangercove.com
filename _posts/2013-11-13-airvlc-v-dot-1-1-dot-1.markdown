@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AirVLC v.1.1.1, still better with VLC 2.0.x"
+title: AirVLC v.1.1.1, still better with VLC 2.0.x
 date: 2013-11-13 13:33
 comments: true
 tags: [apps, airvlc, updates, glow]

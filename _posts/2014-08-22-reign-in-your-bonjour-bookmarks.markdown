@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Reign in Your Bonjour Bookmarks"
+title: Reign in your Bonjour bookmarks
 date: 2014-08-22 13:38
 comments: true
 tags: [apps, reign, updates]

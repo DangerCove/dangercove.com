@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Keep track of your web video feeds with Tapetrap"
+title: Keep track of your web video feeds with Tapetrap
 date: 2013-10-21 14:52
 comments: false
 tags: [apps, tapetrap, announcements]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "More Features For Denied"
+title: More features for Denied
 date: 2015-01-08 10:00
 comments: true
 tags: [apps, denied, updates]

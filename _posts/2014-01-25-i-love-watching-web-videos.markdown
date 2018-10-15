@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I Love Watching Web Videos"
+title: I love watching web videos
 date: 2014-01-25 11:40
 comments: true
 tags: [apps, tapetrap]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lots of Updates"
+title: Lots of updates
 date: 2016-03-24 10:00
 comments: true
 tags: [apps, porthole, denied, airvlc, hedge, updates]

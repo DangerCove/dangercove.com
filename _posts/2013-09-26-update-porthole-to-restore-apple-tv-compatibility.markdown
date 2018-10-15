@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Update Porthole to restore Apple TV compatibility"
+title: Update Porthole to restore Apple TV compatibility
 date: 2013-09-26 10:14
 comments: false
 tags: [apps, porthole, airplay, updates]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Easily add acknowledgments to your Xcode projects"
+title: Easily add acknowledgments to your Xcode projects
 date: 2014-05-29 15:14
 comments: true
 tags: [acknowledge, open source]

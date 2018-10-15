@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mavericks"
+title: Mavericks
 date: 2013-10-23 10:12
 comments: false
 tags: [mavericks, osx]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ready for Yosemite"
+title: Ready for Yosemite
 date: 2014-10-17 10:22
 comments: true
 tags: [yosemite, osx]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Grab content from a web browser in your Mac app"
+title: Grab content from a web browser in your Mac app
 date: 2014-01-27 15:43
 comments: true
 tags: [tapetrap, tutorials, open source]

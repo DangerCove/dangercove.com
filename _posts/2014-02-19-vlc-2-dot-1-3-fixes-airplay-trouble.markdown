@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VLC 2.1.3 fixes AirPlay trouble"
+title: VLC 2.1.3 fixes AirPlay trouble
 date: 2014-02-19 15:13
 comments: true
 tags: [apps, airvlc]

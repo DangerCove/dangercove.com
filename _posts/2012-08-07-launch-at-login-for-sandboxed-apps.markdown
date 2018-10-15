@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Launch at Login for sandboxed apps"
+title: Launch at login for sandboxed apps
 date: 2012-08-07 18:22
 comments: false
 tags: [tutorials, open source]

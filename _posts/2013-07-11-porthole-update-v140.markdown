@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Porthole Update v1.4.0"
+title: Porthole update v1.4.0
 date: 2013-07-11 09:35
 comments: false
 tags: [apps, porthole, updates]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Coucou for easy network access"
+title: Coucou for easy network access
 date: 2013-03-29 12:32
 comments: false
 tags: [apps, coucou, tutorials]

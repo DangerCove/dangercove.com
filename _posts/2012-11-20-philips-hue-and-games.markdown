@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Philips Hue & Games"
+title: Philips Hue & games
 date: 2012-11-20 11:58
 comments: false
 tags: [inspiration, games]

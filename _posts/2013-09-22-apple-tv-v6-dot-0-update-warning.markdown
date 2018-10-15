@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Apple TV v6.0 Update Warning"
+title: Apple TV v6.0 update warning
 date: 2013-09-22 14:04
 comments: false
 tags: [apps, porthole, warnings, airplay]

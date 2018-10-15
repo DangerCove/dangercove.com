@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Coucou for Web Developers"
+title: Coucou for web developers
 date: 2013-03-29 13:08
 comments: false
 tags: [apps, coucou, tutorials]

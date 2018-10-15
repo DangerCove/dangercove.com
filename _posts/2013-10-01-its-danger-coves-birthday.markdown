@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "It's Danger Cove's Birthday!"
+title: It's Danger Cove's birthday!
 date: 2013-10-01 09:13
 comments: false
 tags: [dangercove]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Control Your AirPlay Speakers Remotely With Porthole" 
+title: Control your AirPlay speakers remotely with Porthole
 date: 2015-04-28 12:00
 comments: true
 tags: [apps, porthole, features]

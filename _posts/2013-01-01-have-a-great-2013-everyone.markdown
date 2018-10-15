@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Have a great 2013 everyone!"
+title: Have a great 2013 everyone!
 date: 2013-01-01 00:00
 comments: false
 tags: 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Porthole is now scriptable"
+title: Porthole is now scriptable
 date: 2014-06-27 20:15
 comments: true
 tags: [apps, porthole, updates]

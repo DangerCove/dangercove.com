@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Porthole Update v1.3.2"
+title: Porthole update v1.3.2
 date: 2013-05-15 09:32
 comments: false
 tags: [apps, porthole, updates]

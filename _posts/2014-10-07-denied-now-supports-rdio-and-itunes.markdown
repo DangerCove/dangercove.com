@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Denied Is On Sale And Now Supports Rdio &amp; iTunes"
+title: Denied is on sale and now supports Rdio &amp; iTunes
 date: 2014-10-07 14:48
 comments: true
 tags: [apps, denied, updates]

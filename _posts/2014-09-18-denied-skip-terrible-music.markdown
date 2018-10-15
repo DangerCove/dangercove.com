@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Denied, skip terrible music"
+title: Denied, skip terrible music
 date: 2014-09-17 12:45
 comments: true
 tags: [apps, denied, releases]

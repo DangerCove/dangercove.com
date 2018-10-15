@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Glow for updates"
+title: Glow for updates
 date: 2013-10-23 17:17
 comments: false
 tags: [glow, updates, open source]
