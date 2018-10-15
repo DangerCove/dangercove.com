@@ -3,7 +3,7 @@ layout: post
 title: "AirTube is now available"
 date: 2013-02-09 11:42
 comments: false
-categories: [apps, airtube]
+tags: [apps, airtube]
 ---
 
 "How often do you watch Web Videos on sites like YouTube, Vimeo or TED? Wouldn’t it be awesome to just play those videos on your Apple TV and continue using your Mac?", asking ourselves this question is how we came up with [AirTube](/airtube).

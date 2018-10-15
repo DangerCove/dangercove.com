@@ -3,7 +3,7 @@ layout: post
 title: "Porthole is now scriptable"
 date: 2014-06-27 20:15
 comments: true
-categories: [apps, porthole, updates]
+tags: [apps, porthole, updates]
 ---
 
 Porthole version 1.7.0 came out two days ago. It introduces scripting, a feature that's been requested more than once.

@@ -3,7 +3,7 @@ layout: post
 title: "Reign is now available"
 date: 2012-08-21 18:29
 comments: false
-categories: [apps, reign, open source]
+tags: [apps, reign, open source]
 ---
 
 ![Reign for Spotify](/assets/img/old/content/reign_500.jpg)

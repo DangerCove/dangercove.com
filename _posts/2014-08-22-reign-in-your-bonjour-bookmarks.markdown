@@ -3,7 +3,7 @@ layout: post
 title: "Reign in Your Bonjour Bookmarks"
 date: 2014-08-22 13:38
 comments: true
-categories: [apps, reign, updates]
+tags: [apps, reign, updates]
 ---
 
 A new version of Reign just came out. Yes, really. And it even has a few cool new features (not a new theme though, sorry). I want talk one of them here: having Reign show up in Safari's Bonjour Bookmarks or Favorites.

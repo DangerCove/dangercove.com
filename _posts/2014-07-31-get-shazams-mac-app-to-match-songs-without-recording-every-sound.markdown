@@ -3,7 +3,7 @@ layout: post
 title: "Use Shazam's Mac App Through Porthole to Match Songs Without Recording Every Sound in the Room"
 date: 2014-07-31 09:26
 comments: true
-categories: [porthole, privacy]
+tags: [porthole, privacy]
 ---
 
 Shazam, the amazing music recognizing service, [released a Mac app today](http://www.shazam.com). It listens for audio around your Mac and tries to match it to music and tv series. Pretty awesome!

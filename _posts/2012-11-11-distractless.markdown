@@ -3,7 +3,7 @@ layout: post
 title: "Distractless"
 date: 2012-11-11 18:19
 comments: false
-categories: [apps, distractless, open source]
+tags: [apps, distractless, open source]
 ---
 
 ![Distractless](/assets/img/old/content/distractless.jpg)

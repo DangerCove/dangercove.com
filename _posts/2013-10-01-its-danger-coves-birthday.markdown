@@ -3,7 +3,7 @@ layout: post
 title: "It's Danger Cove's Birthday!"
 date: 2013-10-01 09:13
 comments: false
-categories: [dangercove]
+tags: [dangercove]
 ---
 
 I'm writing this from my studio in The Hague. It's been quite an adventure from 

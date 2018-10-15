@@ -3,7 +3,7 @@ layout: post
 title: "AirVLC v.1.1.1, still better with VLC 2.0.x"
 date: 2013-11-13 13:33
 comments: true
-categories: [apps, airvlc, updates, glow]
+tags: [apps, airvlc, updates, glow]
 ---
 
 It feels like an update for AirVLC has been overdue. Even though it's been working very well for me and even made the transition to Mavericks like it was nothing.

@@ -3,7 +3,7 @@ layout: post
 title: "Philips Hue & Games"
 date: 2012-11-20 11:58
 comments: false
-categories: [inspiration, games]
+tags: [inspiration, games]
 ---
 
 <iframe width="620" height="349" src="https://www.youtube.com/embed/IT5W_Mjuz5I" frameborder="0" allowfullscreen></iframe>

@@ -3,7 +3,7 @@ layout: post
 title: "Alfred 2 Workflow for Reign"
 date: 2013-08-11 14:55
 comments: false
-categories: [apps, reign, open source]
+tags: [apps, reign, open source]
 ---
 
 ![Alfred 2 Workflow for Reigh](/assets/img/old/apps/reign/screenshots/alfred.jpg)

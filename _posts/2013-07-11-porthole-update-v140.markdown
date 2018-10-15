@@ -3,7 +3,7 @@ layout: post
 title: "Porthole Update v1.4.0"
 date: 2013-07-11 09:35
 comments: false
-categories: [apps, porthole, updates]
+tags: [apps, porthole, updates]
 ---
 
 The latest update for [Porthole](http://getporthole.com) adds a brand new feature. A feature

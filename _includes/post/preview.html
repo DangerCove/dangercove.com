@@ -3,7 +3,7 @@
 <p class="is-size-4">{{ post.title }}</p>
 <p class="is-size-6 has-text-grey-light">{{ post.date | date: "%B %Y"}}</p>
 <div class="news-posts-post-tags tags">
-  {% for tag in post.categories %}
+  {% for tag in post.tags %}
   <span class="tag">{{ tag }}</span>
   {% endfor %}
 </div>

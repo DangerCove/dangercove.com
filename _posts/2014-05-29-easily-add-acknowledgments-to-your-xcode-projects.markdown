@@ -3,7 +3,7 @@ layout: post
 title: "Easily add acknowledgments to your Xcode projects"
 date: 2014-05-29 15:14
 comments: true
-categories: [acknowledge, open source]
+tags: [acknowledge, open source]
 ---
 
 When you're working on a iOS or OSX app, you're bound to use a library, framework or other code that was generously shared by other people. The right thing to do (especially when the license requires it!) is to acknowledge that you're using their work in your app.
