@@ -13,6 +13,9 @@ permalink: /news/:year/:title/
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-assets
+  - jekyll-sitemap
+  - jekyll-archives
 
 # Exclude from processing.
 exclude:
@@ -20,6 +23,28 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-# Assets
-sass:
-  style: compressed
+# jekyll-assets
+assets:
+  sass:
+    style: compressed
+
+# Front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      tags: []
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# jekyll-archives
+jekyll-archives:
+  enabled:
+    - tags
+  permalinks:
+    tag: "/tags/:name/"
