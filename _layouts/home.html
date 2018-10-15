@@ -16,7 +16,7 @@ layout: default
   </section>
   
   {% assign denied = site.pages | where: "permalink", "/denied/" | first %}
-  <section class="app section is-medium has-text-white" style="background-image: url('/assets/img/app/{{ denied.hero.background }}');">
+  <section class="app-preview section is-medium has-text-white" style="background-image: url('/assets/img/app/{{ denied.hero.background }}');">
     {% include app/introduction.html app=denied %}
   </section>
 

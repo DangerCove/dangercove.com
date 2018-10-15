@@ -1,4 +1,4 @@
-<header class="hero is-black is-medium" role="banner" style="background-image: url('/assets/img/app/{{ page.hero.background }}');">
+<header class="hero hero-app is-black is-medium" role="banner" style="background-image: url('/assets/img/app/{{ page.hero.background }}');">
 
   <div class="hero-head">
     {% include navigation.html %}
@@ -15,6 +15,16 @@
       <h2 class="subtitle">
         {{ page.subtitle }}
       </h2>
+      <div class="tags is-centered">
+        {% for tag in page.tags %}
+        <span class="tag is-dark">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      <div class="columns">
+        <div class="column is-offset-2 is-8">
+          <p class="subtitle hero-app-description is-3">{{ page.description }}</p>
+        </div>
+      </div>
     </div>
   </div>
 
