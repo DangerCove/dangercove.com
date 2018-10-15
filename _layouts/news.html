@@ -8,16 +8,16 @@ layout: default
       {% unless page.hero.background %}
       <header class="page-header">
         <h1 class="title">{{ page.title }}</h1>
-        <nav class="breadcrumb" aria-label="breadcrumbs">
-          <ul>
-            <li><a href="/news">News</a></li>
-            <li class="is-active"><a href="{{ page.url }}">{{ page.title }}</a></li>
-          </ul>
-        </nav>
+        {% if page.subtitle %}
+        <p class="subtitle is-4 has-text-grey-light">{{ page.subtitle }}</p>
+        <div class="page-header-actions">
+          <a href="/feed.xml" class="button is-link"><i class="fas fa-rss has-space-right"></i> Subscribe</a>
+        </div>
+        {% endif %}
       </header>
       {% endunless %}
       <div class="news-posts columns is-multiline">
-        {% for post in page.posts %}
+        {% for post in site.posts %}
         <div class="news-posts-post column is-half">
           {% include post/preview.html %}
         </div>
