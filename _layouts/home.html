@@ -3,22 +3,29 @@ layout: default
 ---
 
 <main>
-  <section class="section is-medium">
-    <div class="container">
-      <div class="columns">
-        {% for post in site.posts limit: 4 %}
-        <div class="column is-one-quarter">
-          {% include post/card.html post=post %}
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-  
   {% assign denied = site.pages | where: "permalink", "/denied/" | first %}
   {% assign color = denied.hero.dominant_color %}
   <section class="app-preview section is-medium has-text-white" style="background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba({{ color.r }}, {{ color.g }}, {{ color.b }}, 1)), url('/assets/img/app/{{ denied.hero.background }}');">
     {% include app/introduction.html app=denied %}
   </section>
 
+  <div class="container">
+    <section class="section">
+      <div class="columns">
+        <div class="column is-half">
+          <div class="content">
+            <h2 class="title is-2">Latest news</h2>
+            {% for post in site.posts limit: 3 %}
+            {% include post/preview.html post=post %}
+            {% endfor %}
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 </main>
