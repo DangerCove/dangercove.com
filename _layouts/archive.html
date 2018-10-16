@@ -19,7 +19,7 @@ layout: default
       <div class="news-posts columns is-multiline">
         {% for post in page.posts %}
         <div class="news-posts-post column is-half">
-          {% include post/preview.html %}
+          {% include post/preview.html post=post %}
         </div>
         {% endfor %}
       </div>

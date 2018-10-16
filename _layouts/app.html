@@ -3,12 +3,62 @@ layout: default
 ---
 
 <main class="page">
+  {% unless page.hero.background %}
   <div class="container">
-    {% unless page.hero.background %}
     <header class="page-header">
       <h1 class="title">{{ page.title }}</h1>
     </header>
-    {% endunless %}
+  </div>
+  {% endunless %}
+  <section class="section is-medium has-text-centered">
+    <div class="columns">
+      <div class="column is-offset-3 is-6">
+        <p class="subtitle is-2 page-description">{{ page.description }}</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="app-actions columns">
+        <div class="column is-offset-2 is-4">
+          <a rel="nofollow" href="{{ page.download_link }}" class="button is-large is-link is-fullwidth"><i class="fab fa-app-store has-space-right"></i> Get {{ page.title }}</a>
+        </div>
+        <div class="column is-4">
+          <a href="{{ page.website }}" class="button is-large is-light is-fullwidth"><i class="fas fa-external-link-alt has-space-right"></i> Visit {{ page.website | replace: "https://www.", "" }}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container">
     {{ content }}
+
+    <section class="section">
+      <div class="columns">
+        <div class="column is-5">
+          <div class="content">
+            <h2 class="title is-2">Latest news</h2>
+            {% for post in site.tags.denied limit: 3 %}
+              {% include post/preview.html post=post %}
+            {% endfor %}
+          </div>
+        </div>
+        <div class="column is-offset-1 is-4">
+          <div class="content">
+            <h2 class="title is-2">Features</h2>
+            <ul>
+              {% for feature in page.features %}
+              <li>{{ feature }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="app-actions columns">
+            <div class="column is-half">
+              <a rel="nofollow" href="{{ page.download_link }}" class="button is-large is-link is-fullwidth"><i class="fab fa-app-store has-space-right"></i> Get {{ page.title }}</a>
+            </div>
+            <div class="column">
+              <a href="{{ page.website }}" class="button is-large is-light"><i class="fas fa-external-link-alt has-space-right"></i> Visit {{ page.website | replace: "https://www.", "" }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </main>
