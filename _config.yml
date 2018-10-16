@@ -1,7 +1,7 @@
 title: Danger Cove
 email: ahoy@dangercove.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Apps you didn't know you needed.
+  The homepage of Danger Cove's apps. Great software for music and productivity.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.dangercove.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dangercove 
