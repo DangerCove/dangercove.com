@@ -35,9 +35,12 @@ layout: default
         <div class="column is-5">
           <div class="content">
             <h2 class="title is-2">Latest news</h2>
-            {% for post in site.tags.denied limit: 3 %}
-              {% include post/preview.html post=post %}
-            {% endfor %}
+            {% assign posts = site.tags[page.posts] %}
+            {% if posts %}
+            {% include related/news.html posts=posts limit=3 %}
+            {% else %}
+            <p>No news, yet.</p>
+            {% endif %}
           </div>
         </div>
         <div class="column is-offset-1 is-4">
@@ -51,10 +54,10 @@ layout: default
           </div>
           <div class="app-actions columns">
             <div class="column is-half">
-              <a rel="nofollow" href="{{ page.download_link }}" class="button is-large is-link is-fullwidth"><i class="fab fa-app-store has-space-right"></i> Get {{ page.title }}</a>
+              <a rel="nofollow" href="{{ page.download_link }}" class="button is-link is-fullwidth"><i class="fab fa-app-store has-space-right"></i> Get {{ page.title }}</a>
             </div>
             <div class="column">
-              <a href="{{ page.website }}" class="button is-large is-light">Visit {{ page.website | replace: "https://www.", "" }}</a>
+              <a href="{{ page.website }}" class="button is-light">Visit {{ page.website | replace: "https://www.", "" }}</a>
             </div>
           </div>
         </div>
