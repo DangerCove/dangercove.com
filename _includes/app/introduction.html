@@ -9,7 +9,7 @@
           </p>
         </figure>
         <div class="media-content">
-          <article class="content">
+          <article class="content is-medium">
             <h3 class="title is-1">{{ app.title }}</h3>
             <h4 class="subtitle is-4">{{ app.subtitle }}</h4>
             <div class="tags">
@@ -18,20 +18,9 @@
               {% endfor %}
             </div>
             <p>{{ app.description }}</p>
-            <h4 class="subtitle is-4">Features</h4>
-            <ul>
-              {% for feature in app.features %}
-              <li>{{ feature }}</li>
-              {% endfor %}
-            </ul>
           </article>
-          <div class="app-actions columns">
-            <div class="column is-one-third">
-              <a rel="nofollow" href="{{ app.download_link }}" class="button is-medium is-link is-fullwidth"><i class="fab fa-app-store has-space-right"></i> Get {{ app.title }}</a>
-            </div>
-            <div class="column">
-              <a href="{{ app.url }}" class="button is-medium is-light">Learn More</a>
-            </div>
+          <div class="app-actions">
+            <p><a href="{{ app.url }}" class="button is-medium is-link">Learn More</a></p>
           </div>
           {% if page.layout == 'home' %}
           <div class="app-photo has-text-grey-dark">
