@@ -34,7 +34,7 @@
       <div class="content">
         {% for screenshot in app.screenshots %}
         <figure>
-          <a href="/assets/img/app/{{ screenshot.href }}"><img class="has-shadow" src="/assets/img/app/{{ screenshot.href }}" alt="{{ screenshot.alt }}"></a>
+          <a href="/assets/img/app/{{ screenshot.src }}"><img class="has-shadow" src="/assets/img/app/{{ screenshot.src }}" alt="{{ screenshot.alt }}"></a>
           <figcaption>{{ screenshot.caption }}</figcaption>
         </figure>
         {% endfor %}

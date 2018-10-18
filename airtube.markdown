@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: discontinued
 title: AirTube has been discontinued
 subtitle: Web Videos on your Apple TV, hassle free.
 description: >-

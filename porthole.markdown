@@ -1,10 +1,23 @@
 ---
-layout: page 
+layout: discontinued
 title: Porthole has been discontinued
 subtitle: AirPlay all audio to multiple speakers
 description: >-
   Play all audio from your Mac through multiple AirPlay speakers at the same time.
 date: 2017-01-10
+screenshots:
+  - src: porthole-setup.jpg
+    alt: Screenshot of Porthole's setup wizard*Setup wizard
+    caption: Per speaker volume controls
+  - src: porthole-volume.jpg
+    alt: Screenshot of Porthole's per speaker volume control
+    caption: Per speaker volume controls
+  - src: porthole-scripting.jpg
+    alt: Screenshot of Porthole's scripting features
+    caption: Automate Porthole using AppleScript
+  - src: porthole-hotkeypanel.jpg
+    alt: Screenshot of Porthole's hotkey panel
+    caption: Hotkey panel
 permalink: /porthole/
 ---
 
@@ -49,17 +62,3 @@ _Remember that new licenses can't be bought and support is limited._
 > Porthole adds an item to your menu bar that transfers your system audio to an AirPort Express with one click. It's a piece of cake.
 >
 > — Adam Pash ([lifehacker.com](https://lifehacker.com/5895637/porthole-streams-your-macs-audio-to-your-airplay-devices))
-
-## Screenshots 
-
-![Screenshot of Porthole's setup wizard](/assets/img/app/porthole-setup.jpg)
-*Setup wizard*
-
-![Screenshot of Porthole's per speaker volume control](/assets/img/app/porthole-volume.jpg)
-*Per speaker volume controls*
-
-![Screenshot of Porthole's scripting features](/assets/img/app/porthole-scripting.jpg)
-*Scripting*
-
-![Screenshot of Porthole's hotkey panel](/assets/img/app/porthole-hotkeypanel.jpg)
-*Hotkey panel*

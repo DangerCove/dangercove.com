@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: discontinued
 title: Tapetrap has been discontinued
 subtitle: The most comfortable way to watch online videos.
 description: >- 

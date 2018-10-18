@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Terms & Conditions"
+title: Terms & Conditions
 date: 2018-05-24 15:31
 comments: false
 sharing: false

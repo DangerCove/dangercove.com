@@ -1,5 +1,5 @@
 ---
-layout: page 
+layout: discontinued
 title: Reign has been discontinued
 subtitle: The Supreme Remote for Spotify
 description: The Spotify remote for friends, colleagues, housemates and yourself that works in any browser.

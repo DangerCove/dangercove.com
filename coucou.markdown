@@ -1,5 +1,5 @@
 ---
-layout: page 
+layout: discontinued
 title: coucou has been discontinued
 subtitle: Your whole network at your finger tips
 description: With coucou you have every device on your network at your finger tips.

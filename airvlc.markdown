@@ -1,5 +1,5 @@
 ---
-layout: page 
+layout: discontinued
 title: AirVLC has been discontinued
 subtitle: AirPlay Audio Sync for VLC
 description: >-
