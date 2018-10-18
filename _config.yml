@@ -17,6 +17,7 @@ plugins:
 
 # Exclude from processing.
 exclude:
+  - README.markdown
   - deploy.sh
   - Gemfile
   - Gemfile.lock
