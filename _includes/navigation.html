@@ -1,4 +1,4 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
       {% unless page.layout == 'home' %}
@@ -16,13 +16,13 @@
       <div class="navbar-end">
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">Apps</a>
-          <div class="navbar-dropdown">
+          <div class="navbar-dropdown is-boxed">
             {% assign apps = site.pages | where: "layout", "app/live" %}
             {% for app in apps %}
-            <a href="{{ app.url }}" class="navbar-item">{{ app.title }}</a>
+            <a href="{{ app.url }}" class="dropdown-item">{{ app.title }}</a>
             {% endfor %}
             <hr class="navbar-divider">
-            <a href="/archive" class="navbar-item">Archive</a>
+            <a href="/archive" class="dropdown-item"><i class="fas fa-archive has-space-right"></i> Archive</a>
           </div>
         </div>
         <a class="navbar-item" href="/news">News</a>
