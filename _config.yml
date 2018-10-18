@@ -23,8 +23,9 @@ exclude:
 
 # jekyll-assets
 assets:
-  sass:
-    style: compressed
+  sources:
+    - _assets
+    - _sass
 
 # Front matter
 defaults:
