@@ -19,7 +19,7 @@ layout: default
     <div class="container">
       <div class="app-actions columns">
         <div class="column is-offset-2 is-4">
-          <a rel="nofollow" href="{{ page.download_link }}" class="button is-large is-link is-fullwidth"><i class="fab fa-app-store has-space-right"></i> Get {{ page.title }}</a>
+          <a rel="nofollow" href="{{ page.download_link }}" class="button is-large is-link is-fullwidth"><span class="icon"><i class="fab fa-app-store"></i></span><span>Get {{ page.title }}</span></a>
         </div>
         <div class="column is-4">
           <a href="{{ page.website }}" class="button is-large is-light is-fullwidth">Visit {{ page.website | replace: "https://www.", "" }}</a>
@@ -54,7 +54,7 @@ layout: default
           </div>
           <div class="app-actions columns">
             <div class="column is-half">
-              <a rel="nofollow" href="{{ page.download_link }}" class="button is-link is-fullwidth"><i class="fab fa-app-store has-space-right"></i> Get {{ page.title }}</a>
+              <a rel="nofollow" href="{{ page.download_link }}" class="button is-large is-link is-fullwidth"><span class="icon"><i class="fab fa-app-store"></i></span><span>Get {{ page.title }}</span></a>
             </div>
             <div class="column">
               <a href="{{ page.website }}" class="button is-light">Visit {{ page.website | replace: "https://www.", "" }}</a>
