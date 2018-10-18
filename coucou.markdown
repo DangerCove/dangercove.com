@@ -1,9 +1,20 @@
 ---
-layout: discontinued
-title: coucou has been discontinued
+layout: app/discontinued
+site_title: coucou has been discontinued
+title: coucou
 subtitle: Your whole network at your finger tips
 description: With coucou you have every device on your network at your finger tips.
 date: 2015-02-09
+icon: coucou-icon.png
+hero: 
+  icon: coucou-icon.png
+  background: coucou-header.jpg
+  dominant_color: 
+    r: 238
+    g: 190
+    b: 253
+tags:
+  - discontinued
 permalink: /coucou/
 ---
 

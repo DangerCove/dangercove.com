@@ -3,21 +3,31 @@ layout: default
 ---
 
 <main class="page">
-  <section class="section">
+  <section class="section is-medium">
     <div class="container">
+      {% unless page.hero.background %}
       <header class="page-header">
         <h1 class="title">{{ page.title }}</h1>
+        {% if page.subtitle %}
+        <p class="subtitle is-4 has-text-grey-light">{{ page.subtitle }}</p>
+        {% endif %}
         {% if page.date %}
         <p class="subtitle is-4 has-text-grey-light">{{ page.date | date: "%B %Y" }}</p>
         {% endif %}
       </header>
+      {% endunless %}
       <div class="columns">
         <div class="column is-offset-2 is-8">
-          <article class="page-content content is-medium">
+          <article class="page-content content is-large has-text-centered">
             {{ content | markdownify }}
           </article>
         </div>
       </div>
     </div>
+  </section>
+
+  <section>
+    {% assign apps = site.pages | where: "layout", "app/live" %}
+    {% include app/overview.html apps=apps %}
   </section>
 </main>

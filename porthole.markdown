@@ -1,10 +1,19 @@
 ---
-layout: discontinued
-title: Porthole has been discontinued
+layout: app/discontinued
+site_title: Porthole has been discontinued
+title: Porthole
 subtitle: AirPlay all audio to multiple speakers
 description: >-
   Play all audio from your Mac through multiple AirPlay speakers at the same time.
 date: 2017-01-10
+icon: porthole-icon.png
+hero: 
+  icon: porthole-icon.png
+  background: porthole-header.jpg
+  dominant_color: 
+    r: 181 
+    g: 205 
+    b: 219
 screenshots:
   - src: porthole-setup.jpg
     alt: Screenshot of Porthole's setup wizard*Setup wizard
@@ -18,6 +27,8 @@ screenshots:
   - src: porthole-hotkeypanel.jpg
     alt: Screenshot of Porthole's hotkey panel
     caption: Hotkey panel
+tags:
+  - discontinued
 permalink: /porthole/
 ---
 

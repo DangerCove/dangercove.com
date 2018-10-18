@@ -1,0 +1,9 @@
+---
+layout: error
+site_title: 404 &mdash; page not found
+title: 404
+subtitle: Page not found
+permalink: /404.html
+---
+
+The requested page could not be found.

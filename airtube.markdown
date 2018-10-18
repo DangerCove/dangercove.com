@@ -1,10 +1,21 @@
 ---
-layout: discontinued
-title: AirTube has been discontinued
-subtitle: Web Videos on your Apple TV, hassle free.
+layout: app/discontinued
+site_title: AirTube has been discontinued
+title: AirTube
+subtitle: Web Videos on your Apple TV, hassle free
 description: >-
   Stream YouTube, Vimeo, TED and quite a few other Web Videos to your Apple TV. Straight from your Mac's browser; no iPad, iPhone or Jailbreak required.
 date: 2013-06-12
+icon: airtube-icon.png
+hero: 
+  icon: airtube-icon.png
+  background: airtube-header.jpg
+  dominant_color: 
+    r: 95
+    g: 89
+    b: 70
+tags:
+  - discontinued
 permalink: /airtube/
 ---
 
@@ -17,7 +28,3 @@ So, we've decided to stop the beta and start from scratch with ideas that will m
 First of all: thanks so much for your support! Second: don't worry! Because we based our "website parsing" on [quvi](http://quvi.sourceforge.net/), development on that continues and you will be able to keep using AirTube like you're used to and even add support for new video websites.
 
 ![A screenshot of how to start streaming a Vimeo video](/assets/img/app/airtube-vimeo.jpg)
-
-## Related news
-
-{% include related/news.html posts=site.tags.airtube %}

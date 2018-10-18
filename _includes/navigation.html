@@ -14,6 +14,17 @@
     <div class="navbar-menu" id="navMenu">
       <div class="navbar-start"></div>
       <div class="navbar-end">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Apps</a>
+          <div class="navbar-dropdown">
+            {% assign apps = site.pages | where: "layout", "app/live" %}
+            {% for app in apps %}
+            <a href="{{ app.url }}" class="navbar-item">{{ app.title }}</a>
+            {% endfor %}
+            <hr class="navbar-divider">
+            <a href="/archive" class="navbar-item">Archive</a>
+          </div>
+        </div>
         <a class="navbar-item" href="/news">News</a>
         <a class="navbar-item" href="/about">History</a>
         <a class="navbar-item" href="/support">Support</a>

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<main class="news">
+  <section class="section">
+    <div class="container">
+      {% unless page.hero.background %}
+      <header class="page-header">
+        <h1 class="title">{{ page.title | capitalize }}</h1>
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+          <ul>
+            <li><a href="/news">News</a></li>
+            <li class="is-active"><a href="{{ page.url }}">{{ page.title }}</a></li>
+          </ul>
+        </nav>
+      </header>
+      {% endunless %}
+      <div class="news-posts columns is-multiline">
+        {% for post in page.posts %}
+        <div class="news-posts-post column is-half">
+          {% include post/preview.html post=post %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</main>

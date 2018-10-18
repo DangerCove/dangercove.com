@@ -1,8 +1,10 @@
 ---
-layout: prominent
+layout: archive
 site_title: About Danger Cove
 title: History
 subtitle: Making products
+has_current: true
+has_discontinued: true
 permalink: /about/
 ---
 

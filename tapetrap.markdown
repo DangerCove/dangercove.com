@@ -1,10 +1,21 @@
 ---
-layout: discontinued
-title: Tapetrap has been discontinued
-subtitle: The most comfortable way to watch online videos.
+layout: app/discontinued
+site_title: Tapetrap has been discontinued
+title: Tapetrap
+subtitle: The most comfortable way to watch online videos
 description: >- 
   If you’re anything like me, you watch online videos on dozens of different websites. I want to keep up with new content and easily browse clips from any site with a feed.
 date: 2014-05-15
+icon: tapetrap-icon.png
+hero: 
+  icon: tapetrap-icon.png
+  background: tapetrap-header.jpg
+  dominant_color: 
+    r: 124
+    g: 127
+    b: 127
+tags:
+  - discontinued
 permalink: /tapetrap/
 ---
 

@@ -1,0 +1,29 @@
+<header class="hero is-black" role="banner" style="background-image: url('/assets/img/{{ page.hero.background }}');">
+
+  <div class="hero-head">
+    {% include navigation.html %}
+  </div>
+
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      {% if page.hero.icon %}
+      <figure class="logo">
+        <img src="/assets/img/{{ page.hero.icon }}" alt="{{ page.title }} app icon">
+      </figure>
+      {% endif %}
+      <h1 class="title is-1 is-spaced">
+        {{ page.title }}
+      </h1>
+      {% if page.subtitle %}
+      <h2 class="subtitle">
+        {{ page.subtitle }}
+      </h2>
+      {% endif %}
+      <p class="subtitle is-4 has-text-grey-light">{{ page.date | date: "%B %Y"}}</p>
+    </div>
+  </div>
+
+  <div class="hero-foot">
+  </div>
+
+</header>

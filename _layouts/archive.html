@@ -2,27 +2,37 @@
 layout: default
 ---
 
-<main class="news">
-  <section class="section">
+<main class="page">
+  <section class="section is-medium">
     <div class="container">
-      {% unless page.hero.background %}
       <header class="page-header">
-        <h1 class="title">{{ page.title | capitalize }}</h1>
-        <nav class="breadcrumb" aria-label="breadcrumbs">
-          <ul>
-            <li><a href="/news">News</a></li>
-            <li class="is-active"><a href="{{ page.url }}">{{ page.title }}</a></li>
-          </ul>
-        </nav>
+        <h1 class="title">{{ page.title }}</h1>
+        {% if page.subtitle %}
+        <p class="subtitle is-4 has-text-grey-light">{{ page.subtitle }}</p>
+        {% endif %}
+        {% if page.date %}
+        <p class="subtitle is-4 has-text-grey-light">{{ page.date | date: "%B %Y" }}</p>
+        {% endif %}
       </header>
-      {% endunless %}
-      <div class="news-posts columns is-multiline">
-        {% for post in page.posts %}
-        <div class="news-posts-post column is-half">
-          {% include post/preview.html post=post %}
+      <div class="columns">
+        <div class="column is-offset-2 is-8">
+          <article class="page-content content is-large has-text-centered">
+            {{ content | markdownify }}
+          </article>
         </div>
-        {% endfor %}
       </div>
     </div>
   </section>
+  {% if page.has_current %}
+  <section>
+    {% assign apps = site.pages | where: "layout", "app/live" %}
+    {% include app/overview.html apps=apps %}
+  </section>
+  {% endif %}
+  {% if page.has_discontinued %}
+  <section>
+    {% assign apps = site.pages | where: "layout", "app/discontinued" %}
+    {% include app/overview.html apps=apps %}
+  </section>
+  {% endif %}
 </main>

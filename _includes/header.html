@@ -3,11 +3,17 @@
 {% when 'home' %}
 {% include home/hero.html %}
 
-{% when 'app' %}
+{% when 'app/live' %}
+{% include app/hero.html %}
+
+{% when 'app/discontinued' %}
 {% include app/hero.html %}
 
 {% when 'post' %}
 {% include post/header.html %}
+
+{% when 'page' %}
+{% include page/header.html %}
 
 {% else %}
 {% include navigation.html %}

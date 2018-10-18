@@ -1,10 +1,21 @@
 ---
-layout: discontinued
-title: AirVLC has been discontinued
+layout: app/discontinued
+site_title: AirVLC has been discontinued
+title: AirVLC
 subtitle: AirPlay Audio Sync for VLC
 description: >-
   Watch videos in VLC on your Mac and play the audio over AirPlay. All in sync.
 date: 2016-02-11
+icon: airvlc-icon.png
+hero: 
+  icon: airvlc-icon.png
+  background: airvlc-header.jpg
+  dominant_color: 
+    r: 254
+    g: 254
+    b: 253
+tags:
+  - discontinued
 permalink: /airvlc/
 ---
 
