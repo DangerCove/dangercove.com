@@ -17,6 +17,7 @@ plugins:
 
 # Exclude from processing.
 exclude:
+  - LICENSE
   - README.markdown
   - deploy.sh
   - Gemfile
