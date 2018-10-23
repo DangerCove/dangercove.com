@@ -28,7 +28,7 @@ task :deploy => [:clean, :set_production, :build] do
   puts "- Deploying site to #{remote_path}...".cyan.bold
 
   options = %w(-avzq --delete --exclude=.DS_Store)
-  Rsync.run('_site', remote_path, options) do |result|
+  Rsync.run('_site/', remote_path, options) do |result|
     if result.success?
       puts "- Deployment successful!".green.bold
     else
