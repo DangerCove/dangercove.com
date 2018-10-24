@@ -15,7 +15,7 @@ hero:
     g: 233
     b: 231
 tags:
-  - discontinued
+  - Discontinued
 permalink: /reign/
 ---
 

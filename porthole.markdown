@@ -28,7 +28,7 @@ screenshots:
     alt: Screenshot of Porthole's hotkey panel
     caption: Hotkey panel
 tags:
-  - discontinued
+  - Discontinued
 permalink: /porthole/
 ---
 

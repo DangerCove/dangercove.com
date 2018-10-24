@@ -15,7 +15,7 @@ hero:
     g: 89
     b: 70
 tags:
-  - discontinued
+  - Discontinued
 permalink: /airtube/
 ---
 

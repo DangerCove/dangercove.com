@@ -15,7 +15,7 @@ hero:
     g: 127
     b: 127
 tags:
-  - discontinued
+  - Discontinued
 permalink: /tapetrap/
 ---
 
