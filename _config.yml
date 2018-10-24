@@ -7,6 +7,12 @@ url: "https://www.dangercove.com" # the base hostname & protocol for your site, 
 ga_tracking_id: UA-27275793-1
 permalink: /news/:title/
 
+links:
+  - title: Twitter
+    href: https://www.twitter.com/dangercove
+  - title: GitHub
+    href: https://www.github.com/dangercove
+
 # Build settings
 markdown: kramdown
 plugins:

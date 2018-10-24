@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Privacy Statement
+description: >-
+  Danger Cove respects your privacy and will not use your information outside of the shopping process or use of our apps.
 date: 2018-05-24 15:31
 ---
 

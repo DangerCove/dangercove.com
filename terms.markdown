@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Terms & Conditions
-date: 2018-05-24 15:31
+description: >-
+  The Danger Cove software license, return policy, warranty and support.
+date: 2018-10-24 12:00
 ---
 
-All products in the Danger Cove webstore are developed and produced by the Dutch company "Danger Cove". Danger Cove is listed under business identifier 57609403 in the Dutch Chamber of Commerce (KvK) in Utrecht. Any dispute will be handled under Dutch law in Leiden. Danger Cove reserves the right to alter or amend these terms and conditions without prior notification.
+All products in the Danger Cove webstore are developed and produced by the Dutch company "Danger Cove". Danger Cove is listed under business identifier 57609403 in the Dutch Chamber of Commerce (KvK) in Utrecht. Any dispute will be handled under Dutch law in Utrecht. Danger Cove reserves the right to alter or amend these terms and conditions without prior notification.
 
 <h2>Software license and trademarks</h2>
 
