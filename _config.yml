@@ -16,6 +16,18 @@ links:
     href: https://www.github.com/dangercove
   - title: YouTube
     href: https://www.youtube.com/user/DangerCove
+social:
+  twitter: dangercove
+
+author:
+  name: Boy van Amstel
+  twitter: boyvanamstel
+  href: https://www.boy.sh
+  links:
+    - title: Twitter
+      href: https://www.twitter.com/boyvanamstel
+    - title: GitHub
+      href: https://www.github.com/boyvanamstel
 
 # Build settings
 markdown: kramdown
