@@ -2,6 +2,7 @@
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta charset="utf-8">
+<meta name="robots" content="index, follow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
@@ -11,6 +12,7 @@
     "@type": "Organization",
     "name": "{{ site.title }}",
     "url": "{{ site.url }}",
+    "logo": "{{ site.logo | absolute_url }}",
     "sameAs" : [
       {% for link in site.links %}
       "{{ link.href }}",
@@ -18,3 +20,4 @@
     ]
   }
 </script>
+
