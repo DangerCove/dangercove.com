@@ -1,22 +1,21 @@
 require 'dotenv/load'
-require 'jekyll'
 require 'rsync'
 
 task default: %w[serve]
 
 task :build do
   puts "- Building site...".green.bold
-  Jekyll::Commands::Build.process(profile: true)
+  `bundle exec jekyll build`
 end
 
 task :serve do
   puts "- Serving site...".green.bold
-  Jekyll::Commands::Serve.start(watch: true, serving: true)
+  `bundle exec jekyll serve --livereload`
 end
 
 task :clean do
   puts "- Cleaning up...".green.bold
-  Jekyll::Commands::Clean.process({})
+  `bundle exec jekyll clean`
 end
 
 task :deploy => [:clean, :set_production, :build] do
