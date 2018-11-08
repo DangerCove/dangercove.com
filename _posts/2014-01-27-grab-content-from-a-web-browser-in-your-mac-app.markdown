@@ -102,11 +102,11 @@ Websites that value their feeds will link to it from their website. Not only wit
 The GameKings website has this setup correctly. Inspecting the source of [http://gamekings.tv](http://gamekings.tv) reveals the following lines near the top of the document.
 
 ```
-<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.gamekings.tv/feed/" />
-<link rel="alternate" type="text/xml" title="RSS .92" href="http://www.gamekings.tv/feed/rss/" />
-<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://www.gamekings.tv/feed/atom/" />
-<link rel="alternate" type="application/rss+xml" title="Gamekings Video's RSS Feed" href="http://www.gamekings.tv/rss?cat=3">
-<link rel="alternate" type="application/rss+xml" title="Gamekings Nieuws RSS Feed" href="http://www.gamekings.tv/rss?cat=18">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://www.gamekings.tv/feed/" />
+<link rel="alternate" type="text/xml" title="RSS .92" href="https://www.gamekings.tv/feed/rss/" />
+<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="https://www.gamekings.tv/feed/atom/" />
+<link rel="alternate" type="application/rss+xml" title="Gamekings Video's RSS Feed" href="https://www.gamekings.tv/rss?cat=3">
+<link rel="alternate" type="application/rss+xml" title="Gamekings Nieuws RSS Feed" href="https://www.gamekings.tv/rss?cat=18">
 ```
 
 All links point to RSS feeds. There are some similarities between the lines. Using these conventions, it's easy to extract them in code. Even easier with [OCGumbo](https://github.com/tracy-e/OCGumbo), which is a HTML5 parser. It converts RSS into Objective-C objects.
