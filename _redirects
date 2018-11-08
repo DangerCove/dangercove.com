@@ -1,0 +1,5 @@
+/blog/:year/:month/:day/:title    /news/:title
+/blog/categories/:category        /news/:category
+/blog                             /news
+
+/support                          https://support.dangercove.com
