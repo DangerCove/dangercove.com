@@ -3,12 +3,3 @@
 /blog                             /news
 
 /support                          https://support.dangercove.com
-
-https://www.airvlc.com/*          /airvlc
-
-https://www.getporthole.com/presskit  https://www.dropbox.com/s/qsdzto3u1npf2dc/Porthole%20Press%20Kit.zip?dl=0
-https://www.getporthole.com/*         /porthole
-
-https://app.getporthole.com/preferences/volume/help     https://support.dangercove.com/category/porthole
-https://app.getporthole.com/setup/soundflower/info      https://github.com/RogueAmoeba/Soundflower-Original
-https://app.getporthole.com/setup/soundflower/download  https://github.com/mattingalls/Soundflower/releases
