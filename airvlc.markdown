@@ -29,7 +29,7 @@ AirVLC compensated for this by playing the video in VLC and outputing the audio 
 
 If you've purchased a license to AirVLC before, you might be interested in downloading the latest version.
 
-<a href="https://download.getporthole.com/AirVLC-latest.zip" class="button is-link">Download AirVLC</a>
+<a href="https://download.airvlc.com/AirVLC-latest.zip" class="button is-link">Download AirVLC</a>
 
 _Remember that new licenses can't be bought and support is limited._
 
