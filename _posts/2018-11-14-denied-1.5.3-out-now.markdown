@@ -1,0 +1,23 @@
+---
+layout: post
+title: Update 1.5.3 out now
+date: 2018-11-14 08:00:00
+categories: [updates, denied]
+description: Denied 1.5.3 improves compatibility with Apple Music.
+---
+
+A customer pointed out an issue with Denied and iTunes when playing songs from Apple Music playlists. If you skipped back a track in the Mini Player, the artwork would disappear. 
+
+This update resolves the issue and improves how Denied works together with Apple Music. Read on to learn what I changed in this latest release.
+
+<!-- more -->
+
+After some investigation I discovered that Apple Music only returns the artwork for offline tracks, or songs that you've added or saved. You don't even have to store them offline, simply adding them to one of your collections enables retrieving the artwork through AppleScript. That sounds odd, and I was a little surprised at first. An [explanation I found online](https://stackoverflow.com/a/37473465) states that iTunes uses two different types of tracks to represent an online and an offline track. It's unfortunate that the online variant does not include the artwork. I'll submit a bug report to Apple and ask them if this is by design, or if it can be resolved.
+
+This means that Denied can't display an image for some of the songs that you're playing through Apple Music. To accomodate for this I've updated the 'artwork not available' placeholder image. It changes with the new accent colors in Mojave.
+
+![New 'artwork not available' placeholder image in Denied](/assets/img/news/itunes-no-artwork.jpg)
+
+You can [get the update now on the App Store](https://www.denied.app/appstore). 🚀
+
+_This post originally appeared on [denied.app](https://www.denied.app/news/update-1.5.3-out-now/)._
