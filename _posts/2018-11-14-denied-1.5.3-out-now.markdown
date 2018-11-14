@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Update 1.5.3 out now
+title: Denied update 1.5.3 out now
 date: 2018-11-14 08:00:00
 categories: [updates, denied]
 description: Denied 1.5.3 improves compatibility with Apple Music.
