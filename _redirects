@@ -1,3 +1,6 @@
+https://dangercove.nl             https://www.dangercove.com
+https://www.dangercove.nl         https://www.dangercove.com
+
 /blog/:year/:month/:day/:title    /news/:title
 /blog/categories/:category        /news/:category
 /blog                             /news
