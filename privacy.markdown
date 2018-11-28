@@ -3,12 +3,16 @@ layout: page
 title: Privacy Statement
 description: >-
   Danger Cove respects your privacy and will not use your information outside of the shopping process or use of our apps.
-date: 2018-05-24 15:31
+date: 2018-11-28 15:31
 ---
 
 All products in the Danger Cove webstore are developed and produced by the Dutch company "Danger Cove". Danger Cove is listed under business identifier 57609403 in the Dutch Chamber of Commerce (KVK) in Utrecht. Danger Cove respects your privacy and will not use your information outside of the shopping process or use of our apps. Danger Cove reserves the right to alter or amend this policy without prior notification.
 
 ## Sales
+
+Digital products can be purchased through FastSpring, Paddle and the Apple App Stores.
+
+### FastSpring
 
 Sales of our license key activated digital products are processed by <a href="https://fastspring.com">FastSpring</a>, a US based online shopping platform which we feel handles your personal information with the care we demand. They provide the following services for Danger Cove products:
 
@@ -20,6 +24,34 @@ Sales of our license key activated digital products are processed by <a href="ht
 - Shipping address.
 
 Please refer to the FastSpring privacy statement for more information: <a href="https://www.fastspring.com/privacy.php">http://www.fastspring.com/privacy.php</a>.
+
+
+### Paddle
+
+Sales of our license key activated digital products are processed by <a href="https://paddle.com">Paddle</a>, a UK based online shopping platform which we feel handles your personal information with the care we demand. They provide the following services for Danger Cove products:
+
+- Paddle hosts the shopping cart of our license key activated products.
+- Paddle handles all purchase related emails.
+- Paddle handles all information required to facilitate the sale including:
+- Creditcard details.
+- Personal contact information.
+- Shipping address.
+
+Please refer to the Paddle privacy statement for more information: <a href="https://paddle.com/privacy/">https://paddle.com/privacy/</a>.
+
+### App Store
+
+Sales through the Mac App Store, or iOS App Store are processed by <a href="https://apple.com">Apple</a>. They provide the following services for Danger Cove products:
+
+- Apple hosts the shopping cart of our license key activated products.
+- Apple handles all purchase related emails.
+- Apple handles all information required to facilitate the sale including:
+- Creditcard details.
+- Personal contact information.
+- Shipping address.
+
+Please refer to the Apple App Store privacy statement for more information: <a href="https://www.apple.com/legal/privacy/en-ww/">https://www.apple.com/legal/privacy/en-ww/</a>.
+
 
 ## Support
 
