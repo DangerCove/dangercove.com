@@ -42,9 +42,13 @@ layout: default
             <div class="column is-half">
               <a rel="nofollow" href="{{ page.download_link }}" class="button is-link is-fullwidth"><span class="icon"><i class="fab fa-app-store"></i></span><span>Get {{ page.title }}</span></a>
             </div>
-            {% if page.website %}
+            {% if page.website or page.presskit %}
             <div class="column">
+              {% if page.website %}
               <a href="{{ page.website }}" class="button is-light">Visit {{ page.website | replace: "https://www.", "" }}</a>
+              {% elsif page.presskit %}
+              <a href="{{ page.presskit }}" class="button is-light">Get Press Kit</a>
+              {% endif %}
             </div>
             {% endif %}
           </div>
