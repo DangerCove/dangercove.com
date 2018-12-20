@@ -16,3 +16,4 @@ That said, I'm very excited about lowering the bar to use my apps. There's nothi
 
 If you've purchased Denied before, that's marvelous. Your support has kept me working on Denied since 2014! I'm hoping you're with me for this next chapter. 🤟
 
+Don't have Denied yet? [Get Denied](/denied/appstore)!
