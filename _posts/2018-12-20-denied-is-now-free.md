@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Denied is now free 🙀, with a Tip Jar"
-date: 2018-11-28 0:00:00
+date: 2018-12-20 0:00:00
 tags: [updates, denied]
 description: "Denied v1.6.0 is out now. I'm making it available for free, with a Tip Jar to support its development. "
 ---
