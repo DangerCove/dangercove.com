@@ -1,0 +1,22 @@
+---
+label: Default
+hide_body: false
+is_partial: false
+fields:
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    options:
+    - post
+    required: true
+  label: Layout
+  default: post
+- type: text
+  name: title
+  label: Title
+  config:
+    required: false
+pages:
+- _posts/2019-01-23-forestry.md
