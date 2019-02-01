@@ -1,5 +1,6 @@
-https://dangercove.nl/*           https://www.dangercove.com/:splat    301!
-https://www.dangercove.nl/*       https://www.dangercove.com/:splat    301!
+https://dangercove.nl/*           https://www.dangercove.com/:splat     301!
+https://www.dangercove.nl/*       https://www.dangercove.com/:splat     301!
+https://carbon.dangr.co/*         https://carbon.now.sh/:splat          301!
 
 /blog/:year/:month/:day/:title    /news/:title
 /blog/categories/:category        /news/:category
