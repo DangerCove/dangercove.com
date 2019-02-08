@@ -3,12 +3,7 @@ layout: default
 ---
 
 <main>
-  <section>
-    {% assign apps = site.pages | where: "layout", "app/live" %}
-    {% include app/overview.html apps=apps %}
-  </section>
-
-  <header class="hero is-black" role="banner">
+  <header class="hero" role="banner">
     <div class="hero-head">
     </div>
     <div class="hero-body">
@@ -21,6 +16,11 @@ layout: default
     <div class="hero-foot">
     </div>
   </header>
+
+  <section>
+    {% assign apps = site.pages | where: "layout", "app/live" %}
+    {% include app/overview.html apps=apps %}
+  </section>
 
   <div class="container">
     <section class="section">
