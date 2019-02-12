@@ -8,7 +8,7 @@ description: "Carbonize genereates beautiful images from your source code. Ready
 
 ![A screenshot of the main window of Carbonize](/assets/img/app/carbonize-mainwindow.png)
 
-> **Carbonize genereates beautiful images from your source code. Ready to share.**
+> **Carbonize generates beautiful images from your source code. Ready to share.**
 
 You can [get Carbonize today](/carbonize)!
 
