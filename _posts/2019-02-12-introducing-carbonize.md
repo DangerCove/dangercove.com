@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducing Carbonize"
-date: 2019-02-12 0:00:00
+date: 2019-02-12 1:00:00
 tags: [releases, carbonize]
 description: "Carbonize genereates beautiful images from your source code. Ready to share."
 ---
