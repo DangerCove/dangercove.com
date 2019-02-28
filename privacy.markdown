@@ -38,6 +38,19 @@ Sales of our license key activated digital products are processed by <a href="ht
 
 Please refer to the Paddle privacy statement for more information: <a href="https://paddle.com/privacy/">https://paddle.com/privacy/</a>.
 
+### App Store
+
+Sales through the Mac App Store, or iOS App Store are processed by <a href="https://apple.com">Apple</a>. They provide the following services for Danger Cove products:
+
+- Apple hosts the shopping cart of our license key activated products.
+- Apple handles all purchase related emails.
+- Apple handles all information required to facilitate the sale including:
+- Creditcard details.
+- Personal contact information.
+- Shipping address.
+
+Please refer to the Apple App Store privacy statement for more information: <a href="https://www.apple.com/legal/privacy/en-ww/">https://www.apple.com/legal/privacy/en-ww/</a>.
+
 ### DevMate
 
 We sometimes release apps outside of the various App Stores through DevMate. They provide the following services for Danger Cove products:
@@ -55,19 +68,6 @@ When providing feedback, DevMate collects the following information:
 - You can optionally provide an anonymous system profile.
 
 Please refer to the DevMate privacy statement for more information: <a href="https://devmate.com/policy/">https://devmate.com/policy/</a>.
-
-### App Store
-
-Sales through the Mac App Store, or iOS App Store are processed by <a href="https://apple.com">Apple</a>. They provide the following services for Danger Cove products:
-
-- Apple hosts the shopping cart of our license key activated products.
-- Apple handles all purchase related emails.
-- Apple handles all information required to facilitate the sale including:
-- Creditcard details.
-- Personal contact information.
-- Shipping address.
-
-Please refer to the Apple App Store privacy statement for more information: <a href="https://www.apple.com/legal/privacy/en-ww/">https://www.apple.com/legal/privacy/en-ww/</a>.
 
 ## Support
 
