@@ -3,7 +3,7 @@ layout: page
 title: Privacy Statement
 description: >-
   Danger Cove respects your privacy and will not use your information outside of the shopping process or use of our apps.
-date: 2018-11-28 15:31
+date: 2019-02-28 12:00
 ---
 
 All products in the Danger Cove webstore are developed and produced by the Dutch company "Danger Cove". Danger Cove is listed under business identifier 57609403 in the Dutch Chamber of Commerce (KVK) in Utrecht. Danger Cove respects your privacy and will not use your information outside of the shopping process or use of our apps. Danger Cove reserves the right to alter or amend this policy without prior notification.
@@ -25,7 +25,6 @@ Sales of our license key activated digital products are processed by <a href="ht
 
 Please refer to the FastSpring privacy statement for more information: <a href="https://www.fastspring.com/privacy.php">http://www.fastspring.com/privacy.php</a>.
 
-
 ### Paddle
 
 Sales of our license key activated digital products are processed by <a href="https://paddle.com">Paddle</a>, a UK based online shopping platform which we feel handles your personal information with the care we demand. They provide the following services for Danger Cove products:
@@ -39,6 +38,24 @@ Sales of our license key activated digital products are processed by <a href="ht
 
 Please refer to the Paddle privacy statement for more information: <a href="https://paddle.com/privacy/">https://paddle.com/privacy/</a>.
 
+### DevMate
+
+We sometimes release apps outside of the various App Stores through DevMate. They provide the following services for Danger Cove products:
+
+- DevMate hosts apps that can be downloaded outside of the App Store.
+- DevMate gives us anonymous insight in how often apps are downloaded.
+- DevMate gives us anonymous insight in whether apps are launched more than once.
+- DevMate allows us to gather voluntary feedback provided through our apps.
+
+When providing feedback, DevMate collects the following information:
+
+- Your name.
+- Your email address.
+- Your feedback.
+- You can optionally provide an anonymous system profile.
+
+Please refer to the DevMate privacy statement for more information: <a href="https://devmate.com/policy/">https://devmate.com/policy/</a>.
+
 ### App Store
 
 Sales through the Mac App Store, or iOS App Store are processed by <a href="https://apple.com">Apple</a>. They provide the following services for Danger Cove products:
@@ -51,7 +68,6 @@ Sales through the Mac App Store, or iOS App Store are processed by <a href="http
 - Shipping address.
 
 Please refer to the Apple App Store privacy statement for more information: <a href="https://www.apple.com/legal/privacy/en-ww/">https://www.apple.com/legal/privacy/en-ww/</a>.
-
 
 ## Support
 
@@ -102,13 +118,7 @@ We are committed to ensuring that your information is secure. In order to preven
 
 ## How we use cookies
 
-A cookie is a small file which asks permission to be placed on your computer's hard drive. Once you agree, the file is added and the cookie helps analyse web traffic or lets you know when you visit a particular site. Cookies allow web applications to respond to you as an individual. The web application can tailor its operations to your needs, likes and dislikes by gathering and remembering information about your preferences.
-
-We use traffic log cookies to identify which pages are being used. This helps us analyze data about web page traffic and improve our website in order to tailor it to customer needs. We only use this information for statistical analysis purposes and then the data is removed from the system.
-
-Overall, cookies help us provide you with a better website, by enabling us to monitor which pages you find useful and which you do not. A cookie in no way gives us access to your computer or any information about you, other than the data you choose to share with us.
-
-You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. This may prevent you from taking full advantage of the website.
+We don't.
 
 ## Links to other websites
 
