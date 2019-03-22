@@ -5,14 +5,13 @@
     </div>
   </div>
   <div class="container">
-    <div class="app-actions columns">
-      <div class="column {% if page.website %}is-offset-2{% else %}is-offset-4{% endif %} is-4">
-        <a rel="nofollow" href="{{ page.download_link }}" class="button is-large is-link is-fullwidth"><span class="icon"><i class="fab fa-app-store"></i></span><span>Get {{ page.title }}</span></a>
-      </div>
-      {% if page.website %}
-      <div class="column is-4">
-        <a href="{{ page.website }}" class="button is-large is-light is-fullwidth">Visit {{ page.website | replace: "https://www.", "" }}</a>
-      </div>
+    <div class="app-actions">
+      {% if page.appstore %}
+      <a rel="nofollow" href="{{ page.appstore }}" class="appstore-button"><img src="/assets/img/appstore.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
+      {% elsif page.download %}
+      <a rel="nofollow" href="{{ page.download }}" class="button is-large is-link is-fullwidth"><span class="icon"><i class="fab fa-app-store"></i></span><span>Get {{ page.title }}</span></a>
+      {% elsif page.website %}
+      <a href="{{ page.website }}" class="button is-large is-light is-fullwidth">Visit {{ page.website | replace: "https://www.", "" }}</a>
       {% endif %}
     </div>
   </div>

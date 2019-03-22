@@ -13,6 +13,7 @@
   margin: $size-4 0;
 }
 
+
 .screenshot-macbook {
   text-align: center;
 
@@ -31,3 +32,6 @@
   }
 }
 
+.appstore-button {
+  &__image { width: 312px; }
+}

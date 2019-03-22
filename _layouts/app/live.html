@@ -40,7 +40,11 @@ layout: default
           </div>
           <div class="app-actions columns">
             <div class="column is-half">
-              <a rel="nofollow" href="{{ page.download_link }}" class="button is-link is-fullwidth"><span class="icon"><i class="fab fa-app-store"></i></span><span>Get {{ page.title }}</span></a>
+              {% if page.appstore %}
+              <a rel="nofollow" href="{{ page.appstore }}" class="button is-link is-fullwidth"><span class="icon"><i class="fab fa-app-store"></i></span><span>Get {{ page.title }}</span></a>
+              {% elsif page.download %}
+              <a rel="nofollow" href="{{ page.download }}" class="button is-link is-fullwidth"><span class="icon"><i class="fab fa-app-store"></i></span><span>Get {{ page.title }}</span></a>
+              {% endif %}
             </div>
             {% if page.website or page.presskit %}
             <div class="column">
