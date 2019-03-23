@@ -32,3 +32,9 @@
 .appstore-button {
   &__image { width: 312px; }
 }
+
+.box-modal {
+  .box {
+    cursor: pointer;
+  }
+}
