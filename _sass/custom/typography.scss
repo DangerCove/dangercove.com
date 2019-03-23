@@ -3,6 +3,10 @@
   font-family: $family-title;
 }
 
+.title.is-1 {
+  font-family: "Oswald", $family-title;
+}
+
 .has-text-white {
   .title, .subtitle {
     color: $white;

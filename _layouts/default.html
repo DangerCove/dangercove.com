@@ -7,7 +7,8 @@ layout: compress
 
   {% include base/head.html %}
 
-  <body itemscope itemtype="http://schema.org/WebPage">
+  {% assign color = page.hero.dominant_color %}
+  <body itemscope itemtype="http://schema.org/WebPage" style="background-image: radial-gradient(circle at 90% 0%, rgba({{ color.r }}, {{ color.g }}, {{ color.b }}, 1) 900px, transparent 900px);">
 
     {% include header.html %}
 

@@ -9,7 +9,6 @@ date: 2014-08-22
 icon: reign-icon.png
 hero: 
   icon: reign-icon.png
-  background: reign-header.jpg
   dominant_color: 
     r: 233
     g: 233

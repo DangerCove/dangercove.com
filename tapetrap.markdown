@@ -9,11 +9,10 @@ date: 2014-05-15
 icon: tapetrap-icon.png
 hero: 
   icon: tapetrap-icon.png
-  background: tapetrap-header.jpg
   dominant_color: 
-    r: 124
-    g: 127
-    b: 127
+    r: 249
+    g: 210
+    b: 90
 tags:
   - Discontinued
 permalink: /tapetrap/

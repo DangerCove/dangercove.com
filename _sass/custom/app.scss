@@ -1,8 +1,5 @@
 .app-preview {
-  background-size: cover, cover;
-  background-repeat: no-repeat, no-repeat;
-  background-position: 50% 100%, 50% 50%;
-  background-blend-mode: multiply;
+  background-color: $white-bis;
 
   &-actions {
     margin-top: $size-6;
@@ -10,7 +7,7 @@
 }
 
 .app-actions {
-  margin: $size-4 0;
+  margin: $size-2 0;
 }
 
 
@@ -27,7 +24,7 @@
     min-height: 513px;
 
     &-image {
-      margin: 41px 40px 0 0;
+      margin: 39px 40px 0 0;
     }
   }
 }

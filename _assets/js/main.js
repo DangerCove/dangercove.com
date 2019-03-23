@@ -22,6 +22,39 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Get all "navbar-burger" elements
+  const $boxModals= Array.prototype.slice.call(document.querySelectorAll('.box-modal'), 0);
+
+  // Check if there are any navbar burgers
+  if ($boxModals.length > 0) {
+
+    // Add a click event on each of them
+    $boxModals.forEach( el => {
+      const html = document.querySelector('html');
+      const modal = el.querySelector('.modal');
+      const background = el.querySelector('.modal-background');
+      const closeButton = el.querySelector('.modal-close');
+      const box = el.querySelector('.box');
+
+      box.addEventListener('click', e => {
+        html.classList.add('is-clipped');
+        modal.classList.add('is-active');
+
+        e.preventDefault()
+      });
+
+      const close = e => {
+        html.classList.remove('is-clipped');
+        modal.classList.remove('is-active');
+
+        e.preventDefault()
+      }
+
+      background.addEventListener('click', close)
+      closeButton.addEventListener('click', close)
+    });
+  }
+
 });
 
 hljs.initHighlightingOnLoad();

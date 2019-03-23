@@ -9,7 +9,6 @@ date: 2015-02-09
 icon: coucou-icon.png
 hero: 
   icon: coucou-icon.png
-  background: coucou-header.jpg
   dominant_color: 
     r: 238
     g: 190

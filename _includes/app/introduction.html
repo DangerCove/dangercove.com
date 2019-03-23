@@ -1,42 +1,29 @@
 {% assign app = include.app %}
+{% assign color = app.hero.dominant_color %}
 {% assign screenshots = include.screenshots %}
-<div class="container">
-  <div class="columns">
-    <div class="column is-half">
-      <div class="media">
-        <figure class="media-left is-hidden-mobile">
-          <p class="image is-64x64">
-            <img src="/assets/img/app/{{ app.icon }}" alt="{{ app.title }} app icon">
-          </p>
-        </figure>
-        <div class="media-content">
-          <article class="content is-medium">
-            <h3 class="title is-1">{{ app.title }}</h3>
-            <h4 class="subtitle is-4">{{ app.subtitle }}</h4>
-            <div class="tags">
-              {% for tag in app.tags %}
-              <span class="tag is-dark">{{ tag }}</span>
-              {% endfor %}
-            </div>
-            <p>{{ app.description }}</p>
-          </article>
-          <div class="app-actions">
-            <p><a href="{{ app.url }}" class="button is-medium is-link">Learn More</a></p>
-          </div>
-          <div class="app-photo has-text-grey-dark">
-            <p class="app-photo__credits">{{ app.hero.credits }}</p>
-          </div>
+<div class="column is-offset-1 is-4" style="background-image: radial-gradient(circle at 100px 100px, rgba({{ color.r }}, {{ color.g }}, {{ color.b }}, 1) 100px, transparent 100px);">
+  <div class="media">
+    <figure class="media-left is-hidden-mobile">
+      <p class="image is-64x64">
+        <img src="/assets/img/app/{{ app.icon }}" alt="{{ app.title }} app icon">
+      </p>
+    </figure>
+    <div class="media-content">
+      <article class="content is-medium">
+        <h3 class="title is-1">{{ app.title }}</h3>
+        <h4 class="subtitle is-4">{{ app.subtitle }}</h4>
+        <div class="tags">
+          {% for tag in app.tags %}
+          <span class="tag is-dark">{{ tag }}</span>
+          {% endfor %}
         </div>
+        <p>{{ app.description }}</p>
+      </article>
+      <div class="app-actions">
+        <p><a href="{{ app.url }}" class="button is-medium is-info">Learn More</a></p>
       </div>
-    </div>
-    <div class="column">
-      <div class="content">
-        {% for screenshot in screenshots %}
-        <figure>
-          <a href="/assets/img/app/{{ screenshot.src }}"><img class="has-shadow" src="/assets/img/app/{{ screenshot.src }}" alt="{{ screenshot.alt }}"></a>
-          <figcaption>{{ screenshot.caption }}</figcaption>
-        </figure>
-        {% endfor %}
+      <div class="app-photo has-text-grey-dark">
+        <p class="app-photo__credits">{{ app.hero.credits }}</p>
       </div>
     </div>
   </div>

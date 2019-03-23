@@ -9,7 +9,6 @@ date: 2016-02-11
 icon: airvlc-icon.png
 hero: 
   icon: airvlc-icon.png
-  background: airvlc-header.jpg
   dominant_color: 
     r: 254
     g: 254

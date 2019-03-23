@@ -9,7 +9,6 @@ date: 2017-01-10
 icon: porthole-icon.png
 hero: 
   icon: porthole-icon.png
-  background: porthole-header.jpg
   dominant_color: 
     r: 181 
     g: 205 

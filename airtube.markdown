@@ -9,11 +9,10 @@ date: 2013-06-12
 icon: airtube-icon.png
 hero: 
   icon: airtube-icon.png
-  background: airtube-header.jpg
   dominant_color: 
-    r: 95
-    g: 89
-    b: 70
+    r: 143
+    g: 145
+    b: 147
 tags:
   - Discontinued
 permalink: /airtube/

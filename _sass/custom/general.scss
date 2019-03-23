@@ -2,6 +2,11 @@
   box-shadow: $box-shadow;
 }
 
+.is-vertical-center {
+  display: flex;
+  align-items: center;
+}
+
 .post-header,
 .page-header {
   margin-bottom: $size-1;
@@ -10,9 +15,13 @@
 .page {
   &-description {
     font-family: Neuton, serif;
-    padding: $size-1 0;
-
-    border-top: 1px solid $primary;
-    border-bottom: 1px solid $orange;
+    &:before {
+      color: $white-bis;
+      content: open-quote;
+      font-size: 4em;
+      line-height: 0.1em;
+      margin-right: 0.15em;
+      vertical-align: -0.4em;
+    }
   }
 }

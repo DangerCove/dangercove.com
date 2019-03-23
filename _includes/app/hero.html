@@ -1,17 +1,32 @@
-{% assign color = page.hero.dominant_color %}
-<header class="hero hero-app is-medium has-text-white" role="banner" style="background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba({{ color.r }}, {{ color.g }}, {{ color.b }}, 1)), url('/assets/img/app/{{ page.hero.background }}');">
+<header class="hero hero-app is-medium" role="banner">
 
   <div class="hero-head">
     {% include navigation.html %}
   </div>
 
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <figure class="logo">
-        <img src="/assets/img/app/{{ page.hero.icon }}" alt="{{ page.title }} app icon">
-      </figure>
-      <h1 class="title is-1 is-spaced">{{ page.title }}</h1>
-      <h2 class="subtitle is-4">{{ page.subtitle }}</h2>
+  <div class="hero-body has-text-centered">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-4">
+          <figure class="logo">
+            <img src="/assets/img/app/{{ page.hero.icon }}" alt="{{ page.title }} app icon">
+          </figure>
+          <h1 class="title is-1 is-spaced">{{ page.title }}</h1>
+          <h2 class="subtitle is-4">{{ page.subtitle }}</h2>
+          <div class="app-actions">
+            {% if page.appstore %}
+            <a rel="nofollow" href="{{ page.appstore }}" class="appstore-button"><img src="/assets/img/appstore.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
+            {% elsif page.download %}
+            <a rel="nofollow" href="{{ page.download }}" class="button is-large is-link is-fullwidth"><span class="icon"><i class="fab fa-app-store"></i></span><span>Get {{ page.title }}</span></a>
+            {% elsif page.website %}
+            <a href="{{ page.website }}" class="button is-large is-light is-fullwidth">Visit {{ page.website | replace: "https://www.", "" }}</a>
+            {% endif %}
+          </div>
+        </div>
+        <div class="column is-offset-1 is-7 is-vertical-center">
+          <h3 class="subtitle is-2 page-description">{{ page.description }}</h3>
+        </div>
+      </div>
     </div>
   </div>
 
