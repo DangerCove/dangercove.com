@@ -1,3 +1,10 @@
+.button__light {
+  display: none;
+}
+.button__dark {
+  display: inline;
+}
+
 @media (prefers-color-scheme: dark) {
   body, .footer {
     color: $light;
@@ -10,5 +17,12 @@
     h1, h2, h3, h4, h5, h6 {
       color: $light;
     }
+  }
+
+  .button__light {
+    display: inline;
+  }
+  .button__dark {
+    display: none;
   }
 }

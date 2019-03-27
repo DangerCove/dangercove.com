@@ -15,7 +15,8 @@
           <h2 class="subtitle is-4">{{ page.subtitle }}</h2>
           <div class="app-actions">
             {% if page.appstore %}
-            <a rel="nofollow" href="{{ page.appstore }}" class="appstore-button"><img src="/assets/img/appstore.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
+            <a rel="nofollow" href="{{ page.appstore }}" class="appstore-button button__dark"><img src="/assets/img/appstore.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
+            <a rel="nofollow" href="{{ page.appstore }}" class="appstore-button button__light"><img src="/assets/img/appstore-alt.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
             {% elsif page.download %}
             <a rel="nofollow" href="{{ page.download }}" class="button is-large is-link is-fullwidth"><span class="icon"><i class="fab fa-app-store"></i></span><span>Get {{ page.title }}</span></a>
             {% elsif page.website %}
