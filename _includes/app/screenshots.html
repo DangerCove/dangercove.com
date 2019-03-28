@@ -1,0 +1,23 @@
+{% assign screenshots = include.screenshots %}
+<section class="section has-background-dark">
+  <div class="columns">
+    {% for screenshot in screenshots %}
+    <div class="column is-3 box-modal">
+      <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+          <figure class="image">
+            <img src="/assets/img/app/{{ screenshot.src }}" alt="{{ screenshot.alt }}">
+          </figure>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div>
+      <div class="box">
+        <figure class="image">
+            <img src="/assets/img/app/{{ screenshot.src }}" alt="{{ screenshot.alt }}">
+        </figure>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
