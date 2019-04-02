@@ -1,7 +1,6 @@
 ---
 label: Default
 hide_body: false
-is_partial: false
 fields:
 - type: select
   name: layout
@@ -18,5 +17,11 @@ fields:
   label: Title
   config:
     required: false
-pages:
-- _posts/2019-01-23-forestry.md
+- type: tag_list
+  name: tags
+  label: Tags
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: false
