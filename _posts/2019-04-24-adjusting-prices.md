@@ -8,7 +8,11 @@ description: "Relax and Denied won't be free anymore."
 
 The last time [I posted about Denied](/news/denied-is-now-free/), I introduced the Tip Jar and announced the app would become Free. My goal was to try and see if I could reach more people by lowering the bar of entry and in turn increase revenue by convincing a significant amount of those people to voluntarily pay through the Tip Jar.
 
-We're about six months into the experiment and unfortunately this hasn't happened. Revenue has decreased. This means I need to try something different to reach my goal of achieving a sustainable income from my apps.
+We're about six months into the experiment and unfortunately this hasn't happened. 
+
+It has warmed my heart that a number of people did actually purchase one of the 'love jars' without getting anything substantial in return. Thanks so much if you did this. It has lead me to not remove the Tip Jar entirely, but rather iterate on it. More on that below. 
+
+The fact remains however that revenue decreased. This means I need to try something different to reach my goal of achieving a sustainable income from my apps.
 
 In the coming week I'll change [Denied](/denied) and [Relax](/relax) (back) from Free to Paid Upfront apps, leaving the Tip Jars intact. I've also released updates for all my apps to include a new, more personal tipping screen that will hopefully give you a better picture of who you're supporting by donating. 😊
 
