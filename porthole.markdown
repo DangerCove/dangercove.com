@@ -15,8 +15,8 @@ hero:
     b: 219
 screenshots:
   - src: porthole-setup.jpg
-    alt: Screenshot of Porthole's setup wizard*Setup wizard
-    caption: Per speaker volume controls
+    alt: Screenshot of Porthole's setup wizard
+    caption: Screenshot of Porthole's setup wizard
   - src: porthole-volume.jpg
     alt: Screenshot of Porthole's per speaker volume control
     caption: Per speaker volume controls
@@ -42,14 +42,6 @@ None of the AirPlay protocol is officially documented. Connecting and streaming 
 With every new firmware release for the AirPort Express or Apple TV, Apple could break Porthole's functionality. This happened a few times and caused Porthole to stop working until I mended what was broken. Not an ideal experience for users of Porthole, or myself for that matter.
 
 Luckily Apple wasn't sitting still. In 2017 they announced AirPlay 2, an updated version of the protocol that would allow streaming to multiple AirPlay devices from your Mac and any mobile device (a much requested feature for Porthole). It took a year for ultimately land, but with macOS Mojave and iOS 12 Porthole has been made fully obsolete by the built-in features of Apple's desktop _and_ mobile operating system.
-
-## Downloading Porthole
-
-If you can't upgrade your Mac or if you've purchased a license to Porthole before, you might be interested in downloading the latest version.
-
-<a href="https://download.getporthole.com/Porthole-latest.zip" class="button is-link">Download Porthole</a>
-
-_Remember that new licenses can't be bought and support is limited._
 
 ## Related news
 
