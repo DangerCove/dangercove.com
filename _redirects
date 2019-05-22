@@ -6,6 +6,8 @@ https://carbon.dangr.co/*             https://carbon.now.sh/:splat          301!
 
 https://apps.dangr.co/tip-jar*        https://www.boy.sh/:splat             301!
 
+https://apps.dangr.co/com.dangercove.PiPVLC.Mac/buy*    https://gum.co/pipvid:splat          301!
+
 /blog/:year/:month/:day/:title    /news/:title
 /blog/categories/:category        /news/:category
 /blog                             /news
