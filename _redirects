@@ -6,7 +6,9 @@ https://carbon.dangr.co/*             https://carbon.now.sh/:splat          301!
 
 https://apps.dangr.co/tip-jar*        https://www.boy.sh/:splat             301!
 
-https://apps.dangr.co/com.dangercove.PiPVLC.Mac/buy*    https://gum.co/pipvid:splat          301!
+https://apps.dangr.co/com.dangercove.Pipvid.Mac/buy*        https://gum.co/pipvid:splat                             301!
+https://apps.dangr.co/com.dangercove.Pipvid.Mac/support*    https://support.dangercove.com/category/pipvid          301!
+https://apps.dangr.co/com.dangercove.Carbonize.Mac/support* https://support.dangercove.com/category/carbonize       301!
 
 /blog/:year/:month/:day/:title    /news/:title
 /blog/categories/:category        /news/:category
@@ -23,3 +25,4 @@ https://apps.dangr.co/com.dangercove.PiPVLC.Mac/buy*    https://gum.co/pipvid:sp
 /carbonize/presskit               https://www.dropbox.com/sh/e6bvgquwltpx6cb/AACyjkOWSqMxAIv2xGHcOn4sa?dl=0
 /carbonize/appstore               https://itunes.apple.com/app/carbonize/id1451177988
 /pipvid/download                  https://dl.devmate.com/com.dangercove.PiPVLC.Mac/beta/PiPVLC.zip
+/pipvid/buy                       https://gum.co/pipvid
