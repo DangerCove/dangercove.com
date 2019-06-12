@@ -1,0 +1,10 @@
+iframe.video {
+  @include from($tablet) {
+    width: 560px;
+    height: 315px;
+  }
+  @include from($widescreen) {
+    width: 1120px;
+    height: 630px;
+  }
+}

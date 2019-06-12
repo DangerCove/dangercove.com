@@ -29,23 +29,19 @@ layout: default
               {% endfor %}
             </ul>
           </div>
-          <div class="app-actions columns">
-            <div class="column is-half">
+          <div class="app-actions">
+            <div class="buttons">
               {% if page.appstore %}
-              <a rel="nofollow" href="{{ page.appstore }}" class="button is-link is-fullwidth"><span class="icon"><i class="fab fa-app-store"></i></span><span>Get {{ page.title }}</span></a>
+              <a href="{{ page.appstore }}" class="button is-link"><span class="icon"><i class="fab fa-app-store"></i></span><span>Get {{ page.title }}</span></a>
               {% elsif page.download %}
-              <a rel="nofollow" href="{{ page.download }}" class="button is-link is-fullwidth"><span class="icon"><i class="fab fa-app-store"></i></span><span>Get {{ page.title }}</span></a>
+              <a rel="nofollow" href="{{ page.download }}" class="button is-link"><span class="icon"><i class="fas fa-arrow-circle-down"></i></span><span>Download {{ page.title }}</span></a>
               {% endif %}
-            </div>
-            {% if page.website or page.presskit %}
-            <div class="column">
               {% if page.website %}
               <a href="{{ page.website }}" class="button is-light">Visit {{ page.website | replace: "https://www.", "" }}</a>
               {% elsif page.presskit %}
               <a href="{{ page.presskit }}" class="button is-light">Get Press Kit</a>
               {% endif %}
             </div>
-            {% endif %}
           </div>
         </div>
       </div>
