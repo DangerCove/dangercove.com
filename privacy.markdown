@@ -3,7 +3,7 @@ layout: page
 title: Privacy Statement
 description: >-
   Danger Cove respects your privacy and will not use your information outside of the shopping process or use of our apps.
-date: 2019-02-28 12:00
+date: 2019-06-13 9:00
 ---
 
 All products in the Danger Cove webstore are developed and produced by the Dutch company "Danger Cove". Danger Cove is listed under business identifier 57609403 in the Dutch Chamber of Commerce (KVK) in Utrecht. Danger Cove respects your privacy and will not use your information outside of the shopping process or use of our apps. Danger Cove reserves the right to alter or amend this policy without prior notification.
@@ -68,6 +68,19 @@ When providing feedback, DevMate collects the following information:
 - You can optionally provide an anonymous system profile.
 
 Please refer to the DevMate privacy statement for more information: <a href="https://devmate.com/policy/">https://devmate.com/policy/</a>.
+
+### Gumroad
+
+Sales of our license key activated digital products are processed by <a href="https://gumroad.com">Gumroad</a>, a US based online shopping platform which we feel handles your personal information with the care we demand. They provide the following services for Danger Cove products:
+
+- Gumroad hosts the shopping cart of our license key activated products.
+- Gumroad handles all purchase related emails.
+- Gumroad handles all information required to facilitate the sale including:
+- Creditcard details.
+- Personal contact information.
+- Shipping address.
+
+Please refer to the Paddle privacy statement for more information: <a href="https://gumroad.com/privacy/">https://gumroad.com/privacy/</a>.
 
 ## Support
 
