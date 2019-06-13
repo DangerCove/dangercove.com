@@ -6,7 +6,7 @@ https://carbon.dangr.co/*             https://carbon.now.sh/:splat          301!
 
 https://apps.dangr.co/tip-jar*        https://www.boy.sh/:splat             301!
 
-https://apps.dangr.co/com.dangercove.Pipvid.Mac/buy*        https://gum.co/pipvid:splat                             301!
+https://apps.dangr.co/com.dangercove.Pipvid.Mac/buy*        https://gum.co/pipvid/launch:splat                      301!
 https://apps.dangr.co/com.dangercove.Pipvid.Mac/support*    https://support.dangercove.com/category/pipvid          301!
 https://apps.dangr.co/com.dangercove.Carbonize.Mac/support* https://support.dangercove.com/category/carbonize       301!
 
