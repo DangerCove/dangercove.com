@@ -5,7 +5,6 @@ layout: default
 <main class="page">
   <section class="section">
     <div class="container">
-      {% unless page.hero.background %}
       <header class="page-header">
         <h1 class="title">{{ page.title }}</h1>
         {% if page.subtitle %}
@@ -15,7 +14,6 @@ layout: default
         <p class="subtitle is-4 has-text-grey-light">{{ page.date | date: "%B %Y" }}</p>
         {% endif %}
       </header>
-      {% endunless %}
       <div class="columns">
         <div class="column is-offset-2 is-8">
           <article class="page-content content is-large has-text-centered">
@@ -25,7 +23,27 @@ layout: default
       </div>
     </div>
   </section>
-
+  <div class="container">
+    <section class="section">
+      <div class="columns">
+        <div class="column is-7">
+          <div class="Content">
+            {% include signup/mailchimp.html %}
+          </div>
+        </div>
+        <div class="column is-5">
+          <div class="content">
+            {% for post in site.posts limit: 5 %}
+            {% include post/preview.html post=post %}
+            {% endfor %}
+            <p>
+              <a href="/news" class="button is-light">More News</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
   <section>
     {% assign live = site.pages | where: 'layout', 'app/live' %}
     {% assign announced = site.pages | where: 'layout', 'app/announced' %}

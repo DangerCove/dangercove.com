@@ -3,7 +3,7 @@ layout: default
 ---
 
 <main>
-  <header class="hero is-medium" role="banner">
+  <header class="hero" role="banner">
     <div class="hero-head">
     </div>
     <div class="hero-body">
@@ -18,7 +18,9 @@ layout: default
   </header>
 
   <section>
-    {% assign apps = site.pages | where: "layout", "app/live" %}
+    {% assign live = site.pages | where: 'layout', 'app/live' %}
+    {% assign announced = site.pages | where: 'layout', 'app/announced' %}
+    {% assign apps = announced | concat: live %}
     {% include app/overview.html apps=apps %}
   </section>
 
@@ -36,10 +38,15 @@ layout: default
             {% include post/preview.html post=post %}
             {% endfor %}
           </div>
-        </div>
-        <div class="column">
           <div class="content is-medium">
             {{ content }}
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <h2 class="title is-2">Mailing list</h2>
+            <p>Subscribe to the mailing list to receive updates and new app announcements. You can also <a href="https://www.twitter.com/{{ site.social.twitter }}">follow @{{ site.social.twitter }}</a> on Twitter.</p>
+            {% include signup/mailchimp.html %}
           </div>
         </div>
       </div>

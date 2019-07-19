@@ -19,6 +19,31 @@ links:
 social:
   twitter: dangercove
 
+mailchimp:
+  form: 
+  form: https://dangercove.us7.list-manage.com/subscribe/post?u=40b2fe274e6d6a9d03dd7d5f1&id=1dc8e96b03
+  gdpr: 2781
+  bot: b_40b2fe274e6d6a9d03dd7d5f1_1dc8e96b03
+  interests:
+    - id: 1
+      title: Announcements
+      always: true
+    - id: 2
+      title: Timeless
+      always: false
+    - id: 4
+      title: Relax
+      always: false
+    - id: 8
+      title: Carbonize
+      always: false
+    - id: 16
+      title: Denied
+      always: false
+    - id: 32
+      title: Pipvid
+      always: false
+
 author:
   name: Boy van Amstel
   twitter: boyvanamstel

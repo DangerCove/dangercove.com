@@ -3,10 +3,7 @@
 {% when 'home' %}
 {% include home/hero.html %}
 
-{% when 'app/live' %}
-{% include app/hero.html %}
-
-{% when 'app/discontinued' %}
+{% when 'app/live' or 'app/discontinued' or 'app/announced' %}
 {% include app/hero.html %}
 
 {% when 'post' %}

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <main class="page">
-  <section class="section is-medium">
+  <section class="section">
     <div class="container">
       <header class="page-header">
         <h1 class="title">{{ page.title }}</h1>
@@ -25,7 +25,9 @@ layout: default
   </section>
   {% if page.has_current %}
   <section>
-    {% assign apps = site.pages | where: "layout", "app/live" %}
+    {% assign live = site.pages | where: 'layout', 'app/live' %}
+    {% assign announced = site.pages | where: 'layout', 'app/announced' %}
+    {% assign apps = announced | concat: live %}
     {% include app/overview.html apps=apps %}
   </section>
   {% endif %}
