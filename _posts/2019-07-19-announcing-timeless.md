@@ -4,6 +4,8 @@ title: Announcing Timeless
 date: 2019-07-19
 tags: [announcements, timeless]
 description: "Timeless gives you a more subtle sense of the day progressing. Reducing time pressure and distraction."
+mailchimp:
+  interests: [2]
 ---
 
 I’m working on a more natural way of getting the most out of my day: it’s an app called Timeless. At its core it gives me a generic sense of what part of the day I’m in: morning, lunch time, noon etc.
