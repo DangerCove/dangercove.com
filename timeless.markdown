@@ -38,7 +38,7 @@ Instead of breaking concentration or induce stress it lets you continue working 
 
 There’s no notification to ‘get lunch now’, just a hint that when you're ready you should probably go grab something to eat.
 
-Even when combined with more urgent interruptions, like water breaks, it allows you to comfortably get back to work. Avoiding any pressure or hesitance because of how much time you've have left in the day.
+Even when combined with more urgent interruptions, like water breaks, it allows you to comfortably get back to work. Avoiding adding pressure or hesitance because of how much time you've have left in the day.
 
 ## Beta sign-up
 
