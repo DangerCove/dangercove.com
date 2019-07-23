@@ -3,4 +3,23 @@
     background-color: transparent;
     background-image: none;
   }
+
+}
+
+@include from($tablet) {
+  .navbar-end > .navbar-item {
+    &, & > .navbar-link {
+      color: $black;
+      border-bottom: transparent 1px solid;
+    }
+    &:not(div):hover, &.is-active {
+      color: $black;
+      border-bottom-color: $black;
+    }
+    & > .navbar-link {
+      &:after {
+        border-color: $black;
+      }
+    }
+  }
 }

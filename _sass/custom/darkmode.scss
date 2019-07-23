@@ -23,6 +23,23 @@
     }
   }
 
+  @include from($tablet) {
+    .navbar-end > .navbar-item {
+      &, & > .navbar-link {
+        color: $white;
+      }
+      &:not(div):hover, &.is-active {
+        color: $white;
+        border-bottom-color: $white;
+      }
+      & > .navbar-link {
+        &:after {
+          border-color: $white;
+        }
+      }
+    }
+  }
+
   .button__light {
     display: inline;
   }

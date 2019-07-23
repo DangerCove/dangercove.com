@@ -10,9 +10,9 @@ icon: airvlc-icon.png
 hero: 
   icon: airvlc-icon.png
   dominant_color: 
-    r: 254
-    g: 254
-    b: 253
+    r: 232
+    g: 94
+    b: 0
 tags:
   - Discontinued
 permalink: /airvlc/
