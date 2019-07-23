@@ -30,7 +30,7 @@
             <a href="/archive" class="dropdown-item {% if page.url == '/archive/' or page.layout == 'app/discontinued' %}is-active{% endif %}"><span class="icon"><i class="fas fa-archive"></i></span><span>Archive</span></a>
           </div>
         </div>
-        <a class="navbar-item {% if page.url == '/news/' %}is-active{% endif %}" href="/news">News</a>
+        <a class="navbar-item {% if page.url contains '/news/' %}is-active{% endif %}" href="/news">News</a>
         <a class="navbar-item {% if page.url == '/about/' %}is-active{% endif %}" href="/about">History</a>
         <a class="navbar-item" href="/support">Support</a>
       </div>
