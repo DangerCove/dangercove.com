@@ -40,6 +40,8 @@ There’s no notification to ‘get lunch now’, just a hint that when you're r
 
 Even when combined with more urgent interruptions, like water breaks, it allows you to comfortably get back to work. Avoiding adding pressure or hesitance because of how much time you've have left in the day.
 
+![A screenshot of Timeless menu bar icon](/assets/img/app/timeless-Promise@2x.jpg)
+
 ## Beta sign-up
 
 I’m getting ready to let others give this a go as well. If you’d like to be invited to try the beta, subscribe to the mailing list. Thanks!
