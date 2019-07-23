@@ -32,13 +32,13 @@ The clock is one of those distractions for me.
 
 ## Timeless
 
-I’m working on a more natural way of getting the most out of my day: it’s an app called Timeless. At its core it gives me a generic sense of what part of the day I’m in: morning, lunch time, noon etc.
+I’m working on a more natural way of getting the most out of my day: it’s an app called Timeless. At its core it gives you a generic sense of what part of the day you’re in: morning, lunch time, noon etc.
 
-Instead of breaking concentration or induce stress it lets me continue working when I’m still in the time bracket I’m expecting to get stuff done. Then, in a glance, it lets me know that I’ve entered a new part of the day. If it’s between 12pm and 2pm I should probably get lunch. 
+Instead of breaking concentration or induce stress it lets you continue working when you're still in the time range you're expecting to get stuff done. Then, in a glance, it lets you know that you’ve entered a new part of the day. If it’s between 12pm and 2pm you should probably get lunch. 
 
-There’s no notification to ‘get lunch now’, just a hint that when I’m ready I should probably go grab something to eat.
+There’s no notification to ‘get lunch now’, just a hint that when you're ready you should probably go grab something to eat.
 
-Even when combined with more urgent interruptions, like water breaks, it allows me to comfortably get back to work. I don’t feel any pressure or hesitance because of how much time I have left in the day.
+Even when combined with more urgent interruptions, like water breaks, it allows you to comfortably get back to work. Avoiding any pressure or hesitance because of how much time you've have left in the day.
 
 ## Beta sign-up
 
