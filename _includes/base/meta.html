@@ -29,10 +29,7 @@
 {% when 'post' %}
 <meta property="og:type" content="article">
 <meta property="og:image" content="{{ site.logo | absolute_url }}">
-{% when 'app/live' %}
-<meta property="og:type" content="product">
-<meta property="og:image" content="{{ site.url }}/assets/img/app/{{ page.hero.icon }}">
-{% when 'app/discontinued' %}
+{% when 'app/live' or 'app/discontinued' or 'app/announced' %}
 <meta property="og:type" content="product">
 <meta property="og:image" content="{{ site.url }}/assets/img/app/{{ page.hero.icon }}">
 {% else %}
