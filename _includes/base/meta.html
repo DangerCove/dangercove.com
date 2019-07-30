@@ -60,9 +60,9 @@
     "datePublished": "{{ page.date | date_to_xmlschema }}",
     "dateModified": "{{ page.date | date_to_xmlschema }}",
     "author": {
-      "@type": "Person",
+      "@type": "person",
       "name": "{{ site.author.name }}",
-      "sameAs" : [
+      "sameas" : [
         {% for link in site.author.links %}
         "{{ link.href }}"{% unless forloop.last %},{% endunless %}
         {% endfor %}
@@ -76,6 +76,26 @@
         "url": "{{ site.logo | absolute_url }}"
       }
     },
+    "author": {
+      "@type": "person",
+      "name": "{{ site.author.name }}",
+      "sameas" : [
+        {% for link in site.author.links %}
+        "{{ link.href }}"{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    },
+    "description": "{{ description }}"
+}
+{% when 'app/live' or 'app/announced' or 'app/discontinued' %}
+{
+  "@context": "http://schema.org",
+    "@type": "Product",
+    "image": [
+      "{{ site.url }}/assets/img/app/{{ page.hero.icon }}"
+    ],
+    "name": "{{ page.title }}",
+    "sku": "{{ page.posts }}",
     "description": "{{ description }}"
 }
 {% else %}
