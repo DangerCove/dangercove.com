@@ -28,7 +28,12 @@ permalink: /timeless/
 
 It’s widely accepted that there exists a state of mind that allows you to perform exceptionally. Most people call it ‘the zone’ or ‘flow’. Achieving it helps you to get things done almost effortlessly. It’s fragile though; a single distraction can break it.
 
-The clock is one of those distractions for me.
+The clock is one of those distractions for me:
+
+* 10.00 – Only 10 am?? It feels like I’ve been doing nothing for ages.
+* 11.30 – Better not start something new because it’ll be lunch time soon.
+* 14.00 - Sheesh this day is never going to end…
+* 16.00 – It’s already 4 pm?? I did nothing today and it’s too late to start now.
 
 ## Timeless
 
