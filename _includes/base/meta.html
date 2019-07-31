@@ -51,7 +51,7 @@
     "@type": "BlogPosting",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "{{ site.url }}"
+      "@id": "{{ page.url | absolute_url }}"
     },
     "headline": "{{ title }}",
     "image": [
@@ -90,12 +90,13 @@
 {% when 'app/live' or 'app/announced' or 'app/discontinued' %}
 {
   "@context": "http://schema.org",
-    "@type": "Product",
+    "@type": "SoftwareApplication",
+    "operatingSystem": "MACOS",
+    "applicationCategory": "https://schema.org/SoftwareApplication",
     "image": [
       "{{ site.url }}/assets/img/app/{{ page.hero.icon }}"
     ],
     "name": "{{ page.title }}",
-    "sku": "{{ page.posts }}",
     "brand": {
       "@type": "Organization",
       "name": "{{ site.title }}"
