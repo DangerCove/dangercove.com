@@ -76,15 +76,6 @@
         "url": "{{ site.logo | absolute_url }}"
       }
     },
-    "author": {
-      "@type": "person",
-      "name": "{{ site.author.name }}",
-      "sameas" : [
-        {% for link in site.author.links %}
-        "{{ link.href }}"{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-      ]
-    },
     "description": "{{ description }}"
 }
 {% when 'app/live' or 'app/announced' or 'app/discontinued' %}
