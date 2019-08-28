@@ -2,9 +2,9 @@
 layout: app/announced
 site_title: Don't get distracted by time
 title: Timeless
-subtitle: Stay in the zone
+subtitle: Reduce time anxiety
 description: >-
-  Get a more subtle sense of what time it is. Reducing time pressure and distraction. Keeping you in the zone longer.
+  Get a more subtle sense of what time it is. Reducing time pressure and distraction.
 date: 2018-07-18
 icon: timeless-clock_512.png
 hero: 
@@ -28,7 +28,7 @@ permalink: /timeless/
 
 It’s widely accepted that there exists a state of mind that allows you to perform exceptionally. Most people call it ‘the zone’ or ‘flow’. Achieving it helps you to get things done almost effortlessly. It’s fragile though; a single distraction can break it.
 
-The clock is one of those distractions for me:
+The clock is one of those distractions and a cause for anxiety for me:
 
 * 10.00 – Only 10 am?? It feels like I’ve been doing nothing for ages.
 * 11.30 – Better not start something new because it’ll be lunch time soon.
@@ -37,7 +37,7 @@ The clock is one of those distractions for me:
 
 ## Timeless
 
-I’m working on a more natural way of getting the most out of my day: it’s an app called Timeless. At its core it gives you a generic sense of what part of the day you’re in: morning, lunch time, noon etc.
+I’m working on a more natural way to get a sense of time during the day: it’s an app called Timeless. At its core it gives you a generic sense of what part of the day you’re in: morning, lunch time, noon etc.
 
 Instead of breaking concentration or induce stress it lets you continue working when you're still in the time range you're expecting to get stuff done. Then, in a glance, it lets you know that you’ve entered a new part of the day. If it’s between 12pm and 2pm you should probably get lunch. 
 
@@ -49,4 +49,4 @@ Even when combined with more urgent interruptions, like water breaks, it allows 
 
 ## Beta sign-up
 
-I’m getting ready to let others give this a go as well. If you’d like to be invited to try the beta, subscribe to the mailing list. Thanks!
+Subscribe to the mailing list to get an invite to the beta version. Thanks!
