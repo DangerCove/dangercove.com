@@ -7,7 +7,7 @@ description: >-
 permalink: /timeless/beta/
 ---
 
-Thanks for wanting to try the Timeless Beta. You can download the app below. 
+Thanks for wanting to try the [Timeless](/timeless) Beta. You can download the app below. 
 
 Note that this is a beta release. Its main goal is to find bugs and improve the experience. You can help shape the final product.
 
@@ -32,3 +32,9 @@ The app contains a built-in dialog to submit feedback. You can access it by sele
 <a href="/timeless/download" class="button is-large is-link">Download Now</a>
 
 17MB – Requires macOS 10.14+
+
+### Screenshots
+
+![A screenshot of Timeless' indicator in the menu bar](/assets/img/news/timeless-indicator.png)
+![A screenshot of Timeless' setup wizard, showing how to disable the clock](/assets/img/news/timeless-wizard-clock.png)
+![A screenshot of Timeless' indicator preferences](/assets/img/news/timeless-preferences-indicator.png)
