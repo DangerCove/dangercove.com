@@ -36,5 +36,6 @@ The app contains a built-in dialog to submit feedback. You can access it by sele
 ### Screenshots
 
 ![A screenshot of Timeless' indicator in the menu bar](/assets/img/news/timeless-indicator.png)
-![A screenshot of Timeless' setup wizard, showing how to disable the clock](/assets/img/news/timeless-wizard-clock.png)
 ![A screenshot of Timeless' indicator preferences](/assets/img/news/timeless-preferences-indicator.png)
+![A screenshot of Timeless' clock in the menu bar](/assets/img/news/timeless-clock.jpg)
+![A screenshot of Timeless' setup wizard, showing how to disable the clock](/assets/img/news/timeless-wizard-clock.png)
