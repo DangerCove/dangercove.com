@@ -11,18 +11,25 @@ layout: default
         {% if page.subtitle %}
         <p class="subtitle is-4 has-text-grey-light">{{ page.subtitle }}</p>
         <div class="page-header-actions">
-          <a href="/feed.xml" class="button is-link"><span class="icon"><i class="fas fa-rss"></i></span><span>Subscribe</span></a>
+          <a href="/feed.xml" class="button is-rss"><span class="icon"><i class="fas fa-rss"></i></span><span>Subscribe</span></a>
         </div>
         {% endif %}
       </header>
       {% endunless %}
-      <div class="news-posts columns is-multiline">
-        {% for post in site.posts %}
-        <div class="news-posts-post column is-half">
-          {% include post/preview.html post=post %}
-        </div>
+      <div class="post-list">
+        {% for post in paginator.posts %}
+        {% include post/preview.html post=post %}
         {% endfor %}
       </div>
+
+      {% include pagination.html %}
     </div>
+  </section>
+
+  <section class="section">
+    {% assign live = site.pages | where: 'layout', 'app/live' %}
+    {% assign announced = site.pages | where: 'layout', 'app/announced' %}
+    {% assign apps = announced | concat: live %}
+    {% include app/overview.html apps=apps %}
   </section>
 </main>

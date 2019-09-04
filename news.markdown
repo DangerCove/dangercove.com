@@ -6,4 +6,7 @@ subtitle: Stay up-to-date with new releases
 description: >-
   Stay up-to-date with new releases and read about building and selling apps.
 permalink: /news/
+pagination:
+  enabled: true
+  per_page: 5
 ---

@@ -7,6 +7,11 @@ url: "https://www.dangercove.com" # the base hostname & protocol for your site, 
 ga_tracking_id: #UA-27275793-1
 permalink: /news/:title/
 
+pagination:
+  enabled: true
+  sort_reverse: true
+  permalink: "/page/:num/"
+
 # Meta
 logo: /assets/img/logo-256x256@2x.png
 links:
@@ -56,11 +61,13 @@ author:
 
 # Build settings
 markdown: kramdown
+
 plugins:
   - jekyll-feed
   - jekyll-assets
   - jekyll-sitemap
   - jekyll-archives
+  - jekyll-paginate-v2
 
 # Exclude from processing.
 exclude:

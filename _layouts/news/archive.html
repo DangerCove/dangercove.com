@@ -16,13 +16,18 @@ layout: default
         </nav>
       </header>
       {% endunless %}
-      <div class="news-posts columns is-multiline">
-        {% for post in page.posts %}
-        <div class="news-posts-post column is-half">
-          {% include post/preview.html post=post %}
-        </div>
+      <div class="post-list">
+        {% for post in paginator.posts %}
+        {% include post/preview.html post=post %}
         {% endfor %}
       </div>
     </div>
+  </section>
+
+  <section class="section">
+    {% assign live = site.pages | where: 'layout', 'app/live' %}
+    {% assign announced = site.pages | where: 'layout', 'app/announced' %}
+    {% assign apps = announced | concat: live %}
+    {% include app/overview.html apps=apps %}
   </section>
 </main>

@@ -1,0 +1,8 @@
+{% if page.previous or page.next %}
+<nav class="pagination is-centered" role="navigation" aria-label="pagination">
+
+  <a class="pagination-next" href="{{ page.previous.url }}"{% unless page.previous %} disabled{% endunless %}>{{ page.previous.title | truncate: 40 }}</a>
+  <a class="pagination-previous" href="{{ page.next.url }}"{% unless page.next %} disabled{% endunless %}>{{ page.next.title | truncate: 40 }}</a>
+
+</nav>
+{% endif %}

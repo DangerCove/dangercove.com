@@ -20,3 +20,8 @@ $body-size: 18px;
 
 // Modal
 $modal-content-width: 770px;
+
+// Colors
+$rss: #f26522;
+$rss-invert: findColorInvert($rss);
+$custom-colors: ("rss": ($rss, $rss-invert));

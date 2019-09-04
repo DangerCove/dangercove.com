@@ -1,10 +1,11 @@
-.news {
-  &-posts {
-    &-post {
-      &-tags {
-        margin-top: $size-7;
-      }
-    }
+.post-list {
+  & .post-header {
+    margin-bottom: $size-3;
+  }
+  & .post {
+    margin-bottom: $size-1;
+    padding-bottom: $size-1;
+    border-bottom: $grey-lighter 1px solid;
   }
 }
 .post {

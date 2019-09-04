@@ -13,7 +13,13 @@ layout: default
       {% endunless %}
       <div class="columns">
         <div class="column is-offset-2 is-8">
-          <article class="post-content content is-medium">
+          <div class="tags">
+            {% for tag in page.tags %}
+            <a href="/news/{{ tag }}" class="tag">{{ tag }}</a>
+            {% endfor %}
+          </div>
+
+          <article class="content is-medium">
             {{ content | markdownify }}
           </article>
 
@@ -23,7 +29,7 @@ layout: default
 
           <hr>
 
-          {% include pagination.html %}
+          {% include post/pagination.html %}
         </div>
       </div>
     </div>

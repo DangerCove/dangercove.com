@@ -1,9 +1,8 @@
-{% if page.previous or page.next %}
+{% if paginator.total_pages > 1 %}
 <nav class="pagination is-centered" role="navigation" aria-label="pagination">
 
-  <a class="pagination-previous" href="{{ page.previous.url }}"{% unless page.previous %} disabled{% endunless %}>{{ page.previous.title | truncate: 40 }}</a>
-
-  <a class="pagination-next" href="{{ page.next.url }}"{% unless page.next %} disabled{% endunless %}>{{ page.next.title | truncate: 40 }}</a>
+  <a class="pagination-previous" href="{{ paginator.previous_page_path }}"{% unless paginator.previous_page %} disabled{% endunless %}>&larr; Newer</a>
+  <a class="pagination-next" href="{{ paginator.next_page_path }}"{% unless paginator.next_page %} disabled{% endunless %}>Older &rarr;</a>
 
 </nav>
 {% endif %}
