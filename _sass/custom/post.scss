@@ -8,6 +8,13 @@
     border-bottom: $grey-lighter 1px solid;
   }
 }
+.archive {
+  & .post:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
 .post {
   article.content {
     img {
