@@ -3,6 +3,7 @@ layout: post
 title: "Introducing Pipvid"
 date: 2019-06-13 10:00:00
 tags: [releases, pipvid]
+topic: pipvid
 description: "Adds a picture-in-picture mode to VLC and QuickTime. Ideal for watching videos in the corner of your screen while you work on something else."
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Mavericks
 date: 2013-10-23 10:12
 comments: false
-tags: [mavericks, osx]
+tags: [mavericks, osx, porthole, airvlc, coucou, reign]
 ---
 
 Apple released [OS X version 10.9](https://itunes.apple.com/app/os-x-mavericks/id675248567) yesterday. It's a free update and I think

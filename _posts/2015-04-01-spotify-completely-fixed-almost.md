@@ -2,7 +2,7 @@
 layout: post
 title: "Spotify's completely fixed! (Almost)"
 date: 2015-04-01 15:00:00
-tags: [spotify]
+tags: [spotify, denied]
 description: Spotify v1.0.3 fixes most of the AppleScript problems.
 ---
 

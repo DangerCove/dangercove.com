@@ -3,7 +3,7 @@ layout: post
 title: Reign v1.0.3
 date: 2013-01-08 18:38
 comments: false
-tags: [updates]
+tags: [updates, reign]
 ---
 
 ![Reign v1.0.3](/assets/img/old/content/reign103.png)

@@ -15,6 +15,7 @@ hero:
     b: 0
 tags:
   - Discontinued
+posts: airvlc
 permalink: /airvlc/
 ---
 

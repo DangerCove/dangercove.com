@@ -15,6 +15,7 @@ hero:
     b: 231
 tags:
   - Discontinued
+posts: reign
 permalink: /reign/
 ---
 

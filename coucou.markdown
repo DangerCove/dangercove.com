@@ -15,6 +15,7 @@ hero:
     b: 253
 tags:
   - Discontinued
+posts: coucou
 permalink: /coucou/
 ---
 

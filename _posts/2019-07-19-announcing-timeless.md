@@ -3,6 +3,7 @@ layout: post
 title: Announcing Timeless
 date: 2019-07-19
 tags: [announcements, timeless]
+topic: timeless
 description: "Timeless gives you a more subtle sense of the day progressing. Reducing time pressure and distraction."
 mailchimp:
   interests: [2]

@@ -28,6 +28,7 @@ screenshots:
     caption: Hotkey panel
 tags:
   - Discontinued
+posts: porthole
 permalink: /porthole/
 ---
 

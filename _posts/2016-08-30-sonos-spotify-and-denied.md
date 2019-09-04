@@ -2,7 +2,7 @@
 layout: post
 title: "Sonos, Spotify and Denied"
 date: 2016-08-30 18:00:00
-tags: [sonos, spotify]
+tags: [sonos, spotify, denied]
 description: Spotify is planning an update will support playing through Sonos speakers.
 ---
 

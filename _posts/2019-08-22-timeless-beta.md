@@ -3,6 +3,7 @@ layout: post
 title: Get the Timeless beta
 date: 2019-08-22
 tags: [releases, timeless]
+topic: timeless
 description: "Timeless gives you a more subtle sense of the day progressing. Reducing time pressure and distraction."
 ---
 

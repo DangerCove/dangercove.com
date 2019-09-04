@@ -3,6 +3,7 @@ layout: post
 title: "Carbonize price update"
 date: 2019-06-01 10:00:00
 tags: [carbonize]
+topic: carbonize
 description: "Carbonize joins Relax and Denied with a paid-upfront update."
 ---
 

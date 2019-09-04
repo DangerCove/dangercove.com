@@ -2,7 +2,8 @@
 layout: post
 title: Added scheduling to Timeless beta
 date: 2019-09-02
-tags: [releases, timeless]
+tags: [updates, timeless]
+topic: timeless
 description: "The latest update to Timeless.app adds a scheduling feature and a clock that appears when the indicator is inactive."
 ---
 

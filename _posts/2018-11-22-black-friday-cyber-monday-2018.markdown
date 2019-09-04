@@ -2,7 +2,7 @@
 layout: post
 title: Black Friday &amp; Cyber Monday 2018
 date: 2018-11-22 08:00:00
-tags: [sale]
+tags: [sale, denied]
 description: Denied is just $1 during Black Friday &amp; Cyber Monday
 ---
 

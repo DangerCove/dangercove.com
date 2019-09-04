@@ -2,7 +2,8 @@
 layout: post
 title: "Toggle Pipvid based on window size"
 date: 2019-06-13 10:00:00
-tags: [releases, pipvid]
+tags: [updates, pipvid]
+topic: pipvid
 description: "Pipvid v1.1 makes it possible to automatically toggle snapping based on the window size."
 ---
 
