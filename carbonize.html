@@ -37,7 +37,7 @@ mailchimp:
   interests: [8]
 ---
 
-<section class="section is-medium">
+<section class="section">
   <div class="columns">
     <div class="column is-offset-1 is-5">
       <figure>
@@ -59,9 +59,7 @@ mailchimp:
   </div>
 </section>
 
-{% include app/screenshots.html screenshots=page.screenshots %}
-
-<section class="section is-medium">
+<section class="section">
   <div class="columns">
     <div class="column is-offset-1 is-5">
       <figure>
@@ -77,7 +75,9 @@ mailchimp:
         <p>All credits for this go to <a href="https://dawnlabs.io">Dawn Labs</a>. 🙌</p>
       </div>
     </div>
-  </section>
+</section>
+
+{% include app/screenshots.html screenshots=page.screenshots %}
 
 <section class="section is-medium has-text-centered has-background-black has-text-white">
   <div class="columns">
