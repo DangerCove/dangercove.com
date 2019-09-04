@@ -30,7 +30,7 @@ layout: default
           {% for tag in page.tags %}
           {% assign app = site.pages | where: 'posts', tag | first %}
           {% if app %}
-          {% include app/related.html app=app %}
+          {% include app/introduction.html app=app %}
           {% endif %}
           {% endfor %}
 

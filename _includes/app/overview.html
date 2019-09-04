@@ -2,7 +2,9 @@
 <div class="app-preview section is-medium">   
   <div class="columns is-multiline">
     {% for app in apps %}
-    {% include app/introduction.html app=app %}
+    <div class="column is-4-widescreen is-half-desktop is-full-tablet is-full-mobile">
+      {% include app/introduction.html app=app %}
+    </div>
     {% endfor %}
   </div>
 </div>
