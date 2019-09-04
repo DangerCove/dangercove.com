@@ -24,7 +24,7 @@ layout: default
     </div>
   </section>
   {% if page.has_current %}
-  <section>
+  <section class="section">
     {% assign live = site.pages | where: 'layout', 'app/live' %}
     {% assign announced = site.pages | where: 'layout', 'app/announced' %}
     {% assign apps = announced | concat: live %}
@@ -32,7 +32,7 @@ layout: default
   </section>
   {% endif %}
   {% if page.has_discontinued %}
-  <section>
+  <section class="section">
     {% assign apps = site.pages | where: "layout", "app/discontinued" %}
     {% include app/overview.html apps=apps %}
   </section>

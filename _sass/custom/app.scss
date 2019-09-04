@@ -2,6 +2,21 @@
   &-actions {
     margin-top: $size-6;
   }
+
+  .title a {
+    transition: all 0.25s ease;
+
+    background: linear-gradient(to top right, $orange, $purple);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+    &:hover {
+      text-fill-color: $purple;
+      -webkit-text-fill-color: $orange;
+    }
+  }
 }
 
 .app-actions {
