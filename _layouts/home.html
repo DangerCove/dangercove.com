@@ -3,20 +3,6 @@ layout: default
 ---
 
 <main>
-  <header class="hero" role="banner">
-    <div class="hero-head">
-    </div>
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        {% include logo/retro.html %}
-        <h1 class="title is-1 is-spaced">{{ page.title }}</h1>
-        <h2 class="subtitle is-4">{{ page.subtitle }}</h2>
-      </div>
-    </div>
-    <div class="hero-foot">
-    </div>
-  </header>
-
   <section class="section">
     {% assign live = site.pages | where: 'layout', 'app/live' %}
     {% assign announced = site.pages | where: 'layout', 'app/announced' %}
