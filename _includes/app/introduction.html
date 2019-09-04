@@ -20,20 +20,14 @@
       <div class="media-content">
         <article class="content is-medium">
           <h3 class="title is-1"><a href="{{ app.url }}">{{ app.title }}</a></h3>
-          <h4 class="subtitle is-4 has-text-grey-light">{{ app.subtitle }}</h4>
+          <h4 class="subtitle is-4">{{ app.subtitle }}</h4>
+          <p class="has-text-grey">{{ app.description }}</p>
           <div class="tags">
             {% for tag in app.tags %}
-            <span class="tag is-dark">{{ tag }}</span>
+            <span class="tag">{{ tag }}</span>
             {% endfor %}
           </div>
-          <p>{{ app.description }}</p>
         </article>
-        <div class="app-actions">
-          <p><a href="{{ app.url }}" class="button is-medium is-light">Learn More</a></p>
-        </div>
-        <div class="app-photo has-text-grey-dark">
-          <p class="app-photo__credits">{{ app.hero.credits }}</p>
-        </div>
       </div>
     </div>
   </div>
