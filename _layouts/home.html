@@ -35,7 +35,7 @@ layout: default
               <a href="/news" class="button is-light">More News</a>
             </p>
             {% for post in site.posts limit: 3 %}
-            {% include post/preview.html post=post %}
+            {% include post/teaser.html post=post %}
             {% endfor %}
           </div>
           <div class="content is-medium">

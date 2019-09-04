@@ -1,5 +1,5 @@
 {% assign posts = include.posts %}
 {% assign limit = include.limit %}
 {% for post in posts limit: limit %}
-  {% include post/preview.html post=post %}
+  {% include post/teaser.html post=post %}
 {% endfor %}
