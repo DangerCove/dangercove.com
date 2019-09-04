@@ -3,40 +3,42 @@ layout: default
 ---
 
 <main class="page">
-  <div class="container">
-    <header class="page-header">
-      <h1 class="title">{{ page.site_title }}</h1>
-      {% if page.date %}
-      <p class="subtitle is-4 has-text-grey-light">{{ page.date | date: "%B %Y"}}</p>
-      {% endif %}
-    </header>
-    <div class="columns">
-      <div class="column is-offset-2 is-8">
-        <article class="page-content content is-medium">
-          {{ content | markdownify }}
-
-          {% if page.screenshots %}
-          <h2 id="screenshots">Screenshots</h2>
-          <div class="columns is-multiline">
-            {% for screenshot in page.screenshots %}
-            <div class="column is-half">
-              <figure>
-                <a href="/assets/img/app/{{ screenshot.src }}"><img src="/assets/img/app/{{ screenshot.src }}" alt="{{ screenshot.alt }}"></a>
-                <figcaption class="is-size-6">{{ screenshot.caption }}</figcaption>
-              </figure>
-            </div>
-            {% endfor %}
-          </div>
-          {% endif %}
-        </article>
-
-        {% if page.mailchimp %}
-        {% include signup/mailchimp.html %}
+  <section class="section">
+    <div class="container">
+      <header class="page-header">
+        <h1 class="title">{{ page.site_title }}</h1>
+        {% if page.date %}
+        <p class="subtitle is-4 has-text-grey-light">{{ page.date | date: "%B %Y"}}</p>
         {% endif %}
+      </header>
+      <div class="columns">
+        <div class="column is-offset-2 is-8">
+          <article class="page-content content is-medium">
+            {{ content | markdownify }}
 
+            {% if page.screenshots %}
+            <h2 id="screenshots">Screenshots</h2>
+            <div class="columns is-multiline">
+              {% for screenshot in page.screenshots %}
+              <div class="column is-half">
+                <figure>
+                  <a href="/assets/img/app/{{ screenshot.src }}"><img src="/assets/img/app/{{ screenshot.src }}" alt="{{ screenshot.alt }}"></a>
+                  <figcaption class="is-size-6">{{ screenshot.caption }}</figcaption>
+                </figure>
+              </div>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </article>
+
+          {% if page.mailchimp %}
+          {% include signup/mailchimp.html %}
+          {% endif %}
+
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <section class="section">
     <div class="container">
