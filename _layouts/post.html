@@ -27,12 +27,7 @@ layout: default
           {% include signup/mailchimp.html %}
           {% endif %}
 
-          {% for tag in page.tags %}
-          {% assign app = site.pages | where: 'posts', tag | first %}
-          {% if app %}
-          {% include app/introduction.html app=app %}
-          {% endif %}
-          {% endfor %}
+          {% include post/related.html tags=page.tags %}
 
           <hr>
 

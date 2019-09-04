@@ -1,0 +1,8 @@
+{% assign tags = include.tags %}
+
+{% for tag in tags %}
+{% assign app = site.pages | where: 'topic', tag | first %}
+{% if app %}
+{% include app/introduction.html app=app %}
+{% endif %}
+{% endfor %}

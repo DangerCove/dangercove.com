@@ -28,7 +28,7 @@ layout: default
         <div class="column is-5">
           <div class="content">
             <h2 class="title is-2">Latest news</h2>
-            {% assign posts = site.tags[page.posts] %}
+            {% assign posts = site.tags[page.topic] %}
             {% if posts %}
             {% include related/news.html posts=posts limit=3 %}
             {% else %}

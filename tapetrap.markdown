@@ -15,7 +15,7 @@ hero:
     b: 90
 tags:
   - Discontinued
-posts: tapetrap
+topic: tapetrap
 permalink: /tapetrap/
 ---
 

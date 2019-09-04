@@ -20,7 +20,7 @@ features:
 tags:
   - macOS
   - Productivity
-posts: timeless
+topic: timeless
 mailchimp: 
   interests: [2]
 permalink: /timeless/

@@ -15,7 +15,7 @@ hero:
     b: 147
 tags:
   - Discontinued
-posts: airtube
+topic: airtube
 permalink: /airtube/
 ---
 
