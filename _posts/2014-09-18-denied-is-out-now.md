@@ -16,4 +16,4 @@ Starting today, bands you can't stand will no longer annoy you while listening t
 - Keep track of how often a rule is used.
 - Quickly suppress rules or temporarily stop skipping entirely.
 
-If you're a member of the press, have a look at the [Press Kit](/denied/presskit) and official [Press Release](/news/2014/09/18/press-release).
+If you're a member of the press, have a look at the [Press Kit](/denied/presskit) and official [Press Release]({% post_url 2014-09-18-denied-press-release %}).

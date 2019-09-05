@@ -29,7 +29,7 @@ These are a few cases in which scripting could come in handy:
 * Launch Porthole at least once and set it up.
 * Start (Apple)Script Editor.app (find it in /Applications/Utilities/(Apple)Script Editor.app).
 
-![Script Editor](/img/app/porthole-scripting.jpg)
+![Script Editor](/assets/img/app/porthole-scripting.jpg)
 
 When you have AppleScript Editor running, paste in the script below to get the name of the first speaker Porthole's found. Press the big green "Run" button when you're done.
 
@@ -64,7 +64,7 @@ end tell
 
 It should return something along the lines of this:
 
-```
+``` AppleScript
 "Speakers: 
 12AB34CD56EF: Boy & Auk's AirPort Express
 FE65DC43BA21: AirPort Express
@@ -117,7 +117,7 @@ Porthole sends out system wide notifications when an AirPlay speaker appears/dis
 
 To receive these notifications, hook into the NSDistributedNotificationCenter event:
 
-``` Objective-C
+``` objc
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
     [[NSDistributedNotificationCenter defaultCenter] addObserver:self selector:@selector(handlePortholeSpeakerStateChanged:) name:@"com.dangercove.Porthole.SpeakerStateChanged" object:nil];
@@ -134,7 +134,7 @@ To receive these notifications, hook into the NSDistributedNotificationCenter ev
 
 The notification's userInfo contains a dictionary with the current speaker setup:
 
-``` Objective-C
+``` objc
 {
     speakers =     (
                 {

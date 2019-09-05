@@ -7,7 +7,7 @@ topic: carbonize
 description: "Carbonize joins Relax and Denied with a paid-upfront update."
 ---
 
-Like Denied and Relax in [the previous update](/news/adjusting-prices/), Carbonize will be a paid-upfront app from now on. My top priority is making sure my business becomes sustainable (again). A constant revenue stream means I get to work on updates and release new apps. Denied and Relax seem to do a little better right now, adding Carbonize to the list feels obvious.
+Like Denied and Relax in [the previous update]({% post_url 2019-04-24-adjusting-prices %}), Carbonize will be a paid-upfront app from now on. My top priority is making sure my business becomes sustainable (again). A constant revenue stream means I get to work on updates and release new apps. Denied and Relax seem to do a little better right now, adding Carbonize to the list feels obvious.
 
 To smooth over the transition you can **[get Carbonize](/carbonize/appstore) at a 50% discount** until June 8th.
 

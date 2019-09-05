@@ -6,7 +6,7 @@ tags: [relax, denied]
 description: "Relax and Denied won't be free anymore."
 ---
 
-The last time [I posted about Denied](/news/denied-is-now-free/), I introduced the Tip Jar and announced the app would become Free. My goal was to try and see if I could reach more people by lowering the bar of entry and in turn increase revenue by convincing a significant amount of those people to voluntarily pay through the Tip Jar.
+The last time [I posted about Denied]({% post_url 2018-12-20-denied-is-now-free %}), I introduced the Tip Jar and announced the app would become Free. My goal was to try and see if I could reach more people by lowering the bar of entry and in turn increase revenue by convincing a significant amount of those people to voluntarily pay through the Tip Jar.
 
 We're about six months into the experiment and unfortunately this hasn't happened. 
 

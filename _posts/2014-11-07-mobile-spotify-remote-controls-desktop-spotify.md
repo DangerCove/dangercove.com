@@ -12,7 +12,7 @@ Gone are the days that you'd have to walk all the way through your house or offi
 
 Spotify Connect now allows you to remote control Spotify running on your desktop or laptop from your phone or tablet. The major advantage obviously being that your less mobile device is probably connected to much better speakers and can even connect to [multiple AirPlay devices](http://www.getporthole.com) and other wireless setups.
 
-The only requirement is that you have Spotify Premium, which became much more affordable with the introduction of [Spotify Family](/news/spotify-family) a few weeks ago.
+The only requirement is that you have Spotify Premium, which became much more affordable with the introduction of [Spotify Family]({% post_url 2014-10-22-spotify-family %}) a few weeks ago.
 
 Here's how to setup remote controlling:
 

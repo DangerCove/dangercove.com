@@ -1,7 +1,13 @@
 div.highlight pre {
   padding: 0;
 }
-.content div.highlight {
-  text-align: left;
-  margin-bottom: $size-3;
+.content {
+  div.highlight {
+    text-align: left;
+    margin-bottom: $size-3;
+  }
+
+  > pre {
+    padding: 0;
+  }
 }
