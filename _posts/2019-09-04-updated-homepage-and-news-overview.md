@@ -6,7 +6,7 @@ tags: [website]
 description: "I've updated the homepage and news overview. The homepage is a lot more compact and the news overview a paginated list of full articles."
 ---
 
-I made some changes to the website that are worth sharing. In this post I'll show you what's different and in a follow-up I'll go into detail about customizing my [Jekyll](https://jekyllrb.com) theme.
+I made some changes to the website that are worth sharing. In this post I'll show you what's different and in [a follow-up]({% post_url 2019-09-05-implementing-the-homepage-and-news-redesigns %}) I'll go into detail about customizing my [Jekyll](https://jekyllrb.com) theme.
 
 ### Homepage
 
@@ -38,4 +38,4 @@ In the updated situation it shows everything right on the overview. There's no r
 
 This is a new feature. Underneath each post it shows the apps that were mentioned. I struggled with directing readers from an article to an app. This might just solve it.
 
-You might notice some new colors, adjusted margins and paddings as well. Nothing too radical. In the next post I'll tell you how I implemented the major changes.
+You might notice some new colors, adjusted margins and paddings as well. Nothing too radical. In [the next post]({% post_url 2019-09-05-implementing-the-homepage-and-news-redesigns %}) I'll tell you how I implemented the major changes.
