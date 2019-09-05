@@ -23,11 +23,4 @@ layout: default
       </div>
     </div>
   </section>
-
-  <section class="section is-medium">
-    {% assign live = site.pages | where: 'layout', 'app/live' %}
-    {% assign announced = site.pages | where: 'layout', 'app/announced' %}
-    {% assign apps = announced | concat: live %}
-    {% include app/overview.html apps=apps %}
-  </section>
 </main>
