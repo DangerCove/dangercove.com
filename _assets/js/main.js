@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const modal = el.querySelector('.modal');
       const background = el.querySelector('.modal-background');
       const closeButton = el.querySelector('.modal-close');
-      const box = el.querySelector('.box');
+      const box = el.querySelector('.trigger');
 
       box.addEventListener('click', e => {
         html.classList.add('is-clipped');
