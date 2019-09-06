@@ -23,8 +23,9 @@ layout: default
       </div>
     </div>
   </section>
-  <div class="container">
-    <section class="section">
+
+  <section class="section">
+    <div class="container">
       <div class="columns">
         <div class="column is-7">
           <div class="Content">
@@ -42,8 +43,9 @@ layout: default
           </div>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
+
   <section>
     {% assign live = site.pages | where: 'layout', 'app/live' %}
     {% assign announced = site.pages | where: 'layout', 'app/announced' %}

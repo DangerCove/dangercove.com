@@ -5,25 +5,27 @@ layout: default
 <main class="page">
   {{ content }}
 
-  <div class="container">
-    {% if page.mailchimp %}
-    <section class="section">
+  {% if page.mailchimp %}
+  <section class="section">
+    <div class="container">
       <div class="columns">
-        <div class ="column is-4">
+        <div class ="column is-5">
           <div class="content is-medium">
             <h2 class="title is-2">Subscribe ✉️</h2>
             <p>Stay up to date by subscribing to the app specific newsletter.</p>
             <p>I'll occasionally send you updates, announcements for new apps and other general news that's important enough to email you about.</p>
           </div>
         </div>
-        <div class="column is-offset-1 is-7">
+        <div class="column is-offset-1 is-6">
           {% include signup/mailchimp.html %}
         </div>
       </div>
-    </section>
-    {% endif %}
+    </div>
+  </section>
+  {% endif %}
 
-    <section class="section">
+  <section class="section">
+    <div class="container">
       <div class="columns">
         <div class="column is-5">
           <div class="content">
@@ -61,6 +63,6 @@ layout: default
           </div>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
 </main>
