@@ -1,6 +1,13 @@
-.hero .logo {
-  & svg, & img {
-    max-width: 256px;
-    max-height: 256px;
+.hero {
+  .logo {
+    & svg, & img {
+      max-width: 256px;
+      max-height: 256px;
+    }
+  }
+  
+  .page-description {
+    padding: 2em 0;
   }
 }
+
