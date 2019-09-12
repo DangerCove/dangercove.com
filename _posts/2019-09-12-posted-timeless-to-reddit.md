@@ -2,7 +2,7 @@
 layout: post
 title: I posted Timeless on /r/productivity
 date: 2019-09-11
-tags: [Timeless]
+tags: [timeless]
 description: "I posted Timeless on the Productivity sub-reddit to gather feedback."
 canonincal_url: "https://www.reddit.com/r/productivity/comments/d254pg/working_on_timeless_an_app_to_reduce_time_anxiety/"
 ---
