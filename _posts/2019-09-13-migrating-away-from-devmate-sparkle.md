@@ -42,7 +42,7 @@ extension String {
 }
 ```
 
-After this change [Timeless](/timeless) will check for updates at `https://updates.dangr.co/com.dangercove.Timeless.Mac/appcast.xml`. The `updates.dangr.co` domain is mine and I can set redirects for it however I want. 
+After this change [Timeless](/timeless) will check for updates at `updates.dangr.co`. I can set redirects for this domain however I want. 
 
 ### Redirecting
 
