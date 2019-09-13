@@ -6,7 +6,7 @@ tags: [infrastructure]
 description: "DevMate will retire its service in December, so I setup redirects for my Sparkle update feeds."
 ---
 
-DevMate is the service I use to gather download and install statistics for most of my apps. It also serves the update feeds for all non-Mac App Store apps. Earlier this year [DevMate announced its retiring the platform](https://announcement.devmate.com).
+DevMate is the service I use to gather download and install statistics for most of my apps. It also serves the update feeds for all non-Mac App Store apps. Earlier this year [DevMate announced its retiring the platform](https://announcement.devmate.com) in December.
 
 ![A screenshot of my DevMate dashboard, showing about 50 downloads and 30 installs for Timeless in the past 30 days and 100 downloads and 60 installs for Pipvid](/assets/img/news/devmate-dashboard.jpg)
 
