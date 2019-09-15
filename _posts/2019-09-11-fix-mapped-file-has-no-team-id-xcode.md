@@ -1,12 +1,14 @@
 ---
 layout: post
-title: Fix "mapped file has no Team ID..." in Xcode 11
+title: Fix &quot;mapped file has no Team ID...&quot; in Xcode 11
 date: 2019-09-11
-tags: [xcode]
-description: "A quick fix for when you receive an error after applying the Xcode 11 GM's preferred settings."
-canonical_url: "https://posts.boy.sh/fix-mapped-file-has-no-team-id-xcode"
----
+tags:
+- xcode
+description: A quick fix for when you receive an error after applying the Xcode 11
+  GM's preferred settings.
+canonical_url: https://posts.boy.sh/fix-mapped-file-has-no-team-id-xcode
 
+---
 After applying the preferred project settings in Xcode 11 you might be confronted with the following error while loading a Library at runtime:
 
 ```
