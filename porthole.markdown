@@ -44,10 +44,6 @@ With every new firmware release for the AirPort Express or Apple TV, Apple could
 
 Luckily Apple wasn't sitting still. In 2017 they announced AirPlay 2, an updated version of the protocol that would allow streaming to multiple AirPlay devices from your Mac and any mobile device (a much requested feature for Porthole). It took a year for ultimately land, but with macOS Mojave and iOS 12 Porthole has been made fully obsolete by the built-in features of Apple's desktop _and_ mobile operating system.
 
-## Related news
-
-{% include related/news.html posts=site.tags.porthole %}
-
 ## What others said
 
 ### On Twitter
@@ -65,3 +61,7 @@ Luckily Apple wasn't sitting still. In 2017 they announced AirPlay 2, an updated
 > Porthole adds an item to your menu bar that transfers your system audio to an AirPort Express with one click. It's a piece of cake.
 >
 > — Adam Pash ([lifehacker.com](https://lifehacker.com/5895637/porthole-streams-your-macs-audio-to-your-airplay-devices))
+
+## Related news
+
+{% include related/news.html posts=site.tags.porthole %}

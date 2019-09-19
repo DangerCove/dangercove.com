@@ -24,3 +24,7 @@ Reign for Spofity allowed you to control a local Spotify instance from any devic
 > {{ page.description }}
 
 ![Controlling Spotify from a browser through Reign](/assets/img/app/reign-themes.jpg)
+
+## Related news
+
+{% include related/news.html posts=site.tags.reign %}
