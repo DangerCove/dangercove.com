@@ -232,6 +232,6 @@ The `app` variable gets assigned and the `app/introduction.html` _card_ template
 
 ### Open-source
 
-The full source code for this website is [available on GitHub](https://github.com/DangerCove/dangercove.com). For a comprehensive list of all changes made for this redesign, take a look at this _diff_: [https://github.com/DangerCove/dangercove.com/compare/3493aae..4518428](https://github.com/DangerCove/dangercove.com/compare/3493aae..4518428)
+The full source code for this website is [available on GitHub](https://github.com/DangerCove/dangercove.com). For a comprehensive list of all changes made for this redesign, take a look at this _diff_: [3493aae..4518428](https://github.com/DangerCove/dangercove.com/compare/3493aae..4518428)
 
 I hope you enjoyed this in-depth look at how I keep dangercove.com up-to-date. If you have any feedback, questions or comments [let me know on Twitter](https://www.twitter.com/boyvanamstel).
