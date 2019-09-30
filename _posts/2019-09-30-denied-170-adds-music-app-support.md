@@ -14,7 +14,7 @@ This means that [Denied](/denied) version 1.7 with preliminary support for Catal
 
 I say _preliminary_ because it focusses on skipping tracks through one of the familiar filters. There is a known issue that prevents Denied from grabbing the track information when the app first launches and before Music.app was set to play, pause, skip to the next or previous track. As soon as Apple resolves the issue it should work exactly like it did on previous versions of macOS.
 
-![Denied's App Store artwork showing off its explicit content filter](/assets/img/news/denied-macbook-skip-explicit-with-caption.jpg)
+![A screenshot showing Denied and Music.app on Catalina](/assets/img/news/denied-catalina-music.jpg)
 
 Here's a complete list of changes I made. It's a pretty huge update!
 
