@@ -10,4 +10,4 @@ The team behind [Carbon](https://carbon.now.sh) has been [acquired](https://dawn
 
 It also means that updates to the web based tool are coming out even fast than before. Most just add features to [Carbonize](/carbonize), some alter the UI and require an update from my end.
 
-I've released version 1.2.8 a few days ago to commodate the changes Carbon made in version 4.3.0. It's now [available for download](/carbonize/appstore) from the Mac App Store. Enjoy!
+I've released version 1.2.8 a few days ago to accommodate the changes Carbon made in version 4.3.0. It's now [available for download](/carbonize/appstore) from the Mac App Store. Enjoy!
