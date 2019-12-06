@@ -13,7 +13,7 @@ Note that this is a beta release. Its main goal is to find bugs and improve the 
 
 ### Feedback
 
-The app contains a built-in dialog to submit feedback. You can access it by selecting the 'Give Feedback...' item in the menu bar. Feel free to let me know about:
+[Let me know](mailto:support@dangercove.com) about:
 
 * Bugs.
 * Feature requests.
