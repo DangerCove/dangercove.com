@@ -1,11 +1,17 @@
 ---
 layout: post
-title: "Post-DevMate updates"
-date: 2019-10-20
-tags: [pipvid, relax, carbonize, timeless, updates]
-description: "With DevMate's end-of-life date approaching I've updated every app to remove its SDK."
----
+title: Post-DevMate updates
+date: 2019-12-06 20:00:00 +0000
+tags:
+- pipvid
+- relax
+- carbonize
+- timeless
+- updates
+description: With DevMate's end-of-life date approaching I've updated every app to
+  remove its SDK.
 
+---
 With [DevMate sunsetting](https://announcement.devmate.com) in little over a week I've issued an update for every app that included the DevMate SDK.
 
 ### 🎧 [Relax 1.2](/relax)
