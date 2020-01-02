@@ -11,7 +11,7 @@ description: I’m delighted to announce I’m launching my time anxiety reducin
 
 The start of the new year is a great time to begin reducing stress and consider potential distractions. That’s why I’m delighted to announce I’m launching my time anxiety reducing Mac app called Timeless today!
 
-Timeless replaces the standard clock with a more subtle time indicator. It’s been tested for months, got encouraging comments  [on Reddit](https://www.reddit.com/r/productivity/comments/d254pg/working_on_timeless_an_app_to_reduce_time_anxiety/)  and the beta was even featured in FastCompany’s  [‘best new apps of 2019’](https://www.fastcompany.com/90443104/the-25-best-new-apps-of-2019) .
+Timeless replaces the standard clock with a more subtle time indicator. It’s been tested for months, got encouraging comments [on Reddit](https://www.reddit.com/r/productivity/comments/d254pg/working_on_timeless_an_app_to_reduce_time_anxiety/) and the beta was even featured in FastCompany’s [‘best new apps of 2019’](https://www.fastcompany.com/90443104/the-25-best-new-apps-of-2019).
 
 The clock can be a distraction for me. It imposes stress and distracts me while I try to get work done and sometimes even when I’m trying to relax.
 
