@@ -28,3 +28,5 @@ Timeless been in my menu bar since I created the first, rough version and I can�
 [Get Timeless!](/timeless/download) _(12.9 MB)_
 
 Used in conjunction with reminders and my calendar, it keeps me from glancing at the clock whenever I’m at my Mac. For me, that’s a huge stress reducer and I’d love to know if it works for you too. 😊
+
+Photo by Filip Zrnzević on Unsplash
