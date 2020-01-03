@@ -1,5 +1,12 @@
-<header class="hero hero-app is-medium" role="banner">
+{% if page.producthunt %}
+<div class="producthunt">
+  <div class="container">
+    <p><a href="{{ page.producthunt.link }}?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-{{ page.producthunt.name }}" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id={{ page.producthunt.id }}&theme=light" alt="Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a></p>
+  </div>
+</div>
+{% endif %}
 
+<header class="hero hero-app is-medium" role="banner">
   <div class="hero-head">
     {% include navigation.html %}
   </div>
