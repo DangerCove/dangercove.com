@@ -22,6 +22,9 @@
   {% if page.hero.dominant_color %}
   {% assign color = page.hero.dominant_color %}
   <style>
+    .producthunt {
+      border-bottom: rgba({{ color.r }}, {{ color.g }}, {{ color.b }}, 0.5) 1px solid;
+    }
     .hero-app {
       background: linear-gradient(35deg,
       transparent 60%,

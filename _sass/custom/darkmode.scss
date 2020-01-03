@@ -5,6 +5,15 @@
   display: inline;
 }
 
+.producthunt {
+  .light {
+    display: inline;
+  }
+  .dark {
+    display: none;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   body, .footer {
     color: $light;
@@ -45,5 +54,14 @@
   }
   .button__dark {
     display: none;
+  }
+
+  .producthunt {
+    .light {
+      display: none;
+    }
+    .dark {
+      display: inline;
+    }
   }
 }
