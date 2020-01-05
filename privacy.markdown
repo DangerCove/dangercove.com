@@ -10,7 +10,7 @@ All products in the Danger Cove webstore are developed and produced by the Dutch
 
 ## Sales
 
-Digital products can be purchased through FastSpring, Paddle and the Apple App Stores.
+Digital products can be purchased through FastSpring, Gumroad, Paddle and the Apple App Stores.
 
 ### FastSpring
 
@@ -51,24 +51,6 @@ Sales through the Mac App Store, or iOS App Store are processed by <a href="http
 
 Please refer to the Apple App Store privacy statement for more information: <a href="https://www.apple.com/legal/privacy/en-ww/">https://www.apple.com/legal/privacy/en-ww/</a>.
 
-### DevMate
-
-We sometimes release apps outside of the various App Stores through DevMate. They provide the following services for Danger Cove products:
-
-- DevMate hosts apps that can be downloaded outside of the App Store.
-- DevMate gives us anonymous insight in how often apps are downloaded.
-- DevMate gives us anonymous insight in whether apps are launched more than once.
-- DevMate allows us to gather voluntary feedback provided through our apps.
-
-When providing feedback, DevMate collects the following information:
-
-- Your name.
-- Your email address.
-- Your feedback.
-- You can optionally provide an anonymous system profile.
-
-Please refer to the DevMate privacy statement for more information: <a href="https://devmate.com/policy/">https://devmate.com/policy/</a>.
-
 ### Gumroad
 
 Sales of our license key activated digital products are processed by <a href="https://gumroad.com">Gumroad</a>, a US based online shopping platform which we feel handles your personal information with the care we demand. They provide the following services for Danger Cove products:
@@ -93,16 +75,25 @@ Support requests are processed by [FreshDesk](https://freshdesk.com), a US based
 
 Please refer to the FreshWorks privacy statement for more information: [https://www.freshworks.com/privacy/](https://www.freshworks.com/privacy/).
 
-## Crash Reporting
+## Distribution, Crash Reporting and Anonymous App Launch Statistics
 
-Crash reports are gathered by [HockeyApp](https://www.hockeyapp.net) on opt-in basis only. HockeyApp is a Microsoft owned, US based platform that stores crash reports that you can choose to submit through our apps. They provide the following services for Danger Cove products:
+App distribution, crash reports and  anynomous app launch statistics are handled by [AppCenter](https://www.appcenter.ms). AppCenter is a Microsoft owned, US based platform that stores crash reports and anonymous app launch statistics. They also host the binaries to our apps. They provide the following services for Danger Cove products:
 
+- Storage of app binaries.
 - Storage of crash reports.
-- HockeyApp stores the following information to facilitate the crash reporting:
+
+AppCenter stores the following information to facilitate the crash reporting:
 - The contents of the crash report.
 - Personal contact information.
 
-Please refer to the HockeyApp privacy statement for more information: [https://www.hockeyapp.net/privacy](https://www.hockeyapp.net/privacy).
+AppCenter stores the following information to facilitate anonymous app launch statistics:
+- App launch event.
+- App version.
+- Device type.
+- System language.
+
+
+Please refer to the Microsoft's privacy statement for more information: [https://privacy.microsoft.com/en-us/privacystatement](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## What we collect
 
