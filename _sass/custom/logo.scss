@@ -3,11 +3,9 @@
   align-items: center;
   justify-content: center;
 
-  vertical-align: middle;
-
   & svg {
-    width: $size-3;
-    height: $size-3;
+    height: 1em;
+    width: auto;
 
     & path {
       fill: currentColor !important;
@@ -15,6 +13,15 @@
     & ellipse, & circle {
       stroke: currentColor !important;
     }
+  }
+}
+
+.footer .logo-inline {
+  vertical-align: middle;
+
+  svg {
+    width: $size-3;
+    height: $size-3;
   }
 }
 
