@@ -34,7 +34,9 @@
             <a href="{{ page.appstore }}" class="appstore-button button__light"><img src="/assets/img/appstore-alt.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
             {% elsif page.download %}
             <a rel="nofollow" href="{{ page.download }}" class="button is-large is-link"><span class="icon"><i class="fas fa-arrow-circle-down"></i></span><span>Download {{ page.title }}</span></a>
-            {% if page.buy %}
+            {% if page.gumroad %}
+            <a href="https://gum.co/{{ page.gumroad.name }}" class="button is-large is-link is-inverted"><span class="icon"><i class="fas fa-shopping-cart"></i></span><span>Buy Now</span></a>
+            {% elsif page.buy %}
             <a href="{{ page.buy }}" class="button is-large is-link is-inverted"><span class="icon"><i class="fas fa-shopping-cart"></i></span><span>Buy Now</span></a>
             {% endif %}
             {% elsif page.website %}
