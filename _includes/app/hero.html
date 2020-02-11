@@ -35,7 +35,7 @@
             {% elsif page.download %}
             <a rel="nofollow" href="{{ page.download }}" class="button is-large is-link"><span class="icon"><i class="fas fa-arrow-circle-down"></i></span><span>Download {{ page.title }}</span></a>
             {% if page.gumroad %}
-            <a href="https://gum.co/{{ page.gumroad.name }}" class="button is-large is-link is-inverted"><span class="icon"><i class="fas fa-shopping-cart"></i></span><span>Buy Now</span></a>
+            <a href="https://gum.co/{{ page.gumroad.name }}?wanted=true" class="button is-large is-link is-inverted"><span class="icon"><i class="fas fa-shopping-cart"></i></span><span>Buy Now</span></a>
             {% elsif page.buy %}
             <a href="{{ page.buy }}" class="button is-large is-link is-inverted"><span class="icon"><i class="fas fa-shopping-cart"></i></span><span>Buy Now</span></a>
             {% endif %}
