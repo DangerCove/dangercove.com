@@ -117,23 +117,22 @@ gumroad:
 <section class="section">
   <div class="container">
     <div class="columns">
-      <div class="column is-6">
+      <div class="column is-5">
+        <figure class="box">
+          <img src="/assets/img/app/timeless-status-item-time@2x.jpg" alt="A screenshot of the time displayed by timeless in the menu bar" style="width: 800px;">
+          <figcaption>When inactive, show the time.</figcaption>
+        </figure>
+        <figure>
+          <img src="/assets/img/app/timeless-preferences-clock.png" alt="A screenshot of the optional clock's preferences window" style="width: 692px;">
+        </figure>
+      </div>
+      <div class="column is-offset-1 is-6">
         <div class="content is-medium">
           <h2 class="title is-2">Easy to adopt</h2>
           <p>Don't worry about losing time completely with Timeless. You can optionally display a clock when you're not working.</p>
           <p>If the indicator isn't showing a range, it can display the time instead. Just like you were used to.</p>
           <p>You can even customize which date components are shown in the menu bar. Show just the time. Add the day of the week or even the full date.</p>
         </div>
-      </div>
-      <div class="column is-5 is-offset-1">
-        <figure class="box">
-          <img src="/assets/img/app/timeless-status-item-time@2x.jpg" alt="A screenshot of the time displayed by timeless in the menu bar" style="width: 800px;">
-          <figcaption>When inactive, show the time.</figcaption>
-        </figure>
-        <figure class="box">
-          <img src="/assets/img/app/timeless-preferences-clock.png" alt="A screenshot of the (optional) clock's preferences window" style="width: 692px;">
-          <figcaption>Customize the optional clock's format.</figcaption>
-        </figure>
       </div>
     </div>
   </div>
@@ -143,15 +142,14 @@ gumroad:
   <div class="container">
     <div class="columns">
       <div class="column is-5">
-        <figure class="box">
-          <img src="/assets/img/app/timeless-registration.png" alt="A screenshot of the registration window." style="width: 652px;">
-          <figcaption>Try a limited version of Timeless for free.</figcaption>
-        </figure>
+        <div class="content is-medium">
+          <h2 class="title is-2">Go Free or Pro</h2>
+          <p>Download and <a href="{{ page.download }}">install the free trial version</a> to try Timeless for as long as you like.</p>
+          <p>Buy a license to get access to additional features that make Timeless even better.</p>
+        </div>
       </div>
       <div class="column is-offset-1 is-6">
-        <div class="content is-medium">
-          <h2 class="title is-2">Upgrade to get extra features</h2>
-          <p>Download and <a href="{{ page.download }}">install the free trial version</a> to try Timeless for as long as you like. Buy a license to get access to additional features that make Timeless even better.</p>
+        <div class="content box">
           <table class="features-table">
             <thead class="features-table__head">
               <tr class="features-table__row">
@@ -177,15 +175,24 @@ gumroad:
                 <td class="features-table__cell table-cell table-cell--check">✓</td>
               </tr>
               <tr>
+                <td class="features-table__cell table-cell table-cell--title"><p>Customize the optional clock's format.</p></td>
+                <td class="features-table__cell table-cell table-cell--cross">⨯</td>
+                <td class="features-table__cell table-cell table-cell--check">✓</td>
+              </tr>
+              <tr>
                 <td class="features-table__cell table-cell table-cell--title"><p>Connect last and first time entries<br><small>on consecutive, enabled days.</small></p></td>
                 <td class="features-table__cell table-cell table-cell--cross">⨯</td>
                 <td class="features-table__cell table-cell table-cell--check">✓</td>
               </tr>
               <tr>
-                <td class="features-table__cell table-cell table-cell--title"><p>Customize the (optional) clock's format.</p></td>
-                <td class="features-table__cell table-cell table-cell--cross">⨯</td>
-                <td class="features-table__cell table-cell table-cell--check">✓</td>
-              </tr>
+                <td colspan="2"></td>
+                <td class="features-table__cell table-cell table-cell--button">
+                  {% if page.gumroad %}
+                  <a href="https://gum.co/{{ page.gumroad.name }}?wanted=true" class="button is-link">Buy</a>
+                  {% elsif page.buy %}
+                  <a href="{{ page.buy }}" class="button is-link">Buy</a>
+                  {% endif %}
+                </td>
             </tbody>
           </table>
         </div>
