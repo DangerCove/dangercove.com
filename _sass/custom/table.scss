@@ -1,0 +1,17 @@
+.table-cell {
+  &--check, &--cross {
+    text-align: center;
+  }
+  &--check {
+    color: $success;
+  }
+  &--cross {
+    color: $danger;
+  }
+}
+
+.features-table {
+  .table-cell--header {
+    text-align: center;
+  }
+}
