@@ -28,21 +28,26 @@ https://www.usetimeless.com/*         https://www.dangercove.com/timeless/:splat
 /relax/presskit                       https://www.dropbox.com/sh/6j6x3kuyfosb4l5/AAC2GbGQE68AYGEGHnsNuCHRa?dl=0
 /relax/appstore                       https://itunes.apple.com/app/relax-unplug/id1440712920
 /relax/buy                            /relax/appstore
+/relax/get                            /relax/appstore
 
 /toggluv/download/beta                /toggluv
 
 /denied/presskit                      https://www.dropbox.com/sh/ft9j6vrgjmck2mj/AAAcsfKx2eLUWbNLccU6tKj5a?dl=0
 /denied/appstore                      https://itunes.apple.com/app/denied-skip-terrible-music/id909257784
 /denied/buy                           /denied/appstore
+/denied/get                           /denied/appstore
 
 /carbonize/presskit                   https://www.dropbox.com/sh/e6bvgquwltpx6cb/AACyjkOWSqMxAIv2xGHcOn4sa?dl=0
 /carbonize/appstore                   https://itunes.apple.com/app/carbonize/id1451177988
 /carbonize/buy                        /carbonize/appstore
+/carbonize/get                        /carbonize/appstore
 
+/pipvid/presskit                      https://www.dropbox.com/sh/jl2a6fq2rbg7z57/AAC-5wXJL4Ue-qSqpy6fMCjaa?dl=0
 /pipvid/download                      https://updates.dangr.co/com.dangercove.Pipvid.Mac/latest
 /pipvid/buy                           https://gum.co/pipvid
-/pipvid/presskit                      https://www.dropbox.com/sh/jl2a6fq2rbg7z57/AAC-5wXJL4Ue-qSqpy6fMCjaa?dl=0
+/pipvid/get                           https://gum.co/pipvid
 
+/timeless/presskit                    https://www.dropbox.com/sh/at2elos19a5e9wk/AAB60unIZ4TODkdpNCM_Gbnla?dl=0
 /timeless/download                    https://updates.dangr.co/com.dangercove.Timeless.Mac/latest
 /timeless/buy                         https://gum.co/usetimeless
-/timeless/presskit                    https://www.dropbox.com/sh/at2elos19a5e9wk/AAB60unIZ4TODkdpNCM_Gbnla?dl=0
+/timeless/get                         https://gum.co/usetimeless
