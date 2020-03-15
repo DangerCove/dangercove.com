@@ -29,17 +29,19 @@
           <h1 class="title is-1 is-spaced">{{ page.title }}{% if page.beta %} <sup><span class="tag">Beta</span></sup>{% endif %}</h1>
           <h2 class="subtitle is-4">{{ page.subtitle }}</h2>
           <div class="app-actions buttons is-centered">
-            {% if page.appstore %}
-            <a href="{{ page.appstore }}" class="appstore-button button__dark"><img src="/assets/img/appstore.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
-            <a href="{{ page.appstore }}" class="appstore-button button__light"><img src="/assets/img/appstore-alt.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
-            {% elsif page.download %}
+            {% if page.download %}
             <a rel="nofollow" href="{{ page.download }}" class="button is-large is-link"><span class="icon"><i class="fas fa-arrow-circle-down"></i></span><span>Download {{ page.title }}</span></a>
+            {% endif %}
             {% if page.gumroad %}
             <a href="https://gum.co/{{ page.gumroad.name }}?wanted=true" class="button is-large is-link is-inverted"><span class="icon"><i class="fas fa-shopping-cart"></i></span><span>Buy Now</span></a>
             {% elsif page.buy %}
             <a href="{{ page.buy }}" class="button is-large is-link is-inverted"><span class="icon"><i class="fas fa-shopping-cart"></i></span><span>Buy Now</span></a>
             {% endif %}
-            {% elsif page.website %}
+            {% if page.appstore %}
+            <a href="{{ page.appstore }}" class="appstore-button button__dark"><img src="/assets/img/appstore.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
+            <a href="{{ page.appstore }}" class="appstore-button button__light"><img src="/assets/img/appstore-alt.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
+            {% endif %}
+            {% if page.website %}
             <a href="{{ page.website }}" class="button is-large is-light is-fullwidth">Visit {{ page.website | replace: "https://www.", "" }}</a>
             {% endif %}
           </div>
