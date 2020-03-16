@@ -21,6 +21,8 @@ These moments will cause distraction, make me anxious or I’ll start procrastin
 
 I made Timeless to fix this. It hides the exact time and shows customizable ranges instead. You lose the feeling of dread some hours on the clock might give you, while keeping a sense of time passing.
 
+![A screenshot of Timeless' indicator in the menu bar](/assets/img/app/timeless-status-item-indicator@2x.jpg)
+
 The key is stopping the clock. Not knowing whether it’s 11:00 or 11:45 will keep you from losing focus and stopping early just because lunch is around the corner. This doesn't mean you have to work more, or longer. It's about working more effectively. You could even alternate between work and leisure ranges. Don't worry too much about starting a range exactly when you switch to it.
 
 To give you an idea, this is how I setup my ranges:
@@ -29,6 +31,8 @@ To give you an idea, this is how I setup my ranges:
 * **13.30-15:30** _“More work. Actually get stuff done.”_
 * **15:30-18:00** _“Keep working and maybe run an errand or two.”_
 * **18:00-22:00** _“Make diner and finish up stuff.”_
+
+![A screenshot of the preferences window showing my ranges](/assets/img/app/timeless-my-ranges.png)
 
 I don’t drop everything when a new range starts, instead it’s a hint that I might have to change what I’m doing. That’s why I have a 1.5 hour lunch range. I aim to get a sandwich anywhere in those one and a half hours. Some days it’s 12:01, others 13:20. 🥪
 
