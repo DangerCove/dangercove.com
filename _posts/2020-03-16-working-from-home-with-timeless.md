@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stay focused and feel more comfortable working from home
+title: Stay focused and feel more comfortable working remotely
 date: 2020-03-16
 tags: [timeless]
 description: "I've made Timeless to be more comfortable working from home."
@@ -9,7 +9,7 @@ The COVID-19 Corona outbreak has many of us working from home. It could be the f
 
 In either case, I’ve made an app called [Timeless](/timeless) that will make the experience even more comfortable – or bearable if you prefer the office.
 
-Working from home comes with unique challenges, among which distraction and procrastination. For me personally, the clock plays an important part in this.
+Working remotely comes with unique challenges, among which distraction and procrastination. For me personally, the clock plays an important part in this.
 
 Tell me if these sound familiar:
 * **10.00**  _“Only 10 am?? It feels like I’ve been doing nothing.”_
