@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Working from home with Timeless
+title: Stay focused and feel more comfortable working from home
 date: 2020-03-16
 tags: [timeless]
 description: "I've made Timeless to be more comfortable working from home."
