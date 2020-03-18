@@ -28,28 +28,41 @@
           </figure>
           <h1 class="title is-1 is-spaced">{{ page.title }}{% if page.beta %} <sup><span class="tag">Beta</span></sup>{% endif %}</h1>
           <h2 class="subtitle is-4">{{ page.subtitle }}</h2>
-          <div class="app-actions buttons is-centered">
-            {% if page.download %}
-            <a rel="nofollow" href="{{ page.download }}" class="button is-large is-link"><span class="icon"><i class="fas fa-arrow-circle-down"></i></span><span>Download {{ page.title }}</span></a>
-            {% endif %}
-            {% if page.gumroad %}
-            <a href="https://gum.co/{{ page.gumroad.name }}?wanted=true" class="button is-large is-link is-inverted"><span class="icon"><i class="fas fa-shopping-cart"></i></span><span>Buy Now</span></a>
-            {% elsif page.buy %}
-            <a href="{{ page.buy }}" class="button is-large is-link is-inverted"><span class="icon"><i class="fas fa-shopping-cart"></i></span><span>Buy Now</span></a>
-            {% endif %}
-            {% if page.appstore %}
-            <a href="{{ page.appstore }}" class="appstore-button button__dark"><img src="/assets/img/appstore.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
-            <a href="{{ page.appstore }}" class="appstore-button button__light"><img src="/assets/img/appstore-alt.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
-            {% endif %}
-            {% if page.website %}
-            <a href="{{ page.website }}" class="button is-large is-light is-fullwidth">Visit {{ page.website | replace: "https://www.", "" }}</a>
-            {% endif %}
-          </div>
         </div>
         <div class="column is-offset-1 is-7 is-vertical-center">
           <h3 class="subtitle is-2 page-description">{{ page.description }}</h3>
         </div>
       </div>
+    </div>
+    <div class="action-buttons">
+      {% if page.download || page.gumroad || page.buy %}
+      <div>
+        <div class="buttons is-centered">
+          {% if page.download %}
+          <a rel="nofollow" href="{{ page.download }}" class="button is-large is-link"><span class="icon"><i class="fas fa-arrow-circle-down"></i></span><span>Download {{ page.title }}</span></a>
+          {% endif %}
+          {% if page.gumroad %}
+          <a href="https://gum.co/{{ page.gumroad.name }}?wanted=true" class="button is-large is-link is-inverted"><span class="icon"><i class="fas fa-shopping-cart"></i></span><span>Buy Now</span></a>
+          {% elsif page.buy %}
+          <a href="{{ page.buy }}" class="button is-large is-link is-inverted"><span class="icon"><i class="fas fa-shopping-cart"></i></span><span>Buy Now</span></a>
+          {% endif %}
+        </div>
+        <div>
+          <p class="has-text-grey-light">Download {{ page.title }} directly for free.{% if page.gumroad || page.buy %} Purchase a license to unlock premium features.{% endif %}</p>
+        </div>
+      </div>
+      {% endif %}
+      {% if page.appstore %}
+      <div>
+        <a href="{{ page.appstore }}" class="appstore-button button__dark"><img src="/assets/img/appstore.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
+        <a href="{{ page.appstore }}" class="appstore-button button__light"><img src="/assets/img/appstore-alt.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
+      </div>
+      {% endif %}
+      {% if page.website %}
+      <div>
+        <a href="{{ page.website }}" class="button is-large is-light is-fullwidth">Visit {{ page.website | replace: "https://www.", "" }}</a>
+      </div>
+      {% endif %}
     </div>
   </div>
 

@@ -49,10 +49,10 @@ layout: default
           </div>
           <div class="app-actions">
             <div class="buttons">
-              {% if page.appstore %}
-              <a href="{{ page.appstore }}" class="button is-link"><span class="icon"><i class="fab fa-app-store"></i></span><span>Get {{ page.title }}</span></a>
-              {% elsif page.download %}
+              {% if page.download %}
               <a rel="nofollow" href="{{ page.download }}" class="button is-link"><span class="icon"><i class="fas fa-arrow-circle-down"></i></span><span>Download {{ page.title }}</span></a>
+              {% elsif page.appstore %}
+              <a href="{{ page.appstore }}" class="button is-link"><span class="icon"><i class="fab fa-app-store"></i></span><span>Get {{ page.title }}</span></a>
               {% endif %}
               {% if page.website %}
               <a href="{{ page.website }}" class="button is-light">Visit {{ page.website | replace: "https://www.", "" }}</a>

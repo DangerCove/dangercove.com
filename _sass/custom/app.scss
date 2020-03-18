@@ -4,10 +4,6 @@
   }
 }
 
-.app-actions {
-  margin: $size-2 0;
-}
-
 .screenshot-macbook {
   text-align: center;
 
@@ -26,8 +22,18 @@
   }
 }
 
+.action-buttons {
+  margin-top: 4rem;
+  & > div:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
 .appstore-button {
-  &__image { width: 312px; }
+  margin-bottom: 0.5rem;
+  img {
+    height: 80px;
+  }
 }
 
 .box-modal {
