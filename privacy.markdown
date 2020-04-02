@@ -92,8 +92,32 @@ AppCenter stores the following information to facilitate anonymous app launch st
 - Device type.
 - System language.
 
-
 Please refer to the Microsoft's privacy statement for more information: [https://privacy.microsoft.com/en-us/privacystatement](https://privacy.microsoft.com/en-us/privacystatement).
+
+## Marketing
+
+We use tools to send out occassional email newsletters.
+
+### Mailchimp
+
+We use the US based mail platform [Mailchimp](https://www.mailchimp.com) to send product updates to those who've signed up for it.
+
+The following information is stored:
+- Email address.
+- Consent to send emails.
+- Topics of interest.
+
+Refer to Mailchimp's privacy statement for more information: [https://mailchimp.com/legal/privacy/](https://mailchimp.com/legal/privacy/)
+
+### EmailOctopus
+
+Besides Mailchimp we rely on the UK based [EmailOctopus](https://www.emailoctopus.com) to send product launch announcements to who've signed up for it.
+
+The following information is stored:
+- Email address.
+- Consent to send emails.
+
+Refer to EmailOctopus' privacy statement for more information: [https://emailoctopus.com/legal/privacy](https://emailoctopus.com/legal/privacy)
 
 ## What we collect
 
