@@ -52,10 +52,15 @@
         </div>
       </div>
       {% endif %}
-      {% if page.appstore %}
-      <div>
-        <a href="{{ page.appstore }}" class="appstore-button button__dark"><img src="/assets/img/appstore.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
-        <a href="{{ page.appstore }}" class="appstore-button button__light"><img src="/assets/img/appstore-alt.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
+      {% if page.appstore || page.setapp %}
+      <div class="appstore-buttons">
+        {% if page.appstore %}
+        <a href="{{ page.appstore }}" class="appstore-button button__dark {% if page.setapp %}appstore-button__small{% endif %}"><img src="/assets/img/appstore.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
+        <a href="{{ page.appstore }}" class="appstore-button button__light {% if page.setapp %}appstore-button__small{% endif %}"><img src="/assets/img/appstore-alt.png" alt="Download on the Mac App Store" class="appstore-button__image"></a>
+        {% endif %}
+        {% if page.setapp %}
+        <div class="setapp-button available-on-setapp-{{ page.setapp.app }}"></div>
+        {% endif %}
       </div>
       {% endif %}
       {% if page.website %}

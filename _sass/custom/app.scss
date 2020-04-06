@@ -29,11 +29,23 @@
   }
 }
 
-.appstore-button {
-  margin-bottom: 0.5rem;
-  img {
-    height: 80px;
+.appstore-buttons {
+  > *:not(:last-child) {
+    margin: 0 1rem 0.5rem 0;
   }
+}
+.appstore-button {
+  img {
+    height: 60px;
+  }
+  &__small {
+    img {
+      height: 40px;
+    }
+  }
+}
+.setapp-button {
+  display: inline-block;
 }
 
 .box-modal {

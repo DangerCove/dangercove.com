@@ -4,3 +4,17 @@
 {% if page.gumroad %}
 <script src="https://gumroad.com/js/gumroad.js"></script>
 {% endif %}
+
+{% if page.setapp %}
+<script>
+  window._setappBtn = window._setappBtn || [];
+  window._setappBtn.push({
+    vendorID: {{ page.setapp.vendor }},
+    appID: {{ page.setapp.app }},
+    selector: '.available-on-setapp-{{ page.setapp.app }}',
+    campaignName: '{{ page.setapp.campaign }}'
+  });
+</script>
+
+<script src='https://developer.setapp.com/setapp-button/setapp.js'></script>
+{% endif %}
