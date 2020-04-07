@@ -17,10 +17,15 @@
 }
 .post {
   article.content {
+    margin-bottom: 5rem;
     img {
       display: block;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    .setapp-button {
+      margin: 2rem 0;
     }
   }
 }
