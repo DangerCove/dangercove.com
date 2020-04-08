@@ -23,9 +23,9 @@
 }
 
 .action-buttons {
-  margin-top: 4rem;
+  margin-top: $size-1 * 2;
   & > div:not(:last-child) {
-    margin-bottom: 3rem;
+    margin-bottom: $size-1;
   }
 }
 
