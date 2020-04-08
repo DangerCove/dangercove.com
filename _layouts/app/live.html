@@ -5,6 +5,28 @@ layout: default
 <main class="page">
   {{ content }}
 
+  {% if page.setapp %}
+  <section class="section is-medium">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-6">
+          <div class="content is-medium">
+            <h2 class="title is-2">Available on <a href="https://go.setapp.com/stp276">Setapp</a></h2>
+            <p>Setapp is an award winning app subscription service that gives you full, unlimited access to Timeless <em>and another 170+ apps</em> for just $9.99 a month.</p>
+            <p>Every app is completely unlocked and yours to use while you're a subscriber. Try it. 👌</p>
+            <div class="setapp-button available-on-setapp-{{ page.setapp.app }}"></div>
+          </div>
+        </div>
+        <div class="column is-offset-1 is-5">
+          <figure class="has-text-centered">
+            <a href="https://go.setapp.com/stp276"><img src="/assets/img/logos/Setapp Desktop Icon 512х512.png" alt="The Setapp desktop app icon" style="width: 256px;"></a>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
   {% if page.mailchimp %}
   <section class="section">
     <div class="container">
