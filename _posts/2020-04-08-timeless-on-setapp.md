@@ -12,7 +12,7 @@ setapp:
 
 ![The app icon of Timeless' and Setapp's logo together](/assets/img/app/timeless-Setapp@2x.png)
 
-I'm proud and excited to announce that [Timeless is now available through Setapp](https://go.setapp.com/stp276)! 🥳
+I'm proud and excited to announce that [Timeless is now available through Setapp](https://go.setapp.com/stp276?refAppID=387)! 🥳
 
 Setapp is an award winning service that offers unlimited access to a curated list of 170+ high quality Mac apps for just $9.99 a month. You can use tools like Bartender, CleanMyMac, Dropzone, iStat Menus, IconJar, Ulysses, _Timeless (of course)_ and many more with one easy subscription.
 
