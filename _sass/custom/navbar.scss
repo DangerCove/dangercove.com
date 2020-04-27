@@ -4,6 +4,16 @@
     background-image: none;
   }
 
+  &-dropdown {
+    min-width: 15rem;
+  }
+}
+
+.dropdown-item {
+  &__app {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+  }
 }
 
 @include from($tablet) {

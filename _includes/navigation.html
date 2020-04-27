@@ -17,7 +17,17 @@
           <div class="navbar-dropdown is-boxed">
             {% assign apps = site.pages | where: "layout", "app/live" %}
             {% for app in apps %}
-            <a href="{{ app.url }}" class="dropdown-item {% if app.url == page.url %}is-active{% endif %}">{{ app.title }}</a>
+            <div class="dropdown-item">
+              <div class="dropdown-item__app">
+                <div>
+                  <img src="/assets/img/app/{{ app.icon }}" alt="{{ app.title }} app icon">
+                </div>
+                <div>
+                  <a href="{{ app.url }}" class="is-size-6 {% if app.url == page.url %}is-active{% endif %}">{{ app.title }}</a>
+                  <p class="is-size-7 has-text-grey">{{ app.subtitle }}</p>
+                </div>
+              </div>
+            </div>
             {% endfor %}
             {% assign apps = site.pages | where: "layout", "app/announced" %}
             {% if apps.size > 0 %}
