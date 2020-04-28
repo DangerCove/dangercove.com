@@ -15,6 +15,9 @@ hero:
     b: 90
 tags: [Discontinued, macOS, Video]
 topic: tapetrap
+alternatives:
+  title: "Do you watch videos a lot? Try this:"
+  topics: [pipvid]
 permalink: /tapetrap/
 ---
 

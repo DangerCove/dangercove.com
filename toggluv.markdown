@@ -19,6 +19,9 @@ features:
   - Works with multiple workspaces.
 tags: [Discontinued, macOS, Productivity]
 topic: toggl
+alternatives:
+  title: "Do you procrastinate? Try this:"
+  topics: [timeless]
 permalink: /toggluv/
 ---
 
