@@ -45,7 +45,12 @@ layout: default
         <div class="column is-5">
           <div class="content is-medium">
             <h2 class="title is-2">Related news</h2>
-            {% include related/news.html posts=site.tags.airvlc %}
+            {% assign posts = site.tags[page.topic] %}
+            {% if posts %}
+            {% include related/news.html posts=posts %}
+            {% else %}
+            <p>No news, yet.</p>
+            {% endif %}
           </div>
         </div>
         <div class="column is-offset-1 is-6">
