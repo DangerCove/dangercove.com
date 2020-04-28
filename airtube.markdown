@@ -13,8 +13,7 @@ hero:
     r: 143
     g: 145
     b: 147
-tags:
-  - Discontinued
+tags: [Discontinued, macOS, Video, AirPlay]
 topic: airtube
 permalink: /airtube/
 ---

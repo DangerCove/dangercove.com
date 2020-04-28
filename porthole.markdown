@@ -26,8 +26,7 @@ screenshots:
   - src: porthole-hotkeypanel.jpg
     alt: Screenshot of Porthole's hotkey panel
     caption: Hotkey panel
-tags:
-  - Discontinued
+tags: [Discontinued, macOS, Audio, Spotify]
 topic: porthole
 alternatives:
   title: "Do you listen to music a lot? Try these:"

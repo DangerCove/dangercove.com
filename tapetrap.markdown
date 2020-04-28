@@ -13,8 +13,7 @@ hero:
     r: 249
     g: 210
     b: 90
-tags:
-  - Discontinued
+tags: [Discontinued, macOS, Video]
 topic: tapetrap
 permalink: /tapetrap/
 ---

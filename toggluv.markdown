@@ -17,8 +17,7 @@ features:
   - Quick, customizable keyboard shortcut.
   - Operated entirely by your keyboard.
   - Works with multiple workspaces.
-tags:
-  - Discontinued
+tags: [Discontinued, macOS, Productivity]
 topic: toggl
 permalink: /toggluv/
 ---

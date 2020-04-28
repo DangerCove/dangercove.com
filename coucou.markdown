@@ -13,8 +13,7 @@ hero:
     r: 238
     g: 190
     b: 253
-tags:
-  - Discontinued
+tags: [Discontinued, macOS, Networking]
 topic: coucou
 permalink: /coucou/
 ---

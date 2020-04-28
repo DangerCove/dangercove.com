@@ -13,8 +13,7 @@ hero:
     r: 233
     g: 233
     b: 231
-tags:
-  - Discontinued
+tags: [Discontinued, macOS, Audio, Spotify]
 topic: reign
 alternatives:
   title: "Do you use Spotify? Try these:"

@@ -13,8 +13,7 @@ hero:
     r: 232
     g: 94
     b: 0
-tags:
-  - Discontinued
+tags: [Discontinued, macOS, Video, VLC]
 topic: airvlc
 alternatives:
   title: "Do you use VLC? Try this:"
