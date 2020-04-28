@@ -26,7 +26,3 @@ However, while RSS is perfect for written sources, video sites don't always offe
 Until I figure out a more reliable way of getting content into the app, I've decided to stop development.
 
 ![Screenshot of Tapetrap streaming a video](/assets/img/app/tapetrap-ss-browse.jpg)
-
-## Related news
-
-{% include related/news.html posts=site.tags.tapetrap %}

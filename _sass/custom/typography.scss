@@ -3,8 +3,17 @@
   font-family: $family-title;
 }
 
-.title.is-1 {
-  font-family: "Oswald", $family-title;
+.title {
+  &.is-1 {
+    font-family: "Oswald", $family-title;
+  }
+
+  sup {
+    position: absolute;
+    margin: -1rem 0.5rem;
+
+    font-family: $family-primary;
+  }
 }
 
 .has-text-white {

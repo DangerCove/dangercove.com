@@ -16,6 +16,12 @@ hero:
 tags:
   - Discontinued
 topic: airvlc
+alternatives:
+  title: "Do you use VLC? Try this:"
+  topics: [pipvid]
+screenshots:
+  - src: airvlc-dragdropfiles.jpg
+    alt: A screenshot of showing how to drag items into AirVLC
 permalink: /airvlc/
 ---
 
@@ -32,11 +38,3 @@ If you've purchased a license to AirVLC before, you might be interested in downl
 <a href="https://download.airvlc.com/AirVLC-latest.zip" class="button is-link">Download AirVLC</a>
 
 _Remember that new licenses can't be bought and support is limited._
-
-## Related news
-
-{% include related/news.html posts=site.tags.airvlc %}
-
-## Screenshots 
-
-![A screenshot of showing how to drag items into AirVLC](/assets/img/app/airvlc-dragdropfiles.jpg)

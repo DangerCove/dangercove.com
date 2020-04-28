@@ -24,7 +24,3 @@ Need to share some files, or a screen? Want to manage a printer via its web inte
 Coucou did all that and it also gave you a nice overview of which devices (and their owners) are currently present on the network.
 
 ![A screenshot of coucou exposing a Rails server](/assets/img/app/coucou-rails.jpg)
-
-## Related news
-
-{% include related/news.html posts=site.tags.coucou %}

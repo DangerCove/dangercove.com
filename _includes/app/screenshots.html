@@ -1,23 +1,21 @@
 {% assign screenshots = include.screenshots %}
-<section class="section is-medium">
-  <div class="columns is-centered">
-    {% for screenshot in screenshots %}
-    <div class="column is-2 box-modal">
-      <div class="modal">
-        <div class="modal-background"></div>
-        <div class="modal-content">
-          <figure class="image">
-            <img src="/assets/img/app/{{ screenshot.src }}" alt="{{ screenshot.alt }}">
-          </figure>
-        </div>
-        <button class="modal-close is-large" aria-label="close"></button>
-      </div>
-      <div class="trigger">
+<div class="columns is-multiline">
+  {% for screenshot in screenshots %}
+  <div class="column is-{% if screenshots.size >= 3 %}3{% else %}6{% endif %} box-modal">
+    <div class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
         <figure class="image">
-            <img src="/assets/img/app/{{ screenshot.src }}" alt="{{ screenshot.alt }}">
+          <img src="/assets/img/app/{{ screenshot.src }}" alt="{{ screenshot.alt }}">
         </figure>
       </div>
+      <button class="modal-close is-large" aria-label="close"></button>
     </div>
-    {% endfor %}
+    <div class="trigger">
+      <figure class="image">
+        <img src="/assets/img/app/{{ screenshot.src }}" alt="{{ screenshot.alt }}">
+      </figure>
+    </div>
   </div>
-</section>
+  {% endfor %}
+</div>

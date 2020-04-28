@@ -15,21 +15,46 @@ layout: default
         <div class="column is-offset-2 is-8">
           <article class="page-content content is-medium">
             {{ content | markdownify }}
-
-            {% if page.screenshots %}
-            <h2 id="screenshots">Screenshots</h2>
-            <div class="columns is-multiline">
-              {% for screenshot in page.screenshots %}
-              <div class="column is-half">
-                <figure>
-                  <a href="/assets/img/app/{{ screenshot.src }}"><img src="/assets/img/app/{{ screenshot.src }}" alt="{{ screenshot.alt }}"></a>
-                  <figcaption class="is-size-6">{{ screenshot.caption }}</figcaption>
-                </figure>
-              </div>
-              {% endfor %}
-            </div>
-            {% endif %}
           </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% if page.alternatives %}
+  <section class="section is-medium">
+    <div class="container">
+      <div class="content is-medium has-text-centered">
+        <h2 class="title is-2">{{ page.alternatives.title }}</h2>
+      </div>
+      <div class="columns is-centered is-multiline">
+        {% for topic in page.alternatives.topics %}
+        {% assign app = site.pages | where: 'topic', topic | first %}
+        <div class="column is-12">
+          {% include app/introduction.html app=app %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-5">
+          <div class="content is-medium">
+            <h2 class="title is-2">Related news</h2>
+            {% include related/news.html posts=site.tags.airvlc %}
+          </div>
+        </div>
+        <div class="column is-offset-1 is-6">
+          {% if page.screenshots %}
+          <div class="content is-medium">
+            <h2 class="title is-2">Screenshots</h2>
+          </div>
+          {% include app/screenshots.html screenshots=page.screenshots %}
+          {% endif %}
         </div>
       </div>
     </div>

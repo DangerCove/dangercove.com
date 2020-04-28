@@ -29,6 +29,9 @@ screenshots:
 tags:
   - Discontinued
 topic: porthole
+alternatives:
+  title: "Do you listen to music a lot? Try these:"
+  topics: [denied, relax]
 permalink: /porthole/
 ---
 
@@ -61,7 +64,3 @@ Luckily Apple wasn't sitting still. In 2017 they announced AirPlay 2, an updated
 > Porthole adds an item to your menu bar that transfers your system audio to an AirPort Express with one click. It's a piece of cake.
 >
 > — Adam Pash ([lifehacker.com](https://lifehacker.com/5895637/porthole-streams-your-macs-audio-to-your-airplay-devices))
-
-## Related news
-
-{% include related/news.html posts=site.tags.porthole %}

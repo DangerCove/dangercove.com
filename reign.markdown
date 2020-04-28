@@ -16,6 +16,9 @@ hero:
 tags:
   - Discontinued
 topic: reign
+alternatives:
+  title: "Do you use Spotify? Try these:"
+  topics: [denied, relax]
 permalink: /reign/
 ---
 
@@ -24,7 +27,3 @@ Reign for Spofity allowed you to control a local Spotify instance from any devic
 > {{ page.description }}
 
 ![Controlling Spotify from a browser through Reign](/assets/img/app/reign-themes.jpg)
-
-## Related news
-
-{% include related/news.html posts=site.tags.reign %}

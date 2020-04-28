@@ -25,9 +25,6 @@ permalink: /toggluv/
 
 I made Toggluv to quickly log hours into [Toggl](https://www.toggl.com). After years of using thebeta version myself, I never really got to finishing the product. 
 
+![A gif showing how to use Toggluv to log hours](/assets/img/app/toggluv-preview.gif)
+
 Toggl's iOS app has a pretty great 'calendar input view' that allows me to easily log my hours without having a timer running. That's basically what I wanted to do with Toggluv. I highly recommend giving their app a try.
-
-## Screenshots 
-
-![A gif showing how to use Toggluv entering hours](/assets/img/app/toggluv-preview.gif)
-
