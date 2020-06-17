@@ -18,3 +18,17 @@
 
 <script src='https://developer.setapp.com/setapp-button/setapp.js'></script>
 {% endif %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+
+    const $hoveritems = Array.prototype.slice.call(document.querySelectorAll('.navbar-item.has-dropdown.is-hoverable'), 0);
+
+    $hoveritems.forEach(el => {
+      el.addEventListener('touchstart', () => {
+        el.classList.toggle('is-active');
+      });
+    });
+
+  });
+</script>
