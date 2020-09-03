@@ -3,14 +3,14 @@ layout: post
 title: Get Timeless and 170+ other great apps for just $9.99/mo
 date: 2020-04-07
 tags: [timeless, updates]
-description: "Timeless v2020.6 is out now and it's available on the Mac App Store"
+description: "Timeless is now also available through Setapp's curated service."
 setapp:
   vendor: 276
   app: 387
   campaign: dangercove_2020-04-08-timeless-setapp
 ---
 
-![The app icon of Timeless' and Setapp's logo together](/assets/img/app/timeless-Setapp@2x.png)
+![The app icon of Timeless and Setapp's logo together](/assets/img/app/timeless-Setapp@2x.png)
 
 I'm proud and excited to announce that [Timeless is now available through Setapp](https://go.setapp.com/stp276?refAppID=387)! 🥳
 
