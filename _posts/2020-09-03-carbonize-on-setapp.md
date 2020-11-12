@@ -2,7 +2,7 @@
 layout: post
 title: Get Carbonize and 190+ other great apps for just $9.99/mo
 date: 2020-09-03
-tags: [carbonize, updates]
+tags: [petrify, updates]
 description: "Carbonize is now also available through Setapp's curated monthly subscription service."
 setapp:
   vendor: 276

@@ -2,7 +2,7 @@
 layout: post
 title: "Carbonize v1.2.8 is out now"
 date: 2019-10-06
-tags: [carbonize, updates]
+tags: [petrify, updates]
 description: "Carbonize v1.2.8 hides the unused buttons."
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Danger Cove apps work flawlessly with first macOS Big Sur beta 
 date: 2020-06-26
-tags: [macos, updates, timeless, denied, carbonize, relax, pipvid]
+tags: [macos, updates, timeless, denied, petrify, relax, pipvid]
 description: "The first macOS 11 Big Sur beta works fine with all current Danger Cove apps."
 ---
 

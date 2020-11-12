@@ -2,7 +2,7 @@
 layout: post
 title: "Carbonize v1.2.7 is out now"
 date: 2019-09-27
-tags: [carbonize, updates]
+tags: [petrify, updates]
 description: "Carbonize v1.2.7 fixes the hidden theme selector."
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "All current apps work with macOS Catalina"
 date: 2019-10-06
-tags: [macos, denied, carbonize, relax, pipvid, timeless]
+tags: [macos, denied, petrify, relax, pipvid, timeless]
 description: "macOS 10.15 Catalina just came out. I'm happy to report all apps support the new operating system."
 ---
 

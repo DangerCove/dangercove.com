@@ -5,7 +5,7 @@ date: 2019-12-06 20:00:00 +0000
 tags:
 - pipvid
 - relax
-- carbonize
+- petrify
 - timeless
 - updates
 description: With DevMate's end-of-life date approaching I've updated every app to

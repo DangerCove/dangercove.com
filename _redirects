@@ -37,11 +37,13 @@ https://www.usetimeless.com/*         https://www.dangercove.com/timeless/:splat
 /denied/buy                           /denied/appstore
 /denied/get                           /denied/appstore
 
-/carbonize/presskit                   https://www.dropbox.com/sh/e6bvgquwltpx6cb/AACyjkOWSqMxAIv2xGHcOn4sa?dl=0
-/carbonize/appstore                   https://itunes.apple.com/app/carbonize/id1451177988
-/carbonize/buy                        /carbonize/appstore
-/carbonize/get                        /carbonize/appstore
-/carbonize/setapp                     https://go.setapp.com/stp276?refAppID=417
+/carbonize*                           /petrify:splat
+/news/carbonize*                      /new/petrify:splat
+/petrify/presskit                     https://www.dropbox.com/sh/e6bvgquwltpx6cb/AACyjkOWSqMxAIv2xGHcOn4sa?dl=0
+/petrify/appstore                     https://itunes.apple.com/app/petrify/id1451177988
+/petrify/buy                          /petrify/appstore
+/petrify/get                          /petrify/appstore
+/petrify/setapp                       https://go.setapp.com/stp276?refAppID=417
 
 /pipvid/presskit                      https://www.dropbox.com/sh/jl2a6fq2rbg7z57/AAC-5wXJL4Ue-qSqpy6fMCjaa?dl=0
 /pipvid/download                      https://updates.dangr.co/com.dangercove.Pipvid.Mac/latest
