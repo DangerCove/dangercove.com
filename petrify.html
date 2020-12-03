@@ -18,14 +18,14 @@ features:
   - Drag generated images into Finger, apps or social media. Ready to use.
   - Built on top of carbon.now.sh and its editor.
 screenshots:
-  - src: carbonize-Options.jpg
-    alt: "App Store images showing several screenshots of Petrify's editor with caption: Leverages the highly customizable editor of carbon.now.sh"
   - src: carbonize-Copy.jpg
     alt: "App Store image showing a screenshot of the main window with caption: Instantly copy the image to your Clipboard."
   - src: carbonize-Import.jpg
     alt: "App Store image showing how to drag code from another app onto Petrify's Dock icon with caption: Drag code right onto the Dock, or use the Services menu."
   - src: carbonize-Export.jpg
     alt: "App Store image showing several of Petrify's floating export windows with caption: Drag images right into your work, or onto your desktop."
+  - src: carbonize-Options.jpg
+    alt: "App Store images showing several screenshots of Petrify's editor with caption: Leverages the highly customizable editor of carbon.now.sh"
 appstore: /petrify/appstore
 presskit: /petrify/presskit
 tags: [macOS, Development]
@@ -73,6 +73,10 @@ setapp:
   </div>
 </section>
 
+<section class="section is-medium">
+  {% include app/screenshots.html screenshots=page.screenshots %}
+</section>
+
 <section class="section">
   <div class="container">
     <div class="columns">
@@ -93,33 +97,11 @@ setapp:
           <p>Use the editor to customize your images. Pretty much anything can be tweaked.</p>
           <p>Change the font, background color, spacing, theme etc.</p>
           <p>Your settings are saved between sessions. 💾</p>
-          <p>All credits for this go to the original <a href="https://carbon.now.sh">Carbon project</a> that Petrify is an independent extension of. 🙌</p>
-        </div>
-      </div>
-    </div>
-</section>
-
-<section class="section is-medium">
-  {% include app/screenshots.html screenshots=page.screenshots %}
-</section>
-
-<section class="section is-medium has-text-centered has-background-black has-text-white">
-  <div class="columns">
-    <div class="column is-offset-2 is-8">
-      <div class="content">
-        <h2 class="title is-2">Built on top of the amazing <a href="https://carbon.now.sh">Carbon project</a></h2>
-        <p>Petrify uses Carbon's terrific editor and adds native integration with macOS to support drag-and-drop and easy snippet imports.</p>
-      </div>
-      <div class="column is-full">
-        <div class="content">
-          <figure>
-            <img src="/assets/img/app/carbonize-carbon.png" alt="A screenshot of carbon.now.sh running in Safari" style="width: 1496px;">
-          </figure>
+          <p>Credits for this go to <a href="https://carbon.now.sh">the Carbon project</a> that Petrify uses the <a href="https://github.com/dangercove/carbon">open-source editor</a> of. 🙌</p>
           <p><small><em>Petrify is not affiliated with Carbon or its developers in any way. You can use Carbon for free on <a href="https://carbon.now.sh">carbon.now.sh</a>.</em></small></p>
         </div>
       </div>
     </div>
-  </div>
 </section>
 
 <section class="section is-medium">

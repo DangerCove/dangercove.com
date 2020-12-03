@@ -44,12 +44,5 @@ Carbonize uses Carbon for its terrific editor and adds native integration with m
 
 Danger Cove and Carbonize are not associated with Dawn Labs in any way.
 
-## Free software 🌴
-Relax is free to use. Consider using the Tip Jar in the app to support its development.
-
-[Get Carbonize](/carbonize) for free.
-
-![A screensot of Carbonize's tip jar screen](/assets/img/app/carbonize-tip-jar@2x.png)
-
 ## Press 🌐
 More information, screenshots and icons are available in the Press Kit. [Get the Press Kit here](/carbonize/presskit).
