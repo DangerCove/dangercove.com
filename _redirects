@@ -37,8 +37,8 @@ https://www.usetimeless.com/*         https://www.dangercove.com/timeless/:splat
 /denied/buy                           /denied/appstore
 /denied/get                           /denied/appstore
 
-/carbonize*                           /petrify:splat
-/news/carbonize*                      /news/petrify:splat
+/carbonize/*                          /petrify/:splat
+/news/carbonize/*                     /news/petrify/:splat
 /petrify/presskit                     https://www.dropbox.com/sh/e6bvgquwltpx6cb/AACyjkOWSqMxAIv2xGHcOn4sa?dl=0
 /petrify/appstore                     https://itunes.apple.com/app/petrify/id1451177988
 /petrify/buy                          /petrify/appstore
