@@ -64,7 +64,7 @@ markdown: kramdown
 
 plugins:
   - jekyll-feed
-  - jekyll-assets
+  #  - jekyll-assets
   - jekyll-sitemap
   - jekyll-archives
   - jekyll-paginate-v2
@@ -79,11 +79,8 @@ exclude:
 include:
   - _redirects
 
-# jekyll-assets
-assets:
-  sources:
-    - _assets
-    - _sass
+sass:
+  style: compressed
 
 # Front matter
 defaults:
@@ -99,7 +96,6 @@ defaults:
     values:
       layout: "page"
 
-# jekyll-archives
 jekyll-archives:
   layout: "news/tag"
   enabled:
