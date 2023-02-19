@@ -36,31 +36,6 @@ layout: default
   </section>
   {% endif %}
 
-  {% if page.mailchimp %}
-  <section class="section">
-    <div class="container">
-      <div class="columns">
-        <div class ="column is-5">
-          <div class="content is-medium">
-            <h2 class="title is-2">Subscribe ✉️</h2>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class ="column is-5">
-          <div class="content is-medium">
-            <p>Stay up to date by subscribing to the {{ page.title }} newsletter.</p>
-            <p>I'll occasionally send you updates, announcements for new apps and other general news that's important enough to email you about.</p>
-          </div>
-        </div>
-        <div class="column is-offset-1 is-6">
-          {% include signup/mailchimp.html %}
-        </div>
-      </div>
-    </div>
-  </section>
-  {% endif %}
-
   <section class="section">
     <div class="container">
       <div class="columns">
