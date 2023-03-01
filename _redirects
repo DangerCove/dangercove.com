@@ -15,9 +15,6 @@ https://apps.dangr.co/com.dangercove.Pipvid.Mac/support*    https://support.dang
 https://apps.dangr.co/com.dangercove.Timeless.Mac/buy*      https://gum.co/usetimeless:splat                        301!
 https://apps.dangr.co/com.dangercove.Timeless.Mac/support*  https://support.dangercove.com/category/timeless:splat  301!
 
-https://usetimeless.app/*             https://www.dangercove.com/timeless/:splat                                    301!
-https://www.usetimeless.app/*         https://www.dangercove.com/timeless/:splat                                    301!
-
 /blog/:year/:month/:day/:title        /news/:title
 /blog/categories/:category            /news/:category
 /blog                                 /news
@@ -51,8 +48,8 @@ https://www.usetimeless.app/*         https://www.dangercove.com/timeless/:splat
 /pipvid/get                           https://gum.co/pipvid
 
 /timeless/presskit                    https://www.dropbox.com/sh/at2elos19a5e9wk/AAB60unIZ4TODkdpNCM_Gbnla?dl=0
-/timeless/appstore                    https://itunes.apple.com/app/timeless/id1502382249
+/timeless/appstore                    /timeless
 /timeless/download                    https://updates.dangr.co/com.dangercove.Timeless.Mac/latest
 /timeless/buy                         https://gum.co/usetimeless
 /timeless/get                         https://gum.co/usetimeless
-/timeless/setapp                      https://go.setapp.com/stp276?refAppID=387
+/timeless/setapp                      /timeless

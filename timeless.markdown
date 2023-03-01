@@ -84,6 +84,8 @@ After trying to come up with a workaround I've decided that it's difficult to av
 
 You can [join me in asking Apple to restore the ability to hide the clock](https://feedbackassistant.apple.com) by using the Feedback Assistant.
 
+Existing customers can [download the last release here](/timeless/download) or by checking their App Store purchase history.
+
 ## What others said
 
 > That way, you’re less anxious about the time and more focused on how you should be spending it.
