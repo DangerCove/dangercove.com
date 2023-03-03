@@ -5,7 +5,7 @@ title: Timeless
 subtitle: Stay focused and reduce time anxiety
 description: >-
   Timeless was a subtle clock replacement. It helped you feel less anxious about the time and more focused on how you should be spending it.
-date: 2018-07-18
+date: 2023-03-01
 icon: timeless-clock_512.png
 hero: 
   icon: timeless-clock_512.png
