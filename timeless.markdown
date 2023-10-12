@@ -49,8 +49,6 @@ producthunt:
   type: top
   id: 179644
   name: timeless-5
-gumroad:
-  name: usetimeless
 setapp:
   app_name: Timeless
   vendor: 276
