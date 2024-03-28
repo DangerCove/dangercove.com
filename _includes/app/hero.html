@@ -30,7 +30,7 @@
           <h2 class="subtitle is-4">{{ page.subtitle }}</h2>
           <div class="tags is-centered">
             {% for tag in page.tags %}
-            <span class="tag{% if tag == 'Beta' %} is-danger{% endif %}{% if tag == 'Discontinued' %} is-warning{% endif %}">{{ tag }}</span>
+            <span class="tag{% if tag == 'Beta' %} is-danger{% endif %}{% if tag == 'Discontinued' %} is-warning{% endif %}{%if tag == 'Free' %} is-info{% endif %}">{{ tag }}</span>
             {% endfor %}
           </div>
         </div>
