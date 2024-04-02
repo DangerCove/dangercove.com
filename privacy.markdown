@@ -160,6 +160,6 @@ You can reach out at any time to:
 - Correct any information Danger Cove has about you.
 - Delete information Danger Cove has about you.
 
-If you have any other questions, feel free to send an email to [support@dangercove.com](mailto:support@dangercove.com).
+If you have any other questions, feel free to send an email to help at this domain.
 
 Last updated: {{ page.date | date_to_long_string }}
