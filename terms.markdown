@@ -22,6 +22,6 @@ Danger Cove's native apps are build and tested to work on a clean install of the
 
 ## Support
 
-Products that are purchased through the webstore include support via their own support platforms. Please check the website of the software for the appropriate contact methods. General support is available via <a href="mailto:support@dangercove.com">support@dangercove.com</a>.
+Products that are purchased through the webstore include support via their own support platforms. Please check the website of the software for the appropriate contact methods. General support is available via help at this domain.
 
 Last updated: {{ page.date | date_to_long_string }}
