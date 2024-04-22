@@ -1,15 +1,6 @@
 {% assign apps = include.apps %}
 <div class="app-preview">
   <div class="columns is-multiline">
-    {% if page.layout == "home" %}
-    <div class="column is-4-widescreen is-half-desktop is-full-tablet is-full-mobile">
-      <div class="box is-shadowless has-text-centered">
-        {% include logo/retro.html %}
-        <h1 class="title is-size-2-mobile is-1 is-spaced">{{ page.title }}</h1>
-        <h2 class="subtitle is-size-5-mobile is-4">{{ page.subtitle }}</h2>
-      </div>
-    </div>
-    {% endif %}
     {% for app in apps %}
     <div class="column is-4-widescreen is-half-desktop is-full-tablet is-full-mobile">
       {% include app/introduction.html app=app %}
