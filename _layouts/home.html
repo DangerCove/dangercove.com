@@ -9,28 +9,4 @@ layout: default
     {% assign apps = announced | concat: live %}
     {% include app/overview.html apps=apps %}
   </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="columns">
-        <div class="column is-half">
-          <div class="content">
-            <h2 class="title is-2">Latest news</h2>
-            <p>
-              <a href="/feed.xml" class="button is-rss"><span class="icon"><i class="fas fa-rss"></i></span><span>Subscribe</span></a>
-              <a href="/news" class="button is-light">More News</a>
-            </p>
-            {% for post in site.posts limit: 3 %}
-            {% include post/teaser.html post=post %}
-            {% endfor %}
-          </div>
-        </div>
-        <div class="column is-half">
-          <div class="content is-medium">
-            {{ content }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 </main>

@@ -2,11 +2,11 @@
 layout: archive
 site_title: About Danger Cove
 title: History
-subtitle: Making products
+subtitle: Making apps
 description: >-
-  Danger Cove has been around since October of 2011 and currently resides in the wonderful city of Utrecht in The Netherlands.
+  2011-2024
 has_current: true
 permalink: /about/
 ---
 
-Danger Cove has been around since October of 2011 and currently resides in the wonderful city of Utrecht in The Netherlands.
+Danger Cove was my company until early 2024. Making apps is now a hobby again. I hope you enjoy the free software.
