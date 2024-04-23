@@ -6,9 +6,9 @@ description: >-
 date: 2024-04-22 0:00
 ---
 
-All my apps are provided as is with no support or warranty. Use at your own risk.
+My apps are provided as is with no support or warranty. Use at your own risk.
 
-All my software is copyrighted by me, Boy van Amstel.
+All my software is copyrighted by me, Boy van Amstel. Sometimes as Danger Cove.
 
 I reserve the right to alter or amend this policy without prior notification.
 
