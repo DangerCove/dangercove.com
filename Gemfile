@@ -41,3 +41,6 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #gem "yajl-ruby", "~> 1.3.1"
 
 gem "webrick", "~> 1.7"
+gem "csv"
+gem "base64"
+gem "bigdecimal"
